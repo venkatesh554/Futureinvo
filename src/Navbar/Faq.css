@@ -1,0 +1,141 @@
+.driving-innovation-parent{
+    position:absolute;
+    margin-top:450px;
+    background-color: rgba(55, 84, 142);
+    height:500px;
+    width:100%;
+
+    
+}
+ 
+.tt {
+  height: 300vh;
+  overflow: hidden;  /* hides everything outside */
+}
+
+
+.driving-innovation-child h1{
+        line-height: 5rem;
+        position: relative;
+        top:50px;
+
+}
+.driving-innovation-child{
+    position:relative;
+    left:40px;
+}
+.driving-innovation-child p{
+    color:white;
+    width:900px;
+    position: relative;
+    top:60px;
+
+}
+.child22{
+    width:100%;
+    height:450px;
+    margin-top:230px;
+    background-color: rgb(142, 145, 153);;
+}
+.child33{
+    width:100%;
+    height:500px;
+    background-color: blue;
+}
+
+
+.block55 {
+  position: relative;
+  left: 120px;
+  top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  max-width: 1300px;
+  min-height: 600px;
+  height: auto;
+  background-color: rgb(226, 226, 249);
+  padding: 20px;
+
+  animation: blockk linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+  align-items: stretch; 
+}
+.our-offering h2{
+    width:100%;
+    text-align: center;
+}
+
+.block55 > div {
+  flex: 1 1 280px;
+  max-width: 270px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 250px; 
+  position:relative;
+  left:140px;
+
+}
+
+.block55 > div h3,p,button{
+  position:relative;
+  top:80px;
+}
+
+.block55 button{
+  background-color: blue;
+  color:white;
+}
+
+.block55 .box-19 p{
+  position:relative;
+  top:80px;
+}
+
+#dup1{
+    position:relative;
+    top:50px;
+}
+
+.block2 #dup1{
+    position:relative;
+    left:360px;
+    top:0px;
+}
+#dup2-class{
+    height:300px;
+}
+#dup2-class2{
+    position:relative;
+    top:20px;
+}
+
+.block8 #dup3-h2{
+    position:relative;
+    left:400px;
+}
+#dup3{
+    position:relative;
+    top:150px;
+}
+#faq-cards{
+    display:flex;
+    margin-left: 50px;;
+}
+.block8>#faq-cards{
+    gap: 50px;;
+}
+
+
+#footer-dup{
+    position:relative;
+    top:80px;
+}
+#dup-last{
+    position:relative;
+    top:90px;
+}

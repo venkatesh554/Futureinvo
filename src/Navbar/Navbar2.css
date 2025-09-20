@@ -1,0 +1,136 @@
+.sticker{
+    height: 250px
+}
+/* .Top-3{
+    position:sticky;
+    top:0px;
+    width:100vw;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 ;
+    background-color: aliceblue;
+    z-index:1000;
+    
+} */
+
+.Top-3 {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px;
+  background: white; 
+  z-index:500;
+}
+
+
+.navbarFixed{
+    background-color: yellow;
+}
+.Top-3 img{
+    width:150px;
+    height:40px;
+    margin-left:50px;
+}
+.Top-3 ul{
+    display:flex;
+    list-style-type: none;
+    gap:40px;
+    margin-right:120px;
+}
+.Top-3 ul li{
+    margin-left:30px;
+    font-weight: 600;
+    margin-top:10px;
+}
+#bar{
+    margin-left:20px;
+    margin-top:15px;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+  .Top-3, .navbarFixed {
+    height: auto;
+    padding: 10px 15px;
+    flex-wrap: wrap;top:0;
+  }
+
+  .Top-3 img {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Top-3 ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 10px;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .Top-3 ul li {
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #bar {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 24px;
+    align-self: center;
+    cursor: pointer;
+  }
+}
+
+
+.dropdown {
+  position: relative;
+  cursor: pointer;  
+}
+
+.drop-text {
+  font-weight: 600;
+  display: inline-block;
+  padding: 8px 15px;
+    margin-top:-7px;
+    color:#646cff;
+
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;   
+  left: 0;
+  background: #646cff;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 5px 0;
+  min-width: 150px;
+  z-index: 2000;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.dropdown-menu li {
+  margin-top:-10px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color:white;
+}
+
