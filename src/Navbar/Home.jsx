@@ -30,6 +30,12 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
+import user from "./why-choose/user.png"
+import bag from "./why-choose/bag.png";
+import time from "./why-choose/time.png";
+import calculator from "./why-choose/calculator.png";
+import notes from "./why-choose/notes.png"
+
 
 export default function Home() {
   return (
@@ -169,25 +175,30 @@ export default function Home() {
 
             <div className="cards2">
               <div className="card1">
+                <img src={user} id="userr"/>
                 <h2>Extensive IT Expertise</h2>
                 <p>Access to a team of skilled and certified professionals across technologies like  Node.js,React.js,AWS,Azure, and more</p>
 
               </div>
               <div className="card2">
+                <img src={bag} id="bag" />
                  <h2>Flexible Engagement Models</h2>
                  <p>Contract, Hire on contact, contract-to-hire, full-time, or offshore/on-site as per your project needs</p>
               </div>
               <div className="card3">
+                <img src={time} id="time" />
                 <h2>Quick Turnaround</h2>
                 <p>Fast onboarding and rapid project delivery to keep your business ahead</p>
 
               </div>
               <div className="card4">
+                <img src={calculator} id="calculator" />
                 <h2>Cross-Industry Experience</h2>
                 <p>Proven Success across IT consulting, cloud services, digital marketing, and enterprise solutions</p>
 
               </div>
               <div className="card5">
+                <img src={notes} id="notes" />
                 <h2>SLA-Driven Delivery</h2>
                 <p>Dedicated account management transparent processes,and efficient digital solutions</p>
 

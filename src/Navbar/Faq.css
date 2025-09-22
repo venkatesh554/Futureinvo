@@ -7,7 +7,13 @@
 
     
 }
- 
+ .bgimg img{
+    position:absolute;
+  width:450px;;
+  height:500px;
+    left:1100px;
+    bottom:10px;
+ }
 .tt {
   height: 300vh;
   overflow: hidden;  /* hides everything outside */
@@ -18,6 +24,7 @@
         line-height: 5rem;
         position: relative;
         top:50px;
+        color:white;
 
 }
 .driving-innovation-child{
@@ -58,26 +65,39 @@
   background-color: rgb(226, 226, 249);
   padding: 20px;
 
+/* 
   animation: blockk linear;
   animation-timeline: view();
-  animation-range: entry 0% cover 40%;
+  animation-range: entry 0% cover 40%; */
 
   align-items: stretch; 
 }
+
 .our-offering h2{
     width:100%;
     text-align: center;
+    color:white;
 }
+.our-offering{
+            background-color:rgba(24, 24, 98)
 
+}
+.block55{
+        background-color:rgba(24, 24, 98)
+
+}
 .block55 > div {
   flex: 1 1 280px;
   max-width: 270px;
-  background: white;
+  color: white;
   padding: 20px;
   border-radius: 8px;
-  min-height: 250px; 
+  min-height: 220px; 
   position:relative;
+  border:1px solid grey;
   left:140px;
+          background-color:rgba(24, 24, 98)
+
 
 }
 
@@ -94,11 +114,94 @@
 .block55 .box-19 p{
   position:relative;
   top:80px;
+  width:280px;
 }
-
+#imgg18{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-30px;
+    left:100px;
+}
+#imgg19{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-35px;
+    left:100px;
+}
+#imgg20{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-30px;
+    left:100px;
+}
+#imgg21{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-30px;
+    left:100px;
+}
+#imgg22{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-35px;
+    left:100px;
+}
+#imgg23{
+    
+    width:70px;
+    height:70px;
+    position: absolute;
+    top:-36px;
+    left:100px;
+}
 #dup1{
     position:relative;
     top:50px;
+    
+}
+#userr-dup1{
+     width:60px;
+  height:60px;
+  position:absolute;
+  top:170px;left:170px
+}
+
+#bag-dup1{
+     width:70px;
+  height:70px;
+  position:absolute;
+  top:160px;left:440px
+}
+
+#time-dup1{
+  width:60px;
+  height:60px;
+  position:absolute;
+  top:170px;left:730px
+}
+
+#calculator-dup1{
+     width:70px;
+  height:70px;
+  position:absolute;
+  top:160px;left:1000px
+}
+
+#notes-dup1{
+    width:120px;
+  height:120px;
+  position:absolute;
+  top:140px;left:1270px
 }
 
 .block2 #dup1{
@@ -129,7 +232,6 @@
 .block8>#faq-cards{
     gap: 50px;;
 }
-
 
 #footer-dup{
     position:relative;

@@ -1,0 +1,47 @@
+.faq{
+    position:absolute;
+    top:60px;
+    width:100%;
+    height:480px;
+    background-color:rgba(62, 83, 138)
+    
+   
+
+}
+#dup-from-faq{
+    position:relative;
+    
+}
+ .bgimgcopy img{
+    position:absolute;
+  width:450px;;
+  height:500px;
+    left:1100px;
+    bottom:0px;
+ }
+.dup-from-faq h1{
+   position: relative;
+   text-align: center;
+   top:140px;
+   color:white;
+}
+#sevenn{
+    background-image: none;
+    position:relative;
+    top:400px;
+}
+
+.chooseus{
+    position:relative;
+    top:700px;
+}
+
+.footerr{
+    position:relative;
+    top:700px;
+}
+
+.lastt{
+    position:relative;
+    top:700px;
+}

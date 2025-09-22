@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Faq.css"
-
+import bgimg from "./navbar-images/bgimg.png"
 import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -12,6 +12,23 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import onee from "./our-offering-images/onee.png"
+import twoo from "./our-offering-images/twoo.png"
+import threee from "./our-offering-images/threee.png"
+import fourr from "./our-offering-images/fourr.png"
+import fivee from "./our-offering-images/fivee.png"
+import sixx from "./our-offering-images/sixx.png"
+
+
+import user from "./why-choose/user.png"
+import bag from "./why-choose/bag.png";
+import time from "./why-choose/time.png";
+import calculator from "./why-choose/calculator.png";
+import notes from "./why-choose/notes.png"
+
+
+
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Faq() {
@@ -27,39 +44,45 @@ export default function Faq() {
                 to helping you achieve success in the digital world
             </p>
         </div>
+        <div className="bgimg">
+          <img src={bgimg}/>
+        </div>
         <div className="child22">
 
         </div>
         <div className="our-offering">
           <h2 id="h2">Our Offering</h2>
             <h2 id="h22">Pioneering and Advancing Technology Trends</h2>
+            
             <div className="block55">
                   <div className="box-18">
-                          
+                          <img src={onee} id="imgg18"/>
                             <p className="p00">Our IT Consultancy Offers Expert .tailored solutions to stratagically optimize your technology and drive businesss success</p>
 
                   </div>
                   <div className="box-19">
-                   
+                    <img src={twoo}id="imgg19" />
                       <p className="p00">We build robust, scalable websites to your business needs ensuring a seamless and engaging user experience</p>
 
 
                   </div>
                   <div className="box-20">
+                    <img src={threee} id="imgg20"/>
                           <p className="p00">Our Visually appeaing and user friendly designs capitative your audience enhancing overall engagement and satisfaction</p>
 
 
                   </div>
                   <div className="box-21">
-                    
+                       <img src={fourr} id="imgg21"/>
                        <p className="p00">We develop Innovative mobile apps focused on delivering exceptional user experiences aligned with your business goals</p>
                   </div> 
                    <div className="box-22">
-                   
+                    <img src={fivee}id="imgg22" />
                       <p className="p00">Our Digital Marketing Stratagies boost your online presence and connect you with your target audience effectively</p>
 
                   </div> 
                    <div className="box-23">
+                    <img src={sixx} id="imgg23" />
                      <h3>For More <br></br>Services</h3>
                   </div> 
                     
@@ -110,25 +133,31 @@ export default function Faq() {
 
             <div className="cards2" id="faq-cards">
               <div className="card1">
+                <img src={user} id="userr-dup1"/>
+                
                 <h2>Extensive IT Expertise</h2>
                 <p>Access to a team of skilled and certified professionals across technologies like  Node.js,React.js,AWS,Azure, and more</p>
 
               </div>
               <div className="card2">
+                <img src={bag} id="bag-dup1" />
                  <h2>Flexible Engagement Models</h2>
                  <p>Contract, Hire on contact, contract-to-hire, full-time, or offshore/on-site as per your project needs</p>
               </div>
               <div className="card3">
+                 <img src={time} id="time-dup1" />
                 <h2>Quick Turnaround</h2>
                 <p>Fast onboarding and rapid project delivery to keep your business ahead</p>
 
               </div>
               <div className="card4">
+                 <img src={calculator} id="calculator-dup1" />
                 <h2>Cross-Industry Experience</h2>
                 <p>Proven Success across IT consulting, cloud services, digital marketing, and enterprise solutions</p>
 
               </div>
               <div className="card5">
+                 <img src={notes} id="notes-dup1" />
                 <h2>SLA-Driven Delivery</h2>
                 <p>Dedicated account management transparent processes,and efficient digital solutions</p>
 

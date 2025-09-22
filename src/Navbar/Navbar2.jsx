@@ -46,10 +46,10 @@ export default function Navbar2() {
           {showDropdown && (
                  <ul className="dropdown-menu">
               <li>
-              <Link to="/Faq">FAQ's</Link>
+              <Link to="/About">FAQ's</Link>
               </li>
               <li>
-                <Link to="/About">About</Link>
+                <Link to="/Faq">About</Link>
               </li>
            </ul>
   )}

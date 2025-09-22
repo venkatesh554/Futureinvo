@@ -498,6 +498,38 @@ display:flex;
   position: absolute;
 }
 
+#userr{
+  width:60px;
+  height:60px;
+  position:absolute;
+  top:130px;left:170px
+}
+#bag{
+  width:70px;
+  height:70px;
+  position:absolute;
+  top:120px;left:440px
+}
+#time{
+  width:60px;
+  height:60px;
+  position:absolute;
+  top:130px;left:730px
+}
+#calculator{
+  width:70px;
+  height:70px;
+  position:absolute;
+  top:130px;left:1000px
+}
+
+#notes{
+  width:120px;
+  height:120px;
+  position:absolute;
+  top:100px;left:1270px
+}
+
 
 .cards2{
   display:flex;
@@ -627,10 +659,11 @@ display:flex;
 
 
 .block9{
-  margin-top:170px;
+  margin-top:120px;
   width:100%;
   height:200px;
   background-color:rgb(54, 127, 192);
+  
 }
 .block9 h2{
   width:50%;
@@ -665,9 +698,9 @@ display:flex;
 }
 .block9 img{
   position: relative;
-  top:-240px;
-  width:350px;
-  height:350px;
+  top:-210px;
+  width:450px;
+  height:320px;
 }
 
 .footer{
