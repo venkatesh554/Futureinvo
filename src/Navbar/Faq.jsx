@@ -8,7 +8,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
-
+import img3 from "../block1-images/imgg33.jpg"
+import img4 from "../block1-images/imgg44.jpg"
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,9 +49,31 @@ export default function Faq() {
           <img src={bgimg}/>
         </div>
         <div className="child22">
-
+          <div className="block1">
+                    <div className="content-leftt1">
+                      <img src={img3}/>
+                      <img src={img4} id="img4"/>
+                    </div>
+                    <div className="content-rightt1">
+                       <h2 id="h21">ABOUT Futureinvo IT Solutions</h2>
+                       <h2 id="h22">Achieving Business Success<br></br>Through Ultramodern <span>Technology</span></h2>
+                       <p id="ss">Futureinvo IT Solutions is Dedicated to transforming innovative ideas into impactful<br></br>
+                          technological solutions. Our team of experts combines industry knowledge with<br></br>
+                        advanced technology to help business navigate the complexities of the digital<br></br>
+                        landscape. We focus on understanding our client's unique challenges and delivering <br></br>
+                        customized stratagies that drive measurable success<br></br>
+                        </p>
+                        <div className="right-subs">
+                                  
+                                   </div>
+                          </div>
+          
+                     
+                    </div>
+               
+              
         </div>
-        <div className="our-offering">
+        <div className="our-offering" id="offer">
           <h2 id="h2">Our Offering</h2>
             <h2 id="h22">Pioneering and Advancing Technology Trends</h2>
             

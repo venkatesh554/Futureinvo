@@ -50,7 +50,7 @@ margin-left:10px;
 #nav{
     margin-top:20px;
 }
-
+/* 
 @media (max-width: 575.98px) {
   .Top-2 {
     flex-direction: column;
@@ -99,4 +99,50 @@ margin-left:10px;
     margin-left: 8px;
     font-size: 16px;
   }
+} */
+
+/* Responsive Media Query for max-width: 576px (mobile devices) */
+@media (max-width: 576px) {
+    .Top-2 {
+        height: auto; /* Allow height to adjust if stacking */
+        padding: 10px 15px; /* Reduce padding for smaller screens */
+        flex-direction: column; /* Stack vertically for better mobile fit */
+        justify-content: center;
+        align-items: center;
+        gap: 5px; /* Add small gap between stacked elements */
+        width:100%;
+
+    }
+
+    .class1 {
+        margin-left: 0; /* Remove left margin */
+        justify-content: center; /* Center content horizontally */
+        font-size: 12px; /* Reduce font size for mobile */
+        width: 100%; /* Full width for centering */
+        text-align: center; /* Center text */
+    }
+
+    .class1 p {
+        padding: 2px; /* Reduce padding */
+        color:red;
+      
+    }
+
+    .class2 {
+        margin-right: 0; /* Remove right margin */
+        order: -1; /* Move social links to top in stack if desired; adjust as needed */
+    }
+
+    .class2 p {
+        padding: 2px;
+        font-size: 12px; /* Reduce font size */
+    }
+
+    #ic-links {
+      color:red;
+        font-size: 14px; /* Ensure icons are not too small */
+    }
+
+    /* Optional: Hide phone or email if space is too tight; uncomment if needed */
+    /* .class1:nth-of-type(2) { display: none; } */
 }

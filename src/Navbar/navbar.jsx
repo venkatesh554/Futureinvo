@@ -17,7 +17,7 @@ export default function Navbar() {
             <p><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</p>
            </div>
             <div className="class1">
-            <p> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />7981107131</p>
+            <p> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</p>
            </div>
            <div className="class2">
             <p>Follow Us:  <FontAwesomeIcon icon={faFacebookF} id="ic-links"/> <FontAwesomeIcon icon={faLinkedin} id="ic-links"/> <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p>

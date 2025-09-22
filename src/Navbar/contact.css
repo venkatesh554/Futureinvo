@@ -1,7 +1,7 @@
 .leftside-form{
     width:450px;
     height:500px;
-    background-color:blue;
+    background-color:rgba(5, 99, 160);
     position:relative;
     top:380px;
     left:100px;
@@ -165,7 +165,7 @@
 
     padding:10px 130px; 
     color:white;
-    background-color: blue;
+    background-color:rgba(5, 99, 160);
 }
 #star{
     color:red;
@@ -180,9 +180,9 @@
 
 #footer-contact{
     position:relative;
-    top:1100px;
+    top:850px;
 }
 #last-contact{
     position:relative;
-    top:1100px;
+    top:850px;
 }

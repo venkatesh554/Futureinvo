@@ -95,11 +95,11 @@ export default function Home() {
                                <p id="heads">Mission</p>
                                <p>Empowering with<br></br>Digital Solutions</p>
                             </div>
-               </div>
-            </div>
+                         </div>
+                </div>
 
            
-       </div>
+          </div>
        <div className="block2">
             <i id="i1"></i>
             <h2 >Brand Trust Us</h2>
