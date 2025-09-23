@@ -101,48 +101,46 @@ margin-left:10px;
   }
 } */
 
-/* Responsive Media Query for max-width: 576px (mobile devices) */
 @media (max-width: 576px) {
     .Top-2 {
-        height: auto; /* Allow height to adjust if stacking */
-        padding: 10px 15px; /* Reduce padding for smaller screens */
-        flex-direction: column; /* Stack vertically for better mobile fit */
+        height: auto; 
+        padding: 10px 15px; 
+        flex-direction: column; 
         justify-content: center;
         align-items: center;
-        gap: 5px; /* Add small gap between stacked elements */
+        gap: 5px; 
         width:100%;
 
     }
 
     .class1 {
-        margin-left: 0; /* Remove left margin */
-        justify-content: center; /* Center content horizontally */
-        font-size: 12px; /* Reduce font size for mobile */
-        width: 100%; /* Full width for centering */
-        text-align: center; /* Center text */
+        margin-left: 0;
+        justify-content: center;
+        font-size: 12px; 
+        width: 100%;
+        text-align: center; 
     }
 
     .class1 p {
-        padding: 2px; /* Reduce padding */
+        padding: 2px;
         color:red;
       
     }
 
     .class2 {
-        margin-right: 0; /* Remove right margin */
-        order: -1; /* Move social links to top in stack if desired; adjust as needed */
+        margin-right: 0;
+        order: -1; 
     }
 
     .class2 p {
         padding: 2px;
-        font-size: 12px; /* Reduce font size */
+        font-size: 12px;
     }
 
     #ic-links {
       color:red;
-        font-size: 14px; /* Ensure icons are not too small */
+        font-size: 14px; 
     }
 
-    /* Optional: Hide phone or email if space is too tight; uncomment if needed */
-    /* .class1:nth-of-type(2) { display: none; } */
+
 }

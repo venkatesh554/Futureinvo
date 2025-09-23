@@ -69,9 +69,7 @@ export default function Faq() {
                           </div>
           
                      
-                    </div>
-               
-              
+                    </div> 
         </div>
         <div className="our-offering" id="offer">
           <h2 id="h2">Our Offering</h2>

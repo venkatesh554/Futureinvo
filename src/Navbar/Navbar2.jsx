@@ -10,11 +10,18 @@ import "./Navbar2.css"
 export default function Navbar2() {
     
     const [showDropdown, setShowDropdown] = useState(false);
+        const [showDropdown2, setShowDropdown2] = useState(false);
+
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
 
+   const toggleDropdown2 = () => {
+    setShowDropdown2(!showDropdown2);
+  };
+
+  
 
 
     const [fix,setFix]=useState(false)
@@ -27,7 +34,6 @@ export default function Navbar2() {
             setFix(false)
         }
     }
-
     useEffect(()=>{
         window.addEventListener("scroll",handleScroll);
         return()=>window.removeEventListener("scroll",handleScroll)
@@ -57,8 +63,22 @@ export default function Navbar2() {
          <li>
             <Link to="/Services" >Services</Link>
         </li>
-         <li>
-            <Link to="/Trainings" >Trainings</Link>
+         <li className="dropdown2" onClick={toggleDropdown2}>
+            <span className="drop-text2">Trainings</span>
+            {
+                showDropdown2 && (
+                    <ul className="dropdown-menu2">
+                        <li>
+                            <Link to="/Trainings">AI Training</Link>
+                        </li>
+                        <li>
+                            <Link to="/Data Science">Data Science</Link>
+                        </li>
+
+                    </ul>
+                )
+            }
+          
         </li>
          <li>
             <Link to="/Contact" >Contact</Link>

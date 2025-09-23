@@ -23,7 +23,7 @@
  }
 .tt {
   height: 300vh;
-  overflow: hidden;  /* hides everything outside */
+  overflow: hidden; 
 }
 
 
