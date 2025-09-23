@@ -50,12 +50,9 @@ export default function Contact() {
               </div>
               <img src={calling} id="calling" />
              </div>
-
-
-             
-
-              
             </div>
+
+            
             <div className="rightside-form">
                <h2>What's on your mind ? Just ask us!</h2>
                <p>

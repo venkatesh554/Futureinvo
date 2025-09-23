@@ -222,7 +222,7 @@ top:-250px;
 
 .component4{
     position:relative;
-    left:50px;
+    left:100px;
     top:-100px;
     
 
@@ -233,5 +233,146 @@ top:-250px;
 }
 .component4 p{
     position:relative;
+    top:0px;
+}
+
+.div2 img{
+    width:100px;
+    height:70px;
+    position:relative;
+    top:20px;
+}
+.div2 p{
+    position:relative;
+    top:20px;
+}
+.inside-component{
+    display:flex;
+    flex-wrap:wrap;
+    width:700px;
+    column-gap:90px;
+
+}
+#career{
+    width:120px;
+    height:70px;
+}
+#mock{
+    width:90px;
+    height:90px;
+}
+#guest{
+    width:80px;
+    height:70px;
+    
+}
+#resume{
+    width:70px;
+    height:60px;
+}
+#bgg2{
+    position:relative;
+    top:20px;
+    width:1400px;
+    left:-0px;
+}
+
+.right-side-component img{
+    width:700px;
+    height:430px;    position:relative;
+    top:-760px;
+    left:720px;
+
+}
+.right-side-component .p{
+    width:300px;
+    height:250px;
+    background-color: rgb(91, 117, 169);
+    border-radius: 50%;
+    position:relative;
+    top:-410px;
+    left:1000px;
+}
+
+.get-started{
+    position:relative;
+    top:-700px;
+    left:100px;
+}
+.left-side-para{
+    position:relative;
+    width:700px;
+    top:-50px;
+
+}
+.left-side-para p{
+    position: relative;
+    top:50px;    line-height: 32px;;
+
+}
+.left-side-para ul{
+    position:relative;
+    top:70px;    line-height: 32px;;
+
+}
+.down-para{
+    position:relative;
+    top:80px;
+}
+.down-para p{
+    position:relative;
+    top:0px;
+    line-height: 32px;;
+}
+#training-form{
+    position:relative;
+    top:-1320px;
+    left:1000px;
+    
+}
+#training-form form{
+    position:relative;
     top:10px;
+    background-color: rgba(55, 84, 142);
+    width:350px;
+    padding:10px;
+    left:-40px;
+    color:white;
+}
+#training-form form input{
+   margin-top:20px;
+   position:relative;
+   left:10px;
+   background-color:none;
+   
+}
+#training-form form #onsubmit{
+margin-left:-10px;
+padding:10px 160px;
+background-color: rgba(55,84,142);
+}
+.submitt{
+    position:relative;
+    left:-20px;
+    width:700px;
+    height:40px;
+}
+
+#training-form #apply{
+    position:relative;
+    left:-40px;
+}
+
+.training-footer{
+    position:absolute;
+    top:3710px;
+    left:50px;
+}
+.training-footer .footer{
+    width:120%;
+    left:-100px;
+}
+.training-footer .lastt{
+    width:120%;
+    left:-100px;
 }

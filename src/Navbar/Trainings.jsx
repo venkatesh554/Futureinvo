@@ -15,8 +15,28 @@ import seventh from "./Training-box-images/seventh.png";
 import eighth from "./Training-box-images/eighth.png";
 import nineth from "./Training-box-images/nineth.png";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeHigh } from "@fortawesome/free-solid-svg-icons";
+
+import footericon from "../Navbar/navbar-images/icon.png"
+import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+
+import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+
+
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
+
+import placementone from "./placement-support-images/placement-one.png";
+import placementtwo from "./placement-support-images/placement-two.png";
+import placementthree from "./placement-support-images/placement-three.png"
+import placementfour from "./placement-support-images/placement-four.png";
+import placementfive from "./placement-support-images/placement-five.png";
+import placementsix from "./placement-support-images/placement-six.jpg"
 
 
 export default function Trainings() {
@@ -150,102 +170,250 @@ export default function Trainings() {
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Off Page SEO</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Explore how to build authority through off-page tactics like link building and social signals. Learn stratagies to improve your site's 
+            reputation and search performance
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Socaial Advertising</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Dive into the world of paid social advertising on platforms like facebook and instagram. Learn to optimize add compaigns for maximum reach and engagement</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Technical SEO</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Understand how to optimize website architecture .speed ,and indexing for search engines .Learn how to resolve common technical SEO issues that can impact rankings
+
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Local SEO</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Learn to optimize your website for local search results to target customers nearby.
+            Discover tools and techniques like Google My Business for local visibility
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Social Media Planning and Implementation</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Create effective social media strategies tailored to your brand's goals. Learn to plan, create, and implement social content that 
+            resonates with your audience.
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>LinkedIn Ads and Optimization</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Learn to target professionals using LinkedIn Ads to generate quality leads.
+            Explore optimization techniques to increase ad performance and ROI.
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Twitter and Quora Marketing</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Discover how to leverage Twitter and Quora to drive traffic and enagage with audiences.Learn strategies 
+            to create meaningful interactions on these platforms.
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Google Ads</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Master the skills to create ,manage ,and optimize Google Ads campaigns.Learn about bidding strategies ,targetting, and conversion tracking.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Bing Ads and Taboola Marketing</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Explore Bing Ads and Tabools as alternative platforms for paid advertising.Learn to set up campaigns and drive traffic with these underused networks.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Google Analytics and Tag Manager</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Learn to track and analyze website performance using Google Analytics.
+            Discover how to use Google Tag Manager to manage tags and implement event tracking.
+          </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Email Marketing: An Introduction</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Explore the basics of email marketing,from campaign setup to audience segmentation.Learn how to create emails that engage and convert leads.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Lead Automation</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Learn to automate your lead generation and nurturing processses to save time and increase conversions. Explore tools and strategies for effective lead management</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Marketing Strategy and Analysis</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Understanding how to create a winning marketing strategy and analyze campaign results. Learn to assess key metrics and optimize your approach based on data insights.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>WhatsApp Marketing</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Discover how to use WhatsApp as a direct communication tool to engage customers. Learn techniques for personalized messaging and automated responses</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Resume Building and Portfolio Creation</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+          <p>Learn how to create a professional resume and portfolio that showcases your skills. Understand the importance of building a strong online presence for job opportunities.</p>
          </div>
         </div>
        
        <div className="component4">
         <h2>Placement Support</h2>
         <p>Get assured job oppotunities from top companies with our pre-placement training program</p>
+
+        <div className="inside-component">
+                 <div className="div2">
+                    <img src={placementone} id="career"/>
+                         <p>Career Guidance</p>
+                </div>
+               <div className="div2">
+                      <img src={placementtwo} id="guest"/>
+                           <p>Guest Lectures</p>
+                 </div>
+                <div className="div2">
+                      <img src={placementthree} id="resume"/>
+                             <p>Resume Building</p>
+                 </div>
+                 <div className="div2">
+                         <img src={placementfour} id="mock"/>
+                             <p>Mock Interviews</p>
+                  </div>
+                 <div className="div2">
+                      <img src={placementfive}/>
+                            <p>Job Ready Skill <br></br>Training</p>
+                   </div>
+                 <div className="div2">
+                         <img src={placementsix}/>
+                     <p>Trained By a Digital<br></br> Marketing Agency</p>
+                   </div>
+            </div>
+                   <div className="bgg" id="bgg2"></div>
+
        </div>
-          
-          
-        
+       <div className="right-side-component">
+        <div className="p"></div>
+        <img src={four}/>
+       </div>
+       <div className="get-started">
+        <h2>Get Started</h2>
+        <div className="left-side-para">
+          <p>Ready to elevate your digital marketing skills? Get in touch with us today! Fill out them form to access our detailed course
+            package, including pricing, curriculum, and flexible learning options. Whether you're looking to kickstart your career or 
+            advance your current skill set, out expert team is here to guide you every step of the way.
+
+          </p>
+          <ul>
+            <li>
+              Flexible Learning Schedules
+            </li>
+            <li>
+              Personalized Career Guidance
+            </li>
+            <li>
+              Lifetime loan Access to Course Materials
+            </li>
+            <li>
+              Flexible loan Avaliability from Freemonk
+            </li>
+            <li>
+              No Cost EMI
+            </li>
+          </ul>
+          <div className="down-para">
+            <h2>Don't Miss Out</h2>
+          <p>
+            Take the first step towards your digital marketing journey now! join thousands of students and successful working professionals 
+            who have transformed their careers with our best digital marketing Program in Hyderabad. With live projects, case studies blended
+            learning program , expert guidance, and flexible learning schedules we ensure you stay ahead in the fast-evolving world of digital
+            marketing.
+
+          </p>
+          </div>
+        </div>
+       </div>
+       
+       <div className="rightside-form" id="training-form">
+                      <h2 id="apply">Apply For Upcomming batches</h2>
+                     
+                      <form>
+                       <label>Your Name <span id="star">*</span>:</label><br></br>
+                       <input type="text"></input><br></br>
+       
+                       <label>Email Address <span id="star">*</span>:</label><br></br>
+                       <input type="email"></input><br></br>
+       
+                        <label>Mobile Number <span id="star">*</span>:</label><br></br>
+                        <input type="number"></input><br></br>
+       
+                        <label>City <span id="star">*</span >:</label><br></br>
+                        <input type="text"></input><br></br>
+       
+                        <label>Occupation <span id="star">*</span>:</label><br></br>
+                        <input type="text"></input><br></br>
+       
+                        <label>Queries <span id="star">*</span>:</label><br></br>
+                        <input type="text" id="comments-box"></input><br></br>
+                        <submit id="onsubmit" >Submit</submit>
+       
+       
+                      </form>
+                      
+                   </div>
+
+
+                  <div className="training-footer">
+                     <div className="footerr" id="footer-contact">
+                               <div className="footer" id="footer-dup">
+                                          <div className="line1">
+                                           <img src={footericon}/>
+                                           <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
+                                           <div className="icn">
+                                              <FontAwesomeIcon icon={faFacebookF}/>
+                                              <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
+                                              <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
+                                           </div>
+                                           <div className="links">
+                                             <div className="links1">
+                                               <h3>Quick Links</h3>
+                                             <a href="#"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Careers</a>
+                                           </div>
+                                            <div className="links1">
+                                               <h3>IT Services</h3>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Web Development</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />App Development</a>
+                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
+                                           </div>
+                                            <div className="links1">
+                                               <h3>Contact Us</h3>
+                                             <a href="#"><FontAwesomeIcon icon={faLocationDot} />Capital Park,Hightech City,<br></br>Hyderabad</a>
+                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+                                             <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
+                                           
+                                           </div>
+                                           </div>
+                             
+                                           
+                                          </div>
+                                          
+                                       </div>
+                   
+                              </div>
+                              <div className="lastt" id="last-contact">
+                                <div className="last-line" id="dup-last">
+                               <i>All Copyright 2025 by Futureinvo IT Solutions</i>
+                               <i id="ii">Terms & Conditions</i>
+                               <i>Privacy Policy</i>
+                             </div>
+                           
+                              </div>  
+                  </div>
     </div>
      </div>
   )
