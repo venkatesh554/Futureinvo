@@ -72,7 +72,7 @@ export default function Navbar2() {
                             <Link to="/Trainings">AI Training</Link>
                         </li>
                         <li>
-                            <Link to="/Data Science">Data Science</Link>
+                            <Link to="/Datascience">Data Science</Link>
                         </li>
 
                     </ul>

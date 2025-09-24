@@ -8,7 +8,7 @@ import Trainings from "./Navbar/Trainings";
 import Contact from "./Navbar/Contact"
 import Navbar2 from "./Navbar/Navbar2"
 import Faq from "./Navbar/Faq"
-import DataScience from './Navbar/dataScience';
+import Datascience from "./Navbar/Datascience"
 import "./App.css"
 function App() { 
   return (
@@ -23,7 +23,7 @@ function App() {
       <Route path="/Trainings" element={<Trainings/>}/>
       <Route path="/Contact" element={<Contact/>}/>  
       <Route path="/Faq" element={<Faq/>}/> 
-      <Route path="/dataScience" element={<DataScience/>}/>
+      <Route path="/Datascience" element={<Datascience/>}/>
      </Routes>
    </div>
    </>

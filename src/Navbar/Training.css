@@ -37,7 +37,7 @@
 
 .component3{
     position:relative;
-    top:280px;
+    top:230px;
     left:50px;
 }
 .component3 img{
@@ -181,7 +181,7 @@
 }
 .curriculum {
 position:relative;
-top:-250px;
+top:-330px;
 
 }
 .curriculum h2,h3{
@@ -190,7 +190,7 @@ top:-250px;
 
 .curriculum-boxes{
     position:relative;
-    top:-180px;
+    top:-280px;
     left:250px;
     display:flex;
     flex-wrap:wrap;
@@ -202,7 +202,7 @@ top:-250px;
     border:1px solid black;
     padding:10px 30px ;
     width:300px;
-    height:210px;
+    height:230px;
     background-color:rgb(163, 185, 230); ;
     
 }
@@ -223,7 +223,7 @@ top:-250px;
 .component4{
     position:relative;
     left:100px;
-    top:-100px;
+    top:-240px;
     
 
 }
@@ -280,7 +280,7 @@ top:-250px;
 .right-side-component img{
     width:700px;
     height:430px;    position:relative;
-    top:-760px;
+    top:-900px;
     left:720px;
 
 }
@@ -290,13 +290,13 @@ top:-250px;
     background-color: rgb(91, 117, 169);
     border-radius: 50%;
     position:relative;
-    top:-410px;
+    top:-550px;
     left:1000px;
 }
 
 .get-started{
     position:relative;
-    top:-700px;
+    top:-800px;
     left:100px;
 }
 .left-side-para{
@@ -326,7 +326,7 @@ top:-250px;
 }
 #training-form{
     position:relative;
-    top:-1320px;
+    top:-1420px;
     left:1000px;
     
 }
@@ -375,4 +375,18 @@ background-color: rgba(55,84,142);
 .training-footer .lastt{
     width:120%;
     left:-100px;
+}
+
+#tt-three{
+     position:relative;
+    width:650px;
+    height:430px;
+    left:-160px;
+    top:-160px;
+}
+#c-3{
+
+}
+.course-high{
+    margin-top:-30px;
 }

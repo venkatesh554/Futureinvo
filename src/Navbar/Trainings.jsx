@@ -88,35 +88,35 @@ export default function Trainings() {
         </div>
         <div className="squre1">
            <img src={second} id="second" />
-          <p>Learn with Best IT Company</p>
+          <p>3 Months Internship Certification</p>
         </div>
         <div className="squre1">
            <img src={third} id="third" />
-          <p>Learn with Best IT Company</p>
+          <p>100% Practical Oriented Training</p>
         </div>
         <div className="squre1">
            <img src={fourth}id="fourth" />
-          <p>Learn with Best IT Company</p>
+          <p>Website with your name valid for one year</p>
         </div>
         <div className="squre1">
            <img src={fifth} id="fifth"/>
-          <p>Learn with Best IT Company</p>
+          <p>Case Study Based Assessments</p>
         </div>
         <div className="squre1">
            <img src={sixth} id="sixth" />
-          <p>Learn with Best IT Company</p>
+          <p>5 Exclusive job interview</p>
         </div>
         <div className="squre1">
            <img src={seventh}id="seventh" />
-          <p>Learn with Best IT Company</p>
+          <p>Module level certification</p>
         </div>
         <div className="squre1">
            <img src={eighth} id="eighth" />
-          <p>Learn with Best IT Company</p>
+          <p>Assistance in Google & Meta Certification</p>
         </div>
          <div className="squre1">
            <img src={nineth}id="nineth" />
-          <p>Learn with Best IT Company</p>
+          <p>23 Advanced Tools</p>
         </div>
        </div>
      </div>
@@ -254,7 +254,7 @@ export default function Trainings() {
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
            <h2>Resume Building and Portfolio Creation</h2>
-          <p>Learn how to create a professional resume and portfolio that showcases your skills. Understand the importance of building a strong online presence for job opportunities.</p>
+          <p>Learn how to create a professional resume and portfolio that showcases your skills. Understand the importance of building a strong online presence for job opportunities</p>
          </div>
         </div>
        
