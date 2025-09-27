@@ -7,10 +7,11 @@
 
     
 }
+
 .child22{
     position:relative;
     left:-50px;
-    top:180px;
+    top:930px;
     width:100%;
     height:450px;
 }
@@ -25,8 +26,6 @@
   height: 300vh;
   overflow: hidden; 
 }
-
-
 
 .driving-innovation-child h1{
         line-height: 5rem;
@@ -59,7 +58,7 @@
 }
 #offer{
     position:relative;
-    top:280px;
+    top:430px;
 }
 
 
@@ -100,11 +99,11 @@
 }
 .block55 > div {
   flex: 1 1 280px;
-  max-width: 270px;
+  max-width: 260px;
   color: white;
   padding: 20px;
   border-radius: 8px;
-  min-height: 220px; 
+  min-height: 200px; 
   position:relative;
   border:1px solid grey;
   left:140px;
@@ -116,6 +115,7 @@
 .block55 > div h3,p,button{
   position:relative;
   top:80px;
+  text-align: justify;
 }
 
 .block55 button{
@@ -126,7 +126,7 @@
 .block55 .box-19 p{
   position:relative;
   top:80px;
-  width:280px;
+  width:250px;
 }
 #imgg18{
     
@@ -176,44 +176,50 @@
     top:-36px;
     left:100px;
 }
-#dup1{
+.word-slider-about{
     position:relative;
-    top:300px;
+    top:1090px;
     
 }
 #userr-dup1{
      width:60px;
   height:60px;
   position:absolute;
-  top:170px;left:170px
+  top:-10px;left:140px;
+
+  animation: float 3s ease-in-out infinite alternate;
 }
 
 #bag-dup1{
      width:70px;
   height:70px;
   position:absolute;
-  top:160px;left:440px
+  top:340px;left:415px;
+  animation: float 3s ease-in-out infinite alternate;
 }
 
 #time-dup1{
   width:60px;
   height:60px;
   position:absolute;
-  top:170px;left:730px
+  top:-30px;left:100px;
+  animation: float 3s ease-in-out infinite alternate;
 }
 
 #calculator-dup1{
      width:70px;
   height:70px;
   position:absolute;
-  top:160px;left:1000px
+  top:350px;left:980px;
+  animation: float 3s ease-in-out infinite alternate;
 }
 
 #notes-dup1{
     width:120px;
   height:120px;
   position:absolute;
-  top:140px;left:1270px
+  top:-40px;left:1240px;
+  animation: float 3s ease-in-out infinite alternate;
 }
 
 .block2 #dup1{
@@ -222,34 +228,48 @@
     top:0px;
 }
 #dup2-class{
-    height:300px;
-}
-#dup2-class2{
+    height:200px;
     position:relative;
-    top:20px;
+    top:510px;
 }
 
-.block8 #dup3-h2{
-    position:relative;
-    left:400px;
+#dup2-class2 {
+  position: relative;
+  top: 30px;
+  display: inline-block;
+  white-space: nowrap;   /* keep names in one line */
+  animation: scroll 15s linear infinite;
 }
+
+#dup2-class2 em {
+  margin: 0 30px;       /* spacing between names */
+  font-size: 18px;
+}
+
+
+.chooseus-about{
+    position:relative;
+    top:250px;
+    width:190%;
+}
+
 #dup3{
     position:relative;
     top:410px;
 }
 #faq-cards{
     display:flex;
-    margin-left: 50px;;
+   
 }
 .block8>#faq-cards{
-    gap: 50px;;
+    gap: 20px;;
 }
 
 #footer-dup{
     position:relative;
-    top:320px;
+    top:600px;
 }
 #dup-last{
     position:relative;
-    top:330px;
+    top:600px;
 }

@@ -310,7 +310,7 @@ export default function Datascience() {
        <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">
-          <p>Ready to elevate your digital marketing skills? Get in touch with us today! Fill out them form to access our detailed course
+          <p>Ready to elevate your DataScience skills? Get in touch with us today! Fill out them form to access our detailed course
             package, including pricing, curriculum, and flexible learning options. Whether you're looking to kickstart your career or 
             advance your current skill set, out expert team is here to guide you every step of the way.
 
@@ -335,10 +335,9 @@ export default function Datascience() {
           <div className="down-para">
             <h2>Don't Miss Out</h2>
           <p>
-            Take the first step towards your digital marketing journey now! join thousands of students and successful working professionals 
-            who have transformed their careers with our best digital marketing Program in Hyderabad. With live projects, case studies blended
-            learning program , expert guidance, and flexible learning schedules we ensure you stay ahead in the fast-evolving world of digital
-            marketing.
+            Take the first step towards your DataScience journey now! join thousands of students and successful working professionals 
+            who have transformed their careers with our best DataScience Program in Hyderabad. With live projects, case studies blended
+            learning program , expert guidance, and flexible learning schedules we ensure you stay ahead in the fast-evolving world of DataScience.
 
           </p>
           </div>

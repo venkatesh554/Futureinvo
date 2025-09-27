@@ -48,6 +48,7 @@ export default function Faq() {
         <div className="bgimg">
           <img src={bgimg}/>
         </div>
+        
         <div className="child22">
           <div className="block1">
                     <div className="content-leftt1">
@@ -109,7 +110,8 @@ export default function Faq() {
                     
                 </div>
           </div>
-            <div className="words-slider" id="dup1">
+           <div className="word-slider-about">
+             <div className="words-slider" id="dup1">
                <div className="slider">
                <h2>Digital Marketing *</h2>
                <h2>Web Development *</h2>
@@ -124,33 +126,38 @@ export default function Faq() {
                <h2>Application Development *</h2>
                
              </div>
-             <div className="block2" id="dup2-class">
-            <i id="i1"></i>
-            <h2 id="dup1" >Brand Trust Us</h2>
-            <i id="i2"></i>
-            <div className="names-scroll" id="dup2-class2">
-              <em>Swgruha sweets</em>
-              <em>Branic</em>
-              <em>Aravind Realotrs</em>
-              <em>Akshaya chits</em>
-              <em>Flexi works</em>
-              <em>Navajyothi</em>
-              <em>And many more</em>
-
-              <em>Swgruha sweets</em>
-              <em>Branic</em>
-              <em>Aravind Realotrs</em>
-              <em>Akshaya chits</em>
-              <em>Flexi works</em>
-              <em>Navajyothi</em>
-              <em>And many more</em>
-            </div>
-         </div>
        
            </div>
-           <div className="block8" id="dup3">
-            <h2 id="dup3-h2">Why Choose Us?</h2>
-            <h2 id="dup3-h2">Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
+           </div>
+
+
+             <div className="block2" id="dup2-class">
+                    <i id="i1"></i>
+                    <h2 id="dup1" >Brand Trust Us</h2>
+                     <i id="i2"></i>
+                          <div className="names-scroll" id="dup2-class2">
+                             <em>Swgruha sweets</em>
+                             <em>Branic</em>
+                              <em>Aravind Realotrs</em>
+                              <em>Akshaya chits</em>
+                               <em>Flexi works</em>
+                               <em>Navajyothi</em>
+                                   <em>And many more</em>
+
+                                       <em>Swgruha sweets</em>
+                                     <em>Branic</em>
+                                     <em>Aravind Realotrs</em>
+                                 <em>Akshaya chits</em>
+                                 <em>Flexi works</em>
+                                 <em>Navajyothi</em>
+                                <em>And many more</em>
+                            </div>
+               </div>
+
+           <div className="chooseus-about">
+            <div className="block8" id="dup3">
+            <h2 className="dup3-h2">Why Choose Us?</h2>
+            <h2 className="dup3-h2">Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
 
             <div className="cards2" id="faq-cards">
               <div className="card1">
@@ -185,6 +192,8 @@ export default function Faq() {
               </div>
             </div>
           </div>
+           </div>
+
 
 
            <div className="footer" id="footer-dup">

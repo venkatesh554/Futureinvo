@@ -1,8 +1,9 @@
 .app{
   /* height:1300vh; */
-
+  margin-bottom:0px;
 }
 body{
+ 
     overflow-x: hidden;
 
 }

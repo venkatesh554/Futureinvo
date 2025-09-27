@@ -1,6 +1,11 @@
+.driving-innovation-parent{
+
+    background-color: aqua;
+}
+
 .digital-change{
     position:relative;
-    top:150px;
+    top:270px;
     left:50px;
 }
 .digital-change h1{
@@ -20,6 +25,10 @@
     padding:10px 30px;
 
 }
+.component2{
+position:relative;
+top:100px;
+}
 #t-one{
     position:relative;
     width:350px;
@@ -37,7 +46,7 @@
 
 .component3{
     position:relative;
-    top:230px;
+    top:380px;
     left:50px;
 }
 .component3 img{
@@ -78,7 +87,7 @@
 .bgg{
     position:absolute;
     z-index:-1;
-    top:350px;
+    top:365px;
     width:1220px;
     height:80px;
     left:100px;
@@ -89,13 +98,13 @@
     background-color:rgba(55,84,142);
     width:495px;
     padding :10px 10px;
-    top:-650px;    left:800px;
+    top:-555px;    left:800px;
     color:white;
 
 }
 .right-boxx{
     position:relative;
-    top:-670px;
+    top:-555px;
     left:800px;
     display:flex;
     flex-wrap:wrap;
@@ -110,8 +119,10 @@
 
 .squre1 p{
     position:relative;
-    top:30px;
+    width:150px;
+    top:40px;
     left:10px;
+    text-align: justify;
 }
 .squre1 img{
     width:50px;
@@ -181,7 +192,8 @@
 }
 .curriculum {
 position:relative;
-top:-330px;
+top:-30px;
+background-color: aqua;
 
 }
 .curriculum h2,h3{
@@ -190,40 +202,46 @@ top:-330px;
 
 .curriculum-boxes{
     position:relative;
-    top:-280px;
-    left:250px;
+    width:100%;
+   
+    
+    top:-0px;
+    left:120px;
     display:flex;
     flex-wrap:wrap;
     width:1300px;
-    gap:10px;
+    gap:10px;background-color: aqua;
+
 
 }
 .curriculum-boxes .div1{
     border:1px solid black;
     padding:10px 30px ;
     width:300px;
-    height:230px;
+    height:200px;
     background-color:rgb(163, 185, 230); ;
+    position:relative;
+    left:100px;
     
 }
 .curriculum-boxes .div1 p{
     position:relative;
-    top:-40px;
+    top:-10px;
 }
 .curriculum-boxes .div1 h2{
     position:relative;
-    top:-30px;
+    top:-25px;
 }
 #volume{
     position:relative;
-    top:20px;
+    top:5px;
     left:-25px;
 }
 
 .component4{
     position:relative;
     left:100px;
-    top:-240px;
+    top:60px;
     
 
 }
@@ -276,7 +294,10 @@ top:-330px;
     width:1400px;
     left:-0px;
 }
-
+.right-side-component{
+    position:relative;
+    top:350px;
+}
 .right-side-component img{
     width:700px;
     height:430px;    position:relative;
@@ -296,7 +317,7 @@ top:-330px;
 
 .get-started{
     position:relative;
-    top:-800px;
+    top:-480px;
     left:100px;
 }
 .left-side-para{
@@ -326,7 +347,7 @@ top:-330px;
 }
 #training-form{
     position:relative;
-    top:-1420px;
+    top:-101c0px;
     left:1000px;
     
 }

@@ -28,20 +28,23 @@
 #sevenn{
     background-image: none;
     position:relative;
-    top:400px;
+    top:500px;
 }
 
 .chooseus{
     position:relative;
-    top:460px;
+    top:600px;
+    width:200%;
+  
 }
 
 .footerr{
     position:relative;
-    top:470px;
+    top:400px;
 }
 
 .lastt{
     position:relative;
-    top:470px;
+    top:400px;
 }
+

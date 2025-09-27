@@ -41,65 +41,71 @@ export default function Home() {
   return (
     <div className="parent">
       <div className="child">
-        <p id="p1"><button id="b1"></button>BEST IT SOLUTION PROVIDER</p>
-        <h1>Futureinvo Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
-        <p id="p2">At Futureinoy Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
-          Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
-          <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
-             we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable</p>
-
-        <button>Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
+            <p id="p1"><button id="b1"></button>BEST IT SOLUTION PROVIDER</p>
+           <h1>Futureinvo Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
+           <p id="p2">At Futureinoy Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
+              Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
+            <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
+                we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
+          </p>
+            <button>Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
       </div>
+
+
       <div className="right-content">
          <img src={img2} id="img2"/>
         <img src={img1}/>
-       
       </div>
 
       <div className="words-slider">
-         <div className="slider">
-         <h2>Digital Marketing *</h2>
-         <h2>Web Development *</h2>
-         <h2>App Development *</h2>
-         <h2>Trainings *</h2>
-         <h2>Application Development *</h2>
+           <div className="slider">
+             <h2>Digital Marketing *</h2>
+             <h2>Web Development *</h2>
+             <h2>App Development *</h2>
+             <h2>Trainings *</h2>
+             <h2>Application Development *</h2>
    
-         <h2>Digital Marketing *</h2>
-         <h2>Web Development *</h2>
-         <h2>App Development *</h2>
-         <h2>Trainings *</h2>
-         <h2>Application Development *</h2>
-       </div>
-       <div className="block1">
-          <div className="content-leftt1">
-            <img src={img3}/>
-            <img src={img4} id="img4"/>
-          </div>
-          <div className="content-rightt1">
-             <h2 id="h21">ABOUT Futureinvo IT Solutions</h2>
-             <h2 id="h22">Empowering Business Growth<br></br>Through Innovative <span>Technology</span></h2>
-             <p id="ss">Futureinvo IT Solutions is an IT company based in Hyderabad, specializing in web<br></br>
-              development, Web design, mobile application development, digital marketing services,<br></br>
-              and trainings. As a subsidiary of knowledge,we are commited to delivering<br></br>
-               innovative and effective digital solutions tailored to meet the needs of our clients.Our <br></br>
-               team of experts is dedicated to helping businesses succeed in the digital landscape<br></br>
-               through high quality services and personalized support.</p>
-              <div className="right-subs">
-                         <div className="right-sub1">
-                                 <img src={img5}/>
-                              <p id="heads">Vision</p>
-                               <p>Innovationg Futures<br></br>Through Technology</p>
-                           </div>
-                           <div className="right-sub2">
-                               <img src={img6}/>
-                               <p id="heads">Mission</p>
-                               <p>Empowering with<br></br>Digital Solutions</p>
-                            </div>
-                         </div>
-                </div>
+              <h2>Digital Marketing *</h2>
+              <h2>Web Development *</h2>
+              <h2>App Development *</h2>
+              <h2>Trainings *</h2>
+              <h2>Application Development *</h2>
+           </div>
+      </div>     
 
-           
-          </div>
+           <div className="block1">
+                <div className="content-leftt1">
+                    <img src={img3}/>
+                    <img src={img4} id="img4"/>
+                 </div>
+
+                <div className="content-rightt1">
+                      <h2 id="h21">ABOUT Futureinvo IT Solutions</h2>
+                       <h2 id="h22">Empowering Business Growth<br></br>Through Innovative <span>Technology</span></h2>
+                          <p id="ss">Futureinvo IT Solutions is an IT company based in Hyderabad, specializing in web
+                            development, Web design, mobile application development, digital marketing services
+                            and trainings. As a subsidiary of knowledge,we are commited to delivering
+                            innovative and effective digital solutions tailored to meet the needs of our clients.Our 
+                            team of experts is dedicated to helping businesses succeed in the digital landscape
+                            through high quality services and personalized support.</p>
+                     <div className="right-subs">
+                             <div className="right-sub1">
+                                 <img src={img5}/>
+                                   <p id="heads">Vision</p>
+                                  <p>Innovationg Futures<br></br>Through Technology</p>
+                              </div>
+
+                              <div className="right-sub2">
+                                  <img src={img6}/>
+                                  <p id="heads">Mission</p>
+                                  <p>Empowering with<br></br>Digital Solutions</p>
+                               </div>
+                       </div>
+                 </div>
+ 
+             </div>
+
+
        <div className="block2">
             <i id="i1"></i>
             <h2 >Brand Trust Us</h2>
@@ -125,13 +131,14 @@ export default function Home() {
          <div className="block3">
           <h2 id="h2"><span>IT Services & Solutions</span></h2>
             <h2 id="h22">Our Services</h2>
+                         
             <div className="block5">
                   <div className="box-18">
                     <img src={it}/>
                           <h3>IT Consulting</h3>
                             <p className="p00">Our IT Consultancy Offers Expert .tailored solutions to stratagically optimize your technology and drive businesss success</p>
 
-                          <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                          <button> View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div>
                   <div className="box-19">
                     <img src={develop}/>
@@ -139,31 +146,31 @@ export default function Home() {
                       <p className="p00">We build robust, scalable websites to your business needs ensuring a seamless and engaging user experience</p>
 
 
-                     <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                     <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div>
                   <div className="box-20">
                     <img src={web}/>
                     <h3>Web Design</h3>
                           <p className="p00">Our Visually appeaing and user friendly designs capitative your audience enhancing overall engagement and satisfaction</p>
 
-                      <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div>
                   <div className="box-21">
                     <img src={app}/>
                      <h3>App Development</h3>
                        <p className="p00">We develop Innovative mobile apps focused on delivering exceptional user experiences aligned with your business goals</p>
-                      <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div> 
                    <div className="box-22">
                     <img src={digital}/>
-                     <h3>Digital Marketing <br></br> Service</h3>
+                     <h3>Digital Marketing Service</h3>
                       <p className="p00">Our Digital Marketing Stratagies boost your online presence and connect you with your target audience effectively</p>
 
-                      <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div> 
                    <div className="box-23">
                      <h3>For More <br></br>Services</h3>
-                      <button>Read More <FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div> 
                     
                 </div>
@@ -215,14 +222,14 @@ export default function Home() {
                 <h2>What's Clients Say</h2>
                 <p>Future Invo IT Solutions Transformed our digital presence. their team understood our needs and delivered beyond expectations. Truely professional and reliable.</p>
                 <h3 id="name">Rajesh Kumar</h3>
-                <p>Founder, TechWave Solutions</p>
+                <p id="founder">Founder, TechWave Solutions</p>
             </div>
             <div className="bg1">
                <h3 id="testinomial">Testimonials</h3>
                 <h2>What's Clients Say</h2>
                 <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
                 <h3 id="name">Sneha Reddy</h3>
-                <p>CEO, GreenLeaf Enterprises</p>
+                <p id="founder">CEO, GreenLeaf Enterprises</p>
 
             </div>
           </div>
@@ -310,6 +317,6 @@ export default function Home() {
  
     
 
-    </div>
+    
   )
 }
