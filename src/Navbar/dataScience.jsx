@@ -372,7 +372,7 @@ export default function Datascience() {
                         <label>Occupation <span id="star">*</span>:</label><br></br>
                         <input type="text"></input><br></br>
        
-                        <label>Queries <span id="star">*</span>:</label><br></br>
+                        <label>Message <span id="star">*</span>:</label><br></br>
                         <input type="text" id="comments-box"></input><br></br>
                         <submit id="onsubmit" >Submit</submit>
        

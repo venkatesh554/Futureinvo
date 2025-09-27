@@ -47,6 +47,9 @@
 .component2{
 position:relative;
 top:-120px;
+ animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 #t-one{
     position:relative;
@@ -54,13 +57,14 @@ top:-120px;
     height:300px;
     left:800px;
     top:100px;
+    
 }
 #t-two{
     position:relative;
     width:680px;
     height:430px;
     left:400px;
-    top:100px;
+    top:120px;
 }
 
 .component3{
@@ -73,7 +77,9 @@ top:-120px;
     height:400px;
     position:relative;
     top:-150px;
-    left:-70px;
+    left:-70px; animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 .circle{
     width:100px;
@@ -86,6 +92,9 @@ top:-120px;
     left:40px;
     top:-30px;
     color:white;
+     animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 #circle1{
     position:relative;
@@ -239,7 +248,7 @@ top:450px;
     border:1px solid black;
     padding:10px 30px ;
     width:300px;
-    height:200px;
+    height:212px;
     background-color:rgb(163, 185, 230); ;
     position:relative;
     left:100px;
@@ -247,7 +256,7 @@ top:450px;
 }
 .curriculum-boxes .div1 p{
     position:relative;
-    top:-10px;
+    top:-15px;
 }
 .curriculum-boxes .div1 h2{
     position:relative;
@@ -466,4 +475,45 @@ background-color: rgba(55,84,142);
 
 .course-high{
     margin-top:-30px;
+}
+
+
+
+
+
+.rightside-form{
+    position:absolute;
+    left:900px;
+    top:530px;
+}
+.rightside-form p{
+    width:500px;
+    position:relative;
+    top:10px;
+}
+
+.rightside-form form input{
+    width:300px;
+    height:30px;
+    margin-top:30px;
+    border-radius:5px;
+    border:1px solid rgb(207, 205, 205);
+}
+.rightside-form form label{
+    position:relative;
+    top:20px;
+    left:10px;
+}
+#comments-box{
+    width:300px;
+    height:100px;
+}
+
+#onsubmit{
+    position:relative;
+    top:50px;
+
+    padding:10px 130px; 
+    color:white;
+    background-color:rgba(5, 99, 160);
 }

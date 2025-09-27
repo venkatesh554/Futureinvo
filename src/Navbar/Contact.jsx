@@ -20,12 +20,13 @@ export default function Contact() {
   return (
     <div>
        <div className="tt">
-      <div className="faq">
+        <div className="faq">
         <div className="dup-from-faq">
             <h1>Contact Us</h1>
             
-          </div>
-          <div className="contact-us-form">
+          </div>  
+         <div className="contacting-form">
+           <div className="contact-us-form">
             <div className="leftside-form">
              <div className="firsthead">
                <div className="firstline">
@@ -53,7 +54,7 @@ export default function Contact() {
             </div>
 
             
-            <div className="rightside-form">
+            <div className="rightside-form-contact">
                <h2>What's on your mind ? Just ask us!</h2>
                <p>
                 For inquiries or  assistance, please fill out the contact form below. Our team is here to help,and we look forward to hearing from you!
@@ -74,19 +75,19 @@ export default function Contact() {
                  <label>Occupation <span id="star">*</span>:</label><br></br>
                  <input type="text"></input><br></br>
 
-                 <label>Queries <span id="star">*</span>:</label><br></br>
+                 <label>Message <span id="star">*</span>:</label><br></br>
                  <input type="text" id="comments-box"></input><br></br>
-                 <submit id="onsubmit">Submit</submit>
+                 <button  className="subb">Submit</button>
 
 
                </form>
-               <div className="location">
-              <img src={locationn} />
-            </div>
+              
             </div>
             
+         </div>
           </div>
-           <div className="footerr" id="footer-contact">
+          <div className="footer-contact-2">
+             <div className="footerr" id="footer-contact-2">
             <div className="footer" id="footer-dup">
                        <div className="line1">
                         <img src={footericon}/>
@@ -128,14 +129,17 @@ export default function Contact() {
                     </div>
 
            </div>
-           <div className="lastt" id="last-contact">
+          <div className="footer-line-contact">
+             <div className="lastt" id="last-contact">
              <div className="last-line" id="dup-last">
-            <i>All Copyright 2025 by Futureinvo IT Solutions</i>
-            <i id="ii">Terms & Conditions</i>
-            <i>Privacy Policy</i>
+                     <i>All Copyright 2025 by Futureinvo IT Solutions</i>
+                         <i id="ii">Terms & Conditions</i>
+                           <i>Privacy Policy</i>
+          </div>
           </div>
         
            </div>
+          </div>
           
       
     </div>
