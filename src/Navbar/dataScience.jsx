@@ -54,7 +54,8 @@ export default function Datascience() {
                 solve real-world problems with AI-driven precision. step into the future of data science , Where intelligence meets innovation to shape tomorrow's solutions.
             </p>
         </div>
-        <div className="digital-change">
+       <div className="bgcolor1">
+         <div className="digital-change">
           <h1>Be the Digital Change Maker@ 6 Months!</h1>
           <p>Ready to conquer the world of Data Science! our best Data Science course in Hyderabad is a comprehensive journey designed to equip you with
             advanced skills that set you part in this competitive field. Over 6 months of in depth training,you will explore cutting-edge Data Science
@@ -70,8 +71,10 @@ export default function Datascience() {
              <img src={two} id="t-two"/>
 
        </div>
+       </div>
 
-     <div className="component3" >
+    <div className="bgcolor2">
+       <div className="component3" >
      <div className="circle" >
        <h2 id="circle1">06 Months Course</h2>
      </div>
@@ -120,7 +123,9 @@ export default function Datascience() {
         </div>
        </div>
      </div>
-           <div className="curriculum">
+      </div>           
+      
+      <div className="curriculum">
             <h2>What Our Innovative Curriculum Covers?</h2>
             <h3>What You Learn is What You Get!</h3>
            </div>
@@ -270,7 +275,7 @@ export default function Datascience() {
          </div>
         </div>
        
-       <div className="component4">
+      <div className="bgcolor3"> <div className="component4">
         <h2>Placement Support</h2>
         <p>Get assured job oppotunities from top companies with our pre-placement training program</p>
 
@@ -303,10 +308,14 @@ export default function Datascience() {
                    <div className="bgg" id="bgg2"></div>
 
        </div>
+        </div>
+
        <div className="right-side-component">
-        <div className="p"></div>
-        <img src={four}/>
+        <div className="p" ></div>
+        <img src={four} id="right-four"/>
        </div>
+      
+       
        <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">

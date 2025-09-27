@@ -25,7 +25,6 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
@@ -54,7 +53,8 @@ export default function Trainings() {
               of digital marketing , AI-powered campaigns that stand out in today's competitive market.
             </p>
         </div>
-        <div className="digital-change">
+       <div className="bgcolor1">
+         <div className="digital-change">
           <h1>Be the Digital Change Maker@ 6 Months!</h1>
           <p>Ready to conquer the world of digital marketing! our best digital marketing course in Hyderabad is a comprehensive journey designed to equip you with
             advanced skills that set you part in this competitive field. Over 6 months of in depth training,you will explore cutting-edge digital marketing
@@ -64,12 +64,15 @@ export default function Trainings() {
           </p>
           <button>Know More</button>
         </div>
-       
-       <div className="component2">
+         <div className="component2">
            <img src={one} id="t-one"/>
              <img src={two} id="t-two"/>
 
        </div>
+       </div>
+       
+      <div className="bgcolor2">
+        
 
      <div className="component3">
      <div className="circle">
@@ -120,6 +123,7 @@ export default function Trainings() {
         </div>
        </div>
      </div>
+      </div>
            <div className="curriculum">
             <h2>What Our Innovative Curriculum Covers?</h2>
             <h3>What You Learn is What You Get!</h3>
@@ -258,7 +262,8 @@ export default function Trainings() {
          </div>
         </div>
        
-       <div className="component4">
+      <div className="bgcolor3">
+         <div className="component4">
         <h2>Placement Support</h2>
         <p>Get assured job oppotunities from top companies with our pre-placement training program</p>
 
@@ -291,11 +296,16 @@ export default function Trainings() {
                    <div className="bgg" id="bgg2"></div>
 
        </div>
+      </div>
+
        <div className="right-side-component">
         <div className="p"></div>
         <img src={four}/>
        </div>
-       <div className="get-started">
+
+
+      <div className="bgcolor4">
+         <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">
           <p>Ready to elevate your digital marketing skills? Get in touch with us today! Fill out them form to access our detailed course
@@ -360,6 +370,7 @@ export default function Trainings() {
                       </form>
                       
                    </div>
+      </div>
 
 
                   <div className="training-footer">
