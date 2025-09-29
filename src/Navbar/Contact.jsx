@@ -12,6 +12,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import bgimg from "./navbar-images/bgimg.png"
 
 import calling from "./contact-images/calling.jpg"
 import locationn from "./contact-images/locationn.jpg"
@@ -25,6 +26,9 @@ export default function Contact() {
             <h1>Contact Us</h1>
             
           </div>  
+           <div className="bgimg">
+                    <img src={bgimg} />
+                  </div>
          <div className="contacting-form">
            <div className="contact-us-form">
             <div className="leftside-form">

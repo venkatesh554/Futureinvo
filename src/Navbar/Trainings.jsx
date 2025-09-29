@@ -36,7 +36,7 @@ import placementthree from "./placement-support-images/placement-three.png"
 import placementfour from "./placement-support-images/placement-four.png";
 import placementfive from "./placement-support-images/placement-five.png";
 import placementsix from "./placement-support-images/placement-six.jpg"
-
+import bgimg from "./navbar-images/bgimg.png"
 
 export default function Trainings() {
   return (
@@ -52,7 +52,11 @@ export default function Trainings() {
               data-driven decisions with predictive analytics and crafting content that resonates with your audience .Step into the future
               of digital marketing , AI-powered campaigns that stand out in today's competitive market.
             </p>
+        </div> 
+        <div className="bgimg">
+          <img src={bgimg} />
         </div>
+        
        <div className="bgcolor1">
          <div className="digital-change">
           <h1>Be the Digital Change Maker@ 6 Months!</h1>
@@ -362,8 +366,8 @@ export default function Trainings() {
                         <label>Occupation <span id="star">*</span>:</label><br></br>
                         <input type="text"></input><br></br>
        
-                        <label>Queries <span id="star">*</span>:</label><br></br>
-                        <input type="text" id="comments-box"></input><br></br>
+                        <label>Message<span id="star">*</span>:</label><br></br>
+                        <input type="text" id="comment-box"></input><br></br>
                         <submit id="onsubmit" >Submit</submit>
        
        

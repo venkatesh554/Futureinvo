@@ -14,6 +14,60 @@
     z-index:1000;
     
 } */
+/* Remove overflow:hidden to allow scrolling */
+.pop-up {
+  position: fixed;       /* fixed to viewport */
+  top: 62px;             /* distance from top */
+  right: 20px;           /* or left: 50% for center */
+  transform: translateX(0); /* adjust if needed */
+  width: 300px;
+  height: 400px;
+  background-color: rgb(66, 121, 225);
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+
+.pop-up h2{
+  position:absolute;
+  top:0px
+}
+label{
+  position:absolute;
+  left:30px;
+  margin-top:10px;
+}
+input{
+  width:200px;
+  height:30px;
+  border-radius:5px;
+  border:1px solid rgb(214, 208, 208);
+  margin-top:15px;
+}
+#nav-form-btn{
+  position:relative;
+  left:50px;
+  top:20px;
+  padding:10px 30px;
+}
+
+ #xmark {
+  font-size: 25px;
+  cursor: pointer;
+  position:relative;
+top:-180px;
+left:220px;
+  opacity:1;
+  
+}
+body.active-modal{
+  overflow-y:hidden;
+  
+}
 
 .Top-3 {
   width: 100vw;

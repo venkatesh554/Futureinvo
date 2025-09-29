@@ -38,6 +38,7 @@ import placementthree from "./placement-support-images/placement-three.png"
 import placementfour from "./placement-support-images/placement-four.png";
 import placementfive from "./placement-support-images/placement-five.png";
 import placementsix from "./placement-support-images/placement-six.jpg"
+import bgimg from "./navbar-images/bgimg.png"
 
 
 export default function Datascience() {
@@ -54,6 +55,9 @@ export default function Datascience() {
                 solve real-world problems with AI-driven precision. step into the future of data science , Where intelligence meets innovation to shape tomorrow's solutions.
             </p>
         </div>
+          <div className="bgimg">
+                  <img src={bgimg} />
+                </div>
        <div className="bgcolor1">
          <div className="digital-change">
           <h1>Be the Digital Change Maker@ 6 Months!</h1>
@@ -374,7 +378,7 @@ export default function Datascience() {
                         <input type="text"></input><br></br>
        
                         <label>Message <span id="star">*</span>:</label><br></br>
-                        <input type="text" id="comments-box"></input><br></br>
+                        <input type="text" id="comment-box"></input><br></br>
                         <submit id="onsubmit" >Submit</submit>
        
        

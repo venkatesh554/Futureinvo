@@ -72,6 +72,25 @@ export default function Faq() {
                      
                     </div> 
         </div>
+         <div className="word-slider-about">
+             <div className="words-slider" id="dup1">
+               <div className="slider">
+               <h2>Digital Marketing *</h2>
+               <h2>Web Development *</h2>
+               <h2>App Development *</h2>
+               <h2>Trainings *</h2>
+               <h2>Application Development *</h2>
+   
+               <h2>Digital Marketing *</h2>
+               <h2>Web Development *</h2>
+               <h2>App Development *</h2>
+               <h2>Trainings *</h2>
+               <h2>Application Development *</h2>
+               
+             </div>
+       
+           </div>
+           </div>
         <div className="our-offering" id="offer">
           <h2 id="h2">Our Offering</h2>
             <h2 id="h22">Pioneering and Advancing Technology Trends</h2>
@@ -110,25 +129,7 @@ export default function Faq() {
                     
                 </div>
           </div>
-           <div className="word-slider-about">
-             <div className="words-slider" id="dup1">
-               <div className="slider">
-               <h2>Digital Marketing *</h2>
-               <h2>Web Development *</h2>
-               <h2>App Development *</h2>
-               <h2>Trainings *</h2>
-               <h2>Application Development *</h2>
-   
-               <h2>Digital Marketing *</h2>
-               <h2>Web Development *</h2>
-               <h2>App Development *</h2>
-               <h2>Trainings *</h2>
-               <h2>Application Development *</h2>
-               
-             </div>
-       
-           </div>
-           </div>
+          
 
 
              <div className="block2" id="dup2-class">

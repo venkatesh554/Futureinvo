@@ -157,17 +157,20 @@ padding-top:40px;
     left:800px;
     top:30px;
 box-shadow:10px 10px 20px rgb(172, 170, 170);
-    padding:50px;
+    padding:40px;
     padding-top:10px;
 }
 .rightside-form-contact p{
-    width:500px;
+    width:400px;
     position:relative;
     top:10px;    animation: none;
 
 }
 
 .rightside-form-contact form input{
+    position: relative;
+    top:20px;
+    left:10px;;
     width:350px;
     height:35px;
     margin-top:20px;
@@ -177,7 +180,8 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
 }
 .rightside-form-contact form label{
     position:relative;
-    top:20px;
+    top:30px;
+    left:10px;
 }
 #comments-box{
     width:350px;
@@ -188,9 +192,11 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
 .subb{
 
      position:relative;
-    top:20px;
+    top:30px;
+    left:10px;
 
     padding:10px 150px; 
     color:white;
     background-color:rgba(5, 99, 160);
+    animation: none;
 }
