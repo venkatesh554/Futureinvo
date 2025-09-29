@@ -235,7 +235,6 @@ export default function Home() {
           </div>
 
             <div className="block9">
-            
             <h2>Connect With Our Experts</h2>
             <form>
               <label>Name:</label>

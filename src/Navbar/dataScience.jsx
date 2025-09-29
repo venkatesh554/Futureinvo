@@ -316,7 +316,8 @@ export default function Datascience() {
        </div>
       
        
-       <div className="get-started">
+      <div className="bgcolor4">
+         <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">
           <p>Ready to elevate your DataScience skills? Get in touch with us today! Fill out them form to access our detailed course
@@ -381,6 +382,7 @@ export default function Datascience() {
                       
                    </div>
 
+      </div>
 
                   <div className="training-footer">
                      <div className="footerr" id="footer-contact">

@@ -1,7 +1,4 @@
-.driving-innovation-parent{
 
-    background-color: aqua;
-}
 
 .digital-change{
     position:relative;
@@ -9,6 +6,7 @@
     left:50px;
     
 }
+
 .digital-change h1{
     position:absolute;
     width:750px;
@@ -17,6 +15,7 @@
     position:absolute;
     top:160px;
     width:650px;
+    line-height:30px;
 }
 .digital-change button{
     position:relative;
@@ -47,9 +46,7 @@
 .component2{
 position:relative;
 top:-120px;
- animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+
 }
 #t-one{
     position:relative;
@@ -77,9 +74,7 @@ top:-120px;
     height:400px;
     position:relative;
     top:-150px;
-    left:-70px; animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+    left:-70px; 
 }
 .circle{
     width:100px;
@@ -92,9 +87,7 @@ top:-120px;
     left:40px;
     top:-30px;
     color:white;
-     animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+   
 }
 #circle1{
     position:relative;
@@ -360,7 +353,7 @@ top:450px;
     padding-top:30px;
     height:700px;
     position:relative;
-    top:-80px;
+    top:-90px;
     background-color: rgb(239, 247, 254);
 
 }
@@ -389,9 +382,7 @@ top:450px;
 .left-side-para ul{
     position:relative;
     top:70px;    line-height: 32px;;
-     animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+    
 
 }
 .down-para{
@@ -424,18 +415,14 @@ top:450px;
    position:relative;
    left:10px;
    background-color:none;
-    animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+   
    
 }
 #training-form form #onsubmit{
 margin-left:-10px;
 padding:10px 160px;
 background-color: rgba(55,84,142);
- animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+
 }
 .submitt{
     position:relative;
@@ -452,7 +439,7 @@ background-color: rgba(55,84,142);
 
 .training-footer{
     position:absolute;
-    top:3400px;
+    top:3500px;
     left:50px;
     
 }
@@ -505,8 +492,8 @@ background-color: rgba(55,84,142);
     left:10px;
 }
 #comments-box{
-    width:300px;
-    height:100px;
+    width:200px;
+    height:50px;
 }
 
 #onsubmit{
