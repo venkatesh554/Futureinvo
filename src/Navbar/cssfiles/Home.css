@@ -880,11 +880,12 @@ display:flex;
   left:620px;
   animation:bloc linear;
     animation-timeline:view();
+    
     animation-range: entry 0% cover 45%;
 }
 .block9 form label{
   color:white;
-  margin-left:10px;
+  margin-left:20px;
   
 }
 .block9 form input{

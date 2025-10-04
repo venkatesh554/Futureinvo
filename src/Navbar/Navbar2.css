@@ -21,7 +21,7 @@
   right: 20px;           /* or left: 50% for center */
   transform: translateX(0); /* adjust if needed */
   width: 300px;
-  height: 400px;
+  height: 550px;
   background-color: rgb(66, 121, 225);
   color: white;
   z-index: 1000;
@@ -32,35 +32,76 @@
 }
 
 
-.pop-up h2{
+.pop-up p{
   position:absolute;
-  top:0px
+  top:30px;
+  width:250px;
+  height:40px;
+  line-height: normal;
 }
-label{
+.pop-up form label{
   position:absolute;
   left:30px;
   margin-top:10px;
+   display:flex;
+
 }
-input{
-  width:200px;
+#label1{
+  position:absolute;
+  top:140px;
+}
+#label2{
+  position:absolute;
+  left:170px;
+  top:140px;
+}
+#label3{
+  position:absolute;
+  left:30px;
+  top:210px;
+}
+#label4{
+  position:absolute;
+  left:170px;
+  top:210px;
+}
+#message-us{
+  width:240px;
+  height:70px;
+
+}
+.pop-up form{
+  width:350px;
+  height:200px;
+  display:flex;
+  flex-wrap:wrap;
+  column-gap: 10px;
+
+}
+.pop-up form input{
+  display:flex;
+  flex-direction: row;
+  width:100px;
   height:30px;
   border-radius:5px;
   border:1px solid rgb(214, 208, 208);
-  margin-top:15px;
+  margin-top:35px;
+    position:relative;
+  top:-30px;
 }
+
 #nav-form-btn{
-  position:relative;
-  left:50px;
-  top:20px;
-  padding:10px 30px;
+ padding:10px 95px;
+ position:relative;
+ top:-10px;
 }
 
  #xmark {
   font-size: 25px;
   cursor: pointer;
   position:relative;
-top:-180px;
-left:220px;
+top:-250px;
+left:250px;
   opacity:1;
   
 }

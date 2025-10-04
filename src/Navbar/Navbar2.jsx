@@ -108,16 +108,18 @@ export default function Navbar2() {
                      
                 <div className="pop-up">
           <FontAwesomeIcon icon={faXmark} id="xmark" onClick={toggleModal} />
-          <h2>Welcome!</h2>
+          <p>For inquiries and assistance , please fill out the contact form below. our team is here to help , and we look forward to hearing from you</p>
           <form>
-            <label>Name*:</label><br></br>
-            <input type="text" placeholder="enter your name"></input><br></br>
-            <label>E-Mail*:</label><br></br>
-            <input type="email" placeholder="enter your mail"></input><br></br>
-            <label>Mobile No*:</label><br></br>
-            <input type="number" placeholder="enter phone number"></input><br></br>
-            <label>City*:</label><br></br>
-            <input type="text" placeholder="enter your city"></input><br></br>
+            <label id="label1">Name*:</label><br></br>
+            <input type="text" ></input><br></br>
+            <label id="label2">E-Mail*:</label><br></br>
+            <input type="email"></input><br></br>
+            <label id="label3">Mobile No*:</label><br></br>
+            <input type="number" ></input><br></br>
+            <label id="label4">City*:</label><br></br>
+            <input type="text" ></input><br></br>
+
+            <input type="text" placeholder='Message Us' id="message-us"></input>
             <button id="nav-form-btn">Submit</button>
 
           </form>

@@ -58,11 +58,11 @@ export default function Faq() {
                     <div className="content-rightt1">
                        <h2 id="h21">ABOUT Futureinvo IT Solutions</h2>
                        <h2 id="h22">Achieving Business Success<br></br>Through Ultramodern <span>Technology</span></h2>
-                       <p id="ss">Futureinvo IT Solutions is Dedicated to transforming innovative ideas into impactful<br></br>
-                          technological solutions. Our team of experts combines industry knowledge with<br></br>
-                        advanced technology to help business navigate the complexities of the digital<br></br>
-                        landscape. We focus on understanding our client's unique challenges and delivering <br></br>
-                        customized stratagies that drive measurable success<br></br>
+                       <p id="ss">Futureinvo IT Solutions is Dedicated to transforming innovative ideas into impactful
+                          technological solutions. Our team of experts combines industry knowledge with
+                        advanced technology to help business navigate the complexities of the digital
+                        landscape. We focus on understanding our client's unique challenges and delivering 
+                        customized stratagies that drive measurable success
                         </p>
                         <div className="right-subs">
                                   
