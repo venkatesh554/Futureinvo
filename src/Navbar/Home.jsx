@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from "react";
 import "./cssfiles/Home.css"
 import img1 from "../firstpage-images/img1.png"
 import img2 from "../firstpage-images/img2.png"
@@ -19,7 +19,7 @@ import friends from "../saervice-images/friends.jpg";
 import man from "../saervice-images/man.png";
 import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -36,8 +36,31 @@ import time from "./why-choose/time.png";
 import calculator from "./why-choose/calculator.png";
 import notes from "./why-choose/notes.png"
 
-
 export default function Home() {
+       const testimonialRef = useRef(null);
+
+       const handleScrollRight = () => {
+         if (testimonialRef.current) {
+           const boxWidth = 410;  // 400px width + 10px gap (adjust if padding/shift affects it)
+           testimonialRef.current.scrollBy({
+             left: boxWidth,
+             behavior: "smooth",
+           });
+         }
+       };
+
+       // You'll also want a handleScrollLeft for bidirectional scrolling
+       const handleScrollLeft = () => {
+         if (testimonialRef.current) {
+           const boxWidth = 410;
+           testimonialRef.current.scrollBy({
+             left: -boxWidth,
+             behavior: "smooth",
+           });
+         }
+       };
+       
+  
   return (
     <div className="parent">
       <div className="child">
@@ -216,7 +239,7 @@ export default function Home() {
 
 
 
-          <div className="block6">
+          {/* <div className="block6">
             <div className="bg1">
                 <h3 id="testinomial">Testimonials</h3>
                 <h2>What's Clients Say</h2>
@@ -232,7 +255,102 @@ export default function Home() {
                 <p id="founder">CEO, GreenLeaf Enterprises</p>
 
             </div>
-          </div>
+             <div className="bg1">
+               <h3 id="testinomial">Testimonials</h3>
+                <h2>What's Clients Say</h2>
+                <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+                <h3 id="name">Sneha Reddy</h3>
+                <p id="founder">CEO, GreenLeaf Enterprises</p>
+
+            </div>
+             <div className="bg1">
+               <h3 id="testinomial">Testimonials</h3>
+                <h2>What's Clients Say</h2>
+                <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+                <h3 id="name">Sneha Reddy</h3>
+                <p id="founder">CEO, GreenLeaf Enterprises</p>
+
+            </div>
+          </div> */}
+
+         <div className="block6" ref={testimonialRef} > 
+
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Future Invo IT Solutions Transformed our digital presence. their team understood our needs and delivered beyond expectations. Truely professional and reliable.</p>
+    <h3 id="name">Rajesh Kumar</h3>
+    <p id="founder">Founder, TechWave Solutions</p>
+  </div>
+  
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+
+   <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+  <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+  <div className="bg1">
+    <h2>What's Clients Say</h2>
+    <p>Working with Future Invo was a game-changer.their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <h3 id="name">Sneha Reddy</h3>
+    <p id="founder">CEO, GreenLeaf Enterprises</p>
+  </div>
+
+
+   
+
+
+</div>
+       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '498%' ,padding:"15px 20px",borderRadius:"50%"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
+       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '498%',padding:"15px 20px",borderRadius:"50%" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+       
+
 
             <div className="block9">
             <h2>Talk To Our Experts</h2>
