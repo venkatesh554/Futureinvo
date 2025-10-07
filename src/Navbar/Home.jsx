@@ -66,7 +66,7 @@ export default function Home() {
       <div className="child">
             <p id="p1"><button id="b1"></button>BEST IT SOLUTION PROVIDER</p>
            <h1>Futureinvo Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
-           <p id="p2">At Futureinoy Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
+           <p id="p2">At Futureinvo Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
               Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
             <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
@@ -336,19 +336,21 @@ export default function Home() {
     <p id="founder">CEO, GreenLeaf Enterprises</p>
   </div>
   <div className="bg1">
+    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer.their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
     <h3 id="name">Sneha Reddy</h3>
     <p id="founder">CEO, GreenLeaf Enterprises</p>
   </div>
+ 
 
 
    
 
 
 </div>
-       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '498%' ,padding:"15px 20px",borderRadius:"50%"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
-       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '498%',padding:"15px 20px",borderRadius:"50%" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '402%' ,padding:"15px 20px",borderRadius:"50%"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
+       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '402%',padding:"15px 20px",borderRadius:"50%" }}><FontAwesomeIcon icon={faArrowRight} /></button>
        
 
 
@@ -367,7 +369,7 @@ export default function Home() {
              
           </div>
           <div className="block7">
-            <h2 id="keep">Keep Ypur FAQ'S</h2>
+            <h2 id="keep">Keep Your FAQ</h2>
             <h2 id="business"> Keep Your Business Safe & <br></br>Ensure High Avaliability</h2><br></br>
             <div className="paras">
               <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>

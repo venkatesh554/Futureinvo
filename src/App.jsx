@@ -8,7 +8,8 @@ import Trainings from "./Navbar/Trainings";
 import Contact from "./Navbar/Contact"
 import Navbar2 from "./Navbar/Navbar2"
 import Faq from "./Navbar/Faq"
-import Datascience from "./Navbar/Datascience"
+import Datascience from "./Navbar/Datascience";
+import ScrollTop from "./Navbar/ScrolledTop"
 import "./App.css"
 function App() { 
   return (
@@ -16,6 +17,7 @@ function App() {
    <div className="app">
     <Navbar/>
     <Navbar2/>
+    <ScrollTop />
      <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/About" element={<About/>}/>
