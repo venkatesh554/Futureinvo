@@ -54,7 +54,7 @@ export default function Home() {
 
       <div className="right-content">
          <img src={img2} id="img2"/>
-        <img src={img1}/>
+        <img src={img1} id="img2-1"/>
       </div>
 
       <div className="words-slider">
@@ -170,7 +170,7 @@ export default function Home() {
                   </div> 
                    <div className="box-23">
                      <h3>For More <br></br>Services</h3>
-                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
+                      <button>Click Here <FontAwesomeIcon icon={faArrowRight} /></button>
                   </div> 
                     
                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
 
            <div className="block8">
             <h2>Why Choose Us?</h2>
-            <h2>Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
+            <h2 id="block8-h2-p">Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
 
             <div className="cards2">
               <div className="card1">
@@ -235,7 +235,7 @@ export default function Home() {
           </div>
 
             <div className="block9">
-            <h2>Connect With Our Experts</h2>
+            <h2>Talk To Our Experts</h2>
             <form>
               <label>Name:</label>
               <input type="text"></input>
@@ -261,6 +261,7 @@ export default function Home() {
             <p>What Technologies Do You Use For Web Development? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
             <p className="eight">How Is Future Invo Solutions Different From Other Coaching Centers? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
             <p className="eight">Are There Any Internship Opportunities Avaliable During The Digital Marketing Course <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
+             <p className="eight">Does Future Invo Provides services remotely, on-site,or both? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
             </div>
           </div>
 

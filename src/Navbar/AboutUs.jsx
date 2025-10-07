@@ -50,7 +50,7 @@ export default function AboutUs() {
           <div className="chooseus">
              <div className="block8" id="dup3">
             <h2 className="dup3-h2">Why Choose Us?</h2>
-            <h2 className="dup3-h2">Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
+            <h2 className="dup3-h2" id="block8-h2-p">Your trusted partner for cutting -edge IT Solutions and digital transformation</h2>
 
             <div className="cards2" id="faq-cards">
               <div className="card1">

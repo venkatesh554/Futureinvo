@@ -44,7 +44,6 @@ import bgimg from "./navbar-images/bgimg.png"
 export default function Datascience() {
   return (
     <div className="tt">
-
    
     <div className="driving-innovation-parent">
         <div className="driving-innovation-child">
@@ -73,7 +72,6 @@ export default function Datascience() {
        <div className="component2">
            <img src={one} id="t-one"/>
              <img src={two} id="t-two"/>
-
        </div>
        </div>
 
@@ -82,9 +80,9 @@ export default function Datascience() {
      <div className="circle" >
        <h2 id="circle1">06 Months Course</h2>
      </div>
-        <h2 id="digi">Digital</h2>    
+        <h2 id="digi">Data</h2>    
         <img src={three} id="tt-three" />
-       <h2 id="mark">Marketer</h2> 
+       <h2 id="mark">Analyst</h2> 
        <div className="bgg"></div>
            <h2 id="course-high" className="course-high">Course Highlights</h2>
        <div className="right-boxx" id="c-3">

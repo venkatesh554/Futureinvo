@@ -6,7 +6,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import formlogo from "./navbar-images/icon.png"
 
 import "./Navbar2.css"
 export default function Navbar2() {
@@ -108,18 +108,19 @@ export default function Navbar2() {
                      
                 <div className="pop-up">
           <FontAwesomeIcon icon={faXmark} id="xmark" onClick={toggleModal} />
+          <img src={formlogo}/>
           <p>For inquiries and assistance , please fill out the contact form below. our team is here to help , and we look forward to hearing from you</p>
           <form>
-            <label id="label1">Name*:</label><br></br>
+            <label id="label1">Name <span> *</span>:</label><br></br>
             <input type="text" ></input><br></br>
-            <label id="label2">E-Mail*:</label><br></br>
+            <label id="label2">E-Mail<span>*</span>:</label><br></br>
             <input type="email"></input><br></br>
-            <label id="label3">Mobile No*:</label><br></br>
+            <label id="label3">Mobile No<span>*</span>:</label><br></br>
             <input type="number" ></input><br></br>
-            <label id="label4">City*:</label><br></br>
+            <label id="label4">City<span>*</span>:</label><br></br>
             <input type="text" ></input><br></br>
-
-            <input type="text" placeholder='Message Us' id="message-us"></input>
+             <label id="label5">Message<span>*</span></label><br></br>
+            <input type="text" id="message-us"></input>
             <button id="nav-form-btn">Submit</button>
 
           </form>

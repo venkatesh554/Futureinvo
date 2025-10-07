@@ -25,10 +25,18 @@
    top:140px;
    color:white;
 }
+#parass p{
+    width:1000px;
+    font-size:20px;
+}
+#parass #ic{
+    margin-left:380px;
+}
 #sevenn{
     background-image: none;
     position:relative;
     top:500px;
+    width:1400px;
 }
 
 .chooseus{
