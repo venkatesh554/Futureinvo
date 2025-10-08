@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef,useState } from "react";
 import "./cssfiles/Home.css"
 import img1 from "../firstpage-images/img1.png"
 import img2 from "../firstpage-images/img2.png"
@@ -41,7 +41,7 @@ export default function Home() {
 
        const handleScrollRight = () => {
          if (testimonialRef.current) {
-           const boxWidth = 410;  // 400px width + 10px gap (adjust if padding/shift affects it)
+           const boxWidth = 410;  
            testimonialRef.current.scrollBy({
              left: boxWidth,
              behavior: "smooth",
@@ -49,7 +49,6 @@ export default function Home() {
          }
        };
 
-       // You'll also want a handleScrollLeft for bidirectional scrolling
        const handleScrollLeft = () => {
          if (testimonialRef.current) {
            const boxWidth = 410;
@@ -59,7 +58,58 @@ export default function Home() {
            });
          }
        };
+
+
+
+
+ const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); 
+
+    localStorage.setItem("formData", JSON.stringify(formData));
+
+    alert("Form data saved to localStorage!");
+    setFormData({ name: "", phone: "", email: "" }); 
+  };
        
+
+
+
+
+
+  const faqData = [
+    { question: "What type of IT consulting services Do You Offer?", answer: "We provide strategic IT consulting, including technology assessments, system integration, and IT strategy development,tailored to meet your business needs" },
+    { question: "What is Your Approach To Web Design?", answer: "Our approach focuses on creating user-friendly, visually appealing designs that reflect your brand identity while ensuring optimal user experience and responsiveness across devices." },
+    { question: "Do You Develop Apps For Both Android And iOS?", answer: "Yes, we create cross-platform mobile applications tailored for both iOS and Android, ensuring a seamless experience for users on any device." },
+    { question: "What Training Programs Does Future Invo Sol Offer?", answer: "We offer specialized training in digital marketing, including our Al Enhanced Digital Marketing Course, alongside training modules in web development, ERP systems, and IT product development." },
+    { question: "What Digital Marketing Service Do You Provide?", answer: "Our digital marketing services include SEO, social media marketing, content marketing, and PPC advertising, all designed to enhance your online presence and drive traffic to your business. 40 mini" },
+    { question: "How can I Enroll In A Training Program At Future Invo Solutions?", answer: "You can sign up through our website or contact our support team for assistance. We'll guide you through the process and answer any questions about course details or enrollment steps." },
+    { question: "What Technologies Do You Use For Web Development?", answer: "We utilize a range of technologies, including HTML, CSS, JavaScript, and popular frameworks like React and Angular, to build robust, scalable, and secure websites." },
+    { question: "How Is Future Invo Solutions Different From Other Coaching Centers?", answer: "At InfoZ IT Solutions, you're not just learning theory-you're training with a digital marketing agency actively working in the industry. Our courses are led by industry experts and focus on hands-on, real-world experience, including live projects and advanced Al-driven tools. Unlike other centers, we offer internships within our digital marketing course, allowing students to gain practical experience that enhances both their skills and employability in today's competitive job market." },
+    { question: "Are There Any Internship Opportunities Available During The Digital Marketing Course?", answer: "Yes, students begin 3 Months internships from the fourth month of the program, allowing them to gain practical experience and apply their learning in real-world scenarios." },
+    { question: "Does Future Invo Provide services remotely, on-site, or both?", answer: "We provide services both remotely and on-site, based on client needs and project requirements." }
+  ];
+  
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+
+
+
   
   return (
     <div className="parent">
@@ -276,71 +326,62 @@ export default function Home() {
          <div className="block6" ref={testimonialRef} > 
 
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Future Invo IT Solutions Transformed our digital presence. their team understood our needs and delivered beyond expectations. Truely professional and reliable.</p>
+    <p>"Future Invo IT Solutions Transformed our digital presence. their team understood our needs and delivered beyond expectations. Truely professional and reliable".</p>
     <h3 id="name">Rajesh Kumar</h3>
     <p id="founder">Founder, TechWave Solutions</p>
   </div>
   
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
+    <p>"Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly".</p>
     <h3 id="name">Sneha Reddy</h3>
     <p id="founder">CEO, GreenLeaf Enterprises</p>
   </div>
 
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"From website development to digital marketing,Future Invo provided to end-to-end solutions.Their team is knowledgeable, friendly, and highly responsive".</p>
+    <h3 id="name">Priya menon</h3>
+    <p id="founder">Owner,Bloom Botique</p>
   </div>
 
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"The team at Future Invo exceeded our expectations. Their strategy consulting and IT solutions helped us streamline our processes efficiently".</p>
+    <h3 id="name">Vikram Singh</h3>
+    <p id="founder">Co-Founder, Quantum Tech Labs</p>
   </div>
 
    <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"Future Invo's approach is both innovative and practical. Their creative solutions have given our brand a modern and professional look".</p>
+    <h3 id="name">Anjali Kapoor</h3>
+    <p id="founder">Founder, StyleHive</p>
   </div>
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"We were struggling with outdated systems, and Future Invo IT Solutions provided modern and scalable solutions that improved our workflow drastically".</p>
+    <h3 id="name">Rohan Metha</h3>
+    <p id="founder">CEO, UrbanEdge Reality</p>
   </div>
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"exceptional service and results ! Future Invo's Team is always avaliable to support and guide us.Highly recommended for small and growing business".</p>
+    <h3 id="name">Divya lyer</h3>
+    <p id="founder">Owner HealthBites Cafe</p>
   </div>
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"Future Invo's expertise in technology modernization helped our firm adopt the latest tools seamlessly. Their Professionalism is unmatched ".</p>
+    <h3 id="name">Karan Varma</h3>
+    <p id="founder">Managing Partner , Apex Consultancies</p>
   </div>
   <div className="bg1">
-    <h3 id="testinomial">Testimonials</h3>
     <h2>What's Clients Say</h2>
-    <p>Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly.</p>
-    <h3 id="name">Sneha Reddy</h3>
-    <p id="founder">CEO, GreenLeaf Enterprises</p>
+    <p>"Thanks to Future Invo, our online presence is stronger than ever.Their team delivered creative solutions and tailored to our educational platform ".</p>
+    <h3 id="name">Shreya Nair</h3>
+    <p id="founder">Founder , EduSmart Academy</p>
   </div>
  
 
@@ -349,21 +390,21 @@ export default function Home() {
 
 
 </div>
-       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '402%' ,padding:"15px 20px",borderRadius:"50%"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
-       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '402%',padding:"15px 20px",borderRadius:"50%" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
+       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '403%',padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff" }}><FontAwesomeIcon icon={faArrowRight} /></button>
        
 
 
             <div className="block9">
             <h2>Talk To Our Experts</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
               <label>Name:</label>
-              <input type="text"></input>
+              <input type="text" name="name" value={formData.name} onChange={handleChange}></input>
               <label>Phone:</label>
-              <input type="number"></input>
+              <input type="number" name="phone" value={formData.phone} onChange={handleChange}></input>
               <label>Email:</label>
-              <input type="email" ></input>
-              <submit id="submitt">Submit</submit>
+              <input type="email" name="email" value={formData.email} onChange={handleChange}></input>
+              <button id="submitt">Submit</button>
              </form>
             <img src={man}/>
              
@@ -372,7 +413,10 @@ export default function Home() {
             <h2 id="keep">Keep Your FAQ</h2>
             <h2 id="business"> Keep Your Business Safe & <br></br>Ensure High Avaliability</h2><br></br>
             <div className="paras">
-              <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
+
+
+{/* 
+             <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>              
             <p>What is Your Approach To Web Design <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
             <p>Do You Develop Apps For Both Android And  ios <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
             <p>What Training Programs Does Future Invo Sol Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
@@ -381,7 +425,19 @@ export default function Home() {
             <p>What Technologies Do You Use For Web Development? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
             <p className="eight">How Is Future Invo Solutions Different From Other Coaching Centers? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
             <p className="eight">Are There Any Internship Opportunities Avaliable During The Digital Marketing Course <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
-             <p className="eight">Does Future Invo Provides services remotely, on-site,or both? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
+             <p className="eight">Does Future Invo Provides services remotely, on-site,or both? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p> */}
+
+              {faqData.map((item, index) => (
+        <div key={index} className="faq-line">
+          <p onClick={() => toggleFAQ(index)}>
+            {item.question} <FontAwesomeIcon icon={faAnglesDown} id="ic" />
+          </p>
+          {openIndex === index && (
+            <p className="faq-answer">{item.answer}</p>
+          )}
+        </div>
+              ))}
+              
             </div>
           </div>
 

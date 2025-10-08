@@ -561,12 +561,12 @@ transition: all 0.5s ease-in-out;
 
 
 .block6 {
-width:100%;
-height:50vh;
+width:95%;
+height:55vh;
 position:absolute;
-top:360%;
-left:0%;
-background-color:rgb(54, 127, 192);
+top:355%;
+left:3%;
+/* background-color:rgb(54, 127, 192); */
 display:flex;
 gap:20px;
 overflow-x: auto;
@@ -579,12 +579,11 @@ overflow-x: auto;
   position: absolute;
   top: 0;
   left: 0;
-  width: 0%; /* start from left with 0 width */
+  width: 0%; 
   height: 100%;
   background-color: rgba(5, 98, 160, 0.8);
   z-index: 0;
   transition: width 0.6s ease;
-  border-radius: 8px;
 
 }
 
@@ -600,19 +599,18 @@ overflow-x: auto;
 
 .block6 div * {
   position: relative;
-  z-index: 1; /* ensure text stays above overlay */
+  z-index: 1; 
 }
 
 .block6 .bg1{
   width:500px;
-  height:330px;
+  height:270px;
   position:relative;
   padding:5px 20px;
   left:50px;
-   top:-60px;
+   top:20px;
   background-color: white;
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-border:1px solid rgb(221, 217, 217);
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);border:1px solid rgb(221, 217, 217);
 }
 
 #testinomial{
@@ -654,7 +652,7 @@ border:1px solid rgb(221, 217, 217);
 
 #testmonial-btn{
   position:absolute;
-  top:1500px;
+  top:1550px;
 }
 
 /* 
@@ -762,6 +760,17 @@ border:1px solid rgb(221, 217, 217);
   
 
 }
+.faq-answer {
+ 
+  color: black !important;
+  background-color: #007BFF;
+  position:relative;
+  top:55px;
+  height: auto !important;
+  font-size:15px !important;
+  padding-bottom: 30px !important;
+}
+
 #keep{
   color:rgb(54, 127, 192);
   font-size:35px;
@@ -783,20 +792,20 @@ border:1px solid rgb(221, 217, 217);
 .paras{
 display:flex;
   flex-wrap:wrap;
-
-  column-gap:100px;
+  column-gap:80px;
   row-gap: 30px;;
-  margin-left:50px;
+  margin-left:60px;
   position:relative;
   top:-70px;
   
 }
+
 .block7 p{
   white-space: normal;  
-  padding:25px 20px;
-  width:600px;
-  height:20px;
-  font-size:17px;
+  padding:22px 20px;
+  width:630px;
+  height:26px;
+  font-size:16px;
   background-color: rgb(239, 247, 254);
   color:  rgb(54, 127, 192);
   animation:bloc linear;
@@ -807,7 +816,13 @@ display:flex;
 #ic{
   position:absolute;
   top:15px;
-  left:600px;
+  left:630px;
+  font-size:20px;
+}
+.block7 .faq-item summary {
+  display: block;
+  overflow: hidden;
+  color:black;
 }
 
 .block8{
@@ -835,9 +850,9 @@ display:flex;
 #block8-h2-p{
    color: black;
   font-weight: 500;
-  font-size: 1.4rem;       /* similar to <p> text size */
-  line-height: 1.5;      /* adjust for paragraph spacing */
-  margin: 0;             /* remove extra h2 spacing */
+  font-size: 1.4rem;
+  line-height: 1.5;      
+  margin: 0;            
   font-family: inherit;
 }
 #userr{
@@ -1071,7 +1086,11 @@ display:flex;
   
 }
 .block9 h2{
-  width:55%;
+  width:40%;
+  position:relative;
+  left:0px;
+  top:20px;
+  font-size: 35px;;
   text-align: center;
   color:white;
   animation:bloc linear;
@@ -1080,8 +1099,11 @@ display:flex;
 }
 
 .block9 form{
-  position:relative;
-  left:620px;
+  position:absolute;
+  left:450px;
+  top:120px;
+  display:flex;
+  flex-direction: row;
   animation:bloc linear;
     animation-timeline:view();
     
@@ -1089,33 +1111,35 @@ display:flex;
 }
 .block9 form label{
   color:white;
-  margin-left:400px;
+  margin-left:0px;
 position:relative;
-top:10px;  
+left:-20px;
+top:-10px;  
 }
 .block9 form input{
-  width:200px;
   background-color: transparent;
   border:1px solid white;
-  height:30px;
-  margin-left:480px;
-  display:flex;
-  flex-direction: column;
+  height:35px;
+  left:-80px;
+  border:1px solid white;
   border-radius:4px;position: relative;
   margin-top:-15px;
+  font-size:1rem;
+  padding-left:60px;
 }
 #submitt{
   position:relative;
-  top:30px;
-  right:-480px;
-  background-color: #f9f9f9;
-  padding:10px 75px;
+  top:-17px;
+  right:40px;
+  background-color: #ffffff;
+  padding:8px 65px;
   color:rgb(54, 127, 192);
-  border-radius: 4px;;
+  border-radius: 4px;
+  font-weight: 600;
 }
 .block9 img{
   position: relative;
-  top:-270px;
+  top:-145px;
   width:450px;
   height:320px;
   animation:bloc linear;
