@@ -1769,6 +1769,7 @@ width:100%;
     margin-right: 10px; /* Space from text */
     display: inline-block;
     vertical-align: middle;
+    border-radius: 30px !important;
   }
 
   .child #p2 {
@@ -1807,6 +1808,7 @@ width:100%;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: block;
+    margin-left:110px !important;
     left: 50%; /* For precise centering */
     transform: translateX(-50%); /* Offset for 50% left */
     margin-top:-20px !important;
@@ -1852,100 +1854,77 @@ width:100%;
   }
 
 
-  .right-content {
-    position: absolute !important;
-    top: 60vh !important; /* Pin below .child text (~60% viewport height; adjust to 50vh/70vh based on text size) */
-    left: 0 !important;
-    width: 100% !important;
-    max-width: 95%; /* Slight edge margin */
-    height: auto !important; /* Adapt to images */
-    margin: 0 auto; /* Horizontal center */
-    padding: 20px 15px; /* Top padding for gap from text, side padding */
-    animation: slideInRight 0.8s ease-out forwards !important; /* Optimized slide-in from right */
-    z-index: 1; /* Below text if overlap */
-    display: flex !important; /* Flex for stacking */
-    flex-direction: column !important; /* Vertical stack */
-    align-items: center; /* Center images horizontally */
-    gap: 15px; /* Space between the two images */
-  }
-
-  @keyframes slideInRight {
-    from {
-      opacity: 0;
-      transform: translateX(100px); /* Shorter slide distance for mobile */
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  /* General Images in .right-content: Responsive, no fixed positions */
-  .right-content img {
-    width: 100% !important; /* Full width of container */
-    max-width: 280px !important; /* Cap for mobile screens (e.g., 375px device) */
-    height: auto !important; /* Maintain aspect ratio, no fixed height */
-    position:absolute !important; /* Relative for flex stacking */
-    left: 0 !important; /* Remove fixed left offset */
-    top: 0 !important; /* Remove negative top offsets */
-    border-radius: 8px; /* Soft corners for modern look */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    object-fit: cover; /* Crop if needed, prevent distortion/stretching */
-  }
-
-  /* Specific #img2 (first image): Responsive overrides */
-  #img2 {
-    width: 100% !important;
-    max-width: 260px !important; /* Slightly smaller than general for stacking balance */
-    height: auto !important;
-    position: absolute !important;
-    left: 0 !important;
-    top: 0 !important;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-  }
-
-  /* Specific #img2-1 (second image): Responsive overrides */
-  #img2-1 {
-    width: 100% !important;
-    max-width: 280px !important; /* Matches general cap */
-    height: auto !important;
-    position: relative !important;
-    left: 0 !important;
-    top: 0 !important;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-  }
-
-  /* For very small screens (<400px): Further compress sizes and spacing */
-  @media (max-width: 399px) {
-    .right-content {
-      top: 55vh !important; /* Adjust up for shorter text on tiny screens */
-      padding: 15px 10px; /* Less padding */
-      gap: 10px; /* Tighter gap between images */
-    }
-
-    .right-content img,
-    #img2,
-    #img2-1 {
-      max-width: 240px !important; /* Smaller cap */
-    }
-
-    #img2 {
-      max-width: 220px !important;
-    }
-  }
+  /*  */
 
 
 
   
 }
 
+@media (max-width: 575.99px) {
+  .right-content {
+    position: static !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    animation: slideInBottom 1s ease-out forwards !important;
+    margin: -50px 0 !important;
+  }
 
+  .right-content img {
+    width: 100% !important;
+    max-width: 450px !important; /* Increased max-width for larger images */
+    height: auto !important; /* Maintains aspect ratio; scales taller with wider width */
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 15px !important;
+    border-radius: 8px !important;
+  }
 
+  #img2 {
+    width: 100% !important;
+    max-width: 420px !important; /* Increased max-width for larger first image */
+    height: auto !important; /* Scales taller proportionally */
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: -305px !important;
+  }
 
+  #img2-1 {
+    width: 100% !important;
+    max-width: 450px !important; /* Increased max-width for larger second image */
+    height: auto !important; /* Scales taller proportionally */
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  @keyframes slideInBottom {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+}
 
 
 
