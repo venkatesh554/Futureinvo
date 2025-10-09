@@ -57,7 +57,7 @@ export default function Datascience() {
           <div className="bgimg">
                   <img src={bgimg} />
                 </div>
-       <div className="bgcolor1">
+       <div className="bgcolor1-ds">
          <div className="digital-change">
           <h1>Be the Digital Change Maker@ 6 Months!</h1>
           <p>Ready to conquer the world of Data Science! our best Data Science course in Hyderabad is a comprehensive journey designed to equip you with
@@ -75,17 +75,17 @@ export default function Datascience() {
        </div>
        </div>
 
-    <div className="bgcolor2">
+    <div className="bgcolor2-ds">
        <div className="component3" >
      <div className="circle" >
        <h2 id="circle1">06 Months Course</h2>
      </div>
         <h2 id="digi">Data</h2>    
-        <img src={three} id="tt-three" />
+        <img src={three} id="img-ds" />
        <h2 id="mark">Analyst</h2> 
        <div className="bgg"></div>
-           <h2 id="course-high" className="course-high">Course Highlights</h2>
-       <div className="right-boxx" id="c-3">
+           <h2 id="course-high" >Course Highlights</h2>
+       <div className="right-boxx" id="c-3" >
        
         <div className="squre1">
           <img src={first}/>
@@ -127,7 +127,8 @@ export default function Datascience() {
      </div>
       </div>           
       
-      <div className="curriculum">
+     <div className="currbg">
+       <div className="curriculum">
             <h2>What Our Innovative Curriculum Covers?</h2>
             <h3>What You Learn is What You Get!</h3>
            </div>
@@ -276,8 +277,9 @@ export default function Datascience() {
           </p>
          </div>
         </div>
+     </div>
        
-      <div className="bgcolor3"> <div className="component4">
+      <div className="bgcolor3-ds"> <div className="component4">
         <h2>Placement Support</h2>
         <p>Get assured job oppotunities from top companies with our pre-placement training program</p>
 
@@ -318,7 +320,7 @@ export default function Datascience() {
        </div>
       
        
-      <div className="bgcolor4">
+      <div className="bgcolor4-ds">
          <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">
@@ -377,7 +379,7 @@ export default function Datascience() {
        
                         <label>Message <span id="star">*</span>:</label><br></br>
                         <input type="text" id="comment-box"></input><br></br>
-                        <submit id="onsubmit" >Submit</submit>
+                        <button id="onsubmit" >Submit</button>
        
        
                       </form>

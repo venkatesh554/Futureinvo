@@ -66,7 +66,7 @@ export default function Trainings() {
             settings, ensuring you are job-ready. Whether you are a student or a working professional, this program provides the ultimate blend of theoretical mastery and 
             practical experience for a successful career 
           </p>
-          <button>Know More</button>
+          <button id="digital-change-btn">Know More</button>
         </div>
          <div className="component2">
            <img src={one} id="t-one"/>
@@ -83,7 +83,7 @@ export default function Trainings() {
        <h2 id="circle1">06 Months Course</h2>
      </div>
         <h2 id="digi">Digital</h2>    
-        <img src={three} />
+        <img src={three} id="component3-img1" />
        <h2 id="mark">Marketer</h2> 
        <div className="bgg"></div>
            <h2 id="course-high">Course Highlights</h2>
@@ -352,26 +352,27 @@ export default function Trainings() {
                      
                       <form>
                        <label>Your Name <span id="star">*</span>:</label><br></br>
-                       <input type="text"></input><br></br>
+                       <input type="text" placeholder="Name"></input><br></br>
        
                        <label>Email Address <span id="star">*</span>:</label><br></br>
-                       <input type="email"></input><br></br>
+                       <input type="email" placeholder="Mail"></input><br></br>
        
                         <label>Mobile Number <span id="star">*</span>:</label><br></br>
-                        <input type="number"></input><br></br>
+                        <input type="number" placeholder="Mobile Number"></input><br></br>
        
                         <label>City <span id="star">*</span >:</label><br></br>
-                        <input type="text"></input><br></br>
+                        <input type="text" placeholder="City"></input><br></br>
        
                         <label>Occupation <span id="star">*</span>:</label><br></br>
-                        <input type="text"></input><br></br>
+                        <input type="text" placeholder="Occupation"></input><br></br>
        
                         <label>Message<span id="star">*</span>:</label><br></br>
-                        <input type="text" id="comment-box"></input><br></br>
-                        <submit id="onsubmit" >Submit</submit>
-       
+                        <input type="text" id="comment-box" placeholder="Message"></input><br></br>
+                      
+        <button id="onsubmit" >Submit</button>
        
                       </form>
+                       
                       
                    </div>
       </div>

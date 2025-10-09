@@ -15,7 +15,7 @@ function App() {
   return (
     <>
    <div className="app">
-    <Navbar/>
+    {/* <Navbar/> */}
     <Navbar2/>
     <ScrollTop />
      <Routes>
