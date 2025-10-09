@@ -678,7 +678,7 @@ export default function Navbar2() {
           {modal && (
             <div className="pop-up">
               <FontAwesomeIcon icon={faXmark} id="xmark" onClick={toggleModal} />
-              <img src={formlogo} alt="form logo" />
+              <img src={formlogo} id="form-logo" />
               
               {/* Mobile Navigation Menu */}
               <div className="mobile-nav-menu">
@@ -746,19 +746,25 @@ export default function Navbar2() {
                 For inquiries and assistance, please fill out the contact form below. Our team
                 is here to help and we look forward to hearing from you
               </p>
-              <form>
-                <label id="label1">Name <span>*</span>:</label><br />
-                <input type="text" /><br />
-                <label id="label2">E-Mail <span>*</span>:</label><br />
-                <input type="email" /><br />
-                <label id="label3">Mobile No <span>*</span>:</label><br />
-                <input type="number" /><br />
-                <label id="label4">City <span>*</span>:</label><br />
-                <input type="text" /><br />
-                <label id="label5">Message <span>*</span></label><br />
-                <input type="text" id="message-us" />
-                <button id="nav-form-btn">Submit</button>
-              </form>
+             <form>
+  <div>
+    <label id="label1">Name <span>*</span>:</label>
+    <input type="text" />
+    <label id="label2">E-Mail <span>*</span>:</label>
+    <input type="email" />
+  </div>
+  <div>
+    <label id="label3">Mobile No <span>*</span>:</label>
+    <input type="number" />
+    <label id="label4">City <span>*</span>:</label>
+    <input type="text" />
+  </div>
+  {/* Message */}
+  <label id="label5">Message <span>*</span></label>
+  <input type="text" id="message-us" />
+  <button id="nav-form-btn">Submit</button>
+</form>
+
             </div>
           )}
         </ul>

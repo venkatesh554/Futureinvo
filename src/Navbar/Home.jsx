@@ -110,6 +110,12 @@ export default function Home() {
 
 
 
+
+
+
+  
+
+
   
   return (
     <div className="parent">
@@ -390,8 +396,10 @@ export default function Home() {
 
 
 </div>
-       <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
+      <div className="cards-arrows">
+         <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
        <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '403%',padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+      </div>
        
 
 
@@ -409,6 +417,8 @@ export default function Home() {
             <img src={man}/>
              
           </div>
+
+
           <div className="block7">
             <h2 id="keep">Keep Your FAQ</h2>
             <h2 id="business"> Keep Your Business Safe & <br></br>Ensure High Avaliability</h2><br></br>
@@ -437,6 +447,8 @@ export default function Home() {
           )}
         </div>
               ))}
+
+              
               
             </div>
           </div>
@@ -468,8 +480,9 @@ export default function Home() {
                 <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
               </div>
                <div className="links1">
-                  <h3>Contact Us</h3>
-                <a href="#"><FontAwesomeIcon icon={faLocationDot} />Capital Park,Hightech City,<br></br>Hyderabad</a>
+                  <h3 id="contact-address">Contact Us</h3>
+                <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                 <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
               
