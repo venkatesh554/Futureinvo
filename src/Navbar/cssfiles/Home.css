@@ -1996,13 +1996,15 @@ width:100%;
   }
 
   #b1 {
-    width: 15px !important;
+    width: 35px !important;
     height: 8px !important;
     border: 1px solid blue;
-    position: static !important;
+    position: absolute !important;
     margin-right: 10px;
+    left:0;
     display: inline-block;
     vertical-align: middle;
+    opacity: 0;
   }
 
   .child #p2 {
@@ -2052,7 +2054,7 @@ width:100%;
   /* Right-Content (Images): Absolute mid-section, vertical stack */
   .right-content {
     position: absolute !important;
-    top: 65vh !important; /* Below text; adjust if text taller */
+    top: 55vh !important; /* Below text; adjust if text taller */
     left: 0 !important;
     width: 100% !important;
     max-width: 95%;
@@ -2866,6 +2868,7 @@ width:100%;
     flex-direction: column !important; /* Vertical stack: h2 > form > img */
     align-items: center !important;
     animation: bloc 1s ease-out forwards !important; /* Simple fade-in */
+    margin-top:-40px !important;
   }
 
   .block9 h2 {
@@ -3227,6 +3230,9 @@ width:100%;
 
 
 
+
+
+
 @media (max-width: 575.99px) {
   /* General: Prevent overflow and ensure consistent sizing */
   body {
@@ -3379,9 +3385,9 @@ width:100%;
     display: none !important;
   }
 
-  /* Buttons Container: Overlay on .block6 to position buttons statically in the middle */
+  /* Buttons Container: Absolute overlay on .block6 for proper positioning over carousel */
   .block6 + .cards-arrows {
-    position: static !important; /* Overlay full .block6 */
+    position: absolute !important; /* Absolute to overlay .block6 (fixed for mobile) */
     top: 0 !important;
     left: 0 !important;
     width: 100% !important;
@@ -3393,44 +3399,46 @@ width:100%;
     z-index: 10 !important; /* Above cards */
   }
 
-  /* Scroll Buttons: Static positioning within the overlay container (flows naturally, centered via flex parent) */
+  /* Scroll Buttons: Absolute positioning within overlay container, overriding inline styles */
   .block6 + .cards-arrows button {
-    position: static !important; /* Static as requested (normal flow inside .cards-arrows) */
-    top: auto !important; /* Ignored for static */
-    bottom: auto !important; /* Ignored for static */
-    left: auto !important; /* Ignored for static */
-    right: auto !important; /* Ignored for static */
+    position: absolute !important; /* Override inline absolute, but position correctly */
+    top: 67.5% !important; /* Vertically center (override inline top: 403%) */
+    transform: translateY(-50%) !important; /* Fine-tune vertical center */
+    left: 10px !important; /* Left button fixed left (override inline left: 80%) */
+    right: auto !important; /* Ignore right for left button */
     width: 45px !important; /* Touch-friendly size */
     height: 45px !important;
-    padding: 0 !important; /* No extra padding (overrides 15px 20px) */
-    border-radius: 50% !important; /* Circular buttons */
-    background-color: rgba(54, 127, 192, 0.9) !important; /* Semi-transparent blue */
-    color: #ffffff !important; /* White icons/text */
+    padding: 0 !important; /* No extra padding (overrides inline 15px 20px) */
+    border-radius: 50% !important; /* Circular buttons (override inline) */
+    background-color: rgba(54, 127, 192, 0.9) !important; /* Semi-transparent blue (override inline) */
+    color: #ffffff !important; /* White icons/text (override inline) */
     border: none !important;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 16px !important; /* Icon size (e.g., ← → or Font Awesome icons) */
     pointer-events: auto !important; /* Enable clicks on buttons only */
-    margin: 0 10px !important; /* Small side margins for spacing from edges */
-    flex-shrink: 0 !important; /* Prevent shrinking in flex */
-    margin-top:-70px !important;
+    margin: 0 !important; /* No margins needed with absolute */
+    flex-shrink: 0 !important; /* Prevent shrinking */
+    z-index: 11 !important; /* Ensure above everything */
   }
 
-  /* Left Button (Prev): Automatically left-aligned via flex space-between */
-  .block6 + .cards-arrows button:first-of-type {
-    margin-left: 10px !important; /* Extra left spacing */
-  }
-
-  /* Right Button (Next): Automatically right-aligned via flex space-between */
+  /* Right Button (Next): Positioned on the right side */
   .block6 + .cards-arrows button:last-of-type {
-    margin-right: 10px !important; /* Extra right spacing */
+    left: auto !important; /* Ignore left for right button */
+    right: 10px !important; /* Fixed right (override inline right: 10%) */
+  }
+
+  /* Left Button (Prev): Ensure left positioning */
+  .block6 + .cards-arrows button:first-of-type {
+    right: auto !important;
+    left: 10px !important;
   }
 
   /* Hover/Tap Effects: Feedback for clicking */
   .block6 + .cards-arrows button:hover,
   .block6 + .cards-arrows button:active {
     background-color: rgb(54, 127, 192) !important; /* Solid blue on hover/tap */
-    transform: scale(1.1) !important; /* Slight scale for touch feedback */
+    transform: translateY(-50%) scale(1.1) !important; /* Scale with vertical center */
   }
 
   /* Optional: Disable buttons at carousel ends (add opacity via JS class, e.g., .disabled { opacity: 0.5; pointer-events: none; }) */
@@ -3441,6 +3449,7 @@ width:100%;
     to { opacity: 1; transform: translateX(0); }
   }
 }
+
 
 
 

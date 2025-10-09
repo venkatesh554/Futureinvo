@@ -426,6 +426,7 @@ body.active-modal{
     overflow-y: auto; 
     transform: none;
     gap: 15px; 
+
   }
 
   #xmark {
@@ -537,6 +538,8 @@ body.active-modal{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+        margin-bottom: 50px !important;
+
     
   }
 
