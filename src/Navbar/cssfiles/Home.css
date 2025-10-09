@@ -1452,7 +1452,7 @@ top:-10px;
   top:50px;
 }
  */
-
+/* 
 
  @media(max-width:576px){
   .parent{
@@ -1496,7 +1496,7 @@ width:100%;
     top:10%;
   }
  }
-
+ */
 
 
 /* 
@@ -1674,3 +1674,745 @@ width:100%;
     white-space: nowrap;
   }
 } */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Parent: Relative container for absolute children, auto height */
+  .parent {
+    width: 100% !important;
+    height: auto !important; /* Adapt to content */
+    min-height: 100vh; /* Full viewport if short */
+    background-color: rgba(235, 222, 248);
+    margin-top: 0 !important; /* Remove negative margin to avoid overlaps */
+    padding: 20px 0; /* Top/bottom padding for spacing */
+    position: absolute !important; /* Anchor for .child absolute positioning */
+    display: block !important; /* Block flow */
+    top:0px;
+  }
+
+  /* Child (Text Content): Absolute at top, full width, centered flow */
+  .child {
+    position: absolute !important;
+    top: 20px !important; /* Pin to top (adjust for fixed navbar if needed, e.g., top: 80px) */
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 95%; /* Slight edge margin */
+    height: auto !important; /* Auto height for content */
+    margin: 0 auto; /* Horizontal center */
+    padding: 0 15px; /* Side padding for small screens */
+    animation: slideInLeft 0.8s ease-out forwards !important; /* Optimized slide-in */
+    text-align: center !important; /* Center all text for mobile UX */
+    z-index: 2; /* Ensure on top if layering needed */
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px); /* Shorter distance for mobile */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .child h1 {
+    font-size: 28px !important; /* Smaller, readable on mobile */
+    line-height: 1.3; /* Tighter lines */
+    margin: 15px 0 20px 0;
+    word-break: break-word; /* Wrap long words like "Futureinvo" */
+    position: relative !important; /* Relative for natural flow inside absolute parent */
+  }
+
+  .child h1 br {
+    display: none; /* Remove forced breaks for fluid wrapping */
+  }
+
+  #p1 {
+    position: relative !important; /* Relative for inline flow */
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+    color: rgb(33, 53, 71);
+    text-align: center;
+  }
+
+  #b1 {
+    width: 15px !important; /* Smaller indicator */
+    height: 8px !important;
+    border: 1px solid blue;
+    position: static !important; /* Static to inline with #p1 text */
+    left: 0 !important;
+    top: 0 !important;
+    margin-right: 10px; /* Space from text */
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .child #p2 {
+    position: relative !important; /* Relative for stacking paragraphs */
+    top: 0 !important; /* Remove fixed top offset */
+    width: 100% !important; /* Full width, no fixed 800px */
+    max-width: 100%;
+    margin: 15px 0 !important;
+    line-height: 1.6 !important; /* Better readability on small screens */
+    display: block !important; /* Block for stacking */
+    text-align: justify;
+    font-size: 15px; /* Base body size */
+  }
+
+  /* Apply to both #p2 elements (first and second paragraph) */
+  .child #p2:nth-of-type(1) {
+    margin-top: 10px !important; /* Space after h1 */
+  }
+
+  .child #p2:nth-of-type(2) {
+    margin-top: 15px !important; /* Space between paragraphs */
+  }
+
+  .child button {
+    border-radius: 0 !important;
+    background-color: rgba(5, 98, 160);
+    color: white;
+    width: 100% !important; /* Full width for easy touch */
+    max-width: 220px; /* Cap for larger mobiles */
+    height: 45px; /* Shorter for mobile */
+    border: 1px solid white;
+    position: relative !important; /* Relative inside absolute parent */
+    top: 0 !important; /* Remove fixed top offset */
+    margin: 20px auto 0 auto; /* Center and space from paragraphs */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    left: 50%; /* For precise centering */
+    transform: translateX(-50%); /* Offset for 50% left */
+  }
+
+  .child button:hover {
+    background-color: rgba(5, 98, 160, 0.8);
+  }
+
+  #iicon {
+    position: relative !important;
+    left: 0 !important;
+    font-size: 18px !important; /* Slightly smaller */
+    top: 0 !important;
+    margin-left: 10px; /* Space from "Explore More" text */
+  }
+
+  /* For very small screens (<400px): Further compress */
+  @media (max-width: 399px) {
+    .child {
+      top: 15px !important; /* Less top padding */
+      padding: 0 10px;
+    }
+
+    .child h1 {
+      font-size: 24px !important; /* Even smaller */
+    }
+
+    .child #p2 {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .child button {
+      height: 40px;
+      max-width: 200px;
+      font-size: 15px;
+    }
+
+    .parent {
+      padding: 15px 0; /* Less overall padding */
+    }
+  }
+
+
+  .right-content {
+    position: absolute !important;
+    top: 60vh !important; /* Pin below .child text (~60% viewport height; adjust to 50vh/70vh based on text size) */
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 95%; /* Slight edge margin */
+    height: auto !important; /* Adapt to images */
+    margin: 0 auto; /* Horizontal center */
+    padding: 20px 15px; /* Top padding for gap from text, side padding */
+    animation: slideInRight 0.8s ease-out forwards !important; /* Optimized slide-in from right */
+    z-index: 1; /* Below text if overlap */
+    display: flex !important; /* Flex for stacking */
+    flex-direction: column !important; /* Vertical stack */
+    align-items: center; /* Center images horizontally */
+    gap: 15px; /* Space between the two images */
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px); /* Shorter slide distance for mobile */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* General Images in .right-content: Responsive, no fixed positions */
+  .right-content img {
+    width: 100% !important; /* Full width of container */
+    max-width: 280px !important; /* Cap for mobile screens (e.g., 375px device) */
+    height: auto !important; /* Maintain aspect ratio, no fixed height */
+    position:absolute !important; /* Relative for flex stacking */
+    left: 0 !important; /* Remove fixed left offset */
+    top: 0 !important; /* Remove negative top offsets */
+    border-radius: 8px; /* Soft corners for modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    object-fit: cover; /* Crop if needed, prevent distortion/stretching */
+  }
+
+  /* Specific #img2 (first image): Responsive overrides */
+  #img2 {
+    width: 100% !important;
+    max-width: 260px !important; /* Slightly smaller than general for stacking balance */
+    height: auto !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  /* Specific #img2-1 (second image): Responsive overrides */
+  #img2-1 {
+    width: 100% !important;
+    max-width: 280px !important; /* Matches general cap */
+    height: auto !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+
+  /* For very small screens (<400px): Further compress sizes and spacing */
+  @media (max-width: 399px) {
+    .right-content {
+      top: 55vh !important; /* Adjust up for shorter text on tiny screens */
+      padding: 15px 10px; /* Less padding */
+      gap: 10px; /* Tighter gap between images */
+    }
+
+    .right-content img,
+    #img2,
+    #img2-1 {
+      max-width: 240px !important; /* Smaller cap */
+    }
+
+    #img2 {
+      max-width: 220px !important;
+    }
+  }
+
+
+
+  
+}
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow, consistent sizing, and base resets */
+  body {
+    overflow-x: hidden !important;
+    font-size: 16px; /* Base font for readability */
+    line-height: 1.5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* HERO SECTION (.parent, .child, .right-content, .words-slider) */
+  /* Parent: Relative container, auto height for full hero adaptability */
+  .parent {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100vh; /* Full viewport if content short */
+    background-color: rgba(235, 222, 248);
+    margin-top: 50px !important; /* No negative margin */
+    padding: 20px 0; /* Spacing */
+    position: absolute !important; /* Anchor for absolute children */
+    display: block !important;
+  }
+
+  /* Child (Text): Absolute at top, centered, full-width flow */
+  .child {
+    position: relative !important;
+    top: 0px !important; /* Pin to top */
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 95%;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 0 15px;
+    animation: slideInLeft 0.8s ease-out forwards !important;
+    text-align: center !important;
+    z-index: 2;
+  }
+
+  @keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-100px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .child h1 {
+    font-size: 28px !important;
+    line-height: 1.3;
+    margin: 15px 0 20px 0;
+    word-break: break-word;
+    position: absolute !important;
+  }
+
+  .child h1 br { display: none; }
+
+  #p1 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+    color: rgb(33, 53, 71);
+    text-align: center;
+  }
+
+  #b1 {
+    width: 15px !important;
+    height: 8px !important;
+    border: 1px solid blue;
+    position: static !important;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .child #p2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin: 65px 0 !important;
+    line-height: 1.6 !important;
+    display: block !important;
+    text-align: justify;
+    padding-top: 120px;;
+    font-size: 15px;
+  }
+
+  .child #p2:nth-of-type(1) { margin-top: 10px !important; }
+  .child #p2:nth-of-type(2) { margin-top: 15px !important; }
+
+  .child button {
+    border-radius: 0 !important;
+    background-color: rgba(5, 98, 160);
+    color: white;
+    width: 100% !important;
+    max-width: 220px;
+    height: 45px;
+    border: 1px solid white;
+    position: static !important;
+    top: 0 !important;
+    margin: 20px auto 0 auto;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    left: 100%;
+    transform: translateX(-50%);
+  }
+
+  .child button:hover { background-color: rgba(5, 98, 160, 0.8); }
+
+  #iicon {
+    position: relative !important;
+    left: 0 !important;
+    font-size: 18px !important;
+    top: 0 !important;
+    margin-left: 10px;
+  }
+
+  /* Right-Content (Images): Absolute mid-section, vertical stack */
+  .right-content {
+    position: absolute !important;
+    top: 65vh !important; /* Below text; adjust if text taller */
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 95%;
+    height: auto !important;
+    margin: 0 auto;
+    padding: 10px 5px;
+    animation: slideInRight 0.8s ease-out forwards !important;
+    z-index: 1;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    gap: 15px;
+  }
+
+  @keyframes slideInRight {
+    from { opacity: 0; transform: translateX(100px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  .right-content img {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: auto !important;
+    position: relative !important; /* Relative for flex stack */
+    left: 0 !important;
+    top: 0 !important;
+ 
+    object-fit: cover;
+  }
+
+  #img2 { max-width: 300px !important; }
+  #img2-1 { max-width: 300px !important; }
+
+  .words-slider {
+    position: relative !important;
+    bottom: 20px !important; /* At bottom of hero */
+    left: 0 !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    white-space: nowrap;
+    background: #f9f9f9;
+    padding: 50px 0;
+    z-index: 1;
+    margin: 0;
+  }
+
+  .slider {
+    display: inline-flex !important;
+    animation: scroll 20s linear infinite !important; /* Slower for mobile */
+    background-color: rgba(5, 98, 160) !important;
+    height: 45px !important;
+    color: white !important;
+    width: max-content !important;
+    padding: 0 15px;
+    will-change: transform;
+  }
+
+  .slider h2 {
+    margin: 0.4rem 1rem !important;
+    font-size: 16px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* BLOCK1 (About Section): Vertical stack, centered */
+  .block1 {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 80vh;
+    position: relative !important;
+    top: 0 !important; /* No negative top */
+    left: 0 !important;
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px;
+    margin-top: 20px; /* Gap from hero */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .content-leftt1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .content-leftt1 img {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  #img4 {
+    width: 100% !important;
+    max-width: 250px !important;
+    height: auto !important;
+    position: relative !important;
+    right: 0 !important;
+    margin-top: 10px;
+    z-index: 10;
+  }
+
+  .content-rightt1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    max-width: 95%;
+    text-align: center !important;
+    padding: 0 10px;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  .content-rightt1 #h21 {
+    font-size: 1.2rem !important;
+    margin-bottom: 10px;
+  }
+
+  .content-rightt1 #h22 {
+    font-size: 1.8rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 10px 0;
+    line-height: 1.3;
+  }
+
+  .content-rightt1 #h22 br { display: none; }
+
+  #ss {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    text-align: justify;
+    margin: 20px 0;
+  }
+
+  .content-rightt1 p {
+    font-size: 16px !important;
+    position: relative !important;
+    top: 0 !important;
+    text-align: justify;
+    margin: 15px 0;
+  }
+
+  .right-subs {
+    display: flex !important;
+    flex-direction: column !important; /* Stack vision/mission */
+    gap: 20px !important;
+    margin: 20px auto !important;
+    position: relative !important;
+    bottom: 0 !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .right-sub1, .right-sub2 {
+    text-align: center;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+  }
+
+  .right-sub1 img, .right-sub2 img {
+    width: 60px !important;
+    height: 60px !important;
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin: 0 auto 10px;
+  }
+
+  #heads {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .right-sub1 p, .right-sub2 p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    text-align: center;
+  }
+
+  .right-sub2 { top: 0 !important; }
+
+  .right-sub1 p br, .right-sub2 p br { display: none; }
+
+  span { color: rgba(5, 98, 160); }
+
+  /* BLOCK2 (Brands Scroll): Full width, centered, horizontal scroll */
+  .block2 {
+    height: auto !important;
+    min-height: 25vh;
+    background-color: rgb(54, 127, 192);
+    position: relative !important;
+    top: 0 !important; /* No negative top */
+    padding: 30px 15px;
+    text-align: center !important;
+    animation: bloc 1s ease-out forwards !important;
+    margin-top: 20px; /* Gap from block1 */
+  }
+
+  .block2 h2 {
+    width: 100% !important;
+    margin: 0 0 20px 0;
+    font-size: 1.5rem !important;
+    color: white;
+  }
+
+  .block2 #i1, .block2 #i2 { display: none; } /* Hide lines on mobile */
+
+  .names-scroll {
+    position: relative !important;
+    top: 0 !important;
+    display: block !important; /* Block for full width */
+    animation: scroll 15s linear infinite !important;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .names-scroll em {
+    margin-left: 20px !important;
+    font-size: 18px !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  /* BLOCK3 (Services): Full width, centered headings, single-column boxes */
+  .block3 {
+    position: relative !important;
+    width: 100% !important; /* Full width */
+    height: auto !important;
+    top: 0 !important; /* No negative top */
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px;
+    text-align: center !important;
+    margin-top: 20px; /* Gap from block2 */
+  }
+
+  .block3 #h2 {
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    margin-bottom: 10px;
+  }
+
+  .block3 #h22 {
+    font-size: 1.8rem !important;
+    margin: 10px 0 30px 0;
+  }
+
+  .p00 {
+    width: 100% !important;
+    white-space: normal;
+    word-break: break-word;
+    margin-top: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center !important;
+  }
+
+  .block5 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important; /* Single column */
+    align-items: center;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+    padding: 20px 10px !important;
+  }
+
+  .block5 > div { /* All service boxes */
+    flex: none !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    background: white;
+    padding: 20px !important;
+    border-radius: 8px;
+    position: relative !important;
+    left: 0 !important;
+    transition: transform 0.4s ease;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    height: auto !important;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
+
+  .block5 > div:hover { transform: translateY(-5px); }
+
+  .block5 > div h3 {
+    position: static !important;
+    left: 0 !important;
+    width: 100% !important;
+    font-size: 1.4rem !important;
+    margin: 25px 0;
+    padding-top:50px;
+  }
+
+  .block5 > div p {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    margin: 15px 0;
+    font-size: 14px;
+  }
+
+  .block5 button {
+    background-color: rgb(54, 127, 192);
+    color: white;
+    margin-top:-10px;
+    position:static;
+    padding: 10px 30px !important;
+    border-radius:5px;
+
+  }
+
+
+}
