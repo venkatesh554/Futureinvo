@@ -3,13 +3,6 @@ import psycopg2
 
 app = Flask(__name__)
 
-# RDS credentials
-DB_HOST = "contact-form-db.cfcymk6oez3w.ap-south-1.rds.amazonaws.com"
-DB_PORT = "5432"
-DB_USER = "postgres"
-DB_PASSWORD = "!Future2025!"
-DB_NAME = "contact-form-db"
-
 def get_db_connection():
     conn = psycopg2.connect(
         host=DB_HOST,
@@ -42,3 +35,4 @@ def submit_form():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
