@@ -1872,7 +1872,7 @@ width:100%;
     align-items: center !important;
     justify-content: center !important;
     animation: slideInBottom 1s ease-out forwards !important;
-    margin: -50px 0 !important;
+    margin: -100px 0 !important;
   }
 
   .right-content img {
@@ -1904,6 +1904,8 @@ width:100%;
     left: 0 !important;
     top: 0 !important;
     margin-bottom: 0 !important;
+        margin-left:50px !important;
+
   }
 
   @keyframes slideInBottom {

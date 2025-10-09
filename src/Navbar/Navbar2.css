@@ -537,6 +537,7 @@ body.active-modal{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
   }
 
   .pop-up form label {
@@ -588,7 +589,7 @@ body.active-modal{
 
   #nav-form-btn {
     /* width: 100% !important; */
-    padding: 15px 220px;
+    padding: 15px ;
     position: static !important;
     top: 0 !important;
     margin-top: 0 !important; 
