@@ -72,6 +72,8 @@ export default function Faq() {
                      
                     </div> 
         </div>
+
+        
          <div className="word-slider-about">
              <div className="words-slider" id="dup1">
                <div className="slider">

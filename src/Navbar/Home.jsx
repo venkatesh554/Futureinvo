@@ -62,7 +62,7 @@ export default function Home() {
 
 
 
- const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     phone: "",
     email: "",
@@ -74,15 +74,18 @@ export default function Home() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
+
+    if (!formData.name || !formData.phone || !formData.email) {
+      alert("⚠️ Please fill all the fields before submitting!");
+    }
 
     localStorage.setItem("formData", JSON.stringify(formData));
 
-    alert("Form data saved to localStorage!");
-    setFormData({ name: "", phone: "", email: "" }); 
-  };
-       
+    alert("✅ Form data saved successfully!");
 
+    setFormData({ name: "", phone: "", email: "" });
+  }
 
 
 

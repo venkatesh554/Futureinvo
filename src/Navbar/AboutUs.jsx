@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./about.css"
 import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -22,6 +22,29 @@ import notes from "./why-choose/notes.png"
 
 
 export default function AboutUs() {
+
+  
+    const faqData = [
+      { question: "What type of IT consulting services Do You Offer?", answer: "We provide strategic IT consulting, including technology assessments, system integration, and IT strategy development,tailored to meet your business needs" },
+      { question: "What is Your Approach To Web Design?", answer: "Our approach focuses on creating user-friendly, visually appealing designs that reflect your brand identity while ensuring optimal user experience and responsiveness across devices." },
+      { question: "Do You Develop Apps For Both Android And iOS?", answer: "Yes, we create cross-platform mobile applications tailored for both iOS and Android, ensuring a seamless experience for users on any device." },
+      { question: "What Training Programs Does Future Invo Sol Offer?", answer: "We offer specialized training in digital marketing, including our Al Enhanced Digital Marketing Course, alongside training modules in web development, ERP systems, and IT product development." },
+      { question: "What Digital Marketing Service Do You Provide?", answer: "Our digital marketing services include SEO, social media marketing, content marketing, and PPC advertising, all designed to enhance your online presence and drive traffic to your business. 40 mini" },
+      { question: "How can I Enroll In A Training Program At Future Invo Solutions?", answer: "You can sign up through our website or contact our support team for assistance. We'll guide you through the process and answer any questions about course details or enrollment steps." },
+      { question: "What Technologies Do You Use For Web Development?", answer: "We utilize a range of technologies, including HTML, CSS, JavaScript, and popular frameworks like React and Angular, to build robust, scalable, and secure websites." },
+      { question: "How Is Future Invo Solutions Different From Other Coaching Centers?", answer: "At InfoZ IT Solutions, you're not just learning theory-you're training with a digital marketing agency actively working in the industry. Our courses are led by industry experts and focus on hands-on, real-world experience, including live projects and advanced Al-driven tools. Unlike other centers, we offer internships within our digital marketing course, allowing students to gain practical experience that enhances both their skills and employability in today's competitive job market." },
+      { question: "Are There Any Internship Opportunities Available During The Digital Marketing Course?", answer: "Yes, students begin 3 Months internships from the fourth month of the program, allowing them to gain practical experience and apply their learning in real-world scenarios." },
+      { question: "Does Future Invo Provide services remotely, on-site, or both?", answer: "We provide services both remotely and on-site, based on client needs and project requirements." }
+    ];
+    
+  
+    const [openIndex, setOpenIndex] = useState(null);
+  
+    const toggleFAQ = (index) => {
+      setOpenIndex(openIndex === index ? null : index);
+    };
+  
+  
   return (
     <div className="tt">
       <div className="faq">
@@ -29,7 +52,10 @@ export default function AboutUs() {
             <h1>FAQs</h1>
             
           </div>
-           <div className="block7" id="sevenn">
+
+
+
+           {/* <div className="block7" id="sevenn">
             <h2 id="business"> What's on your mind? Just ask us!</h2><br></br>
             <div className="paras" id="parass">
               <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
@@ -42,7 +68,32 @@ export default function AboutUs() {
             <p className="eight">How Is Future Invo Solutions Different From Other Coaching Centers? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
             <p className="eight">Are There Any Internship Opportunities Avaliable During The Digital Marketing Course <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
             </div>
+          </div> */}
+
+
+<div className="block7" id="sevenn">
+            <h2 id="business"> What's on your mind? Just ask us!</h2><br></br>
+            <div className="paras">
+
+
+              {faqData.map((item, index) => (
+        <div key={index} className="faq-line">
+          <p onClick={() => toggleFAQ(index)}>
+            {item.question} <FontAwesomeIcon icon={faAnglesDown} id="ic" />
+          </p>
+          {openIndex === index && (
+            <p className="faq-answer">{item.answer}</p>
+          )}
+        </div>
+              ))}
+
+              
+              
+            </div>
           </div>
+
+
+
           <div className="bgimgcopy">
             <img src={bgimg}/>
           </div>

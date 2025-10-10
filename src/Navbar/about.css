@@ -56,3 +56,393 @@
     top:400px;
 }
 
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* TT Container: Reset for natural flow if needed */
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* FAQ Section: Reset positioning, full width, auto height with padding */
+  .faq {
+    position: absolute !important; /* Change to relative for flow */
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    height: auto !important; /* Auto height to fit content */
+    background-color: rgba(62, 83, 138) !important;
+    padding: 40px 20px !important; /* Mobile padding for spacing */
+    display: flex !important;
+    flex-direction: column !important; /* Stack title, questions, image */
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  /* FAQ Title Container: Centered, no offset */
+  .dup-from-faq {
+    position: relative !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 0px !important; /* Space below title */
+  }
+
+  .dup-from-faq h1 {
+    position: relative !important;
+    top: 100px !important; /* Reset large top */
+    color: white !important;
+    font-size: 2rem !important; /* Smaller for mobile */
+    margin: 0 !important;
+    line-height: 1.3 !important; /* Tighter line height */
+  }
+
+  /* Block7 / Questions Section: Reset positioning, full width, centered */
+  .block7,
+  #sevenn {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width (override 1400px) */
+    max-width: 100% !important;
+    background-image: none !important; /* Preserve if needed */
+    margin-bottom: 30px !important; /* Space before image */
+    text-align: center !important;
+  }
+
+  #business {
+    font-size: 1.5rem !important; /* Smaller heading */
+    color: inherit !important; /* Preserve color */
+    margin: 0 0 20px 0 !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Paras / Questions List: Full width, stack vertically, smaller font */
+  .paras,
+  #parass {
+    width: 100% !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack questions vertically */
+    gap: 15px !important; /* Space between questions */
+    align-items: flex-start !important; /* Left-align for readability */
+  }
+
+  #parass p {
+    width: 100% !important; /* Full width (override 1000px) */
+    font-size: 16px !important; /* Smaller, readable font */
+    margin: 0 !important;
+    line-height: 1.4 !important;
+    color: white !important; /* Preserve on blue bg */
+    display: flex !important; /* Flex for question + icon alignment */
+    justify-content: space-between !important; /* Question left, icon right */
+    align-items: center !important;
+    padding: 15px !important; /* Padding for touch-friendly "accordion" feel */
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Subtle bg for each question */
+    border-radius: 8px !important; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2) !important; /* Subtle border */
+    cursor: pointer !important; /* Indicate tappable (for JS expand/collapse) */
+  }
+
+  /* FAQ Icons: Position at end of each question, smaller size */
+  #parass #ic {
+    margin-left: 0 !important; /* Reset large margin */
+    font-size: 18px !important; /* Smaller icon */
+    color: white !important;
+    flex-shrink: 0 !important; /* Don't shrink */
+    transition: transform 0.3s ease !important; /* Rotate on click if JS handles */
+  }
+
+  /* Specific classes for last two questions (if styled differently) */
+  .eight {
+    /* Inherit from p; add if needed */
+  }
+
+  /* Background Image Copy: Responsive, stacked below questions, centered */
+  .bgimgcopy {
+    width: 100% !important;
+    max-width: 300px !important; /* Cap for mobile */
+    margin: 0 auto !important; /* Center */
+  }
+
+  /* .bgimgcopy img {
+    position: relative !important; 
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important; 
+    bottom: auto !important;
+    display: block !important;
+    border-radius: 8px !important;
+    z-index:-1;
+  } */
+
+  /* Choose Us Section: Reset positioning, full width, stack cards vertically */
+  .chooseus {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width (override 200%) */
+    margin-top: 40px !important; /* Gap from FAQ */
+    padding: 20px !important; /* Internal padding */
+    text-align: center !important;
+  }
+
+  .block8,
+  #dup3 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .dup3-h2,
+  #block8-h2-p {
+    font-size: 1.6rem !important; /* Smaller headings */
+    margin: 0 0 20px 0 !important;
+    line-height: 1.3 !important;
+    color: inherit !important;
+  }
+
+  /* Cards2 / FAQ Cards: Stack vertically, full width */
+  .cards2,
+  #faq-cards {
+    display: flex !important;
+    flex-direction: column !important; /* Stack cards vertically */
+    gap: 20px !important; /* Vertical gap */
+    width: 100% !important;
+    align-items: center !important; /* Center cards */
+    justify-content: flex-start !important;
+  }
+
+  .block8 > #faq-cards {
+    gap: 20px !important;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    width: 100% !important;
+    max-width: 300px !important; /* Cap width for readability */
+    padding: 20px !important;
+    text-align: center !important;
+    border: 1px solid #ddd !important; /* Subtle border */
+    border-radius: 8px !important;
+    background-color: white !important; /* White bg for contrast */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important; /* Light shadow */
+    transition: transform 0.3s ease !important; /* Hover lift */
+  }
+
+  .card1:hover,
+  .card2:hover,
+  .card3:hover,
+  .card4:hover,
+  .card5:hover {
+    transform: translateY(-5px) !important; /* Subtle lift on hover/tap */
+  }
+
+  /* Card Images: Reset absolute, center above text, smaller size */
+  #userr-dup1,
+  #bag-dup1,
+  #time-dup1,
+  #calculator-dup1,
+  #notes-dup1 {
+    width: 50px !important; /* Smaller icons */
+    height: 50px !important;
+    position: relative !important; /* Reset absolute */
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 15px auto !important; /* Center above text */
+    display: block !important;
+    /* Keep float animation if desired */
+    animation: float 3s ease-in-out infinite alternate !important;
+  }
+
+  .card1 h2,
+  .card2 h2,
+  .card3 h2,
+  .card4 h2,
+  .card5 h2 {
+    font-size: 1.2rem !important; /* Smaller headings */
+    margin: 0 0 10px 0 !important;
+    color: #333 !important;
+  }
+
+  .card1 p,
+  .card2 p,
+  .card3 p,
+  .card4 p,
+  .card5 p {
+    font-size: 14px !important; /* Smaller text */
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    color: #666 !important;
+  }
+
+  /* Footer Section: Reset positioning, use stacked layout */
+  .footerr {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    margin-top: 40px !important; /* Gap from choose us */
+  }
+
+  #footer-dup {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .footer {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 40px 20px 20px 20px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .footer img {
+    width: 200px !important;
+    height: 50px !important;
+    margin: 0 auto 20px auto !important;
+    display: block !important;
+  }
+
+  .line1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 14px !important;
+    padding: 0 10px !important;
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .icn svg {
+    font-size: 20px !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  .links1 h3 {
+    margin-bottom: 15px !important;
+    text-decoration: underline !important;
+    font-size: 16px !important;
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important;
+    color: white !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"],
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important;
+    left: 0 !important;
+    padding-left: 25px !important;
+  }
+
+  /* Last Line / Copyright: Reset positioning, stack vertically */
+  .lastt {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+
+  #dup-last {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 20px !important;
+    text-align: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Optional: Keep float animation if used in cards */
+  @keyframes float {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-10px); }
+  }
+}

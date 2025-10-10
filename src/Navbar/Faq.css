@@ -277,3 +277,657 @@
     position:relative;
     top:600px;
 }
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* TT Container: Reset fixed height and overflow for natural scrolling */
+  .tt {
+    height: auto !important; /* Allow full content height */
+    overflow: visible !important; /* No hidden overflow */
+    width: 100% !important;
+  }
+
+  /* Driving Innovation Parent: Reset positioning, stack vertically */
+  .driving-innovation-parent {
+    position: absolute !important;
+    margin-top: 0 !important; /* Reset large margin */
+    background-color: rgba(55, 84, 142) !important;
+    height: auto !important; /* Auto height */
+    width: 100% !important;
+    padding: 40px 20px !important; /* Mobile padding */
+    display: flex !important;
+    flex-direction: column !important; /* Stack text and image */
+    align-items: center !important;
+    justify-content: flex-start !important;
+    top:20px;
+  }
+
+  .driving-innovation-child {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important; /* Center text */
+    margin-bottom: -20px !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.4 !important; /* Tighter for mobile */
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    color: white !important;
+    font-size: 2rem !important; /* Smaller heading */
+    margin: 0 0 15px 0 !important;
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important; /* Full width */
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    font-size: 14px !important; /* Smaller text */
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  /* Background Image: Responsive, centered below text */
+  .bgimg {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    position:absolute;
+    right:0px;
+    z-index:-1;
+  }
+
+  .bgimg img {
+    position: relative !important; /* Reset absolute */
+    width: 100% !important;
+    height: auto !important; /* Aspect ratio */
+    left: 0 !important; /* Reset left */
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  /* Child22 / Block1: Reset positioning, stack content vertically */
+  .child22 {
+    position: relative !important;
+    left: 0 !important; /* Reset negative left */
+    top: 0 !important; /* Reset large top */
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 40px !important; /* Gap from previous */
+    padding: 20px !important;
+  }
+
+  .block1 {
+    display: flex !important;
+    flex-direction: column !important; /* Stack left/right vertically */
+    align-items: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+  }
+
+  .content-leftt1 {
+    display: flex !important;
+    flex-direction: column !important; /* Stack images vertically */
+    align-items: center !important;
+    gap: 15px !important;
+    width: 100% !important;
+    max-width: 250px !important;
+  }
+
+  .content-leftt1 img,
+  #img4 {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 200px !important;
+    position: relative !important; /* Reset any absolute */
+  }
+
+  .content-rightt1 {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 10px !important;
+  }
+
+  #h21 {
+    font-size: 1.5rem !important;
+    margin: 0 0 10px 0 !important;
+    display: block !important;
+  }
+
+  #h22 {
+    font-size: 1.8rem !important;
+    line-height: 1.3 !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  #h22 span {
+    color: inherit !important;
+  }
+
+  #ss {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: justify !important;
+  }
+
+  .right-subs {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+
+  /* Word Slider About: Reset positioning, make horizontal scrollable or stack */
+  .word-slider-about {
+    position: relative !important;
+    top: 0 !important; /* Reset large top */
+    width: 100% !important;
+    margin-top: 40px !important;
+    overflow-x: auto !important; /* Horizontal scroll for words */
+    padding: 20px 0 !important;
+  }
+
+  #dup1 {
+    width: 100% !important;
+  }
+
+  .slider {
+    display: flex !important;
+    white-space: nowrap !important; /* Keep words in line */
+    gap: 20px !important; /* Smaller gap */
+    animation: none !important; /* Disable animation if needed; or adjust duration */
+  }
+
+  .slider h2 {
+    font-size: 1.2rem !important; /* Smaller text */
+    white-space: nowrap !important;
+    margin: 0 !important;
+    flex-shrink: 0 !important; /* Prevent shrinking */
+  }
+
+  /* Our Offering / Block55: Stack boxes vertically, reset positions */
+  #offer {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin-top: 40px !important;
+  }
+
+  .our-offering {
+    background-color: rgba(24, 24, 98) !important;
+    width: 100% !important;
+    padding: 20px !important;
+  }
+
+  .our-offering h2 {
+    width: 100% !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 1.8rem !important; /* Smaller */
+    margin: 0 0 20px 0 !important;
+  }
+
+  #h2,
+  #h22 {
+    font-size: 1.6rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .block55 {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack boxes vertically */
+    gap: 20px !important; /* Vertical gap */
+    width: 100% !important;
+    max-width: none !important;
+    min-height: auto !important;
+    height: auto !important;
+    background-color: rgba(24, 24, 98) !important;
+    padding: 20px !important;
+    align-items: center !important; /* Center boxes */
+  }
+
+  .block55 > div {
+    flex: none !important; /* No flex grow/shrink */
+    max-width: 100% !important; /* Full width per box */
+    width: 100% !important;
+    color: white !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    min-height: 150px !important; /* Shorter for mobile */
+    position: relative !important;
+    border: 1px solid grey !important;
+    left: 0 !important; /* Reset left */
+    background-color: rgba(24, 24, 98) !important;
+    text-align: center !important; /* Center content */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .block55 > div h3,
+  .block55 > div p,
+  .block55 > div button {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    text-align: center !important; /* Center text */
+    margin: 10px 0 !important;
+    width: 100% !important;
+    font-size: 14px !important; /* Smaller text */
+  }
+
+  .block55 button {
+    background-color: blue !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+  }
+  .box-23 h3{
+position:absolute !important;
+left: 0px !important;
+  }
+
+  .block55 .box-19 p {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important; /* Full width */
+  }
+
+  /* Images in Block55: Reset absolute, center above text */
+  #imgg18,
+  #imgg19,
+  #imgg20,
+  #imgg21,
+  #imgg22,
+  #imgg23 {
+    width: 60px !important; /* Smaller icons */
+    height: 60px !important;
+    position: relative !important; /* Reset absolute */
+    top: 0 !important;
+    left: 0 !important;
+    margin-bottom: 10px !important; /* Space below icon */
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important; /* Center icon */
+  }
+
+  /* Block2: Names scroll – make horizontal scrollable */
+  #dup2-class {
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin-top: 40px !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+  .block2 #dup1 {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important;
+    font-size: 1.8rem !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  #i1,
+  #i2 {
+    display: none !important; /* Hide icons if they cause issues; or style as needed */
+  }
+
+  #dup2-class2 {
+    position: relative !important;
+    top: 0 !important;
+    display: flex !important; /* Flex for horizontal scroll */
+    white-space: nowrap !important;
+    overflow-x: auto !important; /* Enable horizontal scroll */
+    gap: 20px !important; /* Smaller spacing */
+    padding: 10px 0 !important;
+    animation: scroll 20s linear infinite !important; /* Slower animation for mobile */
+  }
+
+  #dup2-class2 em {
+    margin: 0 !important; /* No extra margin */
+    font-size: 14px !important; /* Smaller text */
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Choose Us About / Cards2: Stack cards vertically */
+  .chooseus-about {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Reset 190% */
+    margin-top: 20px !important;
+    padding: 20px !important;
+  }
+
+  #dup3 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    text-align: center !important;
+  }
+
+  .dup3-h2,
+  #block8-h2-p {
+    font-size: 1.6rem !important;
+    margin: 0 0 20px 0 !important;
+    line-height: 1.3 !important;
+  }
+
+  #faq-cards {
+    display: flex !important;
+    flex-direction: column !important; /* Stack cards vertically */
+    gap: 20px !important; /* Vertical gap */
+    width: 100% !important;
+    align-items: center !important;
+  }
+
+  .block8 > #faq-cards {
+    gap: 20px !important;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    width: 100% !important;
+    max-width: 300px !important; /* Cap width */
+    padding: 20px !important;
+    text-align: center !important;
+    border: 1px solid #ddd !important; /* Optional border */
+    border-radius: 8px !important;
+    background: white !important; /* Assume white bg */
+  }
+
+  /* Card Images: Reset absolute, center above text */
+  #userr-dup1,
+  #bag-dup1,
+  #time-dup1,
+  #calculator-dup1,
+  #notes-dup1 {
+    width: 50px !important; /* Smaller icons */
+    height: 50px !important;
+    position: relative !important; /* Reset absolute */
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 15px auto !important; /* Center below */
+    display: block !important;
+    animation: float 3s ease-in-out infinite alternate !important; /* Keep float if desired */
+  }
+
+  .card1 h2,
+  .card2 h2,
+  .card3 h2,
+  .card4 h2,
+  .card5 h2,
+  .card1 p,
+  .card2 p,
+  .card3 p,
+  .card4 p,
+  .card5 p {
+    font-size: 1.2rem !important; /* Smaller headings */
+    margin: 10px 0 !important;
+    text-align: center !important;
+  }
+
+  .card1 p,
+  .card2 p,
+  .card3 p,
+  .card4 p,
+  .card5 p {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Footer: Integrate previous responsive footer styles */
+  #footer-dup {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin-top: 20px !important;
+  }
+
+  .footer {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 40px 20px 20px 20px !important;
+    margin-bottom: 0 !important;
+    animation: none !important;
+  }
+
+  .footer img {
+    width: 200px !important;
+    height: 50px !important;
+    margin: 0 auto 20px auto !important;
+    display: block !important;
+  }
+
+  .line1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 14px !important;
+    padding: 0 10px !important;
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .icn svg {
+    font-size: 20px !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  .links1 h3 {
+    margin-bottom: 15px !important;
+    text-decoration: underline !important;
+    font-size: 16px !important;
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important;
+    color: white !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"],
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important;
+    left: 0 !important;
+    padding-left: 25px !important;
+  }
+
+  #dup-last {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 20px !important;
+    text-align: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Animations: Keep but adjust if needed (e.g., float, scroll) */
+  @keyframes float {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-10px); }
+  }
+
+}
+  /* Additional specific fixes as needed */
+
+
+
+
+  @media (max-width: 575.99px) {
+  /* Word Slider About: Full width, horizontal layout with auto-scroll fallback */
+  .word-slider-about {
+    position: relative !important;
+    top: 0 !important; /* Reset any large top offset */
+    width: 100% !important;
+    margin-top: 20px !important; /* Gap from previous section */
+    overflow-x: auto !important; /* Enable manual swipe-scroll as fallback */
+    overflow-y: hidden !important; /* No vertical overflow */
+    padding: 0px 0 !important; /* Vertical padding for spacing */
+    background-color: #f8f9fa !important; /* Optional subtle bg for visibility */
+    -webkit-overflow-scrolling: touch !important; /* Smooth scrolling on iOS */
+    height:100px !important;
+    color: white !important;;
+  }
+
+  /* Words Slider Container: Full width, hide scrollbar */
+  .words-slider,
+  #dup1 {
+    width: 100% !important;
+    max-width: none !important; /* Allow full overflow */
+  }
+
+  /* Slider: Flex horizontal, nowrap for marquee, with animation enabled */
+  .slider {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* Force single row */
+    white-space: nowrap !important; /* Prevent text wrapping */
+    gap: 15px !important; /* Smaller gap for mobile density */
+    width: max-content !important; /* Allow full width beyond container */
+    animation: scroll 20s linear infinite !important; /* Re-enable sliding: 20s slow loop */
+    padding: 0 20px !important; /* Side padding to prevent edge clipping */
+    /* Pause on hover for readability (optional) */
+  }
+
+  .slider:hover {
+    animation-play-state: running !important; /* Resume on hover/touch */
+  }
+
+  /* Individual Words: Smaller, non-shrinking for clean sliding */
+  .slider h2 {
+    font-size: 1.1rem !important; /* Smaller for mobile readability */
+    white-space: nowrap !important; /* Keep each word on one line */
+    margin: 0 !important; /* No margins */
+    padding: 5px 10px !important; /* Internal padding for spacing */
+    flex-shrink: 0 !important; /* Prevent compression */
+    color: white !important;
+    font-weight: 500 !important; /* Medium weight */
+    /* Optional: Background for word bubbles */
+    background-color: rgba(54, 127, 192, 0.1) !important; /* Light blue tint */
+    border-radius: 20px !important; /* Pill shape */
+    display: inline-block !important; /* Inline for better flow */
+  }
+
+  /* Animation Keyframes: Continuous leftward marquee (seamless due to duplicated content) */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* Start at full view */
+    }
+    100% {
+      transform: translateX(-50%); /* Slide left by half (matches duplicated items) */
+    }
+  }
+
+  /* Hide scrollbar for cleaner look (cross-browser) */
+  .word-slider-about::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .word-slider-about {
+    scrollbar-width: none !important; /* Firefox */
+    -ms-overflow-style: none !important; /* IE/Edge */
+  }
+
+  /* Respect user preferences for reduced motion (accessibility) */
+  @media (prefers-reduced-motion: reduce) {
+    .slider {
+      animation: none !important; /* Disable if user prefers no motion */
+    }
+  }
+}
