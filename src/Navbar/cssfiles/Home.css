@@ -70,6 +70,7 @@ body{
     position:relative;
     top:70px;
     animation: none;
+    cursor:pointer
 }
 #iicon{
     position:relative;
@@ -81,6 +82,7 @@ body{
   position:relative;
   top:-150px;
   animation: slideInRight 1s ease-out forwards;
+  cursor:pointer
 }
 
 @keyframes slideInRight {
@@ -1160,9 +1162,10 @@ top:-10px;
     margin-bottom: 0;
 }
 .footer img{
-  width:250px;
-  height:70px;
-  margin-top:60px;
+  width:200px;
+  height:90px;
+  margin-top:50px;
+  opacity: 2;
 }
 .line1{
     margin-left:40px;

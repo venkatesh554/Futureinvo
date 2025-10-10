@@ -479,7 +479,7 @@ font-size:25px;
     position:relative;
     width:700px;
     top:-50px;
-    font-size:21px;
+    font-size:18px;
     
 
 }
@@ -530,6 +530,7 @@ font-size:25px;
    padding:3px 40px;
    background-color: rgba(55, 84, 142);
    border:1px solid white;
+   z-index:99
 
    
    

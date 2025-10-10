@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./Training.css"
 import one from "./trainingImages/Training-one.png"
 import two from "./trainingImages/datascienceone.png"
@@ -42,6 +42,59 @@ import bgimg from "./navbar-images/bgimg.png"
 
 
 export default function Datascience() {
+
+
+  
+     const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        mobile: "",
+        city: "",
+        occupation: "",
+        message: "",
+      });
+      
+    
+      // 2️⃣ Handle input changes
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({
+          ...prev,
+          [name]: value,
+        }));
+      };
+    
+      // 3️⃣ Handle form submission
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        // Check for empty fields
+        if (
+          !formData.name ||
+          !formData.email ||
+          !formData.mobile ||
+          !formData.city ||
+          !formData.occupation ||
+          !formData.message
+        ) {
+          alert("⚠️ Please fill in all fields before submitting!");
+          return;
+        }
+    
+        // Store in localStorage
+        localStorage.setItem("contactFormData", JSON.stringify(formData));
+        alert("✅ Your data has been saved successfully!");
+    
+        // Reset the form
+        setFormData({
+          name: "",
+          email: "",
+          mobile: "",
+          city: "",
+          occupation: "",
+          message: "",
+        });
+      };
   return (
     <div className="tt">
    
@@ -361,26 +414,82 @@ export default function Datascience() {
        <div className="rightside-form" id="training-form">
                       <h2 id="apply">Apply For Upcomming batches</h2>
                      
-                      <form>
-                       <label>Your Name <span id="star">*</span>:</label><br></br>
-                       <input type="text"></input><br></br>
-       
-                       <label>Email Address <span id="star">*</span>:</label><br></br>
-                       <input type="email"></input><br></br>
-       
-                        <label>Mobile Number <span id="star">*</span>:</label><br></br>
-                        <input type="number"></input><br></br>
-       
-                        <label>City <span id="star">*</span >:</label><br></br>
-                        <input type="text"></input><br></br>
-       
-                        <label>Occupation <span id="star">*</span>:</label><br></br>
-                        <input type="text"></input><br></br>
-       
-                        <label>Message <span id="star">*</span>:</label><br></br>
-                        <input type="text" id="comment-box"></input><br></br>
-                        <button id="onsubmit" >Submit</button>
-       
+                      
+                      <form onSubmit={handleSubmit}>
+    <label>
+      Your Name <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="name"
+      value={formData.name}
+      onChange={handleChange} 
+    />
+    <br />
+
+    <label>
+      Email Address <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="email"
+      name="email"
+      value={formData.email}
+      onChange={handleChange}
+    />
+    <br />
+
+    <label>
+      Mobile Number <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="number"
+      name="mobile"
+      value={formData.mobile}
+      onChange={handleChange}
+    />
+    <br />
+
+    <label>
+      City <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="city"
+      value={formData.city}
+      onChange={handleChange}
+    />
+    <br />
+
+    <label>
+      Occupation <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="occupation"
+      value={formData.occupation}
+      onChange={handleChange}
+    />
+    <br />
+
+    <label>
+      Message <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      id="comments-box"
+      name="message"
+      value={formData.message}
+      onChange={handleChange}
+    />
+    <br />
+                      
+        <button id="onsubmit" >Submit</button>
        
                       </form>
                       

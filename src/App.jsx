@@ -11,11 +11,15 @@ import Faq from "./Navbar/Faq"
 import Datascience from "./Navbar/Datascience";
 import ScrollTop from "./Navbar/ScrolledTop"
 import "./App.css"
+import BallCursor from "./Navbar/BallCursor";
+
 function App() { 
   return (
     <>
    <div className="app">
     {/* <Navbar/> */}
+          <BallCursor />
+
     <Navbar2/>
     <ScrollTop />
      <Routes>

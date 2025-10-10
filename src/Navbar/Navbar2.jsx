@@ -621,7 +621,7 @@ export default function Navbar2() {
     <>
       <div className="sticker"></div>
       <div className={fix ? "navbarFixed" : "Top-3"}>
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo"  id="logo-dup"/>
         <ul>
           <li>
             <Link to="/">Home</Link>

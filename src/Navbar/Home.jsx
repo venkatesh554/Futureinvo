@@ -7,6 +7,7 @@ import img3 from "../block1-images/img3.jpg"
 import img4 from "../block1-images/img4.jpeg"
 import img5 from "../block1-images/img5.png";
 import img6 from "../block1-images/img6.png"
+import { Link } from "react-router-dom";
 
 
 import it from "../saervice-images/it.png"
@@ -130,8 +131,8 @@ export default function Home() {
             <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
-            <button >Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
-      </div>
+<Link to="/">            <button>Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
+</Link>      </div>
 
 
       <div className="right-content">
