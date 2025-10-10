@@ -1876,8 +1876,11 @@ width:100%;
     align-items: center !important;
     justify-content: center !important;
     animation: slideInBottom 1s ease-out forwards !important;
-    margin: 55px !important; /* No margins—lets images take full space */
+    margin:  0!important; /* No margins—lets images take full space */
     padding: 0 !important; /* No padding—images touch edges for max size */
+    margin-left:40px !important;
+    
+
   }
 
   .right-content img {
@@ -2018,7 +2021,7 @@ width:100%;
 
   .child #p2 {
     position: relative !important;
-    top: 0 !important;
+    top: 40px !important;
     width: 100% !important;
     margin: 65px 0 !important;
     line-height: 1.6 !important;
