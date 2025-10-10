@@ -16,9 +16,10 @@ import BallCursor from "./Navbar/BallCursor";
 function App() { 
   return (
     <>
+      <BallCursor />
    <div className="app">
     {/* <Navbar/> */}
-          <BallCursor />
+        
 
     <Navbar2/>
     <ScrollTop />

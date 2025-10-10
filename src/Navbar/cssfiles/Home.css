@@ -1162,8 +1162,8 @@ top:-10px;
     margin-bottom: 0;
 }
 .footer img{
-  width:200px;
-  height:90px;
+  width:150px;
+  height:100px;
   margin-top:50px;
   opacity: 2;
 }
@@ -3405,7 +3405,7 @@ width:100%;
   /* Scroll Buttons: Absolute positioning within overlay container, overriding inline styles */
   .block6 + .cards-arrows button {
     position: absolute !important; /* Override inline absolute, but position correctly */
-    top: 67.5% !important; /* Vertically center (override inline top: 403%) */
+    top: 68.5% !important; /* Vertically center (override inline top: 403%) */
     transform: translateY(-50%) !important; /* Fine-tune vertical center */
     left: 10px !important; /* Left button fixed left (override inline left: 80%) */
     right: auto !important; /* Ignore right for left button */

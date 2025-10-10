@@ -131,8 +131,16 @@ export default function Home() {
             <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
-<Link to="/">            <button>Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
-</Link>      </div>
+          <Link
+  to="/"
+  onClick={() => window.location.reload()}
+>
+  <button>
+    Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon" />
+  </button>
+</Link>
+
+      </div>
 
 
       <div className="right-content">
@@ -175,7 +183,7 @@ export default function Home() {
                              <div className="right-sub1">
                                  <img src={img5}/>
                                    <p id="heads">Vision</p>
-                                  <p>Innovationg Futures<br></br>Through Technology</p>
+                                  <p>Innovationg Features<br></br>Through Technology</p>
                               </div>
 
                               <div className="right-sub2">
