@@ -2066,7 +2066,7 @@ width:100%;
   /* Right-Content (Images): Absolute mid-section, vertical stack */
   .right-content {
     position: absolute !important;
-    top: 45vh !important; /* Below text; adjust if text taller */
+    top: 60vh !important; /* Below text; adjust if text taller */
     left: 0 !important;
     width: 100% !important;
     max-width: 95%;
