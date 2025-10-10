@@ -692,3 +692,1469 @@ border:1px solid white;
     left:-90px;
     background-color:  rgba(55, 84, 142);;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* TT Container: Reset for natural flow */
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Driving Innovation Parent: Stack text and image vertically, reset positions */
+  .driving-innovation-parent {
+    position: absolute !important;
+    margin-top: 0 !important;
+    background-color: rgba(55, 84, 142) !important; /* Preserve if needed */
+    height: auto !important;
+    width: 100% !important;
+    padding: 40px 20px !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack child and bgimg */
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: absolute !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.4 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 2rem !important; /* Smaller */
+    margin: 0 0 15px 0 !important;
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  .bgimg {
+    width: 100% !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  /* Bgcolor1: Auto height, stack digital-change and component2 */
+  .bgcolor1 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 80px !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack sections */
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top: 20px !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  .digital-change h1 {
+    position: relative !important;
+    width: 100% !important; /* Full width (override 750px) */
+    font-size: 1.8rem !important; /* Smaller */
+    margin: 0 0 15px 0 !important;
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width (override 650px) */
+    line-height: 1.5 !important;
+    font-size: 14px !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 12px 30px !important; /* Smaller padding */
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    margin: 0 auto !important; /* Center button */
+    display: block !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack images vertically */
+    align-items: center !important;
+    gap: 15px !important;
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important; 
+    max-width: 300px !important; 
+    height: auto !important; 
+    left: 0 !important; 
+    top: 0 !important;
+  }
+
+  .bgcolor2 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack elements vertically */
+    align-items: center !important;
+    gap: 15px !important;
+  }
+
+  .circle {
+    width: 120px !important; /* Smaller circle */
+    height: 120px !important;
+    border: 1px solid !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 14px !important;
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important; /* Reset top */
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important; /* Center */
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 16px !important; /* Smaller */
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2.5rem !important; /* Smaller */
+    color: inherit !important; /* Preserve colors */
+    margin: 10px 0 !important;
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  .component3 img,
+  #component3-img1 {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 350px !important; /* Cap */
+    height: auto !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    margin: 10px auto !important; /* Center */
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important; /* Full width */
+    height: 40px !important; /* Shorter */
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 10px 0 !important;
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important; /* Full width */
+    padding: 10px !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    color: white !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    text-align: center !important;
+    margin: 0 auto 20px auto !important; /* Center */
+    max-width: 300px !important;
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    display: flex !important;
+    flex-direction: column !important; /* Stack squares vertically */
+    width: 100% !important; /* Full width (override 600px) */
+    padding: 10px !important;
+    gap: 15px !important; /* Vertical gap */
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important; /* Full width */
+    max-width: 280px !important; /* Cap */
+    height: auto !important; /* Auto height */
+    border: 1px solid grey !important;
+    padding: 15px !important;
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    text-align: center !important;
+    border-radius: 8px !important;
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important; /* Center text */
+    margin: 10px 0 !important;
+    font-size: 14px !important;
+  }
+
+  .squre1 img {
+    position: relative !important;
+    top: 0 !important; /* Reset absolute */
+    left: 0 !important;
+    width: 60px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 10px auto !important; /* Center above text */
+    display: block !important;
+  }
+
+  /* Specific Image Overrides: Responsive, centered */
+  .squre1 #second,
+  .squre1 #third,
+  .squre1 #fourth,
+  .squre1 #fifth,
+  .squre1 #sixth,
+  .squre1 #seventh,
+  .squre1 #eighth,
+  .squre1 #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60px !important;
+    height: auto !important;
+    margin: 0 auto 10px auto !important;
+  }
+
+  /* Curriculum: Reset top, full width */
+  .curriculum {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .curriculum h2 {
+    font-size: 1.8rem !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin: 0 0 10px 0 !important;
+  }
+
+  .curriculum h3 {
+    font-size: 1.4rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0 !important;
+  }
+
+  .curriculum h2,
+  .curriculum h3 {
+    text-align: center !important;
+  }
+
+  .curriculum-boxes {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width (override 1400px) */
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack div1 vertically */
+    gap: 15px !important; /* Vertical gap */
+    background-color: rgb(239, 247, 254) !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1 {
+    border-radius: 7px !important;
+    padding: 15px !important;
+    width: 100% !important; /* Full width */
+    max-width: 300px !important; /* Cap */
+    height: auto !important; /* Auto height (override 222px) */
+    background-color: rgb(163, 185, 230) !important;
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    box-shadow: 0 4px 10px rgba(216, 216, 216, 0.5) !important; /* Lighter shadow */
+    transition: all 0.3s ease !important; /* Faster transition */
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1:hover {
+    background-color: rgba(5, 98, 160) !important;
+    color: #ffffff !important;
+    transform: translateY(-5px) !important; /* Lift on hover */
+  }
+
+  .curriculum-boxes .div1 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin: 10px 0 !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+  }
+
+  .curriculum-boxes .div1 h2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 1.2rem !important; /* Smaller */
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+  }
+
+  #volume {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 20px !important; /* Smaller icon */
+    margin-bottom: 10px !important; /* Space below icon */
+    color: inherit !important;
+  }
+
+  /* Bgcolor3: Auto height, center component4 */
+  .bgcolor3 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .component4 h2 {
+    font-size: 2rem !important; /* Smaller */
+    font-weight: 600 !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    font-size: 16px !important;
+    width: 100% !important; /* Full width */
+    margin: 0 0 20px 0 !important;
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important; /* Stack div2 vertically */
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important; /* Full width (override 40%) */
+    gap: 20px !important; /* Vertical gap */
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    row-gap: 20px !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 250px !important; /* Cap */
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 80px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 10px auto !important; /* Center */
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+
+  /* Specific Image Overrides: Responsive */
+  #career,
+  #mock,
+  #guest,
+  #resume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 80px !important;
+    height: auto !important;
+    margin: 0 auto 10px auto !important;
+  }
+
+  #bgg2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 6 !important;
+    height: 40px !important;
+    margin: 20px 0 !important;
+  }
+
+  /* Right Side Component: Reset, center image */
+  .right-side-component {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .right-side-component img {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 550px !important;
+    height: 390px !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+  }
+
+  .right-side-component .p {
+    width: 200px !important; /* Smaller circle */
+    height: 200px !important;
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+  }}
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* ... (keep all previous rules for other sections) ... */
+
+  /* Right Side Component: Reset positioning, center image, increase size responsively */
+  .right-side-component {
+    position: relative !important;
+    top: 100px !important; /* Reset large top */
+    width: 100% !important;
+    text-align: center !important; /* Center content */
+    margin: 40px 0 !important; /* Add top/bottom space for section */
+    display: flex !important;
+    flex-direction: column !important; /* Stack .p circle above image */
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .right-side-component .p {
+    width: 200px !important; /* Smaller circle for mobile (was 450px) */
+    height: 200px !important; /* Proportional height */
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    margin-bottom: 20px !important; /* Space below circle before image */
+    z-index: 1 !important; /* Layer above if needed */
+  }
+
+  .right-side-component img {
+    position: absolute !important;
+    width: 100% !important; /* Full width of container */
+    max-width: 450px !important; /* Increased max-width for larger image (from ~350px cap) */
+    height: auto !important; /* Maintain aspect ratio (increases height proportionally) */
+    top: -80px !important; /* Reset negative top */
+    left: 0 !important; /* Reset left */
+    margin: 0 auto !important; /* Center image */
+    border-radius: 8px !important; /* Optional soft corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important; /* Subtle shadow for depth */
+    display: block !important; /* Ensure block for centering */
+    z-index:5;
+  }
+
+  /* ... (keep all other rules) ... */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 575.99px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* Bgcolor4: Reset positioning, full width, auto height for stacking */
+  .bgcolor4 {
+    width: 100% !important;
+    padding-top: 20px !important; /* Reduce padding */
+    height: auto !important; /* Auto height to fit content */
+    position: relative !important;
+    top: 90px !important; /* Reset negative top */
+    background-color: rgb(239, 247, 254) !important;
+    padding-bottom: 40px !important; /* Bottom padding for footer gap */
+    display: flex !important;
+    flex-direction: column !important; /* Stack get-started > form > footer */
+    align-items: center !important;
+  }
+
+  /* Get Started: Full width, centered text */
+  .get-started {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 20px !important; /* Side padding */
+    margin-bottom: 30px !important; /* Space before form */
+  }
+
+  .get-started h2 {
+    font-size: 1.8rem !important; /* Smaller heading */
+    margin: 0 0 20px 0 !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Left Side Para: Full width, stack content vertically */
+  .left-side-para {
+    position: relative !important;
+    width: 100% !important; /* Full width (override 700px) */
+    top: 0 !important; /* Reset top */
+    font-size: 16px !important; /* Readable base */
+    text-align: left !important; /* Left-align for readability */
+    margin-bottom: 20px !important;
+  }
+
+  .left-side-para p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    line-height: 1.5 !important; /* Tighter for mobile */
+    font-size: 14px !important;
+    margin: 0 0 15px 0 !important;
+    padding: 0 10px !important; /* Side padding */
+  }
+
+  .left-side-para ul {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    line-height: 1.5 !important;
+    font-size: 14px !important;
+    margin: 0 0 15px 0 !important;
+    padding-left: 20px !important; /* Indent bullets */
+    list-style-type: disc !important; /* Ensure bullets show */
+    text-align: left !important;
+  }
+
+  .left-side-para li {
+    margin-bottom: 8px !important;
+    padding: 0 10px !important;
+  }
+
+  .down-para {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .down-para h2 {
+    font-size: 1.5rem !important; /* Smaller subheading */
+    margin: 0 0 15px 0 !important;
+    text-align: center !important; /* Center for emphasis */
+  }
+
+  .down-para p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    line-height: 1.5 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  /* Rightside Form (Training Form): Full width, stacked below left para, blue bg preserved */
+  .rightside-form,
+  #training-form {
+    position: relative !important;
+    top: 0 !important; /* Reset large negative top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width (override implied) */
+    max-width: 400px !important; /* Cap for readability */
+    margin: 0 auto 40px auto !important; /* Center with bottom space for footer */
+    background-color: rgba(55, 84, 142) !important; /* Preserve blue */
+    border-radius: 8px !important; /* Rounded */
+    padding: 25px !important; /* Touch-friendly padding */
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+  }
+
+  #apply {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    font-size: 1.5rem !important; /* Smaller */
+    margin: 0 0 20px 0 !important;
+    text-align: center !important;
+    color: white !important;
+  }
+
+  #training-form form {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width (override 480px) */
+    padding: 0 !important; /* No extra padding (parent has it) */
+    left: 0 !important; /* Reset left */
+    color: white !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack fields vertically */
+    gap: 15px !important; /* Space between fields */
+  }
+
+  #training-form form label {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 14px !important; /* Smaller labels */
+    font-weight: 500 !important;
+    color: white !important;
+    margin-bottom: 5px !important;
+    text-align: left !important;
+  }
+
+  #training-form form input {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width (override 300px) */
+    height: 45px !important; /* Touch-friendly height */
+    margin: 0 !important; /* No margin (use gap) */
+    padding: 12px !important; /* Internal padding */
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white for contrast on blue */
+    border: 1px solid white !important; /* White border */
+    border-radius: 5px !important;
+    font-size: 16px !important; /* Prevent iOS zoom */
+    color: white !important; /* White text */
+    placeholder-color: rgba(255, 255, 255, 0.7) !important; /* Light placeholder */
+  }
+
+  #training-form form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  #training-form form input:focus {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important; /* Focus glow */
+  }
+
+  #comment-box {
+    height: 100px !important; /* Taller for message */
+    resize: vertical !important; /* Allow resize */
+  }
+
+  #onsubmit {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width */
+    padding: 15px !important; /* Touch-friendly */
+    margin-top: 10px !important;
+    color: white !important;
+    background-color: rgba(5, 99, 160) !important; /* Darker blue */
+    border: 1px solid white !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+  }
+
+  #onsubmit:hover,
+  #onsubmit:active {
+    background-color: rgba(5, 99, 160, 0.9) !important;
+  }
+
+  .submitt {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Training Footer: Reset absolute, full width, stacked */
+  .training-footer {
+    position: relative !important;
+    top: 0 !important; /* Reset absolute top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    margin-top: 40px !important; /* Gap from form */
+  }
+
+  .training-footer .footer,
+  .training-footer .lastt {
+    width: 100% !important; /* Full width (override 120%) */
+    left: 0 !important; /* Reset left */
+  }
+
+  /* Reuse Footer Responsive Styles (stacked links, centered) */
+  .footer {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 40px 20px 20px 20px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .footer img {
+    width: 200px !important;
+    height: 50px !important;
+    margin: 0 auto 20px auto !important;
+    display: block !important;
+  }
+
+  .line1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 14px !important;
+    padding: 0 10px !important;
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .icn svg {
+    font-size: 20px !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  .links1 h3 {
+    margin-bottom: 15px !important;
+    text-decoration: underline !important;
+    font-size: 16px !important;
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important;
+    color: white !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"],
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important;
+    left: 0 !important;
+    padding-left: 25px !important;
+  }
+
+  /* Last Line: Stacked, full width */
+  .lastt,
+  #last-contact {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .last-line {
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 20px !important;
+    text-align: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Other Unused/DS Classes: Reset if present */
+  .bgcolor4-ds,
+  #right-four,
+  #tt-three,
+  .course-high,
+  #right-side-component-img,
+  #digital-change-btn-2,
+  #digital-change-btn,
+  #component3-img1-ds,
+  #mark-ds,
+  #digi-ds {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* General: Prevent overflow, consistent sizing, and mobile-first resets */
+  body {
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: sans-serif !important; /* Fallback for readability */
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* Main Container: Full width, auto height, no scrolling issues */
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden !important;
+    display: block !important;
+  }
+
+  /* Hero Section: Stack text and image vertically, centered */
+  .driving-innovation-parent {
+    position: relative !important; /* Reset any absolute */
+    margin: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 40px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    z-index: 2 !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.4 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 2rem !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.7 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+
+ 
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    display: block !important;
+  }
+
+  /* Bgcolor1 Section: Stack digital-change and images vertically */
+  .bgcolor1-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 50px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 40px 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 30px !important;
+  }
+
+  .digital-change h1 {
+    position: relative !important;
+    width: 100% !important;
+    font-size: 1.8rem !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    line-height: 1.8 !important;
+    font-size: 14px !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 12px 30px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    margin: 0 auto !important;
+    display: block !important;
+    transition: background-color 0.3s ease !important;
+  }
+
+  .digital-change button:hover {
+    background-color: rgba(5, 99, 160, 0.9) !important;
+  }
+
+  /* Component2: Stack #t-one and #t-two vertically, centered images */
+  .component2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important; /* Reset absolute/offsets */
+    width: 100% !important;
+    max-width: 350px !important; /* Prevent overflow on small screens */
+    height: auto !important; /* Auto height for aspect ratio (no fixed 400px) */
+    left: 0 !important; /* Remove any offsets like -60px/30px */
+    top: 0 !important; /* Remove offsets like 20px/-420px */
+    display: block !important;
+    margin: 0 auto !important; /* Center each image */
+    border-radius: 8px !important; /* Optional: Soft corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+  }
+
+  /* Bgcolor2 Section: Stack all elements vertically */
+  .bgcolor2-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 40px 20px !important;
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .circle {
+    width: 120px !important;
+    height: 120px !important;
+    border: 2px solid red !important; /* Adjust if needed */
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 14px !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 16px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2.5rem !important;
+    color: inherit !important;
+    margin: 10px 0 !important;
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  #img-ds {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 10px auto !important;
+    display: block !important;
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 40px !important;
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 10px 0 !important;
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    padding: 10px !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: white !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    text-align: center !important;
+    margin: 0 auto 20px auto !important;
+    font-size: 1.5rem !important;
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 10px !important;
+    gap: 15px !important;
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important;
+    max-width: 280px !important;
+    height: auto !important;
+    border: 1px solid grey !important;
+    padding: 15px !important;
+    position: relative !important;
+    left: 0 !important;
+    text-align: center !important;
+    border-radius: 8px !important;
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+    font-size: 14px !important;
+  }
+
+  .squre1 img,
+  #second,
+  #third,
+  #fourth,
+  #fifth,
+  #sixth,
+  #seventh,
+  #eighth,
+  #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60px !important;
+    height: auto !important;
+    margin: 0 auto 10px auto !important;
+    display: block !important;
+  }
+
+  /* Curriculum Section: Stack boxes vertically */
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 40px 20px !important;
+    background-color: rgb(239, 247, 254) !important;
+  }
+
+
+
+  #volume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    color: inherit !important;
+  }
+
+  /* Bgcolor3 Section: Stack placement support vertically */
+  .bgcolor3-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 40px 20px !important;
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .component4 h2 {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 16px !important;
+    width: 100% !important;
+    margin: 0 0 20px 0 !important;
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 20px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 250px !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img,
+  #career,
+  #guest,
+  #resume,
+  #mock {
+    position: relative !important;
+    top: 0 !important;
+    width: 80px !important;
+    height: auto !important;
+    margin: 0 auto 10px auto !important;
+    display: block !important;
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+
+  #bgg2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 1 !important;
+    height: 40px !important;
+    margin: 20px 0 !important;
+    background-color: rgba(55, 84, 142) !important; /* Assuming bg color */
+  }
+
+  /* Right Side Component: Stack circle and image vertically, centered */
+  .right-side-component {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 40px 0 !important;
+  }
+
+  .right-side-component .p {
+    width: 200px !important;
+    height: 200px !important;
+    background-color: rgb(91, 117, 169) !important;
+  }}

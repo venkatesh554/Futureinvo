@@ -418,8 +418,8 @@ export default function Datascience() {
                                            </div>
                                             <div className="links1">
                                                <h3>Contact Us</h3>
-                                             <a href="#"><FontAwesomeIcon icon={faLocationDot} />Capital Park,Hightech City,<br></br>Hyderabad</a>
-                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+<a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                                              <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
                                            
                                            </div>

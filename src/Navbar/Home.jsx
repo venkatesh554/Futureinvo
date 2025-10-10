@@ -124,13 +124,13 @@ export default function Home() {
     <div className="parent">
       <div className="child">
             <p id="p1"><button id="b1"></button>BEST IT SOLUTION PROVIDER</p>
-           <h1>Futureinvo Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
+           <h1>Futureinvo IT Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
            <p id="p2">At Futureinvo Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
               Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
             <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
-            <button>Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
+            <button >Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon"/></button>
       </div>
 
 
@@ -162,7 +162,7 @@ export default function Home() {
                  </div>
 
                 <div className="content-rightt1">
-                      <h2 id="h21">ABOUT Futureinvo IT Solutions</h2>
+                      <h2 id="h21">ABOUT US</h2>
                        <h2 id="h22">Empowering Business Growth<br></br>Through Innovative <span>Technology</span></h2>
                           <p id="ss">Futureinvo IT Solutions is an IT company based in Hyderabad, specializing in web
                             development, Web design, mobile application development, digital marketing services

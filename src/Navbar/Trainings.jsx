@@ -66,7 +66,7 @@ export default function Trainings() {
             settings, ensuring you are job-ready. Whether you are a student or a working professional, this program provides the ultimate blend of theoretical mastery and 
             practical experience for a successful career 
           </p>
-          <button id="digital-change-btn">Know More</button>
+          <button id="">Know More</button>
         </div>
          <div className="component2">
            <img src={one} id="t-one"/>
@@ -128,6 +128,8 @@ export default function Trainings() {
        </div>
      </div>
       </div>
+
+
            <div className="curriculum">
             <h2>What Our Innovative Curriculum Covers?</h2>
             <h3>What You Learn is What You Get!</h3>
@@ -408,8 +410,8 @@ export default function Trainings() {
                                            </div>
                                             <div className="links1">
                                                <h3>Contact Us</h3>
-                                             <a href="#"><FontAwesomeIcon icon={faLocationDot} />Capital Park,Hightech City,<br></br>Hyderabad</a>
-                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+<a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                                              <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
                                            
                                            </div>

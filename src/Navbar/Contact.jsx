@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./contact.css"
 import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +18,58 @@ import calling from "./contact-images/calling.jpg"
 import locationn from "./contact-images/locationn.jpg"
 
 export default function Contact() {
+
+ const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    city: "",
+    occupation: "",
+    message: "",
+  });
+  
+
+  // 2️⃣ Handle input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  // 3️⃣ Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Check for empty fields
+    if (
+      !formData.name ||
+      !formData.email ||
+      !formData.mobile ||
+      !formData.city ||
+      !formData.occupation ||
+      !formData.message
+    ) {
+      alert("⚠️ Please fill in all fields before submitting!");
+      return;
+    }
+
+    // Store in localStorage
+    localStorage.setItem("contactFormData", JSON.stringify(formData));
+    alert("✅ Your data has been saved successfully!");
+
+    // Reset the form
+    setFormData({
+      name: "",
+      email: "",
+      mobile: "",
+      city: "",
+      occupation: "",
+      message: "",
+    });
+  };
+
   return (
     <div>
        <div className="tt">
@@ -58,38 +110,92 @@ export default function Contact() {
             </div>
 
             
-            <div className="rightside-form-contact">
-               <h2>What's on your mind ? Just ask us!</h2>
-               <p>
-                For inquiries or  assistance, please fill out the contact form below. Our team is here to help,and we look forward to hearing from you!
-               </p>
-               <form>
-                <label>Your Name <span id="star">*</span>:</label><br></br>
-                <input type="text"></input><br></br>
+          <div className="rightside-form-contact">
+  <h2>What's on your mind? Just ask us!</h2>
+  <p>
+    For inquiries or assistance, please fill out the contact form below. 
+    Our team is here to help, and we look forward to hearing from you!
+  </p>
 
-                <label>Email Address <span id="star">*</span>:</label><br></br>
-                <input type="email"></input><br></br>
+  <form onSubmit={handleSubmit}>
+    <label>
+      Your Name <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="name"
+      value={formData.name}
+      onChange={handleChange} 
+    />
+    <br />
 
-                 <label>Mobile Number <span id="star">*</span>:</label><br></br>
-                 <input type="number"></input><br></br>
+    <label>
+      Email Address <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="email"
+      name="email"
+      value={formData.email}
+      onChange={handleChange}
+    />
+    <br />
 
-                 <label>City <span id="star">*</span >:</label><br></br>
-                 <input type="text"></input><br></br>
+    <label>
+      Mobile Number <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="number"
+      name="mobile"
+      value={formData.mobile}
+      onChange={handleChange}
+    />
+    <br />
 
-                 <label>Occupation <span id="star">*</span>:</label><br></br>
-                 <input type="text"></input><br></br>
+    <label>
+      City <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="city"
+      value={formData.city}
+      onChange={handleChange}
+    />
+    <br />
 
-                 <label>Message <span id="star">*</span>:</label><br></br>
-                 <input type="text" id="comments-box"></input><br></br>
-                 <button  className="subb">Submit</button>
+    <label>
+      Occupation <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      name="occupation"
+      value={formData.occupation}
+      onChange={handleChange}
+    />
+    <br />
 
+    <label>
+      Message <span id="star">*</span>:
+    </label>
+    <br />
+    <input
+      type="text"
+      id="comments-box"
+      name="message"
+      value={formData.message}
+      onChange={handleChange}
+    />
+    <br />
 
-               </form>
-              
-            </div>
-            
-         </div>
-          </div>
+    <button className="subb">Submit</button>
+  </form>
+</div>
+</div>
+</div>
           <div className="footer-contact-2">
              <div className="footerr" id="footer-contact-2">
             <div className="footer" id="footer-dup">
@@ -120,8 +226,8 @@ export default function Contact() {
                         </div>
                          <div className="links1">
                             <h3>Contact Us</h3>
-                          <a href="#"><FontAwesomeIcon icon={faLocationDot} />Capital Park,Hightech City,<br></br>Hyderabad</a>
-                          <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+<a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>                          <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                           <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
                         
                         </div>
