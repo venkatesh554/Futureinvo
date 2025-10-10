@@ -124,7 +124,10 @@ export default function Home() {
   return (
     <div className="parent">
       <div className="child">
-            <p id="p1"><button id="b1"></button>BEST IT SOLUTION PROVIDER</p>
+<p id="p1">
+  <button id="b1" class="toggle-btn"></button>
+  BEST IT SOLUTION PROVIDER
+</p>
            <h1>Futureinvo IT Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
            <p id="p2">At Futureinvo Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
               Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
