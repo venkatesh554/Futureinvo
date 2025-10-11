@@ -1815,7 +1815,7 @@ width:100%;
     border: 1px solid white !important;
     position: relative !important;
     top: 310px !important;
-    margin: 30px auto 0 auto !important;
+    margin: 10px auto 0 auto !important;
     animation: none !important;
     cursor: pointer !important;
     font-size: 16px !important;
@@ -2305,7 +2305,7 @@ width:100%;
   .block5 button {
     background-color: rgb(54, 127, 192);
     color: white;
-    margin-top: 20px !important;;
+    margin-top:30px!important;
     position:static;
     padding: 10px 30px !important;
     border-radius:5px;
