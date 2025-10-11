@@ -130,8 +130,8 @@ export default function Home() {
 </p>
            <h1>Futureinvo IT Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
            <p id="p2">At Futureinvo Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
-              Our mission is to turn your ideas into real, results-driven digital experiences.</p><br></br>
-            <p id="p2">We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
+              Our mission is to turn your ideas into real, results-driven digital experiences.</p>
+            <p id="p2" >We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
           <Link
