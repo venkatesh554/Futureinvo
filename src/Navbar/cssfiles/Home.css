@@ -1705,7 +1705,7 @@ width:100%;
   /* Parent: Absolute at top, full viewport coverage, anchors all children */
   .parent {
     position: absolute !important; /* As requested: Absolute positioning */
-    top: 0 !important; /* Starts at top of viewport/body */
+    top: 7% !important; /* Starts at top of viewport/body */
     left: 0 !important; /* Full left alignment */
     width: 100% !important;
     height: auto !important; /* Adapts to content */
