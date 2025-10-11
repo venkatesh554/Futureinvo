@@ -680,7 +680,6 @@ export default function Navbar2() {
               <FontAwesomeIcon icon={faXmark} id="xmark" onClick={toggleModal} />
               <img src={formlogo} id="form-logo" />
               
-              {/* Mobile Navigation Menu */}
               <div className="mobile-nav-menu">
                 <div className="mobile-nav-item">
                   <Link to="/" onClick={toggleModal}>Home</Link>
