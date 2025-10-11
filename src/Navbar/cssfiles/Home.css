@@ -1718,7 +1718,6 @@ width:100%;
     overflow: visible !important; /* Allows full large image visibility */
   }
 
-  /* Child (Text): Relative inside absolute .parent, flows at top—shows first, no break */
   .child {
     position: relative !important;
     left: 0 !important;
@@ -2537,7 +2536,6 @@ width:100%;
 
 
 
-
 @media (max-width: 575.99px) {
   /* General: Prevent overflow and ensure consistent sizing (for this section) */
   body {
@@ -2564,22 +2562,12 @@ width:100%;
   .block8 h2 {
     color: rgba(5, 98, 160) !important; /* Preserve accent color */
     position: relative !important;
-    font-size: 1.8rem !important; /* Readable on mobile */
+    font-size: 1.8crem !important; /* Readable on mobile */
     margin: 0 0 10px 0;
     line-height: 1.3;
     
   }
 
-  #block8-h2-p {
-    color: black !important;
-    font-weight: 500;
-    font-size: 1.5rem !important; /* Smaller sub-heading */
-    line-height: 1.5;
-    margin: 0 0 30px 0; /* Space below */
-    font-family: inherit;
-    text-align: center !important;
-    word-break: break-word; /* Wrap long phrases */
-  }
 
   /* CARDS2 (Container): Single column flex, centered stack */
   .cards2 {
@@ -2663,7 +2651,6 @@ width:100%;
     text-align: center !important;
   }
 
-  /* Preserve card-specific h2 colors */
   .card1 h2 { color: blue !important; }
   .card2 h2 { color: yellowgreen !important; }
   .card3 h2 { color: violet !important; }
@@ -2685,14 +2672,12 @@ width:100%;
     margin: 0; /* No extra margins */
   }
 
-  /* Preserve card-specific border-bottom colors */
   .card1 { border-bottom-color: blue !important; }
   .card2 { border-bottom-color: yellowgreen !important; }
   .card3 { border-bottom-color: violet !important; }
   .card4 { border-bottom-color: green !important; }
   .card5 { border-bottom-color: red !important; }
 
-  /* Specific card overrides (minimal, for varying desktop heights) */
   .card3 { min-height: 260px !important; } /* Shorter if needed */
   .card5 { min-height: 290px !important; } /* Taller if needed */
 
@@ -2743,6 +2728,77 @@ width:100%;
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
   }
+}
+
+
+
+
+/* Cards: Ensure base structure (add if missing) */
+.block8 .cards2 > div {
+  border-bottom: 7px solid !important; /* Ensure border exists for color to apply */
+  /* ... your existing styles ... */
+}
+
+/* h2 Colors: Higher specificity to override globals */
+.block8 .cards2 .card1 h2 { 
+  color: blue !important; 
+}
+.block8 .cards2 .card2 h2 { 
+  color: yellowgreen !important; 
+}
+.block8 .cards2 .card3 h2 { 
+  color: violet !important; 
+}
+.block8 .cards2 .card4 h2 { 
+  color: green !important; 
+}
+.block8 .cards2 .card5 h2 { 
+  color: red !important; 
+}
+
+/* p in Cards: Full-width, justified, no fixed positions (your original, unchanged) */
+.block8 .cards2 p {
+  position: relative !important;
+  top: 0 !important; /* No fixed top (e.g., 50-70px removed) */
+  left: 0 !important; /* No fixed left */
+  width: 100% !important; /* Full width */
+  max-width: 100%;
+  white-space: normal !important;
+  word-break: break-word;
+  text-align: justify !important;
+  line-height: 1.5 !important; /* Better readability (adjusted from 28px) */
+  font-size: 15px !important; /* Readable body text */
+  margin: 0; /* No extra margins */
+}
+
+/* Border Colors: Higher specificity, ensure full border definition */
+.block8 .cards2 .card1 { 
+  border-bottom-color: blue !important; 
+  border-bottom: 7px solid blue !important; /* Full border if needed */
+}
+.block8 .cards2 .card2 { 
+  border-bottom-color: yellowgreen !important; 
+  border-bottom: 7px solid yellowgreen !important;
+}
+.block8 .cards2 .card3 { 
+  border-bottom-color: violet !important; 
+  border-bottom: 7px solid violet !important;
+}
+.block8 .cards2 .card4 { 
+  border-bottom-color: green !important; 
+  border-bottom: 7px solid green !important;
+}
+.block8 .cards2 .card5 { 
+  border-bottom-color: red !important; 
+  border-bottom: 7px solid red !important;
+}
+
+/* Height Overrides: Unchanged */
+.block8 .cards2 .card3 { 
+  min-height: 260px !important; /* Shorter if needed */
+}
+.block8 .cards2 .card5 { 
+  min-height: 290px !important; /* Taller if needed */
 }
 
 
