@@ -1078,7 +1078,6 @@ display:flex;
 }
 
 
-
 .block9{
   
   width:100%;
@@ -1248,7 +1247,6 @@ top:-10px;
       font-weight: 500;
 
 }
-
 
 
 
@@ -2756,20 +2754,7 @@ width:100%;
   color: red !important; 
 }
 
-/* p in Cards: Full-width, justified, no fixed positions (your original, unchanged) */
-.block8 .cards2 p {
-  position: relative !important;
-  top: 0 !important; /* No fixed top (e.g., 50-70px removed) */
-  left: 0 !important; /* No fixed left */
-  width: 100% !important; /* Full width */
-  max-width: 100%;
-  white-space: normal !important;
-  word-break: break-word;
-  text-align: justify !important;
-  line-height: 1.5 !important; /* Better readability (adjusted from 28px) */
-  font-size: 15px !important; /* Readable body text */
-  margin: 0; /* No extra margins */
-}
+
 
 /* Border Colors: Higher specificity, ensure full border definition */
 .block8 .cards2 .card1 { 
