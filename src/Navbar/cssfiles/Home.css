@@ -2198,7 +2198,7 @@ width:100%;
     white-space: nowrap;
     overflow: hidden;
     width: 300%;
-    padding-top: 10% !important;
+    padding-top: 5% !important;
     text-align: center!important;
   }
 
@@ -2483,7 +2483,7 @@ width:100%;
   
   /* Hide desktop summary (precautionary) */
   .block7 .faq-item summary {
-    display: none !important; /* Override block (mobile doesn't use it) */
+    display: none !important; 
   }
 
   /* For very small screens (<400px): Further compress */
@@ -2569,6 +2569,11 @@ width:100%;
     margin: 0 0 10px 0;
     line-height: 1.3;
     
+  }
+
+  .block8 #block8-h2-p{
+    font-size: 1.1rem !important;
+    padding: 10px 0 !important;
   }
 
 
