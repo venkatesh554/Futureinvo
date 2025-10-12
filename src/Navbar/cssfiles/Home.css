@@ -2198,7 +2198,8 @@ width:100%;
     white-space: nowrap;
     overflow: hidden;
     width: 300%;
-    padding-top: 30px !important;
+    padding-top: 10% !important;
+    text-align: center!important;
   }
 
   .names-scroll em {
@@ -2562,33 +2563,31 @@ width:100%;
   }
 
   .block8 h2 {
-    color: rgba(5, 98, 160) !important; /* Preserve accent color */
+    color: rgba(5, 98, 160) !important; 
     position: relative !important;
-    font-size: 1.8crem !important; /* Readable on mobile */
+    font-size: 1.8crem !important; 
     margin: 0 0 10px 0;
     line-height: 1.3;
     
   }
 
 
-  /* CARDS2 (Container): Single column flex, centered stack */
   .cards2 {
     display: flex !important;
-    flex-direction: column !important; /* Vertical stack for mobile */
-    align-items: center !important; /* Center cards */
+    flex-direction: column !important; 
+    align-items: center !important; 
     justify-content: center;
-    margin-top: 0 !important; /* No fixed top margin */
-    margin-left: 0 !important; /* No fixed left */
+    margin-top: 0 !important; 
+    margin-left: 0 !important; 
     width: 100% !important;
     max-width: 100%;
-    padding: 0 10px !important; /* Minimal side padding */
-    column-gap: 0 !important; /* No horizontal gap in column */
-    row-gap: 20px !important; /* Vertical gap between cards */
+    padding: 0 10px !important;
+    column-gap: 0 !important; 
+    row-gap: 20px !important; 
     animation: bloc 1s ease-out forwards !important; /* Fade-in */
-    transition: none; /* No container transition on mobile */
+    transition: none;
   }
 
-  /* All Cards (.card1 to .card5): Full-width, centered, uniform structure */
   .cards2 > div { /* Targets .card1, .card2, etc. */
     width: 100% !important;
     max-width: 300px !important; /* Cap for mobile balance */
