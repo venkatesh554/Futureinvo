@@ -561,13 +561,20 @@ transition: all 0.5s ease-in-out;
     left:90px;    animation: float 3s ease-in-out infinite alternate;
 }
 
-
+#testi{
+  position: relative;
+  width: 300px !important;
+  height:50px;
+top:-920px;
+left:50px;
+font-size:30px;
+}
 
 .block6 {
 width:95%;
 height:55vh;
 position:absolute;
-top:355%;
+top:360%;
 left:3%;
 /* background-color:rgb(54, 127, 192); */
 display:flex;
@@ -1226,11 +1233,11 @@ top:-10px;
 
 .last-line{
     width:100%;
-    height:70px;
+    height:80px;
     background-color:rgb(54, 127, 192);
     display:flex;
     position: relative;
-    top:180px;
+    top:181px;
     color:white;
     column-gap:400px;
     
@@ -1247,9 +1254,6 @@ top:-10px;
       font-weight: 500;
 
 }
-
-
-
 
 
 
@@ -3601,3 +3605,35 @@ width:100%;
 
 
 
+
+
+
+
+@media (max-width: 575.99px) {
+  /* #testi: Responsive adjustments - full-width, centered, natural flow (overrides negative top) */
+  #testi {
+    position: relative !important; /* Keep relative, but reset positioning */
+    width: 100% !important; /* Full width on mobile (override 300px) */
+    height: auto !important; /* Auto height for content (override 50px) */
+    top: 0 !important; /* Remove negative top - natural flow after block8 */
+    left: 0 !important; /* No left offset */
+    margin: 30px auto 20px auto !important; /* Centered with top/bottom spacing (gap from block8 to block6) */
+    padding: 15px 15px !important; /* Light padding for breathing room */
+    text-align: center !important; /* Center text */
+    font-size: 1.8rem !important; /* Readable mobile size */
+    font-weight: 600 !important; /* Bold for emphasis */
+    line-height: 1.3 !important; /* Compact lines */
+    word-break: break-word; /* Wrap long text if needed */
+    color: rgba(5, 98, 160) !important; /* Blue theme (if desired, match your style) */
+    animation: bloc 1s ease-out forwards !important; /* Optional fade-in (if bloc keyframe exists) */
+  }
+
+  /* Sub-Media for Very Small Screens (<400px): Tighter on tiny devices */
+  @media (max-width: 399px) {
+    #testi {
+      font-size: 1.9rem !important; /* Slightly smaller */
+      margin: 25px auto -5px auto !important; /* Reduced spacing */
+      padding: 0px 10px !important; /* Tighter padding */
+    }
+  }
+}

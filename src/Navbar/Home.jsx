@@ -343,63 +343,57 @@ export default function Home() {
 
             </div>
           </div> */}
+                        <h2 id="testi">What's Clients Say</h2>
+
 
          <div className="block6" ref={testimonialRef} > 
 
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"Future Invo IT Solutions Transformed our digital presence. their team understood our needs and delivered beyond expectations. Truely professional and reliable".</p>
     <h3 id="name">Rajesh Kumar</h3>
     <p id="founder">Founder, TechWave Solutions</p>
   </div>
   
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"Working with Future Invo was a game-changer. their solutions increased our operational efficiency and boosted customer engagement significantly".</p>
     <h3 id="name">Sneha Reddy</h3>
     <p id="founder">CEO, GreenLeaf Enterprises</p>
   </div>
 
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"From website development to digital marketing,Future Invo provided to end-to-end solutions.Their team is knowledgeable, friendly, and highly responsive".</p>
     <h3 id="name">Priya menon</h3>
     <p id="founder">Owner,Bloom Botique</p>
   </div>
 
   <div className="bg1">
-    <h2>What's Clients Say</h2>
+    {/* <h2>What's Clients Say</h2> */}
     <p>"The team at Future Invo exceeded our expectations. Their strategy consulting and IT solutions helped us streamline our processes efficiently".</p>
     <h3 id="name">Vikram Singh</h3>
     <p id="founder">Co-Founder, Quantum Tech Labs</p>
   </div>
 
    <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"Future Invo's approach is both innovative and practical. Their creative solutions have given our brand a modern and professional look".</p>
     <h3 id="name">Anjali Kapoor</h3>
     <p id="founder">Founder, StyleHive</p>
   </div>
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"We were struggling with outdated systems, and Future Invo IT Solutions provided modern and scalable solutions that improved our workflow drastically".</p>
     <h3 id="name">Rohan Metha</h3>
     <p id="founder">CEO, UrbanEdge Reality</p>
   </div>
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"exceptional service and results ! Future Invo's Team is always avaliable to support and guide us.Highly recommended for small and growing business".</p>
     <h3 id="name">Divya lyer</h3>
     <p id="founder">Owner HealthBites Cafe</p>
   </div>
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"Future Invo's expertise in technology modernization helped our firm adopt the latest tools seamlessly. Their Professionalism is unmatched ".</p>
     <h3 id="name">Karan Varma</h3>
     <p id="founder">Managing Partner , Apex Consultancies</p>
   </div>
   <div className="bg1">
-    <h2>What's Clients Say</h2>
     <p>"Thanks to Future Invo, our online presence is stronger than ever.Their team delivered creative solutions and tailored to our educational platform ".</p>
     <h3 id="name">Shreya Nair</h3>
     <p id="founder">Founder , EduSmart Academy</p>

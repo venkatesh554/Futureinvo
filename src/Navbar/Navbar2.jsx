@@ -647,10 +647,19 @@ export default function Navbar2() {
             </span>
             <ul className="dropdown-menu">
               <li>
-                <Link to="/Service1">Service 1</Link>
+                <Link to="/Service1">IT Consulting</Link>
               </li>
               <li>
-                <Link to="/Service2" id="data-hover">Service 2</Link>
+                <Link to="/Service2" id="data-hover">Web Development</Link>
+              </li>
+              <li>
+                <Link to="/Service3" id="data-hover-2">Web Design</Link>
+              </li>
+              <li>
+                <Link to="/Service4" id="data-hover-3">Mobile Applications</Link>
+              </li>
+              <li>
+                <Link to="/Service5" id="data-hover-4">Digital Marketing Services</Link>
               </li>
             </ul>
           </li>
@@ -711,11 +720,21 @@ export default function Navbar2() {
                   </div>
                   <div className={`mobile-dropdown-menu ${mobileDropdown === 'services' ? 'active' : ''}`}>
                     <div className="mobile-dropdown-item">
-                      <Link to="/Service1" onClick={toggleModal}>Service 1</Link>
+                      <Link to="/Service1" onClick={toggleModal}>IT Consulting</Link>
                     </div>
                     <div className="mobile-dropdown-item">
-                      <Link to="/Service2" onClick={toggleModal}>Service 2</Link>
+                      <Link to="/Service2" onClick={toggleModal}>Web Development</Link>
                     </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service3" onClick={toggleModal}>Web Design</Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service4" onClick={toggleModal}>Mobile Applications</Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service5" onClick={toggleModal}>Digital Marketing</Link>
+                    </div>
+                    
                   </div>
                 </div>
 

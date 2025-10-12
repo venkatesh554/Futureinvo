@@ -186,24 +186,31 @@ body.active-modal{
   position: absolute;
   top: calc(100% + 6px);
   left: 0;
-  min-width: 180px;
+  min-width: 240px;
   background: #fff;
   border: 1px solid #ddd;
   list-style: none;
   padding: 6px 0;
   margin: -5px;
   z-index: 2000;
-  height:90px;
+  height:auto;
+  gap:10px;;
+  
 
   display: flex;
   flex-direction: column;
-
   opacity: 0;
   visibility: hidden;
   transform: translateY(-8px);
   pointer-events: none;          
   transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
 }
+
+
+
+
+
+
 
 .dropdown:hover .dropdown-menu {
   opacity: 1;
@@ -218,6 +225,7 @@ body.active-modal{
 }
 
 .dropdown-menu li a {
+  
   position:relative;
   left:-15px;
   top:-5px;
@@ -226,6 +234,7 @@ body.active-modal{
   color: #333;
   text-decoration: none; 
   transition: color 0.25s ease, background-color 0.25s ease;
+  
 }
 
 .dropdown-menu li a:hover {
@@ -237,6 +246,22 @@ body.active-modal{
   position: relative;
   top:-45px;
 }
+
+#data-hover-2{
+  position: relative;
+  top:-75px;
+}
+
+#data-hover-3{
+  position: relative;
+  top:-105px;
+}
+
+#data-hover-4{
+  position: relative;
+  top:-125px;
+}
+
 
 .mobile-nav-item{
   opacity:0;
@@ -512,14 +537,14 @@ body.active-modal{
 
   .mobile-dropdown-menu {
     width: 100%;
-    max-height: 0;
+    max-height:0;
     overflow: hidden;
     transition: max-height 0.3s ease;
     background: #f9f9f9;
   }
 
   .mobile-dropdown-menu.active {
-    max-height: 200px; 
+    max-height: 400px; 
   }
 
   .mobile-dropdown-item {
@@ -609,7 +634,8 @@ body.active-modal{
     resize: vertical; 
     font-family: inherit; 
     position: static !important;
-    margin-bottom: 10px!important;
+    margin-bottom: 0px!important;
+    
   }
 
   #nav-form-btn {
@@ -777,3 +803,182 @@ body.active-modal{
 
  
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* Your existing code here... (Top-3, pop-up, mobile-nav-menu, etc.) */
+
+  /* Sub-Media for Very Small Screens (<400px): Tighter layout, smaller elements */
+  @media (max-width: 399px) {
+    /* Navbar: Even more compact */
+    .Top-3 {
+      padding: 0 8px; /* Tighter sides */
+      height: 55px; /* Slightly shorter */
+    }
+
+    .Top-3 img {
+      width: 90px; /* Smaller logo */
+      height: 70px;
+    }
+
+    #bar {
+      font-size: 1.3rem; /* Smaller icon */
+    }
+
+    /* Sticker: Reduced spacer for tiny screens */
+    .sticker {
+      height: 130px; /* Less height to save space */
+    }
+
+    /* Popup: Narrower, shorter min-height */
+    .pop-up {
+      left: 5px;
+      right: 5px;
+      width: calc(100vw - 10px); /* Fuller width */
+      padding: 15px; /* Tighter padding */
+      gap: 12px; /* Smaller gaps */
+      min-height: 450px; /* Reduced to fit short content */
+      border-radius: 8px; /* Softer corners */
+    }
+
+    #xmark {
+      top: 8px !important;
+      right: 10px !important;
+      width: 28px;
+      height: 28px;
+      padding: 4px;
+      font-size: 1.3rem; /* Smaller close icon */
+    }
+
+    .pop-up img {
+      width: 80px; /* Smaller logo */
+    }
+
+    /* Mobile Nav Menu: Compact items */
+    .mobile-nav-menu {
+      margin: 8px 0; /* Less top/bottom margin */
+    }
+
+    .mobile-nav-item {
+      padding: 12px !important; /* Shorter item height (from 20px) */
+      margin-bottom: 3px; /* Tighter spacing */
+      border-bottom: 1px solid #f0f0f0; /* Lighter border */
+    }
+
+    .mobile-nav-item a,
+    .mobile-dropdown-toggle {
+      padding: 12px 8px; /* Tighter padding */
+      font-size: 1rem; /* Slightly smaller text */
+      line-height: 1.3; /* Compact lines */
+    }
+
+    .mobile-dropdown-toggle {
+      font-size: 1rem;
+    }
+
+    /* Mobile Dropdown: Faster transition, smaller max-height */
+    .mobile-dropdown-menu {
+      transition: max-height 0.25s ease; /* Quicker animation */
+      height: auto !important;
+    }
+
+    .mobile-dropdown-menu.active {
+      max-height: 300px; /* Reduced for less scroll */
+    }
+
+    .mobile-dropdown-item {
+      padding-left: 15px; /* Less indent */
+    }
+
+    .mobile-dropdown-item a {
+      padding: 8px; /* Shorter sub-items */
+      font-size: 0.95rem; /* Smaller sub-text */
+      border-bottom: 1px solid #f5f5f5; /* Subtle border */
+    }
+
+    .mobile-dropdown-item a:hover {
+      padding: 8px;
+      background: #f8f9ff; /* Lighter hover */
+    }
+
+    /* Popup Paragraph: Smaller font, less padding */
+    .pop-up p {
+      padding: 0 8px; /* Tighter sides */
+      font-size: 0.85rem; /* Smaller text */
+      line-height: 1.3; /* Compact reading */
+      margin-bottom: 10px; /* Less space below */
+    }
+
+    /* Form: 1-Column Grid, Tighter Gaps */
+    .pop-up form {
+      grid-template-columns: 1fr !important; /* Force 1-column on tiny screens */
+      gap: 10px; /* Smaller gaps */
+      margin-bottom: 20px; /* Less bottom space */
+    }
+
+    /* All Labels/Inputs: Single Column Positioning */
+    #label1, #label2, #label3, #label4, #label5,
+    .pop-up form input:nth-of-type(1), /* Name */
+    .pop-up form input:nth-of-type(2), /* Email */
+    .pop-up form input:nth-of-type(3), /* Mobile */
+    .pop-up form input:nth-of-type(4), /* City */
+    #message-us {
+      grid-column: 1 !important; /* All in one column */
+    }
+
+    /* Sequential Rows for Inputs */
+    #label2 { grid-row: 3; }
+    .pop-up form input:nth-of-type(2) { grid-row: 3; } /* Email row */
+
+    #label3 { grid-row: 4; }
+    .pop-up form input:nth-of-type(3) { grid-row: 4; } /* Mobile row */
+
+    #label4 { grid-row: 5; }
+    .pop-up form input:nth-of-type(4) { grid-row: 5; } /* City row */
+
+    #label5 { grid-row: 6; }
+    #message-us { grid-row: 7; } /* Message spans */
+
+    #nav-form-btn { 
+      grid-row: 8; 
+      padding: 12px; /* Shorter button */
+      font-size: 0.95rem; /* Smaller text */
+    }
+
+    /* Inputs: Shorter height, less margin */
+    .pop-up form input {
+      height: 38px; /* Slightly shorter for touch */
+      margin-top: 12px; /* Less space from label */
+      font-size: 0.95rem; /* Smaller input text */
+      padding: 0 8px; /* Tighter padding */
+    }
+
+    #message-us {
+      height: 80px !important; /* Compact message area */
+    }
+
+    /* Active Modal: Extra overflow prevention */
+    body.active-modal {
+      overflow: hidden !important; /* Full lock on tiny screens */
+    }
+  }
+}
