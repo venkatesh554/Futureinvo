@@ -291,7 +291,7 @@
     position: relative !important;
     top: 0 !important; /* Reset top */
     width: 100% !important;
-    margin-top: 40px !important; /* Gap from choose us */
+    margin-top: 40px !important;
   }
 
   #footer-dup {
@@ -446,3 +446,16 @@
     to { transform: translateY(-10px); }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
