@@ -2202,7 +2202,7 @@ width:100%;
     white-space: nowrap;
     overflow: hidden;
     width: 300%;
-    padding-top: 5% !important;
+    padding-top: 10% !important;
     text-align: center!important;
   }
 
@@ -2215,6 +2215,66 @@ width:100%;
     display: inline-block;
     white-space: nowrap;
   }
+
+
+
+
+
+  @media (max-width: 575.99px) {
+  /* Your existing .block2 code here... (full width, centered, horizontal scroll) */
+
+  /* Sub-Media for Very Small Screens (<400px): Tighter layout, smaller fonts/elements */
+  @media (max-width: 399px) {
+    /* BLOCK2 Container: More compact padding and min-height */
+    .block2 {
+      padding: 20px 10px !important; /* Reduced padding (from 30px 15px) */
+      min-height: 20vh !important; /* Slightly shorter to fit tiny screens */
+      margin-top: 15px !important; /* Less gap from previous section */
+    }
+
+    /* h2: Smaller font, tighter margin */
+    .block2 h2 {
+      font-size: 1.3rem !important; /* Smaller (from 1.5rem) */
+      margin: 0 0 15px 0 !important; /* Reduced bottom margin (from 20px) */
+      padding: 0 5px !important; /* Light side padding if needed */
+    }
+
+    /* Hide lines: Unchanged */
+    .block2 #i1, .block2 #i2 { 
+      display: none !important; 
+    }
+
+    /* Names-Scroll: Compact, maintain scroll effect but tighter */
+    .names-scroll {
+      width: 300% !important; /* Preserve wide width for marquee */
+      padding-top: 3% !important; /* Reduced top padding (from 5%) */
+      font-size: 0.95em !important; /* Slight scale down for overall text */
+      text-align: center !important; /* Unchanged */
+    }
+
+    /* em Items: Smaller font, less margin for dense fit */
+    .names-scroll em {
+      margin-left: 15px !important; /* Reduced (from 20px) */
+      font-size: 16px !important; /* Smaller (from 18px) */
+      padding: 0 5px !important; /* Light padding to prevent crowding */
+      white-space: nowrap; /* Unchanged */
+    }
+
+    /* Animation: Slightly faster for tiny screens (optional) */
+    .names-scroll {
+      animation-duration: 12s !important; /* Quicker scroll (from 15s) if desired; adjust as needed */
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
 
   .block3 {
     position: relative !important;
