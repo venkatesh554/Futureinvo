@@ -406,8 +406,8 @@ export default function Home() {
 
 </div>
       <div className="cards-arrows">
-         <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
-       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '403%',padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+         <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff",textAlign:"center"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
+       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '403%',padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff",textAlign:"center",textAlign:"center" }}><FontAwesomeIcon icon={faArrowRight} /></button>
       </div>
        
 
