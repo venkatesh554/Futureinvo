@@ -2194,10 +2194,11 @@ width:100%;
     position: relative !important;
     top: 0 !important;
     display: block !important; /* Block for full width */
-    animation: scroll 15s linear infinite !important;
+    animation: scroll 5s linear infinite !important;
     white-space: nowrap;
     overflow: hidden;
     width: 100%;
+    padding-top: 30px !important;
   }
 
   .names-scroll em {
