@@ -614,7 +614,7 @@ overflow-x: auto;
 
 .block6 .bg1{
   width:500px;
-  height:270px;
+  height:250px;
   position:relative;
   padding:5px 20px;
   left:50px;
@@ -3610,15 +3610,14 @@ width:100%;
 
 
 @media (max-width: 575.99px) {
-  /* #testi: Responsive adjustments - full-width, centered, natural flow (overrides negative top) */
   #testi {
-    position: relative !important; /* Keep relative, but reset positioning */
-    width: 100% !important; /* Full width on mobile (override 300px) */
-    height: auto !important; /* Auto height for content (override 50px) */
-    top: 0 !important; /* Remove negative top - natural flow after block8 */
-    left: 0 !important; /* No left offset */
-    margin: 30px auto 20px auto !important; /* Centered with top/bottom spacing (gap from block8 to block6) */
-    padding: 15px 15px !important; /* Light padding for breathing room */
+    position: relative !important; 
+    width: 100% !important; 
+    height: auto !important; 
+    top: 0 !important; 
+    left: 0 !important; 
+    margin: 30px auto 20px auto !important; 
+    padding: 15px 15px !important; 
     text-align: center !important; /* Center text */
     font-size: 1.8rem !important; /* Readable mobile size */
     font-weight: 600 !important; /* Bold for emphasis */
