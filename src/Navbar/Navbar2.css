@@ -656,6 +656,7 @@ body.active-modal{
     left:0;
     padding: 10px !important;
     text-align: center!important;
+margin-bottom:60px!important;
   }
 
   #nav-form-btn:hover,
@@ -743,7 +744,77 @@ body.active-modal{
 
 
 
+@media (max-width: 399px) {
+  .pop-up form {
+    grid-template-columns: 1fr !important; 
+    gap: 12px;
+  }
 
+  #label1, #label2, #label3, #label4, #label5,
+  .pop-up form input:nth-of-type(1),
+  .pop-up form input:nth-of-type(2),
+  .pop-up form input:nth-of-type(3),
+  .pop-up form input:nth-of-type(4),
+  #message-us {
+    grid-column: 1 !important;
+  }
+
+  #label2 {
+    grid-row: 3;
+  }
+  .pop-up form input:nth-of-type(2) {
+    grid-row: 4;
+  }
+
+  #label3 {
+    grid-row: 5;
+  }
+  .pop-up form input:nth-of-type(3) {
+    grid-row: 6;
+  }
+
+  #label4 {
+    grid-row: 7;
+  }
+  .pop-up form input:nth-of-type(4) {
+    grid-row: 8;
+  }
+
+  #label5 {
+    grid-row: 9;
+  }
+  #message-us {
+    grid-row: 10;
+  }
+
+  #nav-form-btn {
+    grid-row: 11;
+  }
+
+  .pop-up {
+    left: 5px;
+    right: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 550px; 
+  }
+
+  .Top-3 img {
+    width: 100px;
+  }
+
+  .pop-up form input,
+  #message-us {
+    height: 45px; 
+  }
+
+  #message-us {
+    height: 90px; 
+  }
+}
+
+
+ 
  
 
 
