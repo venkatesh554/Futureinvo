@@ -2194,10 +2194,10 @@ width:100%;
     position: relative !important;
     top: 0 !important;
     display: block !important; /* Block for full width */
-    animation: scroll 5s linear infinite !important;
+    animation: scroll 15s linear infinite !important;
     white-space: nowrap;
     overflow: hidden;
-    width: 100%;
+    width: 300%;
     padding-top: 30px !important;
   }
 
@@ -2211,7 +2211,6 @@ width:100%;
     white-space: nowrap;
   }
 
-  /* BLOCK3 (Services): Full width, centered headings, single-column boxes */
   .block3 {
     position: relative !important;
     width: 100% !important; /* Full width */
