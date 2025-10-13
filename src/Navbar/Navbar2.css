@@ -1268,16 +1268,14 @@ margin-bottom:60px!important;
     font-weight: 500 !important; /* Semi-bold preserved */
     z-index: 1 !important; 
     box-sizing: border-box !important; 
-    /* Removed: background-color, box-shadow, border-radius, border for clean look */
   }
 
-  /* Contact Items (<i>): Vertical flex with icon + text */
   .futureinvo-contact i {
-    display: flex !important; /* Flex row: icon left of text */
-    align-items: center !important; /* Vertical center (override left) */
+    display: flex !important;
+    align-items: center !important; 
     justify-content: center !important; /* Horizontal center */
-    gap: 6px !important; /* Smaller space between icon and text (from 1px) */
-    width: 100% !important; /* Full-width per item */
+    gap: 6px !important; 
+    width: 100% !important; 
     color: rgba(5, 98, 160) !important; /* Blue theme preserved */
     font-style: normal !important; /* Remove italic */
     margin: 0 !important; /* No margins */
@@ -1360,7 +1358,7 @@ margin-bottom:60px!important;
 
     .futureinvo-contact i {
       gap: 5px !important; /* Less space (from 6px) */
-      font-size: 13px !important; /* Compact (from 14px) */
+      font-size: 16px !important; /* Compact (from 14px) */
 
       
     }
@@ -1371,7 +1369,7 @@ margin-bottom:60px!important;
     }
 
     .futureinvo-contact p {
-      font-size: 12px !important; /* Smaller (from 13px) */
+      font-size: 16px !important; /* Smaller (from 13px) */
       gap: 8px !important; /* Tighter icons (from 10px) */
       margin-bottom: 100px !important; /* Bottom space below social (preserved) */
     }
