@@ -1373,7 +1373,7 @@ margin-bottom:60px!important;
     .futureinvo-contact p {
       font-size: 12px !important; /* Smaller (from 13px) */
       gap: 8px !important; /* Tighter icons (from 10px) */
-      margin-bottom: 60px !important; /* Bottom space below social (preserved) */
+      margin-bottom: 100px !important; /* Bottom space below social (preserved) */
     }
 
     .futureinvo-contact #ic-links {
