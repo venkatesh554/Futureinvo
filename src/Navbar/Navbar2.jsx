@@ -588,6 +588,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import logo from "./navbar-images/icon.png";
 import formlogo from "./navbar-images/icon.png";
+import { faEnvelope, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+
+
 
 import "./Navbar2.css";
 
@@ -636,7 +642,7 @@ export default function Navbar2() {
                 <Link to="/About">FAQ's</Link>
               </li>
               <li>
-                <Link to="/Faq" id="data-hover">About</Link>
+                <Link to="/Faq" id="data-hover-about">About</Link>
               </li>
             </ul>
           </li>
@@ -661,8 +667,33 @@ export default function Navbar2() {
               <li>
                 <Link to="/Service5" id="data-hover-4">Digital Marketing Services</Link>
               </li>
+               <li>
+                <Link to="/Service6" id="data-hover-5">Artificial intelligence </Link>
+              </li>
+               <li>
+                <Link to="/Service7" id="data-hover-6">Business tools development </Link>
+              </li>
+               <li>
+                <Link to="/Service8" id="data-hover-7">Cloud services & devops automation </Link>
+              </li>
+               <li>
+                <Link to="/Service9" id="data-hover-8">Cybersecurity solutions </Link>
+              </li>
+               <li>
+                <Link to="/Service10" id="data-hover-9">Data science & big data</Link>
+              </li>
+               <li>
+                <Link to="/Service10" id="data-hover-10">Emerging tech</Link>
+              </li>
+               <li>
+                <Link to="/Service10" id="data-hover-11">Full stack web & saas development </Link>
+              </li>
+               <li>
+                <Link to="/Service10" id="data-hover-12">Machine learning & deep learning</Link>
+              </li>
             </ul>
           </li>
+
 
           <li className="dropdown">
             <span className="drop-text">
@@ -734,6 +765,29 @@ export default function Navbar2() {
                      <div className="mobile-dropdown-item">
                       <Link to="/Service5" onClick={toggleModal}>Digital Marketing</Link>
                     </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service6" onClick={toggleModal}>Artifitial Intelligence</Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service7" onClick={toggleModal}>Business Tools Development</Link>
+                    </div>
+                    
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service8" onClick={toggleModal}>Cybersecurity solutions  </Link>
+                    </div>
+                    
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service8" onClick={toggleModal}>Data science & big data </Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service8" onClick={toggleModal}>Emerging tech  </Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service8" onClick={toggleModal}>Full stack web & saas development   </Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Service8" onClick={toggleModal}>Machine learning & deep learning   </Link>
+                    </div>
                     
                   </div>
                 </div>
@@ -781,6 +835,15 @@ export default function Navbar2() {
   <label id="label5">Message <span>*</span></label>
   <input type="text" id="message-us" />
   <button id="nav-form-btn">Submit</button>
+         <div className="futureinvo-contact">
+                     <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</i>
+                     <i> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</i>
+
+             <p> <FontAwesomeIcon icon={faFacebookF} id="ic-links"/> <FontAwesomeIcon icon={faLinkedin} id="ic-links"/> <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p>
+                     
+         
+         </div>
+
 </form>
 
             </div>

@@ -4,11 +4,11 @@
 
 .pop-up {
   position: fixed;       
-  top: 62px;             /* distance from top */
+  top: 52px;             /* distance from top */
   right: 20px;           /* or left: 50% for center */
   transform: translateX(0); /* adjust if needed */
   width: 400px;
-  height: 550px;
+  height: 620px;
   background-color: #ffffff;
   color: #000000;
   z-index: 1000;
@@ -42,22 +42,22 @@
 }
 #label1{
   position:absolute;
-  top:140px;
+  top:130px;
 }
 #label2{
   position:absolute;
   left:180px;
-  top:140px;
+  top:130px;
 }
 #label3{
   position:absolute;
   left:30px;
-  top:240px;
+  top:230px;
 }
 #label4{
   position:absolute;
   left:180px;
-  top:240px;
+  top:230px;
 }
 #label5{
   position:absolute;
@@ -90,7 +90,7 @@
   margin-top:45px;
     position:relative;
     margin-left:1px;
-  top:-30px;
+  top:-76px;
   left:-80px !important;
   padding:10px 20px;
 }
@@ -99,7 +99,7 @@
  padding:10px 120px;
  position:relative;
  left:-75px;
- top:-10px;color:white;
+ top:-60px;color:white;
  background-color:rgba(5, 98, 160);
  border-radius:5px;
 }
@@ -186,7 +186,7 @@ body.active-modal{
   position: absolute;
   top: calc(100% + 6px);
   left: 0;
-  min-width: 240px;
+  min-width: 280px;
   background: #fff;
   border: 1px solid #ddd;
   list-style: none;
@@ -196,7 +196,6 @@ body.active-modal{
   height:auto;
   gap:10px;;
   
-
   display: flex;
   flex-direction: column;
   opacity: 0;
@@ -211,17 +210,19 @@ body.active-modal{
 
 
 
-
 .dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   pointer-events: auto;
 }
+i{
+  font-family:sans-serif
+}
 
 .dropdown-menu li {
   margin: 0;
-  padding: 0;
+  padding: 1px 0px;
 }
 
 .dropdown-menu li a {
@@ -234,6 +235,8 @@ body.active-modal{
   color: #333;
   text-decoration: none; 
   transition: color 0.25s ease, background-color 0.25s ease;
+    border-bottom: 1px solid #eee;
+  width:240px;
   
 }
 
@@ -242,25 +245,198 @@ body.active-modal{
   background: #f2f7ff;
 }
 
-#data-hover{
+#data-hover-about{
   position: relative;
   top:-45px;
+
+}
+
+
+#data-hover{
+  position: relative;
+  top:-55px;
+ 
 }
 
 #data-hover-2{
   position: relative;
-  top:-75px;
+  top:-105px;
 }
 
 #data-hover-3{
   position: relative;
-  top:-105px;
+  top:-155px;
 }
 
 #data-hover-4{
   position: relative;
-  top:-125px;
+  top:-205px;
 }
+#data-hover-5{
+  position: relative;
+  top:-255px;
+}
+#data-hover-6{
+  position: relative;
+  top:-305px;
+}
+
+#data-hover-7{
+  position: relative;
+  top:-355px;
+}
+
+#data-hover-8{
+  position: relative;
+  top:-405px;
+}
+
+
+
+
+#data-hover-9{
+  position: relative;
+  top:-455px;
+}
+
+
+#data-hover-10{
+  position: relative;
+  top:-495px;
+}
+
+#data-hover-11{
+  position: relative;
+  top:-535px;
+}
+#data-hover-12{
+  position: relative;
+  top:-595px;
+}
+
+
+
+
+/* Normal/Desktop CSS for .futureinvo-contact: Adjusted for popup layout with social icons (absolute, horizontal) */
+.futureinvo-contact {
+  position: absolute !important; /* Absolute to match popup form's layout */
+  top: 530px !important; /* Below form/button (adjust based on #nav-form-btn position; e.g., after 400px form) */
+  left: 20px !important; /* Centered in 400px popup: (400 - 320)/2 = 40px from left */
+  width: 370px !important; /* Fixed width to fit popup without overflow */
+  height: auto !important; /* Auto height for content (email, phone, social) */
+  margin: 0 !important; /* No margins - absolute positioning */
+  padding: 15px !important; /* Inner padding for spacing */
+  display: flex !important; /* Flex for layout */
+  align-items: center !important; /* Center all content */
+  gap: 15px !important; /* Space between sections (contact i's and social p) */
+  text-align: left !important; /* Center text/icons */
+  font-size: 11px !important; /* Readable desktop size */
+  line-height: 1.4 !important; /* Natural spacing */
+  background-color: #f9f9f9 !important; /* Light bg for separation from form */
+  border-radius: 8px !important; /* Soft corners to match popup */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important; /* Subtle shadow */
+  font-weight: 500 !important; /* Semi-bold for emphasis */
+  z-index: 1 !important; /* Below #xmark but above form */
+  border: 1px solid #e0e0e0 !important; /* Subtle border for box feel */
+  box-sizing: border-box !important; /* Include padding in width/height */
+}
+
+/* Contact Items (<i>): Horizontal flex for icon + text */
+.futureinvo-contact i {
+  display: flex !important; /* Flex row: icon left of text */
+  align-items: left !important; /* Vertical center */
+  justify-content: center !important; /* Horizontal center */
+  gap: 1px !important; /* Space between icon and text */
+  width: 100% !important; /* Full-width per item */
+  color: rgba(5, 98, 160) !important; /* Blue theme for icons/text */
+  font-style: normal !important; /* Remove italic */
+  margin: 0 !important; /* No margins */
+  font-size: 15px !important; /* Match parent */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+  cursor: pointer !important; /* Make clickable (e.g., mailto/tel) */
+  text-decoration: none !important; /* No underline */
+}
+
+.futureinvo-contact i:hover {
+  color: rgba(5, 98, 160, 0.8) !important; /* Lighter blue on hover */
+  transform: translateY(-1px) !important; /* Slight lift */
+}
+
+/* Icons in Contact (#icon): Sized and colored */
+.futureinvo-contact #icon {
+  font-size: 20px !important; /* Larger for desktop visibility */
+  color: rgba(5, 98, 160) !important; /* Blue icons */
+  margin-right: 8px !important; /* Space after icon */
+  flex-shrink: 0 !important; /* Prevent shrink */
+}
+
+/* Social Section (<p>Follow Us): Centered row with icons */
+.futureinvo-contact p {
+  margin: -30px !important; /* No margins */
+  padding: 0 !important;
+  font-size: 14px !important; /* Slightly smaller for social */
+  font-weight: 500 !important; /* Bold "Follow Us" */
+  color: #333 !important; /* Dark text */
+  display: flex !important; /* Flex for inline icons */
+  align-items: center !important; /* Vertical center */
+  justify-content: center !important; /* Horizontal center/spread */
+  gap: 12px !important; /* Space between "Follow Us" and icons */
+  width: 100% !important; /* Full-width */
+  flex-wrap: wrap !important; /* Wrap if screen narrow */
+}
+
+.futureinvo-contact p::before {
+  content: "Follow Us: "; /* Add "Follow Us: " text before icons (if not in JSX) */
+  margin-right: 5px !important;
+}
+
+/* Social Icons (#ic-links): Inline, hover effects */
+.futureinvo-contact #ic-links {
+  font-size: 18px !important; /* Icon size */
+  color: rgba(5, 98, 160) !important; /* Blue icons */
+  cursor: pointer !important; /* Clickable */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover */
+  margin: 0 2px !important; /* Small space between icons */
+  flex-shrink: 0 !important; /* Prevent shrink */
+}
+
+.futureinvo-contact #ic-links:hover {
+  color: #646cff !important; /* Lighter blue/purple on hover (match theme) */
+  transform: scale(1.1) !important; /* Slight grow */
+}
+
+/* Text in Social p: Ensure inline flow */
+.futureinvo-contact p {
+  font-weight: 400 !important; /* Normal for text after "Follow Us" */
+  color: #666 !important; /* Gray for secondary text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .mobile-nav-item{
@@ -544,7 +720,7 @@ body.active-modal{
   }
 
   .mobile-dropdown-menu.active {
-    max-height: 400px; 
+    max-height: 650px; 
   }
 
   .mobile-dropdown-item {
@@ -813,8 +989,6 @@ margin-bottom:60px!important;
   }
 }
 
-
- 
  
 
 
@@ -992,6 +1166,148 @@ margin-bottom:60px!important;
     /* Active Modal: Extra overflow prevention */
     body.active-modal {
       overflow: hidden !important; /* Full lock on tiny screens */
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.99px) {
+  /* .futureinvo-contact: Vertical stack below button on mobile popup (overrides desktop) */
+  .futureinvo-contact {
+    position: absolute !important; /* Keep absolute for popup layout */
+    top: 530px !important; /* Below #nav-form-btn (adjust if button position changes; e.g., after form ~480px) */
+    left: 20px !important; /* Centered in popup (calc(100vw - 20px) width) */
+    width: calc(100% - 40px) !important; /* Full popup width minus padding (override 370px) */
+    max-width: 320px !important; /* Cap to prevent stretch on wider mobile */
+    height: auto !important; /* Auto height for content */
+    margin: 0 !important; /* No margins - absolute */
+    padding: 12px !important; /* Tighter padding on mobile (from 15px) */
+    display: flex !important; /* Flex for layout */
+    flex-direction: column !important; /* Vertical stack: contact <i>'s > social <p> */
+    align-items: center !important; /* Center all content (override left) */
+    gap: 12px !important; /* Smaller gap between sections (from 15px) */
+    text-align: center !important; /* Center text/icons (override left) */
+    font-size: 14px !important; /* Smaller readable size (from 11px) */
+    line-height: 1.3 !important; /* Compact spacing */
+    font-weight: 500 !important; /* Semi-bold preserved */
+    z-index: 1 !important; 
+    box-sizing: border-box !important; 
+  }
+
+  /* Contact Items (<i>): Vertical flex with icon + text */
+  .futureinvo-contact i {
+    display: flex !important; /* Flex row: icon left of text */
+    align-items: center !important; /* Vertical center (override left) */
+    justify-content: center !important; /* Horizontal center */
+    gap: 6px !important; /* Smaller space between icon and text (from 1px) */
+    width: 100% !important; /* Full-width per item */
+    color: rgba(5, 98, 160) !important; /* Blue theme preserved */
+    font-style: normal !important; /* Remove italic */
+    margin: 0 !important; /* No margins */
+    font-size: 14px !important; /* Match parent (from 15px) */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover preserved */
+    cursor: pointer !important; /* Clickable preserved */
+    text-decoration: none !important; /* No underline */
+  }
+
+  .futureinvo-contact i:hover {
+    color: rgba(5, 98, 160, 0.8) !important; /* Lighter blue preserved */
+    transform: translateY(-1px) !important; /* Slight lift preserved */
+  }
+
+  /* Icons in Contact (#icon): Smaller on mobile */
+  .futureinvo-contact #icon {
+    font-size: 18px !important; 
+    color: rgba(5, 98, 160) !important; 
+    margin-right: 6px !important; 
+    flex-shrink: 0 !important; 
+  }
+
+  .futureinvo-contact p {
+    margin: 0 !important; /* Override -30px - no negative margins */
+    padding: 0 !important;
+    font-size: 13px !important; /* Smaller for mobile (from 14px) */
+    font-weight: 500 !important; /* Bold preserved */
+    color: #333 !important; /* Dark text preserved */
+    display: flex !important; /* Flex for inline icons */
+    align-items: center !important; /* Vertical center */
+    justify-content: center !important; /* Horizontal center/spread */
+    gap: 10px !important; /* Smaller space between icons (from 12px) */
+    width: 100% !important; /* Full-width */
+    flex-wrap: wrap !important; /* Wrap if narrow */
+  }
+
+  .futureinvo-contact p::before {
+    content: "Follow Us: "; /* "Follow Us: " before icons preserved */
+    margin-right: 5px !important;
+    white-space: nowrap !important; /* Keep text together */
+  }
+
+  /* Social Icons (#ic-links): Inline, smaller on mobile */
+  .futureinvo-contact #ic-links {
+    font-size: 16px !important; /* Reduced from 18px */
+    color: rgba(5, 98, 160) !important; /* Blue preserved */
+    cursor: pointer !important; /* Clickable preserved */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover preserved */
+    margin: 0 1px !important; /* Tight spacing (from 2px) */
+    flex-shrink: 0 !important; /* Prevent shrink preserved */
+  }
+
+  .futureinvo-contact #ic-links:hover {
+    color: #646cff !important; /* Lighter on hover preserved */
+    transform: scale(1.1) !important; /* Slight grow preserved */
+  }
+
+  /* Text in Social p: Inline flow */
+  .futureinvo-contact p {
+    font-weight: 400 !important; /* Normal for text preserved */
+    color: #666 !important; /* Gray preserved */
+  }
+
+  /* Sub-Media for Very Small Screens (<400px): Tighter, even smaller elements */
+  @media (max-width: 399px) {
+    .futureinvo-contact {
+      top: 510px !important; /* Adjust up for shorter mobile popup (from 530px) */
+      left: 10px !important; /* Closer to edges (from 20px) */
+      width: calc(100% - 20px) !important; /* Fuller width (from calc(100% - 40px)) */
+      padding: 10px !important; /* Tighter padding (from 12px) */
+      gap: 10px !important; /* Smaller gap (from 12px) */
+      font-size: 13px !important; /* Smaller text (from 14px) */
+      border-radius: 4px !important; /* Less rounded (from 6px) */
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05) !important; /* Very light shadow */
+    }
+
+    .futureinvo-contact i {
+      gap: 5px !important; /* Less space (from 6px) */
+      font-size: 13px !important; /* Compact (from 14px) */
+
+      
+    }
+
+    .futureinvo-contact #icon {
+      font-size: 16px !important; /* Smaller icon (from 18px) */
+      margin-right: 5px !important; /* Less space (from 6px) */
+    }
+
+    .futureinvo-contact p {
+      font-size: 12px !important; /* Smaller (from 13px) */
+      gap: 8px !important; /* Tighter icons (from 10px) */
+            margin-bottom:20px;
+
+    }
+
+    .futureinvo-contact #ic-links {
+      font-size: 14px !important; /* Smaller icons (from 16px) */
+      margin: 0 !important; /* No space (from 1px) */
     }
   }
 }
