@@ -318,6 +318,16 @@ i{
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* Normal/Desktop CSS for .futureinvo-contact: Adjusted for popup layout with social icons (absolute, horizontal) */
 .futureinvo-contact {
   position: absolute !important; /* Absolute to match popup form's layout */
@@ -333,12 +343,9 @@ i{
   text-align: left !important; /* Center text/icons */
   font-size: 11px !important; /* Readable desktop size */
   line-height: 1.4 !important; /* Natural spacing */
-  background-color: #f9f9f9 !important; /* Light bg for separation from form */
   border-radius: 8px !important; /* Soft corners to match popup */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05) !important; /* Subtle shadow */
   font-weight: 500 !important; /* Semi-bold for emphasis */
   z-index: 1 !important; /* Below #xmark but above form */
-  border: 1px solid #e0e0e0 !important; /* Subtle border for box feel */
   box-sizing: border-box !important; /* Include padding in width/height */
 }
 
@@ -573,6 +580,69 @@ i{
   width:140px;
   height:90px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1240,9 +1310,11 @@ margin-bottom:60px!important;
     display: flex !important; /* Flex for inline icons */
     align-items: center !important; /* Vertical center */
     justify-content: center !important; /* Horizontal center/spread */
-    gap: 10px !important; /* Smaller space between icons (from 12px) */
+    gap: 10px !important; 
     width: 100% !important; /* Full-width */
-    flex-wrap: wrap !important; /* Wrap if narrow */
+    flex-wrap: wrap !important; /* Wrap if narrow */     
+
+    
   }
 
   .futureinvo-contact p::before {
@@ -1270,6 +1342,7 @@ margin-bottom:60px!important;
   .futureinvo-contact p {
     font-weight: 400 !important; /* Normal for text preserved */
     color: #666 !important; /* Gray preserved */
+    
   }
 
   /* Sub-Media for Very Small Screens (<400px): Tighter, even smaller elements */
@@ -1300,7 +1373,7 @@ margin-bottom:60px!important;
     .futureinvo-contact p {
       font-size: 12px !important; /* Smaller (from 13px) */
       gap: 8px !important; /* Tighter icons (from 10px) */
-      margin-bottom: 20px !important; /* Bottom space below social (preserved) */
+      margin-bottom: 60px !important; /* Bottom space below social (preserved) */
     }
 
     .futureinvo-contact #ic-links {
