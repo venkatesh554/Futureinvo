@@ -63,30 +63,50 @@ export default function Home() {
 
 
 
-  const [formData, setFormData] = useState({
+       const [formData, setFormData] = useState({
     name: "",
-    phone: "",
     email: "",
+    phone: "", // changed key name to match input
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+
+    // Restrict phone to 10 digits only
+    if (name === "phone" && value.length > 10) return;
+
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!formData.name || !formData.phone || !formData.email) {
-      alert("⚠️ Please fill all the fields before submitting!");
+    if (!formData.name || !formData.email || !formData.phone) {
+      alert("⚠️ Please fill in all fields before submitting!");
+      return;
     }
 
-    localStorage.setItem("formData", JSON.stringify(formData));
+    if (formData.phone.length !== 10) {
+      alert("⚠️ Phone number must be exactly 10 digits!");
+      return;
+    }
 
-    alert("✅ Form data saved successfully!");
+    localStorage.setItem("contactFormData", JSON.stringify(formData));
+    alert("✅ Your data has been saved successfully!");
 
-    setFormData({ name: "", phone: "", email: "" });
-  }
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+    });
+  };
+
+
+
+
 
 
 
@@ -128,7 +148,7 @@ export default function Home() {
   <button id="b1" class="toggle-btn"></button>
   BEST IT SOLUTION PROVIDER
 </p>
-           <h1>Futureinvo IT Solutions - Shaping Your<br></br>Digital Future with Ai & IT Excellence</h1>
+           <h1>Futureinvo IT Solutions - Shaping Your<br></br>Digital Future with AI & IT Excellence</h1>
            <p id="p2">At Futureinvo Solutions, we empower businesses to grow and succeed in the digital world through smart, Al-driven IT solutions. Whether it's building intelligent websites, designing stunning user interfaces, creating powerful mobile apps or delivering impactful digital marketing and training—we do it all with innovation at the core. 
               Our mission is to turn your ideas into real, results-driven digital experiences.</p>
             <p id="p2" >We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
@@ -416,11 +436,24 @@ export default function Home() {
             <h2>Talk To Our Experts</h2>
             <form onSubmit={handleSubmit}>
               <label>Name:</label>
-              <input type="text" name="name" value={formData.name} onChange={handleChange}></input>
+              <input 
+              type="text"
+               name="name"
+          value={formData.name}
+          onChange={handleChange}></input>
               <label>Phone:</label>
-              <input type="number" name="phone" value={formData.phone} onChange={handleChange}></input>
+              <input 
+              type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          maxLength="10"
+          pattern="[0-9]{10}"></input>
               <label>Email:</label>
-              <input type="email" name="email" value={formData.email} onChange={handleChange}></input>
+              <input type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}></input>
               <button id="submitt">Submit</button>
              </form>
             <img src={man}/>
