@@ -19,7 +19,6 @@
   box-shadow:10px 10px 20px rgb(187, 186, 186);
 }
 
-
 .pop-up p{
   position:absolute;
   top:80px;
@@ -80,6 +79,7 @@
   column-gap: 10px;
 
 }
+
 .pop-up form input{
   display:flex;
   flex-direction: row;
@@ -108,7 +108,7 @@
   font-size: 25px;
   cursor: pointer;
   position:relative;
-top:-250px;
+top:-260px;
 left:340px;
   opacity:1;
   
@@ -130,10 +130,10 @@ body.active-modal{
   background: white; 
   z-index:500;
 }
-
 #form-logo{
   width:200px;
   height:60px;
+  
 }
 
 .navbarFixed{
@@ -144,6 +144,7 @@ body.active-modal{
     height:95px;
     padding-top:2px;
     margin-left:50px;
+    
 }
 .Top-3 ul{
     display:flex;
@@ -815,7 +816,6 @@ i{
   }
 
   #nav-form-btn {
-    /* width: 100% !important; */
     padding: 15px ;
     position: static !important;
     top: 0 !important;
@@ -1177,9 +1177,6 @@ margin-bottom:60px!important;
 
 
 
-
-
-
 @media (max-width: 575.99px) {
   /* .futureinvo-contact: Vertical stack below button on mobile popup (overrides desktop) */
   .futureinvo-contact {
@@ -1189,7 +1186,7 @@ margin-bottom:60px!important;
     width: calc(100% - 40px) !important; /* Full popup width minus padding (override 370px) */
     max-width: 320px !important; /* Cap to prevent stretch on wider mobile */
     height: auto !important; /* Auto height for content */
-    margin: 0 !important; /* No margins - absolute */
+    margin: 0 0 30px 0 !important; /* Increased bottom space (from 20px) for more room at bottom */
     padding: 12px !important; /* Tighter padding on mobile (from 15px) */
     display: flex !important; /* Flex for layout */
     flex-direction: column !important; /* Vertical stack: contact <i>'s > social <p> */
@@ -1201,6 +1198,7 @@ margin-bottom:60px!important;
     font-weight: 500 !important; /* Semi-bold preserved */
     z-index: 1 !important; 
     box-sizing: border-box !important; 
+    /* Removed: background-color, box-shadow, border-radius, border for clean look */
   }
 
   /* Contact Items (<i>): Vertical flex with icon + text */
@@ -1217,6 +1215,7 @@ margin-bottom:60px!important;
     transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover preserved */
     cursor: pointer !important; /* Clickable preserved */
     text-decoration: none !important; /* No underline */
+    
   }
 
   .futureinvo-contact i:hover {
@@ -1233,7 +1232,7 @@ margin-bottom:60px!important;
   }
 
   .futureinvo-contact p {
-    margin: 0 !important; /* Override -30px - no negative margins */
+    margin: 0 0 15px 0 !important; /* Bottom margin for extra space below social (preserved) */
     padding: 0 !important;
     font-size: 13px !important; /* Smaller for mobile (from 14px) */
     font-weight: 500 !important; /* Bold preserved */
@@ -1282,8 +1281,8 @@ margin-bottom:60px!important;
       padding: 10px !important; /* Tighter padding (from 12px) */
       gap: 10px !important; /* Smaller gap (from 12px) */
       font-size: 13px !important; /* Smaller text (from 14px) */
-      border-radius: 4px !important; /* Less rounded (from 6px) */
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05) !important; /* Very light shadow */
+      /* Removed: border-radius, box-shadow, background-color, border for clean look */
+      margin-bottom: 35px !important; /* Increased bottom space for tiny screens (from 25px) */
     }
 
     .futureinvo-contact i {
@@ -1301,8 +1300,7 @@ margin-bottom:60px!important;
     .futureinvo-contact p {
       font-size: 12px !important; /* Smaller (from 13px) */
       gap: 8px !important; /* Tighter icons (from 10px) */
-            margin-bottom:20px;
-
+      margin-bottom: 20px !important; /* Bottom space below social (preserved) */
     }
 
     .futureinvo-contact #ic-links {
