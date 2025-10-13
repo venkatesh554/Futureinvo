@@ -59,6 +59,125 @@ body{
 
 
 
+/* Container: Flex for button + label alignment (for small toggle look) */
+#p1 {
+  display: flex !important; /* Flex row: button left, text right */
+  align-items: center !important; /* Vertical center */
+  gap: 8px !important; /* Small space between button and text */
+  margin: 20px 0 !important; /* Vertical spacing */
+  font-size: 18px !important; /* Label text size */
+  font-weight: 600 !important; /* Bold label */
+  color: #333 !important; /* Dark label text */
+  user-select: none !important; /* Prevent text selection */
+  position: relative !important; /* Relative for button positioning */
+}
+
+/* Small Toggle Button: Static visual toggle switch (your styles + toggle appearance) */
+#b1.toggle-btn {
+  width: 30px !important; /* Small width for toggle (adjusted from 20px) */
+  height: 16px !important; /* Small height (adjusted from 10px) */
+  border: 1px solid blue !important; /* Your blue border */
+  position: relative !important; /* Your relative position */
+  left: -20px !important; /* Your left offset preserved */
+  top: -3px !important; /* Your top offset preserved */
+  background-color: #e6f3ff !important; /* Light blue fill for "off" toggle feel */
+  border-radius: 16px !important; /* Pill shape for toggle (full height radius) */
+  cursor: pointer !important; /* Pointer for visual interaction (no action) */
+  outline: none !important; /* No default outline */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease !important; /* Smooth hover only */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow for depth */
+  z-index: 1 !important; /* Ensure above text if overlapping */
+}
+
+/* Static Knob: Fixed pseudo-element for toggle look (no slide, just visual) */
+#b1.toggle-btn::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 0px !important; /* Offset from top */
+  left: 2px !important; /* Fixed left for "off" position */
+  width: 20px !important; /* Small knob size */
+  height: 22px !important;
+  background-color: white !important; /* White knob */
+  border-radius: 50% !important; /* Circle knob */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) !important; /* Knob shadow */
+}
+
+/* Hover Effect: Subtle feedback (no state change, static) */
+#b1.toggle-btn:hover {
+  background-color: #cce7ff !important; /* Lighter blue on hover */
+  box-shadow: 0 2px 5px rgba(5, 98, 160, 0.2) !important; /* Blue-tinted shadow */
+  border-color: rgba(5, 98, 160, 0.8) !important; /* Darker blue border */
+}
+
+#b1.toggle-btn:focus {
+  box-shadow: 0 0 0 2px rgba(5, 98, 160, 0.3) !important; /* Focus ring for accessibility */
+}
+
+/* Responsive: Smaller on mobile (toggle scales down) */
+@media (max-width: 575.99px) {
+  #p1 {
+    font-size: 16px !important; /* Smaller label on mobile */
+    gap: 6px !important; /* Less space */
+    margin: 15px 0 !important; /* Tighter vertical */
+    padding-right: 80px!important;
+  }
+
+  #b1.toggle-btn {
+    width: 26px !important; /* Smaller toggle width */
+    height: 14px !important; /* Smaller height */
+    left: -8px !important; /* Adjusted left offset */
+    top: -4px !important; /* Adjusted top offset */
+    border-radius: 14px !important; /* Adjusted pill */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) !important; /* Lighter shadow */
+  }
+
+  #b1.toggle-btn::before {
+    width: 10px !important; /* Smaller knob */
+    height: 10px !important;
+    top: 2px !important;
+    left: 2px !important; /* Fixed position */
+  }
+
+  #b1.toggle-btn:hover {
+    box-shadow: 0 1px 3px rgba(5, 98, 160, 0.15) !important; /* Milder hover */
+  }
+
+  /* Sub-Media <400px: Even smaller toggle */
+  @media (max-width: 399px) {
+    #p1 {
+      font-size: 14px !important; /* Smaller label */
+      gap: 4px !important; /* Minimal space */
+      padding-right:70px!important;
+      left: 0 !important;
+    }
+
+    #b1.toggle-btn {
+      width: 24px !important; /* Smaller width */
+      height: 12px !important; /* Smaller height */
+      top: -4.5px !important; /* Adjusted offset */
+      padding-left: 20px !important;
+      border-radius: 12px !important; /* Adjusted pill */
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.05) !important; /* Very light shadow */
+    }
+
+    #b1.toggle-btn::before {
+      width: 8px !important; /* Tiny knob */
+      height: 8px !important;
+      top: 2px !important;
+      left: 2px !important; /* Fixed position */
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -92,6 +211,21 @@ body{
     font-size:20px;
     top:2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .right-content{
   position:relative;
   top:-150px;

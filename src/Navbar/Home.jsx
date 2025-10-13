@@ -186,7 +186,7 @@ export default function Home() {
                              <div className="right-sub1">
                                  <img src={img5}/>
                                    <p id="heads">Vision</p>
-                                  <p>Innovationg Features<br></br>Through Technology</p>
+                                  <p>Innovatiing Features<br></br>Through Technology</p>
                               </div>
 
                               <div className="right-sub2">
