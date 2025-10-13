@@ -1159,7 +1159,7 @@ margin-bottom:60px!important;
     }
 
     .mobile-dropdown-menu.active {
-      max-height: 300px; /* Reduced for less scroll */
+      max-height: 600px; /* Reduced for less scroll */
     }
 
     .mobile-dropdown-item {
@@ -1352,7 +1352,6 @@ margin-bottom:60px!important;
       padding: 10px !important; /* Tighter padding (from 12px) */
       gap: 10px !important; /* Smaller gap (from 12px) */
       font-size: 13px !important; /* Smaller text (from 14px) */
-      /* Removed: border-radius, box-shadow, background-color, border for clean look */
       margin-bottom: 35px !important; /* Increased bottom space for tiny screens (from 25px) */
     }
 
