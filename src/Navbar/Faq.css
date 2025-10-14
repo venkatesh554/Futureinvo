@@ -110,15 +110,15 @@
   border:1px solid grey;
   left:140px;
    background-color:rgba(24, 24, 98);
-   animation: none;
-
+ animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 .block55 > div h3,p,button{
   position:relative;
   top:80px;
   text-align: justify;
-     animation: none;
 
 }
 
@@ -263,6 +263,7 @@
 }
 #faq-cards{
     display:flex;
+    
    
 }
 .block8>#faq-cards{

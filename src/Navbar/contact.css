@@ -233,11 +233,17 @@ padding-top:40px;
     top:10px;
     left:30px;
     animation: none;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 .firstline h2{
     position:relative;
     top:-10px;
     left:30px;    font-weight: 600;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 #formcall{
@@ -248,11 +254,15 @@ padding-top:40px;
     border:2px solid white;
     border-radius:50%;
     padding:5px;
+   
 }
 
 .contacting-form{
     position:relative;
     top:400px;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 
@@ -261,18 +271,20 @@ padding-top:40px;
     left:100px;
     top:-10px;
     color:rgb(251, 249, 249);
+  
 
 }
 .secondline p{
     position:relative;
     top:10px;
-    left:30px;    animation: none;
-
+    left:30px;   
+  
 }
 .secondline h2{
     position:relative;
     top:-10px;
     left:30px;    font-weight: 600;
+    
 
 }
 
@@ -284,6 +296,9 @@ padding-top:40px;
     border:2px solid white;
     border-radius:50%;
     padding:5px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 
@@ -293,12 +308,14 @@ padding-top:40px;
     left:90px;
     top:-20px;
     color:rgb(251, 249, 249);
+    
 
 }
 .thirdline p{
     position:relative;
     top:10px;
-    left:30px;    animation: none;
+    left:30px;    
+   
 
 }
 .thirdline h2{
@@ -324,6 +341,9 @@ padding-top:40px;
     top:-30px;
     width:430px;
     height:300px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 
@@ -365,6 +385,7 @@ padding-top:40px;
 box-shadow:10px 10px 20px rgb(172, 170, 170);
     padding:40px;
     padding-top:10px;
+
 }
 .rightside-form-contact p{
     width:400px;
@@ -383,6 +404,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     border-radius:5px;
     border:1px solid rgb(207, 205, 205);
     z-index:99;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
      
 }
 .rightside-form-contact form label{

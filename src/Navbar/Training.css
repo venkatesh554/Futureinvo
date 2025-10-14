@@ -11,12 +11,16 @@
     position:absolute;
     width:750px;
     font-size: calc(1.375rem + 1.5vw) !important;
+    
 }
 .digital-change p{
     position:absolute;
     top:140px;
     width:650px;
     line-height:28px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 .digital-change button{
     position:relative;
@@ -24,6 +28,7 @@
     background-color: rgba(55, 84, 142);
     color:white;
     padding:12px 50px;
+    
 
 }
 .bgcolor1{
@@ -72,6 +77,9 @@ top:-120px;
     height:450px;
     left:740px;
     top:100px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
     
 }
 
@@ -81,12 +89,16 @@ top:-120px;
     height:530px;
     left:200px;
     top:80px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 .component3{
     position:relative;
     top:120px;
     left:100px;
+    
 }
 .component3 img{
     width:550px;
@@ -94,6 +106,9 @@ top:-120px;
     position:relative;
     top:-150px;
     left:-70px; 
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 .circle{
     width:130px;
@@ -106,6 +121,9 @@ top:-120px;
     left:50px;
     top:-160px;
     color:white;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
    
 }
 #circle1{
@@ -119,6 +137,9 @@ top:-120px;
     left:120px;
     top:-120px;
     font-size:45px;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 #component3-img1{
     width:830px;
@@ -132,6 +153,9 @@ top:-120px;
     left:400px;
     color:red;
         font-size:45px;
+        animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 #img-ds{
@@ -159,6 +183,9 @@ right:40px;
     color:white;
     border-top-left-radius:10px;
         border-top-right-radius:10px;
+        animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 
 }
@@ -170,6 +197,9 @@ right:40px;
     flex-wrap:wrap;
     width:600px;
     padding:20px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 .squre1{
@@ -266,12 +296,18 @@ top:-30px;
         font-size: calc(1.375rem + 1.5vw) !important;
         position:relative;
         top:-50px;
+        animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 .curriculum h3{
         font-size:30px;
         position:relative;
         top:-50px;
+        animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 .curriculum h2,h3{
@@ -309,6 +345,9 @@ color:#ffffff;
     left:60px;
     box-shadow: 10px 10px 15px rgb(216, 216, 216);
 transition: all 0.6s ease;
+animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
     
 }
 .curriculum-boxes .div1 p{
@@ -342,6 +381,9 @@ font-size:25px;
     left:100px;
     top:20px;
     width:100%;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 .bgcolor3{
@@ -358,6 +400,7 @@ font-size:25px;
     position:relative;
     top:470px;
     background-color: rgb(239, 247, 254);
+    
 
 }
 
@@ -426,12 +469,15 @@ font-size:25px;
 .right-side-component{
     position:relative;
     top:600px;
+    
 }
 .right-side-component img{
     width:900px;
-    height:630px;    position:relative;
+    height:600px;    position:relative;
     top:-1100px;
-    left:520px;
+    left:520px;animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 .right-side-component .p{
@@ -474,12 +520,18 @@ font-size:25px;
 }
 .get-started h2{
     font-size: calc(1.375rem + 1.5vw) !important;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 .left-side-para{
     position:relative;
     width:700px;
     top:-50px;
     font-size:18px;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
     
 
 }
@@ -493,6 +545,9 @@ font-size:25px;
     position:relative;
     top:70px; 
     left:20px;   line-height: 32px;;
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
     
 
 }
@@ -522,6 +577,7 @@ font-size:25px;
     left:-40px;
     color:white;
     
+    
 }
 #training-form form input{
    margin-top:25px;
@@ -530,7 +586,10 @@ font-size:25px;
    padding:3px 40px;
    background-color: rgba(55, 84, 142);
    border:1px solid white;
-   z-index:99
+   z-index:99;
+   animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
    
    
@@ -634,6 +693,9 @@ border:1px solid white;
 #right-side-component-img{
     position:relative;
     left:660px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 #digital-change-btn-2{
@@ -650,7 +712,9 @@ border:1px solid white;
     height:580px;
     position:relative;
     top:-390px;
-    left:-120px;
+    left:-120px;animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 #mark-ds{
@@ -706,15 +770,21 @@ border:1px solid white;
     left: 380px !important;;
     top:80px;
     position: relative !important;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 
 
 .right-side-component img#web-3{
-    width:500px;
-    height:630px;    position:relative;
+    width:460px;
+    height:600px;    position:relative;
     top:-1100px;
-    left:850px;
+    left:880px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 
 }
 
@@ -724,6 +794,9 @@ border:1px solid white;
     position:relative;
     top:-390px;
     left:100px;
+    animation:bloc linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
 }
 
 
