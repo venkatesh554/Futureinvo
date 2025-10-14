@@ -623,6 +623,62 @@ export default function Navbar2() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
+
+
+
+
+
+
+  
+   const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      mobile: "",
+      city: "",
+      message: "",
+    });
+    
+
+    const handleChange = (e) => {
+  const { name, value } = e.target;
+  setFormData((prev) => ({
+    ...prev,
+    [name]: value,
+  }));
+};
+
+  
+    const handleSubmit = (e) => {
+      e.preventDefault();
+  
+     if (
+  !formData.name ||
+  !formData.email ||
+  !formData.mobile ||
+  !formData.city ||
+  !formData.message
+) {
+  alert("⚠️ Please fill in all fields before submitting!");
+  return;
+}
+
+  
+      localStorage.setItem("contactFormData", JSON.stringify(formData));
+      alert("✅ Your data has been saved successfully!");
+  
+      setFormData({
+        name: "",
+        email: "",
+        mobile: "",
+        city: "",
+        message: "",
+      });
+    };
+  
+  
+
   return (
     <>
       <div className="sticker"></div>
@@ -824,22 +880,39 @@ export default function Navbar2() {
                 For inquiries and assistance, please fill out the contact form below. Our team
                 is here to help and we look forward to hearing from you
               </p>
-             <form>
+             <form  onSubmit={handleSubmit}>
   <div>
     <label id="label1">Name <span>*</span>:</label>
-    <input type="text" />
+    <input type="text"  
+         name="name"
+          value={formData.name}
+          onChange={handleChange} />
     <label id="label2">E-Mail <span>*</span>:</label>
-    <input type="email" />
+    <input type="email" 
+       name="email"
+       value={formData.email}
+       onChange={handleChange} />
   </div>
   <div>
     <label id="label3">Mobile No <span>*</span>:</label>
-    <input type="number" />
+    <input type="number" 
+       name="phone"
+       value={formData.phone}
+       onChange={handleChange} 
+        maxLength="10"
+          pattern="[0-9]{10}"/>
     <label id="label4">City <span>*</span>:</label>
-    <input type="text" />
+    <input type="text"
+    name="city"
+    value={formData.city} 
+    onChange={handleChange}/>
   </div>
   {/* Message */}
   <label id="label5">Message <span>*</span></label>
-  <input type="text" id="message-us" />
+  <input type="text" id="message-us" 
+   name="message"
+      value={formData.message}
+      onChange={handleChange} />
   <button id="nav-form-btn">Submit</button>
          <div className="futureinvo-contact">
                      <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</i>

@@ -147,10 +147,12 @@ export default function Contact() {
     </label>
     <br />
     <input
-      type="number"
+      type="tel"
       name="mobile"
       value={formData.mobile}
       onChange={handleChange}
+       maxLength="10"
+          pattern="[0-9]{10}"
     />
     <br />
 
@@ -174,7 +176,7 @@ export default function Contact() {
       type="text"
       name="occupation"
       value={formData.occupation}
-      onChange={handleChange}
+      onChange={handleChange} required
     />
     <br />
 
@@ -191,7 +193,7 @@ export default function Contact() {
     />
     <br />
 
-    <button className="subb">Submit</button>
+    <button className="subb" type="submit">Submit</button>
   </form>
 </div>
 </div>

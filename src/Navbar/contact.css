@@ -260,9 +260,7 @@ padding-top:40px;
 .contacting-form{
     position:relative;
     top:400px;
-    animation:appear linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+  
 
 }
 
@@ -378,6 +376,16 @@ padding-top:40px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .rightside-form-contact{
     position:absolute;
     left:800px;
@@ -385,12 +393,13 @@ padding-top:40px;
 box-shadow:10px 10px 20px rgb(172, 170, 170);
     padding:40px;
     padding-top:10px;
+    z-index:99;
 
 }
 .rightside-form-contact p{
     width:400px;
     position:relative;
-    top:10px;    animation: none;
+    top:10px;   
 
 }
 
@@ -403,12 +412,11 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     margin-top:20px;
     border-radius:5px;
     border:1px solid rgb(207, 205, 205);
-    z-index:99;
-    animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 45%;
+    z-index:10;
      
 }
+
+
 .rightside-form-contact form label{
     position:relative;
     top:30px;
@@ -417,7 +425,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
 #comments-box{
     width:350px;
     height:100px;
+    z-index: 20px;
 }
+
 
 
 .subb{
@@ -429,7 +439,6 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     padding:10px 150px; 
     color:white;
     background-color:rgba(5, 99, 160);
-    animation: none;
 }
 
 
@@ -681,6 +690,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     border: 1px solid rgb(207, 205, 205) !important;
     font-size: 16px !important; /* Readable input text */
     box-sizing: border-box !important; /* Include padding in width */
+    z-index:20px;
   }
 
   /* Comments Box: Taller textarea-like */

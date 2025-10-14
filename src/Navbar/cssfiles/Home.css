@@ -319,7 +319,7 @@ bottom:649px;
 
 @keyframes bloc{
   from{
-    opacity:0.7;
+    opacity:1;
     scale:0.8;
 
   }
@@ -1026,7 +1026,7 @@ display:flex;
 .block8 h2{
   color:rgba(5, 98, 160);
   position:relative;
-   animation:appear linear;
+   animation:bloc linear;
     animation-timeline:view();
     animation-range: entry 0% cover 45%;
 }
@@ -1053,7 +1053,6 @@ display:flex;
   position:absolute;
   top:320px;left:410px;
       animation: float 3s ease-in-out infinite alternate;
-      
 
 }
 #time{
@@ -3772,7 +3771,6 @@ width:100%;
 
 
 @media (max-width: 575.99px) {
-  /* Footer: Full width, auto height, remove fixed top positioning */
   .footer {
     position: relative !important;
     top: 0 !important; /* Reset fixed top */
@@ -3780,41 +3778,38 @@ width:100%;
     height: auto !important; /* Auto height to fit content */
     background-color: rgb(0, 0, 0) !important;
     color: white !important;
-    padding: 40px 20px 20px 20px !important; /* Add padding for mobile spacing */
+    padding: 40px 20px 20px 20px !important; 
     margin-bottom: 0 !important;
-    animation: bloc linear; /* Preserve animation */
+    animation: bloc linear;
     animation-timeline: view();
     animation-range: entry 0% cover 45%;
     margin-top:100px !important;
   }
 
-  /* Logo: Smaller and centered */
   .footer img {
-    width: 200px !important; /* Smaller for mobile */
+    width: 200px !important; 
     height: 50px !important;
-    margin: 0 auto 20px auto !important; /* Center and add bottom margin */
-    display: block; /* Ensure it's block for centering */
+    margin: 0 auto 20px auto !important; 
+    display: block; 
   }
 
   .line1 {
-    margin-left: 0 !important; /* Remove left margin */
+    margin-left: 0 !important; 
     text-align: center !important;
     width: 100% !important;
   }
 
-  /* Paragraph: Full width, centered, smaller font */
   .line1 p {
     white-space: normal !important;
     width: 100% !important; /* Full width */
     position: relative !important;
     top: 0 !important; /* Reset top */
     left: 0 !important; /* Reset left */
-    margin: 0 auto 20px auto !important; /* Center with margins */
-    font-size: 14px !important; /* Smaller text */
-    padding: 0 10px !important; /* Side padding for readability */
+    margin: 0 auto 20px auto !important; 
+    font-size: 14px !important; 
+    padding: 0 10px !important; 
   }
 
-  /* Social Icons: Center and stack horizontally with smaller size */
   .icn {
     position: relative !important;
     left: 0 !important; /* Reset left */
@@ -3937,22 +3932,6 @@ width:100%;
     box-sizing: border-box !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
