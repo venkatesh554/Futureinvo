@@ -66,13 +66,12 @@ export default function Home() {
        const [formData, setFormData] = useState({
     name: "",
     email: "",
-    phone: "", // changed key name to match input
+    phone: "", 
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    // Restrict phone to 10 digits only
     if (name === "phone" && value.length > 10) return;
 
     setFormData((prev) => ({
@@ -137,7 +136,12 @@ export default function Home() {
 
 
 
-  
+
+
+
+
+
+
 
 
   
@@ -206,7 +210,7 @@ export default function Home() {
                              <div className="right-sub1">
                                  <img src={img5}/>
                                    <p id="heads">Vision</p>
-                                  <p>Innovatiing Features<br></br>Through Technology</p>
+                                  <p>Innovating Features<br></br>Through Technology</p>
                               </div>
 
                               <div className="right-sub2">
@@ -387,7 +391,6 @@ export default function Home() {
   </div>
 
   <div className="bg1">
-    {/* <h2>What's Clients Say</h2> */}
     <p>"The team at Future Invo exceeded our expectations. Their strategy consulting and IT solutions helped us streamline our processes efficiently".</p>
     <h3 id="name">Vikram Singh</h3>
     <p id="founder">Co-Founder, Quantum Tech Labs</p>
@@ -489,15 +492,13 @@ export default function Home() {
           )}
         </div>
               ))}
-
-              
-              
+            
             </div>
           </div>
 
           <div className="footer">
              <div className="line1">
-              <img src={footericon}/>
+              <img src={footericon} />
               <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
               <div className="icn">
                  <FontAwesomeIcon icon={faFacebookF}/>
@@ -524,13 +525,12 @@ export default function Home() {
                <div className="links1">
                   <h3 id="contact-address">Contact Us</h3>
                 <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>
+                         Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                 <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
               
               </div>
               </div>
-
               
              </div>
              
@@ -540,14 +540,9 @@ Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>
             <i id="ii">Terms & Conditions</i>
             <i>Privacy Policy</i>
           </div>
-        
-         
-
+      
           
 </div>
- 
-    
 
-    
   )
 }

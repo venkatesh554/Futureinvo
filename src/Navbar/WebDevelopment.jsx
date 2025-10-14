@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import "./Training.css"
 import one from "./trainingImages/Training-one.png"
-import two from "./trainingImages/Training-two.png"
-import three from "./trainingImages/Training-three.png"
-import four from "./trainingImages/Training-four.png"
+import two from "./trainingImages/webdevone.png"
+import three from "./trainingImages/webdev2.png"
+import four from "./trainingImages/webdev3.png"
 
 import first from "./Training-box-images/firstt.png";
 import second from "./Training-box-images/secondd.png"
@@ -38,7 +38,7 @@ import placementfive from "./placement-support-images/placement-five.png";
 import placementsix from "./placement-support-images/placement-six.jpg"
 import bgimg from "./navbar-images/bgimg.png"
 
-export default function Trainings() {
+export default function WebDevelopment() {
 
   
    const [formData, setFormData] = useState({
@@ -97,13 +97,11 @@ export default function Trainings() {
    
     <div className="driving-innovation-parent">
         <div className="driving-innovation-child">
-            <h1>AI Enhanced Digital<br></br>Marketing Course</h1>
-            <p>Our AI Enhanced Digital Marketing Course trains you to use advanced AI tools and insights to improve your digital marketing
-              strategies. Learn to connect more personally with your audience through smarter targeting,automate essential tasks to
-              increase efficiency, and analyze campaign performance with AI for real-time improvements.This course guides you in making
-              data-driven decisions with predictive analytics and crafting content that resonates with your audience .Step into the future
-              of digital marketing , AI-powered campaigns that stand out in today's competitive market.
-            </p>
+            <h1>Next-Gen Web<br></br>Developer with AI</h1>
+            <p>Our AI Enhanced Digital Marketing Course trains you to use advanced AI tools and modern development practices to build efficeint, scalable, and user
+                friendly websites. Learn to create responsive designs, automate repetitive coding tasks, and optimize website performance with AI-driven tools. This course guides 
+                you in making data-driven development decisions, implementing best coding practices, and crafting web experiences that engage users. Step into the future of Web Development,
+                creating intelligent, high-performing websites that stand out in today's competitive digital landscape.           </p>
         </div> 
         <div className="bgimg">
           <img src={bgimg} />
@@ -111,18 +109,17 @@ export default function Trainings() {
         
        <div className="bgcolor1">
          <div className="digital-change">
-          <h1>Be the Digital Change Maker@ 6 Months!</h1>
-          <p>Ready to conquer the world of digital marketing! our best digital marketing course in Hyderabad is a comprehensive journey designed to equip you with
-            advanced skills that set you part in this competitive field. Over 6 months of in depth training,you will explore cutting-edge digital marketing
-            techniques while gaining expert insights from industry leaders.Following this, a 3-months internship allows you to apply your learning in real-world 
-            settings, ensuring you are job-ready. Whether you are a student or a working professional, this program provides the ultimate blend of theoretical mastery and 
-            practical experience for a successful career 
+          <h1>Be the Web Developer Pro@ 6 Months!</h1>
+          <p>Ready to conquer the world of Web Development! Our best Web Development course in Hyderabad is a comprehensive journey designed to equip you with advanced coding, design, and development skills that set you apart in this competitive field. Over 6 months of in-depth training, you'll explore cutting-edge web development technologies
+             while gaining expert insights from industry professionals. Following this, a 3-month internship 
+             allows you to apply your learning in real-world projects, ensuring you are job-ready, Whether
+              you're a student or a working professional, this program provides the ultimate blend of theoretical mastery and practical experience for a successful career.
           </p>
           <button id="">Know More</button>
         </div>
          <div className="component2">
            <img src={one} id="t-one"/>
-             <img src={two} id="t-two"/>
+             <img src={two} id="web-1"/>
 
        </div>
        </div>
@@ -134,9 +131,9 @@ export default function Trainings() {
      <div className="circle">
        <h2 id="circle1">06 Months Course</h2>
      </div>
-        <h2 id="digi">Digital</h2>    
-        <img src={three} id="component3-img1" />
-       <h2 id="mark">Marketer</h2> 
+        <h2 id="digi">Data</h2>    
+        <img src={three} id="web-2" />
+       <h2 id="mark">Analyst</h2> 
        <div className="bgg"></div>
            <h2 id="course-high">Course Highlights</h2>
        <div className="right-boxx">
@@ -189,134 +186,145 @@ export default function Trainings() {
         <div className="curriculum-boxes">
          <div className="div1">
           <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Introduction to Marketing</h2>
-          <p>Explore the core principles of traditional marketing and their relevance
-             in today's digital landscape. Learn how to identify target markets and create value for customers.</p>
+           <h2>Introduction to Web Development</h2>
+          <p>Explore the core principles of web development and their relevance in today's digital landscape. Learn how to structure 
+            websites, create responsive designs, and build user-friendly interfaces.
+          </p>
          </div>
           <div className="div1">
             <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
 
-           <h2>Introduction to Digital Marketing</h2>
-          <p>Get an overview of digital marketing fundamentals,including online platforms and channels. Learn how to develop
-            strategies that drive brand visibility and engagement
+           <h2>Introduction to Web Development</h2>
+          <p>Get an overview of web development fundamentals, including front-end and backend technologies.Learn how to build responsive, user friendly websites and applications
+            that deliver seamless experiences.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Website Overview</h2>
-          <p>Understand the key elements of building a website , from design to functionality. Learn how website 
+           <h2>Web Development Overview</h2>
+          <p>Understand the key elements of Web Development, from front-end design to back-end functionality. Learn how website structure and performance impact user experience and overall effectiveness
             performance impacts user experience and conversions.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Search Marketing</h2>
-          <p>Discover the role paid and organic search in driving traffic to websites. Learn strategies to optimize
-             for serach engines and increase online visibility.
+           <h2>Feature Research</h2>
+          <p>Master the art of researching and selecting the right website feature and components.Learn how to plan and optimize site structure ,design elements, and functionality
+            for the best user experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Keyword Research</h2>
-          <p>Master the art of finding relevant keywords to optimize your content.
-            Learn how to conduct keyword research to improve your SEO and PPC campaigns.
+           <h2>Website Optimization </h2>
+          <p>Discover the role of website optimization in driving performance and user engagement.Learn strategies to improve site speed , responsiveness, and overall visibility on the web.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>On Page SEO</h2>
-          <p>Learn the importance of optimizing on page elements like content,headings,and meta tags. Discover best practices to improve 
-            search engine rankings.
+           <h2>Front-End Optimization</h2>
+          <p>Learn the importance of optimizing
+front-end elements like layout, design,
+and interactive components. Discover
+best practices to improve website
+performance, usability, and user
+experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Off Page SEO</h2>
-          <p>Explore how to build authority through off-page tactics like link building and social signals. Learn stratagies to improve your site's 
-            reputation and search performance
+           <h2>Back-End Optimization</h2>
+          <p>Explore how to enhance website performance through back-end optimization,
+             server management, and database efficiency. Learn strategies to improve site reliability, speed, and overall user experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Socaial Advertising</h2>
-          <p>Dive into the world of paid social advertising on platforms like facebook and instagram. Learn to optimize add compaigns for maximum reach and engagement</p>
+           <h2>Interactive Web Features</h2>
+          <p>Dive into the world of interactive web features, including forms, buttons, 
+            and dynamic elements. Learn to design and optimize these components for maximum user engagement and seamless experience.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Technical SEO</h2>
-          <p>Understand how to optimize website architecture .speed ,and indexing for search engines .Learn how to resolve common technical SEO issues that can impact rankings
-
+           <h2>Backend Development</h2>
+          <p>Understand how to optimize website architecture, server performance, and code efficiency.
+             Learn how to resolve common technical issues that can impact website speed, reliability, and user experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Local SEO</h2>
-          <p>Learn to optimize your website for local search results to target customers nearby.
-            Discover tools and techniques like Google My Business for local visibility
+           <h2>responsive Design</h2>
+          <p>Learn to optimize your website for different devices and screen sizes to provide the best user experience.
+             Discover techniques for responsive design, adaptive layouts, and accessibility to reach a wider audience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Social Media Planning and Implementation</h2>
-          <p>Create effective social media strategies tailored to your brand's goals. Learn to plan, create, and implement social content that 
-            resonates with your audience.
+           <h2>Website Development Workflow</h2>
+          <p>Learn to optimize your website for different devices and screen sizes to provide the best user experience. 
+            Discover techniques for responsive design, adaptive layouts, and accessibility to reach a wider audience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>LinkedIn Ads and Optimization</h2>
-          <p>Learn to target professionals using LinkedIn Ads to generate quality leads.
-            Explore optimization techniques to increase ad performance and ROI.
+           <h2>Site Performance Tuning </h2>
+          <p>Learn how to optimize websites and web applications for peak performance. 
+            Explore techniques to improve loading speed, responsiveness, and user interaction to deliver a seamless experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Twitter and Quora Marketing</h2>
-          <p>Discover how to leverage Twitter and Quora to drive traffic and enagage with audiences.Learn strategies 
-            to create meaningful interactions on these platforms.
+           <h2>Cross-Platform Web Development</h2>
+          <p>Master the skills to design, develop, and optimize websites and web applications.
+             Learn about coding best practices, responsive design, performance tuning, and user experience optimization.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Google Ads</h2>
-          <p>Master the skills to create ,manage ,and optimize Google Ads campaigns.Learn about bidding strategies ,targetting, and conversion tracking.</p>
+           <h2>Web Projects</h2>
+          <p>Master the skills to create, manage, and optimize websites and web applications.
+             Learn about responsive design, interactive features, performance optimization, and deployment best practices.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Bing Ads and Taboola Marketing</h2>
-          <p>Explore Bing Ads and Tabools as alternative platforms for paid advertising.Learn to set up campaigns and drive traffic with these underused networks.</p>
+           <h2>Alternative Web Platforms</h2>
+          <p>Explore developing and optimizing websites for alternative platforms and environments. 
+            Learn to implement cross-browser compatibility, integrate third-party tools, and ensure seamless performance across all platforms.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Google Analytics and Tag Manager</h2>
-          <p>Learn to track and analyze website performance using Google Analytics.
-            Discover how to use Google Tag Manager to manage tags and implement event tracking.
+           <h2>Website Analytics and Monitoring</h2>
+          <p>Learn to track and analyze website performance and user interactions. 
+            Discover how to use monitoring tools to manage site metrics, optimize features, and implement event tracking for improved user experience.
           </p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Email Marketing: An Introduction</h2>
-          <p>Explore the basics of email marketing,from campaign setup to audience segmentation.Learn how to create emails that engage and convert leads.</p>
+           <h2>Web Development: An Introduction</h2>
+          <p>Explore the basics of web development, from planning and design to implementation.
+             Learn how to create websites that are functional, user-friendly, and optimized for performance.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Lead Automation</h2>
-          <p>Learn to automate your lead generation and nurturing processses to save time and increase conversions. Explore tools and strategies for effective lead management</p>
+           <h2>Workflow Automation</h2>
+          <p>Learn to automate development workflows, including code deployment, testing, and updates, to save time and improve efficiency. 
+            Explore tools and strategies for effective project and task management.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Marketing Strategy and Analysis</h2>
-          <p>Understanding how to create a winning marketing strategy and analyze campaign results. Learn to assess key metrics and optimize your approach based on data insights.</p>
+           <h2>Development Workflow Strategy</h2>
+          <p>Understand how to create an effective web development strategy and analyze project outcomes.
+             Learn to assess key performance metrics and optimize your approach for better website performance and user experience.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>WhatsApp Marketing</h2>
-          <p>Discover how to use WhatsApp as a direct communication tool to engage customers. Learn techniques for personalized messaging and automated responses</p>
+           <h2>Web Engagement Modules</h2>
+          <p>Discover how to implement real-time communication features on websites, such as chatbots and messaging systems.
+             Learn techniques for personalized user interactions and automated responses.</p>
          </div>
           <div className="div1">
               <FontAwesomeIcon icon={faVolumeHigh} id="volume" />
-           <h2>Resume Building and Portfolio Creation</h2>
-          <p>Learn how to create a professional resume and portfolio that showcases your skills. Understand the importance of building a strong online presence for job opportunities</p>
+           <h2>Project & Skills Showcase</h2>
+          <p>Learn how to create a professional web developer portfolio that showcases your projects and skills. Understand the importance of building</p>
          </div>
         </div>
        
@@ -358,7 +366,7 @@ export default function Trainings() {
 
        <div className="right-side-component">
         <div className="p"></div>
-        <img src={four}/>
+        <img src={four} id="web-3"/>
        </div>
 
 
@@ -386,10 +394,9 @@ export default function Trainings() {
           <div className="down-para">
             <h2>Don't Miss Out</h2>
           <p>
-            Take the first step towards your digital marketing journey now! join thousands of students and successful working professionals 
-            who have transformed their careers with our best digital marketing Program in Hyderabad. With live projects, case studies blended
-            learning program , expert guidance, and flexible learning schedules we ensure you stay ahead in the fast-evolving world of digital
-            marketing.
+            Take the first step towards your Web Development journey now! join thousands of students and successful working professionals 
+            who have transformed their careers with our best Web Development Program in Hyderabad. With live projects, case studies blended
+            learning program , expert guidance, and flexible learning schedules we ensure you stay ahead in the fast-evolving world of  Web Development
 
           </p>
           </div>

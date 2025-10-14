@@ -706,6 +706,9 @@ export default function Navbar2() {
               <li>
                 <Link to="/Datascience" id="data-hover">Data Science</Link>
               </li>
+               <li>
+                <Link to="/WebDevelopment" id="data-hover-2">WebDevelopment</Link>
+              </li>
             </ul>
           </li>
 
@@ -805,6 +808,9 @@ export default function Navbar2() {
                     </div>
                     <div className="mobile-dropdown-item">
                       <Link to="/Datascience" onClick={toggleModal}>Data Science</Link>
+                    </div>
+                     <div className="mobile-dropdown-item">
+                      <Link to="/WebDevelopment" onClick={toggleModal}>WebDevelopment</Link>
                     </div>
                   </div>
                 </div>

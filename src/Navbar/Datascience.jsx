@@ -112,7 +112,7 @@ export default function Datascience() {
                 </div>
        <div className="bgcolor1-ds">
          <div className="digital-change">
-          <h1>Be the Digital Change Maker@ 6 Months!</h1>
+          <h1>Be the Data Change Maker@ 6 Months!</h1>
           <p>Ready to conquer the world of Data Science! our best Data Science course in Hyderabad is a comprehensive journey designed to equip you with
             advanced skills that set you part in this competitive field. Over 6 months of in depth training,you will explore cutting-edge Data Science
             techniques while gaining expert insights from industry leaders.Following this, a 3-months internship allows you to apply your learning in real-world 
@@ -392,12 +392,7 @@ export default function Datascience() {
             <li>
               Lifetime loan Access to Course Materials
             </li>
-            <li>
-              Flexible loan Avaliability from Freemonk
-            </li>
-            <li>
-              No Cost EMI
-            </li>
+           
           </ul>
           <div className="down-para">
             <h2>Don't Miss Out</h2>
