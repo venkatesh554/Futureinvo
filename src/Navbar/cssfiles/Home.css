@@ -76,11 +76,11 @@ body{
 #b1.toggle-btn {
   width: 30px !important; /* Small width for toggle (adjusted from 20px) */
   height: 16px !important; /* Small height (adjusted from 10px) */
-  border: 1px solid blue !important; /* Your blue border */
+  border: 1px solid rgb(208, 208, 232) !important; /* Your blue border */
   position: relative !important; /* Your relative position */
   left: -20px !important; /* Your left offset preserved */
   top: -3px !important; /* Your top offset preserved */
-  background-color: #e6f3ff !important; /* Light blue fill for "off" toggle feel */
+  background-color: rgb(54, 127, 192) !important; /* Light blue fill for "off" toggle feel */
   border-radius: 16px !important; /* Pill shape for toggle (full height radius) */
   cursor: pointer !important; /* Pointer for visual interaction (no action) */
   outline: none !important; /* No default outline */
