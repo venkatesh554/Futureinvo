@@ -525,7 +525,7 @@ export default function Home() {
                <div className="links1">
                   <h3 id="contact-address">Contact Us</h3>
                 <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-                         Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>
+                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</a>
                 <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                 <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
               
