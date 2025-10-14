@@ -2089,7 +2089,7 @@ width:100%;
     }
   }
 
-  @media (max-width: 399px) {
+  @media (max-width: 410px) {
     .child {
       padding: 0 10px !important;
     }
