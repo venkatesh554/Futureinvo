@@ -810,6 +810,2015 @@ border:1px solid white;
 
 
 
+@media (max-width: 767px) {
+  /* Tablet styles based on provided mobile code */
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .driving-innovation-parent {
+    position: relative !important;
+    margin-top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 50px 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 2.2rem !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.6 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+    padding: 0 15px !important;
+  }
+
+  .bgimg {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin: 0 auto !important;
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  .bgcolor1 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 100px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top: 25px !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .digital-change h1 {
+    font-size: 2rem !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    margin: 0 0 25px 0 !important;
+    text-align: center !important;
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 15px 35px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .bgcolor2 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .circle {
+    width: 140px !important;
+    height: 140px !important;
+    border: 1px solid !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 16px !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2.8rem !important;
+    color: inherit !important;
+    margin: 15px 0 !important;
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  .component3 img,
+  #component3-img1 {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 15px auto !important;
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 15px 0 !important;
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important;
+    padding: 15px !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: white !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    text-align: center !important;
+    margin: 0 auto 25px auto !important;
+    max-width: 350px !important;
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 15px !important;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+    border: 1px solid grey !important;
+    padding: 20px !important;
+    position: relative !important;
+    left: 0 !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  .squre1 img {
+    position: relative !important;
+    top: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+    display: block !important;
+  }
+
+  .squre1 #second,
+  .squre1 #third,
+  .squre1 #fourth,
+  .squre1 #fifth,
+  .squre1 #sixth,
+  .squre1 #seventh,
+  .squre1 #eighth,
+  .squre1 #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .curriculum {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .curriculum h2 {
+    font-size: 2rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .curriculum h3 {
+    font-size: 1.6rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0 !important;
+  }
+
+  .curriculum h2,
+  .curriculum h3 {
+    text-align: center !important;
+  }
+
+  .curriculum-boxes {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    background-color: rgb(239, 247, 254) !important;
+    align-items: center !important;
+        margin-top:330px !important;
+
+  }
+
+  .curriculum-boxes .div1 {
+    border-radius: 10px !important;
+    padding: 20px !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    height: auto !important;
+    background-color: rgb(163, 185, 230) !important;
+    position: relative !important;
+    left: 0 !important;
+    box-shadow: 0 5px 15px rgba(216, 216, 216, 0.6) !important;
+    transition: all 0.3s ease !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1:hover {
+    background-color: rgba(5, 98, 160) !important;
+    color: #ffffff !important;
+    transform: translateY(-7px) !important;
+  }
+
+  .curriculum-boxes .div1 p {
+    position: relative !important;
+    top: 0 !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  .curriculum-boxes .div1 h2 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin: 15px 0 !important;
+  }
+
+  #volume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 25px !important;
+    margin-bottom: 15px !important;
+    color: inherit !important;
+  }
+
+  .bgcolor3 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .component4 h2 {
+    font-size: 2.2rem !important;
+    font-weight: 600 !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 15px !important;
+    width: 100% !important;
+    margin: 0 0 25px 0 !important;
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 25px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 300px !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img {
+    position: relative !important;
+    top: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+
+  #career,
+  #mock,
+  #guest,
+  #resume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .bgg2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 6 !important;
+    height: 50px !important;
+    margin: 15px 0 !important;
+  }
+
+  .right-side-component {
+    position: relative !important;
+    top: 120px !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 50px 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .right-side-component .p {
+    width: 220px !important;
+    height: 220px !important;
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-bottom: 25px !important;
+    z-index: 1 !important;
+  }
+
+  .right-side-component img {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important;
+    display: block !important;
+    z-index: 5;
+  }
+
+  .bgcolor4 {
+    width: 100% !important;
+    padding-top: 25px !important;
+    height: auto !important;
+    position: relative !important;
+    top: 110px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding-bottom: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .get-started {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 25px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .get-started h2 {
+    font-size: 2rem !important;
+    margin: 0 0 25px 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  .left-side-para {
+    position: relative !important;
+    width: 100% !important;
+    top: 0 !important;
+    font-size: 17px !important;
+    text-align: left !important;
+    margin-bottom: 25px !important;
+  }
+
+  .left-side-para p {
+    position: relative !important;
+    top: 0 !important;
+    line-height: 1.6 !important;
+    font-size: 15px !important;
+    margin: 0 0 20px 0 !important;
+    padding: 0 15px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  /* Tablet styles based on provided mobile code */
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .driving-innovation-parent {
+    position: relative !important;
+    margin-top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 50px 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 2.2rem !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.6 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+    padding: 0 15px !important;
+  }
+
+  .bgimg {
+    width: 100% !important;
+    max-width: 350px !important;
+    margin: 0 auto !important;
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  .bgcolor1 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 100px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top: 25px !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+
+  .digital-change h1 {
+    font-size: 2rem !important;
+    margin: 0 0 20px 0 !important;
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    font-size: 15px !important;
+    margin: 0 0 25px 0 !important;
+    text-align: center !important;
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 15px 35px !important;
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 17px !important;
+    cursor: pointer !important;
+    margin: 0 auto !important;
+    display: block !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .bgcolor2 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .circle {
+    width: 140px !important;
+    height: 140px !important;
+    border: 1px solid !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 16px !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2.8rem !important;
+    color: inherit !important;
+    margin: 15px 0 !important;
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  .component3 img,
+  #component3-img1 {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 15px auto !important;
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 15px 0 !important;
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important;
+    padding: 15px !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: white !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    text-align: center !important;
+    margin: 0 auto 25px auto !important;
+    max-width: 350px !important;
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 15px !important;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+    border: 1px solid grey !important;
+    padding: 20px !important;
+    position: relative !important;
+    left: 0 !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  .squre1 img {
+    position: relative !important;
+    top: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+    display: block !important;
+  }
+
+  .squre1 #second,
+  .squre1 #third,
+  .squre1 #fourth,
+  .squre1 #fifth,
+  .squre1 #sixth,
+  .squre1 #seventh,
+  .squre1 #eighth,
+  .squre1 #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .curriculum {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .curriculum h2 {
+    font-size: 2rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .curriculum h3 {
+    font-size: 1.6rem !important;
+    position: relative !important;
+    top: 0 !important;
+    margin: 0 !important;
+  }
+
+  .curriculum h2,
+  .curriculum h3 {
+    text-align: center !important;
+  }
+
+  .curriculum-boxes {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    background-color: rgb(239, 247, 254) !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1 {
+    border-radius: 10px !important;
+    padding: 20px !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    height: auto !important;
+    background-color: rgb(163, 185, 230) !important;
+    position: relative !important;
+    left: 0 !important;
+    box-shadow: 0 5px 15px rgba(216, 216, 216, 0.6) !important;
+    transition: all 0.3s ease !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1:hover {
+    background-color: rgba(5, 98, 160) !important;
+    color: #ffffff !important;
+    transform: translateY(-7px) !important;
+  }
+
+  .curriculum-boxes .div1 p {
+    position: relative !important;
+    top: 0 !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  .curriculum-boxes .div1 h2 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin: 15px 0 !important;
+  }
+
+  #volume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 25px !important;
+    margin-bottom: 15px !important;
+    color: inherit !important;
+  }
+
+  .bgcolor3 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 25px !important;
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .component4 h2 {
+    font-size: 2.2rem !important;
+    font-weight: 600 !important;
+    margin: 0 0 15px 0 !important;
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 15px !important;
+    width: 100% !important;
+    margin: 0 0 25px 0 !important;
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 25px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 300px !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img {
+    position: relative !important;
+    top: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+
+  #career,
+  #mock,
+  #guest,
+  #resume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+  }
+
+  .bgg2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 6 !important;
+    height: 50px !important;
+    margin: 15px 0 !important;
+  }
+
+  .right-side-component {
+    position: relative !important;
+    top: 120px !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 50px 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .right-side-component .p {
+    width: 220px !important;
+    height: 220px !important;
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-bottom: 25px !important;
+    z-index: 1 !important;
+  }
+
+  .right-side-component img {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important;
+    display: block !important;
+    z-index: 5;
+  }
+
+  .bgcolor4 {
+    width: 100% !important;
+    padding-top: 25px !important;
+    height: auto !important;
+    position: relative !important;
+    top: 110px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding-bottom: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .get-started {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 25px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .get-started h2 {
+    font-size: 2rem !important;
+    margin: 0 0 25px 0 !important;
+    line-height: 1.4 !important;
+  }
+
+  .left-side-para {
+    position: relative !important;
+    width: 100% !important;
+    top: 0 !important;
+    font-size: 17px !important;
+    text-align: left !important;
+    margin-bottom: 25px !important;
+  }
+
+  .left-side-para p {
+    position: relative !important;
+    top: 0 !important;
+    line-height: 1.6 !important;
+    font-size: 15px !important;
+    margin: 0 0 20px 0 !important;
+    padding: 0 15px !important;
+  }
+
+  .left-side-para ul {
+    position
+  }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  /* Tablet styles based on provided mobile code */
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .bgcolor4 {
+    width: 100% !important;
+    padding-top: 25px !important; /* Increased from mobile's 20px */
+    height: auto !important;
+    position: relative !important;
+    top: 110px !important; /* Increased from mobile's 90px */
+    background-color: rgb(239, 247, 254) !important;
+    padding-bottom: 50px !important; /* Increased from mobile's 40px */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .get-started {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 25px !important; /* Increased from mobile's 0 20px */
+    margin-bottom: 35px !important; /* Increased from mobile's 30px */
+  }
+
+  .get-started h2 {
+    font-size: 2rem !important; /* Larger than mobile's 1.8rem */
+    margin: 0 0 25px 0 !important; /* Increased from mobile's 20px */
+    line-height: 1.4 !important; /* Increased from mobile's 1.3 */
+  }
+
+  .left-side-para {
+    position: relative !important;
+    width: 100% !important;
+    top: 0 !important;
+    font-size: 17px !important; /* Larger than mobile's 16px */
+    text-align: left !important;
+    margin-bottom: 25px !important; /* Increased from mobile's 20px */
+  }
+
+  .left-side-para p {
+    position: relative !important;
+    top: 0 !important;
+    line-height: 1.6 !important; /* Increased from mobile's 1.5 */
+    font-size: 15px !important; /* Larger than mobile's 14px */
+    margin: 0 0 20px 0 !important; /* Increased from mobile's 15px */
+    padding: 0 15px !important; /* Increased from mobile's 0 10px */
+  }
+
+  .left-side-para ul {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    line-height: 1.6 !important;
+    font-size: 15px !important; /* Larger than mobile's 14px */
+    margin: 0 0 20px 0 !important; /* Increased from mobile's 15px */
+    padding-left: 25px !important; /* Increased from mobile's 20px */
+    list-style-type: disc !important;
+    text-align: left !important;
+  }
+
+  .left-side-para li {
+    margin-bottom: 10px !important; /* Increased from mobile's 8px */
+    padding: 0 15px !important; /* Increased from mobile's 0 10px */
+  }
+
+  .down-para {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .down-para h2 {
+    font-size: 1.7rem !important; /* Larger than mobile's 1.5rem */
+    margin: 0 0 20px 0 !important; /* Increased from mobile's 15px */
+    text-align: center !important;
+  }
+
+  .down-para p {
+    position: relative !important;
+    top: 0 !important;
+    line-height: 1.6 !important;
+    font-size: 15px !important; /* Larger than mobile's 14px */
+    margin: 0 0 25px 0 !important; /* Increased from mobile's 20px */
+    padding: 0 15px !important;
+  }
+
+  .rightside-form,
+  #training-form {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    max-width: 450px !important;
+    margin: 0 auto 50px auto !important;
+    background-color: rgba(55, 84, 142) !important;
+    border-radius: 10px !important;
+    padding: 30px !important;
+    color: white !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  #apply {
+    position: relative !important;
+    left: 0 !important;
+    font-size: 1.7rem !important;
+    margin: 0 0 25px 0 !important;
+    text-align: center !important;
+    color: white !important;
+  }
+
+  #training-form form {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 0 !important;
+    left: 0 !important;
+    color: white !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  #training-form form label {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    color: white !important;
+    margin-bottom: 7px !important;
+    text-align: left !important;
+  }
+
+  #training-form form input {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    margin: 0 !important;
+    padding: 15px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid white !important;
+    border-radius: 6px !important;
+    font-size: 17px !important;
+    color: white !important;
+  }
+
+  #training-form form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  #training-form form input:focus {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+  }
+
+  #comment-box {
+    height: 120px !important;
+    resize: vertical !important;
+  }
+
+  #onsubmit {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 18px !important;
+    color: white !important;
+    background-color: rgba(5, 99, 160) !important;
+    border: 1px solid white !important;
+    border-radius: 6px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    margin-top: 15px !important;
+  }
+
+  #onsubmit:hover,
+  #onsubmit:active {
+    background-color: rgba(5, 99, 160, 0.9) !important;
+  }
+
+  .submitt {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .training-footer {
+    position: relative !important;
+    top: 0 !important;
+    left: 16% !important;
+    width: 100% !important;
+    margin-top: 100px !important;
+  }
+
+  .training-footer .footer,
+  .training-footer .lastt {
+    width: 100% !important;
+  }
+
+  .footer {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 50px 25px 25px 25px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .footer img {
+    width: 220px !important;
+    height: 55px !important;
+    margin: 0 auto 25px auto !important;
+    display: block !important;
+  }
+
+  .line1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 25px auto !important;
+    font-size: 15px !important;
+    padding: 0 15px !important;
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .icn svg {
+    font-size: 22px !important;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 35px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 350px !important;
+  }
+
+  .links1 h3 {
+    margin-bottom: 20px !important;
+    text-decoration: underline !important;
+    font-size: 17px !important;
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important;
+    color: white !important;
+    margin-bottom: 15px !important;
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"],
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important;
+    left: 0 !important;
+    padding-left: 30px !important;
+  }
+
+  .lastt,
+  #last-contact {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .last-line {
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 25px !important;
+    text-align: center !important;
+    align-items: center !important;
+    gap: 15px !important;
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Other Classes: Reset as needed */
+  .bgcolor4-ds,
+  #right-four,
+  #tt-three,
+  .course-high,
+  #right-side-component-img,
+  #digital-change-btn-2,
+  #digital-change-btn,
+  #component3-img1-ds,
+  #mark-ds,
+  #digi-ds {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  /* Tablet styles based on provided mobile code */
+
+  body {
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: sans-serif !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden !important;
+    display: block !important;
+  }
+
+  .driving-innovation-parent {
+    position: relative !important;
+    margin: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 50px 25px !important; /* Increased from mobile's 40px 20px */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 25px !important; /* Increased from mobile's 20px */
+    z-index: 2 !important;
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.5 !important; /* Increased from mobile's 1.4 */
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 2.2rem !important; /* Larger than mobile's 2rem */
+    margin: 0 0 20px 0 !important; /* Increased from mobile's 15px */
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.8 !important; /* Increased from mobile's 1.7 */
+    position: relative !important;
+    top: 0 !important;
+    font-size: 15px !important; /* Larger than mobile's 14px */
+    margin: 0 !important;
+    padding: 0 15px !important; /* Increased from mobile's 0 10px */
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    display: block !important;
+  }
+
+  .bgcolor1-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 60px !important; /* Increased from mobile's 50px */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 50px 25px !important; /* Increased from mobile's 40px 20px */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 35px !important; /* Increased from mobile's 30px */
+  }
+
+  .digital-change h1 {
+    position: relative !important;
+    width: 100% !important;
+    font-size: 2rem !important; /* Larger than mobile's 1.8rem */
+    margin: 0 0 20px 0 !important; /* Increased from mobile's 15px */
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    line-height: 1.8 !important;
+    font-size: 15px !important; /* Larger than mobile's 14px */
+    margin: 0 0 25px 0 !important; /* Increased from mobile's 20px */
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 15px 35px !important; /* Increased from mobile's 12px 30px */
+    border: none !important;
+    border-radius: 6px !important;
+    font-size: 17px !important; /* Larger than mobile's 16px */
+    cursor: pointer !important;
+    margin: 0 auto !important;
+    display: block !important;
+    transition: background-color 0.3s ease !important;
+  }
+
+  .digital-change button:hover {
+    background-color: rgba(5, 99, 160, 0.9) !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important; /* Increased from mobile's 20px */
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 400px !important; /* Increased from mobile's 350px */
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: block !important;
+    margin: 0 auto !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .bgcolor2-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 50px 25px !important;
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 25px !important;
+  }
+
+  .circle {
+    width: 140px !important;
+    height: 140px !important;
+    border: 2px solid red !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 16px !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2.8rem !important;
+    color: inherit !important;
+    margin: 15px 0 !important;
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  #img-ds {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    height: auto !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 15px auto !important;
+    display: block !important;
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 50px !important;
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 15px 0 !important;
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important;
+    max-width: 350px !important;
+    padding: 15px !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: white !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    text-align: center !important;
+    margin: 0 auto 25px auto !important;
+    font-size: 1.7rem !important;
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 15px !important;
+    gap: 20px !important;
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important;
+    max-width: 320px !important;
+    height: auto !important;
+    border: 1px solid grey !important;
+    padding: 20px !important;
+    position: relative !important;
+    left: 0 !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+  }
+
+  .squre1 img,
+  #second,
+  #third,
+  #fourth,
+  #fifth,
+  #sixth,
+  #seventh,
+  #eighth,
+  #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 80px !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+    display: block !important;
+  }
+
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    padding: 40px 20px !important;
+    background-color: rgb(239, 247, 254) !important;
+  }
+
+  #volume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    color: inherit !important;
+  }
+
+  .bgcolor3-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 40px 20px !important;
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+
+  .component4 h2 {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+    margin: 0 0 10px 0 !important;
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 16px !important;
+    width: 100% !important;
+    margin: 0 0 20px 0 !important;
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 20px !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 250px !important;
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img,
+  #career,
+  #guest,
+  #resume,
+  #mock {
+    position: relative !important;
+    top: 0 !important;
+    width: 80px !important;
+    height: auto !important;
+    margin: 0 auto 10px auto !important;
+    display: block !important;
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+  }
+
+  #bgg2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 1 !important;
+    height: 40px !important;
+    margin: 20px 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+  }
+
+  /* Right Side Component: Stack circle and image vertically, centered */
+  .right-side-component {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 40px 0 !important;
+  }
+
+  .right-side-component .p {
+    width: 200px !important;
+    height: 200px !important;
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-bottom: 20px !important;
+    z-index: 1 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 575.99px) {
@@ -1329,7 +3338,8 @@ border:1px solid white;
     background-color: rgb(91, 117, 169) !important;
     border-radius: 50% !important;
     position: relative !important;
-  }}
+  }
+}
 
 
 
@@ -2255,3 +4265,22 @@ border:1px solid white;
     height: 200px !important;
     background-color: rgb(91, 117, 169) !important;
   }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
