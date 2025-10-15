@@ -13,6 +13,7 @@ import ScrollTop from "./Navbar/ScrolledTop"
 import "./App.css"
 import BallCursor from "./Navbar/BallCursor";
 import WebDevelopment from './Navbar/WebDevelopment';
+import ItConsulting from './Navbar/Service-Pages/ItConsulting';
 function App() { 
   return (
     <>
@@ -32,6 +33,7 @@ function App() {
       <Route path="/Faq" element={<Faq/>}/> 
       <Route path="/Datascience" element={<Datascience/>}/>
       <Route path="/WebDevelopment" element={<WebDevelopment/>}/>
+      <Route path="/ItConsulting" element={<ItConsulting/>}/>
      </Routes>
    </div>
    </>

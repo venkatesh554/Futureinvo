@@ -709,7 +709,7 @@ export default function Navbar2() {
             </span>
             <ul className="dropdown-menu">
               <li>
-                <Link to="/Service1">IT Consulting</Link>
+                <Link to="/ItConsulting">IT Consulting</Link>
               </li>
               <li>
                 <Link to="/Service2" id="data-hover">Web Development</Link>
