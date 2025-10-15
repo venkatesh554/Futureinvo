@@ -2,8 +2,11 @@ import React from 'react'
 import "./ItConsulting.css"
 import logoo from "../ServiceImages/logo.png"
 import aiImage1 from "../ServiceImages/aiimage.png"
+import { faAngleRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ItConsulting() {
   return (
@@ -135,29 +138,29 @@ export default function ItConsulting() {
         <div className="chatbots">
           <h1>Our Expertise in Enterprise Architecture</h1>
           <div className="expertise-grid">
-            <button className="expertise-item">Strategy & Roadmap Consulting <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="expertise-item">Enterprise Architecture <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="expertise-item">Technology Modernization <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="expertise-item">IT Infrastructure Consult <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="expertise-item">Digital Transformation Advisor <i className="fa-solid fa-arrow-right-long"></i></button>
+            <button className="expertise-item">Strategy & Roadmap Consulting <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="expertise-item">Enterprise Architecture <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="expertise-item">Technology Modernization <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="expertise-item">IT Infrastructure Consult <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="expertise-item">Digital Transformation Advisor <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
         </div>
 
         <div className="services-1">
           <h1>Our other Services & Solutions</h1>
-          <div className="service-button">
-            <button className="service-item">Web Development <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Web Design <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Mobile Applications <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Digital Marketing Services <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">AI & Artificial Intelligence Solutions <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Data Science & Big Data Analytics <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Machine Learning & Deep Learning <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Full Stack Web & SaaS Development <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Cloud Services & DevOps Automation <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Cybersecurity Solutions <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Business Tools Development <i className="fa-solid fa-arrow-right-long"></i></button>
-            <button className="service-item">Emerging Tech <i className="fa-solid fa-arrow-right-long"></i></button>
+          <div className="service-button"> 
+            <button className="service-item">Web Development <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Web Design <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Mobile Applications <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">AI & Artificial Intelligence Solutions <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Cybersecurity Solutions <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Business Tools Development <FontAwesomeIcon icon={faArrowRight} /></button>
+            <button className="service-item">Emerging Tech <FontAwesomeIcon icon={faArrowRight} /></button>
           </div>
         </div>
 
