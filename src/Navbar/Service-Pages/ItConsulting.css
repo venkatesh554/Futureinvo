@@ -13,6 +13,7 @@
                 padding: 15px 20px; 
                 
             }
+            
 
             .responsive{
                 position:absolute;
@@ -241,6 +242,8 @@
                     border-radius: 10px;
                     font-size: 16px;
                     cursor: pointer;
+                    position:relative;
+                    top:20px;
                     
 
                 }
@@ -310,7 +313,10 @@
         align-items: center;
         overflow: hidden;
      }
-               
+               .chatbots{
+                position:relative;
+                top:50px;
+               }
                 /* .grid-container {
                     display: flex;
                     justify-content: space-between;
@@ -326,6 +332,8 @@
                     font-family: 'poppins',sans-serif;
                     align-items: center;
                     overflow: hidden;
+                    position:relative;
+                    top:20px;
 
                 }
                 .expertise-item{
@@ -340,6 +348,8 @@
                     color: #333;
                     overflow: hidden;
                     box-shadow: 0 1px 2px rgba(0,0,0,0,05);
+                    position:relative;
+                    top:0px;
                 }
               
                .expertise-item:hover{
@@ -347,9 +357,12 @@
                     color: #ddd;
                     overflow: hidden;
                 }
-                
+                .services-1{
+                    position:relative;
+                    top:100px;
+                }
 
-                
+               
                 .service-button{
                     display: grid;
                     grid-template-columns: repeat(4,1fr);
@@ -371,6 +384,9 @@
                     color: #333;
                     overflow: hidden;
                     box-shadow: 0 1px 2px rgba(0,0,0,0,05);
+                    position:relative;
+                    top:0px;
+                    z-index:99;
                 }
                 .services-1 button:hover{
                     background-color: #2A619B;
@@ -378,9 +394,11 @@
                     overflow: hidden;
                 }
                  .why-choose-us-001 {
+                    position:relative;
+                    top:100px;
             text-align: center;
             font-family: 'poppins',sans-serif;
-            padding: 40px 20px;
+            padding: 70px 20px;
             background-color: #fff;
             border-radius: 10px;
             overflow: hidden;
@@ -395,6 +413,8 @@
             margin-bottom: 10px;
             overflow: hidden;
             font-family: 'poppins',sans-serif;
+            position:relative;
+            top:-10px;
         }
 
         .why-choose-us-001 p.subheading {
@@ -404,7 +424,16 @@
             overflow: hidden;
             font-family: 'poppins',sans-serif;
         }
+.subheading{
+    position:relative;
+    top:-20px;
+}
 
+.feature-card{
+    position:relative;
+    top:0px;
+
+}
         .features-grid {
             display: flex;
             justify-content: space-around;
@@ -507,6 +536,7 @@
             color: white;
             overflow: hidden; 
             z-index: 10;
+            top:100px;
         }
 
 
@@ -567,10 +597,14 @@
     color: rgba(246, 244, 244, 0.934);
    
 }
+.form2-group input{
+    width:300px;
+    height:50px;
+}
 
 .form-container button {
-    width: 200px;
-    padding-top: 10px;
+    width: 300px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 60px ;
     background-color: #007bff; 
@@ -581,6 +615,8 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position:relative;
+    top:20px;
 }
 
 .form-container-001 button:hover {
@@ -589,6 +625,9 @@
 
      .faq-container-001{
         font-size: 22px;
+        position:relative;
+        top:150px;
+        padding-bottom:10px;
      }
      details {
     background: #f3f1f1;

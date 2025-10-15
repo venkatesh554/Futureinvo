@@ -136,14 +136,6 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
-
-
   
   return (
     <div className="parent">
@@ -256,7 +248,7 @@ export default function Home() {
                           <h3>IT Consulting</h3>
                             <p className="p00">Our IT Consultancy Offers Expert .tailored solutions to stratagically optimize your technology and drive businesss success</p>
 
-                          <button> View More <FontAwesomeIcon icon={faArrowRight} /></button>
+                          <Link to="/ItConsulting"><button> View More <FontAwesomeIcon icon={faArrowRight} /></button></Link>
                   </div>
                   <div className="box-19">
                     <img src={develop}/>

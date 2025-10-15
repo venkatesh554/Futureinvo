@@ -59,7 +59,6 @@ body{
 
 
 
-/* Container: Flex for button + label alignment (for small toggle look) */
 #p1 {
   display: flex !important; /* Flex row: button left, text right */
   align-items: center !important; /* Vertical center */
@@ -1876,6 +1875,278 @@ width:100%;
 } */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1366px) {
+  body {
+    overflow-x: hidden !important; /* Keep for safety, but often unnecessary on desktop */
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 18px !important; /* Larger base font for desktop */
+    line-height: 1.6 !important;
+    color: rgb(33, 53, 71) !important;
+    background-color: #f9f9f9 !important;
+    position: relative !important;
+  }
+
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  .parent {
+    position: relative !important; /* Switch to relative for better desktop flow */
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    background-color: rgba(235, 222, 248) !important;
+    margin: 0 !important;
+    padding: 40px !important; /* Increased padding for more breathing room */
+    display: flex !important; /* Use flex for better alignment on larger screens */
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 10 !important;
+    overflow: visible !important;
+  }
+
+  .child {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 80% !important; /* Not full width; more centered for desktop */
+    max-width: 800px !important; /* Limit to prevent excessive stretching */
+    height: auto !important;
+    margin: 0 auto !important; /* Center the content */
+    padding: 0 30px !important; /* Increased padding for larger screens */
+    animation: slideInLeft 1s ease-out forwards !important;
+    text-align: left !important; /* Left-aligned for a more professional look */
+    z-index: 2 !important;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .child h1 {
+    font-size: 36px !important; /* Larger heading for desktop */
+    line-height: 1.4 !important;
+    margin: 20px 0 !important;
+    word-break: break-word !important;
+    position: relative !important;
+  }
+
+  .child h1 br {
+    display: none !important; /* Same as mobile for consistency */
+  }
+
+  #p1 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 16px !important; /* Slightly larger than mobile */
+    margin-bottom: 15px !important;
+    color: rgb(33, 53, 71) !important;
+    text-align: left !important; /* Left-aligned for readability */
+  }
+
+  #b1 {
+    width: 20px !important; /* Slightly larger for desktop interaction */
+    height: 10px !important;
+    border: 1px solid blue !important;
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin-right: 15px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    border-radius: 30px !important;
+  }
+
+  .child #p2 {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 800px !important; /* Match .child's max-width */
+    margin: 20px 0 !important;
+    line-height: 1.8 !important; /* More spacing for readability */
+    display: block !important;
+    text-align: justify !important;
+    font-size: 16px !important;
+    padding-bottom: 0 !important;
+    white-space: normal !important;
+  }
+
+  .child #p2:nth-of-type(1) {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .child #p2:nth-of-type(2) {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .child button {
+    border-radius: 5px !important; /* Add some rounding for desktop aesthetics */
+    background-color: rgba(5, 98, 160) !important;
+    color: white !important;
+    width: auto !important; /* Not full width; only as wide as needed */
+    max-width: 250px !important; /* Larger than mobile but not excessive */
+    height: 50px !important;
+    border: 1px solid white !important;
+    position: relative !important;
+    top: 0 !important; /* Remove fixed top positioning */
+    margin: 20px auto !important;
+    animation: none !important; /* Disable animation for desktop */
+    cursor: pointer !important;
+    font-size: 18px !important;
+    display: block !important;
+    transition: background-color 0.3s ease !important;
+    text-align: center !important;
+  }
+
+  .child button:hover {
+    background-color: rgba(5, 98, 160, 0.8) !important;
+  }
+
+  #iicon {
+    position: relative !important;
+    left: 0 !important;
+    font-size: 20px !important; /* Larger icon for desktop */
+    top: 0 !important;
+    margin-left: 15px !important;
+  }
+
+  .right-content {
+    position: relative !important; /* Switch to relative to avoid overlapping */
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 20px 0 !important; /* Add margin for spacing */
+    padding: 0 !important;
+    animation: slideInRight 1s ease-out forwards !important;
+    cursor: pointer !important;
+    display: flex !important;
+    flex-direction: row !important; /* Change to row for horizontal layout on desktop */
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 30px !important;
+    overflow: visible !important;
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .right-content img {
+    width: 80% !important; /* Not full viewport width */
+    max-width: 1000px !important; /* Large but controlled */
+    min-height: 400px !important; /* Adjusted for desktop viewing */
+    height: auto !important;
+    object-fit: contain !important;
+    border-radius: 5px !important; /* Add rounding */
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #img2 {
+    width: 80% !important;
+    max-width: 1000px !important;
+    min-height: 400px !important;
+  }
+
+  #img2-1 {
+    width: 80% !important;
+    max-width: 1000px !important;
+    min-height: 400px !important;
+    position: relative !important; /* Changed from absolute */
+    margin-left: 0 !important; /* Remove mobile-specific margin */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 575.99px) {
   body {
     overflow-x: hidden !important;
@@ -2081,6 +2352,22 @@ width:100%;
     margin-left:10%!important;
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .words-slider {
     position: relative !important;
     bottom: 0 !important;
@@ -2120,6 +2407,13 @@ width:100%;
       transform: translateX(-50%);
     }
   }
+
+
+
+
+
+
+
 
   @media (max-width: 410px) {
     .child {
