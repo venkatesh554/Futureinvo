@@ -449,7 +449,6 @@
     display: flex !important;
     white-space: nowrap !important; /* Keep words in line */
     gap: 20px !important; /* Smaller gap */
-    animation: none !important; /* Disable animation if needed; or adjust duration */
   }
 
   .slider h2 {
@@ -851,91 +850,10 @@ left: 0px !important;
 
 
 
-  @media (max-width: 575.99px) {
-  /* Word Slider About: Full width, horizontal layout with auto-scroll fallback */
-  .word-slider-about {
-    position: relative !important;
-    top: 0 !important; /* Reset any large top offset */
-    width: 100% !important;
-    margin-top: 20px !important; /* Gap from previous section */
-    overflow-x: auto !important; /* Enable manual swipe-scroll as fallback */
-    overflow-y: hidden !important; /* No vertical overflow */
-    padding: 0px 0 !important; /* Vertical padding for spacing */
-    background-color: #f8f9fa !important; /* Optional subtle bg for visibility */
-    -webkit-overflow-scrolling: touch !important; /* Smooth scrolling on iOS */
-    height:100px !important;
-    color: white !important;;
-  }
-
-  /* Words Slider Container: Full width, hide scrollbar */
-  .words-slider,
-  #dup1 {
-    width: 100% !important;
-    max-width: none !important; /* Allow full overflow */
-  }
-
-  /* Slider: Flex horizontal, nowrap for marquee, with animation enabled */
-  .slider {
-    display: flex !important;
-    flex-wrap: nowrap !important; /* Force single row */
-    white-space: nowrap !important; /* Prevent text wrapping */
-    gap: 15px !important; /* Smaller gap for mobile density */
-    width: max-content !important; /* Allow full width beyond container */
-    animation: scroll 20s linear infinite !important; /* Re-enable sliding: 20s slow loop */
-    padding: 0 20px !important; /* Side padding to prevent edge clipping */
-    /* Pause on hover for readability (optional) */
-  }
-
-  .slider:hover {
-    animation-play-state: running !important; /* Resume on hover/touch */
-  }
-
-  /* Individual Words: Smaller, non-shrinking for clean sliding */
-  .slider h2 {
-    font-size: 1.1rem !important; /* Smaller for mobile readability */
-    white-space: nowrap !important; /* Keep each word on one line */
-    margin: 0 !important; /* No margins */
-    padding: 5px 10px !important; /* Internal padding for spacing */
-    flex-shrink: 0 !important; /* Prevent compression */
-    color: white !important;
-    font-weight: 500 !important; /* Medium weight */
-    /* Optional: Background for word bubbles */
-    background-color: rgba(54, 127, 192, 0.1) !important; /* Light blue tint */
-    border-radius: 20px !important; /* Pill shape */
-    display: inline-block !important; /* Inline for better flow */
-  }
-
-  /* Animation Keyframes: Continuous leftward marquee (seamless due to duplicated content) */
-  @keyframes scroll {
-    0% {
-      transform: translateX(0); /* Start at full view */
-    }
-    100% {
-      transform: translateX(-50%); /* Slide left by half (matches duplicated items) */
-    }
-  }
-
-  /* Hide scrollbar for cleaner look (cross-browser) */
-  .word-slider-about::-webkit-scrollbar {
-    display: none !important;
-  }
-
-  .word-slider-about {
-    scrollbar-width: none !important; /* Firefox */
-    -ms-overflow-style: none !important; /* IE/Edge */
-  }
-
-  /* Respect user preferences for reduced motion (accessibility) */
-  @media (prefers-reduced-motion: reduce) {
-    .slider {
-      animation: none !important; /* Disable if user prefers no motion */
-    }
-  }
-}
 
 
 
-
+  
 
 
 
@@ -1131,7 +1049,7 @@ left: 0px !important;
   #offer {
     position: relative !important;
     top: 0 !important;
-    margin-top: 20px !important; /* Increased from mobile's 40px */
+    margin-top: 50px !important; /* Increased from mobile's 40px */
   }
 
   .our-offering {

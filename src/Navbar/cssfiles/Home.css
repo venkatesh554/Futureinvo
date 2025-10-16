@@ -171,10 +171,9 @@ body{
 
 
 
-
+/* 
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* Refined laptop styles with row-wise layout and responsiveness */
 
   body {
     overflow-x: hidden !important;
@@ -193,7 +192,6 @@ body{
     box-sizing: border-box;
   }
 
-  /* <CHANGE> Removed negative margin-top and adjusted positioning for proper layout */
   .parent {
     width: 100%;
     height: auto;
@@ -210,7 +208,6 @@ body{
     padding: 40px 20px;
   }
 
-  /* <CHANGE> Adjusted child width and removed centering */
   .child {
     position: relative;
     left: 0;
@@ -306,7 +303,6 @@ body{
     box-shadow: 0 0 0 3px rgba(5, 98, 160, 0.3);
   }
 
-  /* <CHANGE> Removed auto margin to keep text left-aligned */
   .child #p2 {
     position: relative;
     top: 0;
@@ -319,7 +315,6 @@ body{
     font-size: 16px;
   }
 
-  /* <CHANGE> Removed auto margin from button */
   .child button {
     border-radius: 4px;
     background-color: rgba(5, 98, 160);
@@ -367,7 +362,6 @@ body{
   min-height: auto;
 }
 
-/* <CHANGE> Adjusted z-index so img2 appears in front */
 #img2 {
  width: 100%;
   max-width: 550px;
@@ -382,7 +376,6 @@ body{
   flex-shrink: 0;
 }
 
-/* <CHANGE> Reduced z-index so img2-1 appears behind img2 */
 #img2-1 {
   width: 100%;
   max-width: 480px;
@@ -422,7 +415,6 @@ body{
     color: white;
   }
 
-  /* <CHANGE> All measurements in consistent pixels */
   .slider h2 {
     margin: 8px 32px;
     font-size: 24px;
@@ -439,16 +431,15 @@ body{
   }
 }
 
+ */
 
 
 
 
 
+/* 
 
-
-
-@media (max-width: 1023px) {  /* Corrected the media query syntax for clarity; use max-width instead of width < 1023px */
-  /* <CHANGE> Adjusted block1 for tablet view with responsive sizing */
+@media (max-width: 1023px) {  
   .block1 {
     width: 100% !important;
     position: absolute !important;
@@ -457,9 +448,9 @@ body{
     height: auto;
     min-height: 60vh;
     display: flex;
-    flex-direction: row;  /* Already row, so no change needed; ensures images left, content right */
+    flex-direction: row;  
     align-items: left;
-    justify-content: left;  /* Centers items horizontally; adjust if needed for strict left-right */
+    justify-content: left; 
     background-color: rgb(239, 247, 254);
     padding: 40px 20px;
     gap: 30px;
@@ -488,7 +479,6 @@ body{
     }
   }
 
-  /* <CHANGE> Adjusted content-leftt1 img sizing for tablet */
   .content-leftt1 img {
     width: 100%;
     max-width: 350px;
@@ -498,7 +488,6 @@ body{
     animation-range: entry 0% cover 40%;
   }
 
-  /* <CHANGE> Adjusted img4 sizing and positioning for tablet */
   #img4 {
     width: 100%;
     max-width: 250px;
@@ -510,7 +499,6 @@ body{
     margin-top: 20px;
   }
 
-  /* <CHANGE> Adjusted content-rightt1 positioning for tablet */
   .content-rightt1 {
     position: relative;
     top: 0;
@@ -544,7 +532,6 @@ body{
     color: rgba(5, 98, 160);
   }
 
-  /* <CHANGE> Adjusted ss width and positioning for tablet */
   #ss {
     position: relative;
     top: 0;
@@ -557,15 +544,14 @@ body{
     margin: 15px 0;
   }
 
-  /* <CHANGE> Adjusted right-subs for tablet with horizontal layout (changed from column to row) */
   .right-subs {
     display: flex;
-    flex-direction: row;  /* Changed from column to row for images on left and matter on right */
+    flex-direction: row; 
     gap: 30px;
     margin-left: 0;
     position: relative;
     bottom: 0;
-    align-items: flex-start;  /* Aligns items to start; ensures images (left) and text (right) align properly */
+    align-items: flex-start;  
   }
 
   #heads {
@@ -573,7 +559,6 @@ body{
     font-size: 16px;
   }
 
-  /* <CHANGE> Adjusted right-sub1 img sizing and positioning for tablet */
   .right-sub1 img {
     width: 60px;
     height: 60px;
@@ -583,14 +568,12 @@ body{
     top: 0;
   }
 
-  /* <CHANGE> Adjusted right-sub2 positioning for tablet */
   .right-sub2 {
     position: relative;
     top: 0;
     left: 0;
   }
 
-  /* <CHANGE> Adjusted right-sub2 img sizing and positioning for tablet */
   .right-sub2 img {
     width: 80px;
     height: 80px;
@@ -605,7 +588,7 @@ body{
 
 
 
-
+ */
 
 
 
@@ -2484,7 +2467,2343 @@ width:100%;
 
 
 
+@media (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   html, body {
+    margin: 0 !important;  /* Explicitly remove default margins */
+    padding: 0 !important;  /* Remove default padding */
+  }
 
+  .parent {
+    width: 100%;
+    height: auto;
+    background-color: rgba(235, 222, 248);
+    margin-top:5% !important;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    top:0px;
+    padding: 20px;
+    position:absolute !important ;
+   
+  }
+
+  body {
+    overflow-x: hidden;
+    color: rgb(33, 53, 71);
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .child {
+    position: relative;
+    left: 0;
+    top: -50px;
+    width: 400%;
+    height: auto;
+    animation: slideInLeft 1s ease-out forwards;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .child h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 10px 0;
+  }
+
+  #b1 {
+    width: 20px;
+    height: 10px;
+    border: 1px solid blue;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  #p1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    color: rgb(33, 53, 71);
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .child #p2 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 0;
+    line-height: 27px;
+    display: block;
+    text-align: justify;
+  }
+
+  .child button {
+    border-radius: 4px;
+    background-color: rgba(5, 98, 160);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    position: relative;
+    top: 0;
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #iicon {
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    top: 0;
+  }
+
+  .right-content {
+    position: relative;  /* Establishes positioning context for absolute children */
+    top: -35px;
+    width: 100%;
+    left:-10% !important;
+    padding-right:40px !important;
+    animation: slideInRight 1s ease-out forwards;
+    cursor: pointer;
+    display: block;  /* Changed to block for absolute positioning of images */
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .right-content img {
+    width: 550%;
+    max-width: 600px;
+    height: auto;
+    position: relative;  /* Positions images relative to .right-content */
+    top: 0% !important;  /* Aligns both images at the top */
+    left: 0;  /* Starts both at the left edge */
+    z-index:5;
+  }
+
+  #img2 {
+    width: 400%;
+    max-width: 600px;
+    height: auto;
+    position: absolute;  /* Keeps it in the same position as other images */
+    top: 0;  /* Same top as other images */
+    left: -10%;  /* Slight offset to mimic tablet view overlap */
+    z-index: 1;  /* Ensures it's layered correctly */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  .words-slider {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    width: 600% !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    background: #f9f9f9 !important;
+    padding: 20px 0 !important;
+    margin: 200px 0 0 0 !important;  /* Adjusted for scaling on laptops */
+    z-index: 1 !important;
+  }
+
+  .slider {
+    display: inline-flex !important;
+    animation: scroll 20s linear infinite !important;
+    background-color: rgba(5, 98, 160) !important;
+    height: 50px !important;
+    color: white !important;
+    width: max-content !important;
+    padding: 0 15px !important;
+    will-change: transform;
+  }
+
+  .slider h2 {
+    margin: 0.4rem 1rem !important;
+    font-size: 20px !important;  /* Increased for better visibility on laptops */
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 410px) {
+    .child {
+      padding: 0 10px !important;
+    }
+
+    .child h1 {
+      font-size: 26px !important;
+    }
+
+    .child #p2 {
+      font-size: 15px !important;
+      line-height: 1.6 !important;
+      padding-bottom: 0 !important;
+      white-space: normal !important;
+    }
+
+    .child #p2:nth-of-type(1) {
+      margin-top: 10px !important;
+      margin-bottom: 0 !important; 
+    }
+
+    .child #p2:nth-of-type(2) {
+      margin-top: 10px !important; 
+      margin-bottom: 15px !important;
+    }
+
+    .right-content {
+      top: 250px !important;  /* Adjusted for responsiveness */
+      gap: 15px !important; 
+      width: 100% !important;
+      overflow: visible !important;
+    }
+
+    .right-content img,
+    #img2,
+    #img2-1 {
+      width: 100% !important; 
+      max-width: 100% !important;
+      min-height: 500px !important; 
+      object-fit: contain !important;
+      position: relative !important; 
+    }
+
+    #img2-1 {
+      width: 100% !important; 
+      max-width: 100% !important;
+      min-height: 500px !important; 
+      object-fit: contain !important;
+      position: absolute !important;
+      margin-left: 10% !important;
+    }
+
+    .child button {
+      height: 45px !important;
+      max-width: 200px !important;
+      font-size: 16px !important;
+    }
+
+    .slider h2 {
+      font-size: 18px !important;
+      margin: 0.3rem 0.8rem !important;
+    }
+
+    .words-slider {
+      padding: 30px 0 !important;
+    }
+  }
+
+  .block1 {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 80vh;
+    position: absolute !important;
+    left: 0 !important;
+    top:100% !important;
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px;
+    margin-top: 20px; 
+    display: flex !important;
+    flex-direction: row !important;  /* Changed to row for laptop view */
+    align-items: center !important;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .content-leftt1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .content-leftt1 img {
+    width: 100% !important;
+    max-width: 300px !important;
+    height: auto !important;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  #img4 {
+    width: 100% !important;
+    max-width: 250px !important;
+    height: auto !important;
+    position: relative !important;
+    right: 0 !important;
+    margin-top: 10px;
+    z-index: 10;
+  }
+
+  .content-rightt1 {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    max-width: 95%;
+    text-align: center !important;
+    padding: 0 10px;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  .content-rightt1 #h21 {
+    font-size: 1.4rem !important;  /* Increased for laptop view */
+    margin-bottom: 10px;
+  }
+
+  .content-rightt1 #h22 {
+    font-size: 2.0rem !important;  /* Increased for laptop view */
+    position: relative !important;
+    top: 0 !important;
+    margin: 10px 0;
+    line-height: 1.3;
+  }
+
+  .content-rightt1 #h22 br { display: none; }
+
+  #ss {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    font-size: 18px !important;  /* Increased for readability */
+    line-height: 1.6 !important;
+    text-align: justify;
+    margin: 20px 0;
+  }
+
+  .content-rightt1 p {
+    font-size: 18px !important;  /* Increased for laptop view */
+    position: relative !important;
+    top: 0 !important;
+    text-align: justify;
+    margin: 15px 0;
+  }
+
+  .right-subs {
+    display: flex !important;
+    flex-direction: row !important;  /* Changed to row for horizontal layout */
+    gap: 20px !important;
+    margin: 20px auto !important;
+    position: relative !important;
+    bottom: 0 !important;
+    align-items: center;
+    width: 100%;
+  }
+
+  .right-sub1, .right-sub2 {
+    text-align: center;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 50%;  /* Adjusted for side-by-side */
+  }
+
+  .right-sub1 img, .right-sub2 img {
+    width: 60px !important;
+    height: 60px !important;
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin: 0 auto 10px;
+  }
+
+  #heads {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .right-sub1 p, .right-sub2 p {
+    font-size: 16px;  /* Increased for laptop view */
+    line-height: 1.4;
+    margin: 0;
+    text-align: center;
+  }
+
+  .right-sub2 { top: 0 !important; }
+
+  .right-sub1 p br, .right-sub2 p br { display: none; }
+
+  span { color: rgba(5, 98, 160); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Code for max-width: 1023px (Tablets and Smaller Screens) */
+@media (max-width: 1023px) {
+  .block2 {
+    height: auto !important;
+    min-height: 25vh;
+    background-color: rgb(54, 127, 192);
+    position: absolute !important;
+    top: -150px !important;
+    padding: 30px 15px;
+    text-align: center !important;
+    animation: bloc 1s ease-out forwards !important;
+    margin-top: 1620px;
+  }
+
+  .block2 h2 {
+    width: 55% !important;
+    margin: 0 0 20px 0;
+    font-size: 1.5rem !important;
+    color: white;
+    
+  }
+
+  .block2 #i1, .block2 #i2 { display: none; } 
+
+  .names-scroll {
+    position: relative !important;
+    top: 0 !important;
+    display: block !important; 
+    animation: scroll 15s linear infinite !important;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0% !important;
+    text-align: center!important;
+  }
+
+  .names-scroll em {
+    margin-left: 20px !important;
+    font-size: 18px !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 575.99px) {
+    @media (max-width: 399px) {
+      .block2 {
+        padding: 20px 10px !important; 
+        min-height: 20vh !important; 
+        margin-top: 15px !important; 
+      }
+
+      .block2 h2 {
+        font-size: 1.3rem !important;
+        margin: 0 0 15px 0 !important; 
+        padding: 0 5px !important; 
+      }
+
+      .block2 #i1, .block2 #i2 { 
+        display: none !important; 
+      }
+
+      .names-scroll {
+        width: 100% !important; 
+        padding-top: 3% !important; 
+        font-size: 0.95em !important; 
+        text-align: center !important;
+      }
+
+      .names-scroll em {
+        margin-left: 15px !important;
+        font-size: 16px !important;
+        padding: 0 5px !important; 
+        white-space: nowrap;
+      }
+
+      .names-scroll {
+        animation-duration: 12s !important; 
+      }
+    }
+  }
+}
+
+
+
+
+/* Laptop View Adaptation (max-width: 1023px) - Based on Provided Code */
+@media (max-width: 1023px) {
+  .block3 {
+    position: absolute !important;
+    width: 100% !important; 
+    height: auto !important;
+    top: 1600px !important; 
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px;
+    text-align: center !important;
+    margin-top: 20px; 
+  }
+
+  .block3 #h2 {
+    font-weight: 500;
+    font-size: 1.2rem !important;
+    margin-bottom: 10px;
+    position: relative !important;
+    top: 20px !important;
+  }
+
+  .block3 #h22 {
+    font-size: 2rem !important;
+    margin: 10px 0 30px 0;
+    position: relative !important;
+    top: 20px !important;
+  }
+
+  .p00 {
+    width: 100% !important;
+    white-space: normal;
+    word-break: break-word;
+    margin-top: 10px !important;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center !important;
+  }
+
+  .block5 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: row !important; 
+    align-items: center;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 100%;
+    height: auto !important;
+    padding: 25px 10px !important;
+  }
+
+  .block5 > div { 
+    flex: none !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    background: white;
+    padding: 30px !important;
+    border-radius: 8px;
+    padding-left:20px !important;
+    position: relative !important;
+    left: 0 !important;
+    transition: transform 0.4s ease;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    height: 400px !important;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+  }
+
+  .block5 > div:hover { transform: translateY(-5px); }
+
+  .block5 > div h3 {
+    position: static !important;
+    left: 0 !important;
+    width: 100% !important;
+    font-size: 1.4rem !important;
+    margin: 25px 0;
+    padding-top:70px !important;
+    text-align: center;
+  }
+
+  .block5 > div p {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 90% !important;
+    line-height: 1.5 !important;
+    text-align: justify !important;
+    margin: 15px 0;
+    font-size: 15px;
+  }
+
+  .block5 button {
+    background-color: rgb(54, 127, 192);
+    color: white;
+    margin-top:20px!important;
+    position:static;
+    padding: 10px 30px !important;
+    border-radius:5px;
+  }
+  .box-19 button{
+    position: relative !important;
+    top:20px !important;
+    left: -10px !important;
+  }
+   .box-20 button{
+    position: relative !important;
+    top:20px !important;
+    left: -10px !important;
+  }
+   .box-21 button{
+    position: relative !important;
+    top:0px !important;
+    left: -10px !important;
+  }
+   .box-22 button{
+    position: relative !important;
+    top:-30px !important;
+    left: -10px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .block7 {
+    width: 100% !important; 
+    height: auto !important; 
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url("../../saervice-images/friends.jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: absolute !important;
+    top: 820% !important; 
+    padding: 40px 15px; 
+    text-align: center !important; 
+    margin-top: 20px; 
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    animation: bloc 1s ease-out forwards !important; 
+    overflow: visible !important; 
+  }
+
+  #keep {
+    color: rgb(54, 127, 192) !important; 
+    font-size: 1.8rem !important; 
+    font-weight: 500 !important;
+    margin: 0 0 10px 0 !important; 
+    line-height: 1.3;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  #business {
+    font-weight: 500 !important;
+    font-size: 2rem !important; 
+    margin: 0 0 30px 0 !important; 
+    line-height: 1.3;
+    color: white !important; 
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  #business br { display: none; } 
+
+  .paras {
+    display: flex !important;
+    flex-direction: column !important; 
+    flex-wrap: nowrap !important; 
+    column-gap: 0 !important;
+    row-gap: 20px !important; 
+    margin-left: 0 !important; 
+    position: relative !important;
+    top: 0 !important; 
+    width: 100% !important;
+    max-width: 95%; 
+    align-items: center !important; 
+    animation: bloc 1s ease-out forwards !important;
+    overflow: visible !important; 
+  }
+
+  .faq-line {
+    width: 100% !important;
+    max-width: 350px !important; 
+    margin: 0 auto; /* Center each item */
+    display: block !important; /* Block flow for natural stacking */
+    overflow: visible !important; /* Answers expand below without clip */
+  }
+
+  /* FAQ Questions (p in .block7): Full-width, clickable */
+  .block7 p {
+    white-space: normal !important; /* Allow wrapping (already set) */
+    padding: 20px 20px !important; /* Touch-friendly (override 22px 20px) */
+    width: 100% !important; /* Full width (override 630px) */
+    height: auto !important; /* Auto height (override 26px) */
+    font-size: 16px !important; /* Readable (preserve) */
+    background-color: rgba(239, 247, 254, 0.9) !important; /* Semi-transparent light blue (preserve) */
+    color: rgb(54, 127, 192) !important; /* Preserve blue text */
+    text-align: left !important; /* Left for readability (override justify if needed) */
+    cursor: pointer; /* Indicate tappable */
+    border-radius: 8px; /* Soft corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect */
+    margin-bottom: 0 !important; /* No bottom margin – answer adds space */
+    animation: bloc 1s ease-out forwards !important; /* Simple animation */
+    display: flex !important;
+    justify-content: space-between !important; /* Question left, icon right */
+    align-items: center !important;
+    word-break: break-word; /* Wrap long questions */
+    position: relative !important; /* Relative (override any absolute) */
+  }
+
+  .block7 p:hover, .block7 p:active {
+    transform: translateY(-2px) !important; /* Subtle lift on tap */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+    background-color: rgba(239, 247, 254, 1) !important; /* Solid on hover */
+  }
+
+  /* FAQ Icon (#ic): Inline with question (no absolute positioning) */
+  #ic {
+    position: relative !important; /* Inline/relative (override absolute top/left) */
+    top: 0 !important;
+    left: 0 !important; /* No fixed left (override 630px) */
+    font-size: 18px !important; /* Slightly smaller (override 20px) */
+    color: rgb(54, 127, 192) !important; /* Match text */
+    margin-left: 10px; /* Space from text */
+    flex-shrink: 0; /* Don't shrink */
+    transition: transform 0.3s ease; /* For rotation if using class */
+  }
+
+  /* Fallback Icon Rotation (if not using JSX conditional icons; add 'faq-open' class to open question p) */
+  .faq-open #ic {
+    transform: rotate(180deg) !important; /* Mimic up arrow when open */
+  }
+
+  /* FAQ Answers (.faq-answer): Below question, no overlap */
+  .faq-answer {
+    color: white !important; /* White for contrast (override black) */
+    background-color: #007BFF !important; /* Preserve blue */
+    position: relative !important; /* Relative to flow below (override top:55px) */
+    top: 0 !important;
+    left: 0 !important;
+    height: auto !important; /* Preserve auto */
+    font-size: 14px !important; /* Slightly smaller (override 15px) */
+    padding: 15px 20px !important; /* Balanced (override bottom 30px only) */
+    margin-top: 10px !important; /* Gap below question (prevents overlap) */
+    margin-bottom: 0 !important; /* No extra – next FAQ has row-gap */
+    text-align: justify !important; /* Preserve */
+    border-radius: 0 0 8px 8px; /* Rounded bottom to match question */
+    line-height: 1.5; /* Better readability */
+    word-break: break-word; /* Wrap long answers */
+    width: 100% !important; /* Full width */
+    box-sizing: border-box;
+    opacity: 1 !important; /* Visible when rendered */
+    overflow: visible !important; /* Show all content */
+    display: block !important; /* Block flow below question */
+    animation: fadeInAnswer 0.3s ease-out forwards !important; /* Subtle fade-in */
+  }
+
+  @keyframes fadeInAnswer {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Hide desktop summary (precautionary) */
+  .block7 .faq-item summary {
+    display: none !important; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .block6 {
+    position: absolute !important; 
+    width: 100% !important; 
+    height: auto !important; 
+    top: 420% !important; 
+    left: 0 !important; 
+    padding: 0px 0 100px 0 !important; 
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: row !important; 
+    gap: 0 !important; 
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important; 
+    scroll-behavior: smooth !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    align-items: flex-start !important;
+    animation: bloc 1s ease-out forwards; 
+  }
+
+  .block6::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  #testinomial {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important;
+    left: 0 !important;
+    padding: 15px 0 !important;
+    font-size: 1.8rem !important; 
+    text-align: center !important;
+    margin: 0 0 20px 0 !important;
+    width: 100% !important;
+    order: -1 !important; /* Place above cards if needed */
+  }
+
+  .block6 .bg1 {
+    flex: 0 0 100% !important; 
+    width: 100% !important; /* Exact viewport fill - suggestion: consider reducing to 80% for more breathing room on tablets */
+    height: 250px !important; /* Auto height - suggestion: increase to 300px for better content visibility on larger screens */
+    position: relative !important; /* Relative */
+    left: 0 !important; /* No offset */
+    top: 0 !important; /* No offset */
+    padding: 25px 20px !important; /* Comfortable padding - suggestion: increase to 30px 25px for tablets */
+    background-color: white !important; /* Preserve */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2) !important; /* Softer shadow */
+    border: 1px solid rgb(221, 217, 217) !important; /* Preserve */
+    border-radius: 0 !important; /* No radius */
+    scroll-snap-align: start !important; /* Snap exactly to left edge */
+    transition: transform 0.3s ease !important; /* For lift effect */
+    word-break: break-word;
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .block6 .bg1::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 0% !important;
+    height: 100% !important;
+    background-color: rgba(5, 98, 160, 0.8) !important;
+    z-index: 0 !important;
+    transition: width 0.6s ease !important; 
+  }
+
+  .block6 .bg1:hover::before,
+  .block6 .bg1:active::before { 
+    width: 100% !important;
+  }
+
+  .block6 .bg1:hover,
+  .block6 .bg1:active { 
+    transform: translateX(-3px) !important; 
+    color: white !important; 
+  }
+
+  .block6 .bg1 * {
+    position: relative !important;
+    z-index: 1 !important; 
+  }
+
+  .block6 .bg1 h2 {
+    font-size: 1.4rem !important; 
+    font-weight: 600 !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 15px 0 !important;
+    text-align: center !important;
+    line-height: 1.3;
+  }
+
+
+  .block6 .bg1 p {
+    width: 100% !important; 
+    position: relative !important;
+    top: 0 !important; 
+    text-align: justify !important; 
+    line-height: 1.4 !important; 
+    white-space: normal !important;
+    font-size: 16px !important; 
+    margin: 0 0 15px 0 !important;
+  }
+
+  .block6 #name {
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important; 
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 5px 0 !important;
+    text-align: center !important;
+  }
+
+  #founder {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+    color: #666 !important; 
+    margin: 0 !important;
+    text-align: center !important;
+    font-style: italic;
+  }
+
+  #text-btn,
+  #testmonial-btn {
+    display: none !important;
+  }
+
+  .block6 + .cards-arrows {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    pointer-events: none !important; 
+    z-index: 10 !important; 
+  }
+
+  .block6 + .cards-arrows button {
+    position: absolute !important; 
+    top: 400.5% !important; 
+    transform: translateY(-50%) !important; 
+    left: 10px !important; 
+    right: auto !important; 
+    width: 45px !important; 
+    height: 45px !important;
+    padding: 0 !important; 
+    border-radius: 50% !important;
+    background-color: rgba(54, 127, 192, 0.9) !important; 
+    color: #ffffff !important;
+    border: none !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px !important; 
+    pointer-events: auto !important;
+    margin: 0 !important; 
+    flex-shrink: 0 !important; 
+    z-index: 11 !important; 
+  }
+
+  .block6 + .cards-arrows button:last-of-type {
+    left: auto !important;
+    right: 10px !important; 
+  }
+
+  .block6 + .cards-arrows button:first-of-type {
+    right: auto !important;
+    left: 10px !important;
+  }
+
+  .block6 + .cards-arrows button:hover,
+  .block6 + .cards-arrows button:active {
+    background-color: rgb(54, 127, 192) !important; 
+    transform: translateY(-50%) scale(1.1) !important; 
+  }
+
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 930px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .block6 {
+    position: absolute !important; /* Changed to relative for natural flow based on parent */
+    width: 100% !important; 
+    height: auto !important; 
+    top:460% !important;
+    /* Removed top: 400% !important; to allow automatic adjustment */
+    left: 0 !important; 
+    padding: 0px 0 100px 0 !important; 
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: row !important; 
+    gap: 0 !important; 
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important; 
+    scroll-behavior: smooth !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    align-items: flex-start !important;
+    animation: bloc 1s ease-out forwards; 
+    order: 0; /* Optional: Use order to adjust position in a flex parent. Set to -1 if you want it at the top in a row layout */
+  }
+
+  .block6::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  #testinomial {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important; /* Changed to relative for better flow */
+    left: 0 !important;
+    padding: 15px 0 !important;
+    font-size: 1.8rem !important; 
+    text-align: center !important;
+    margin: 0 0 20px 0 !important;
+    width: 100% !important;
+    order: -1 !important; /* Keeps it above cards if the parent is flex */
+  }
+
+  .block6 .bg1 {
+    flex: 0 0 100% !important; 
+    width: 100% !important;
+    height: 250px !important;
+    position: relative !important; 
+    left: 0 !important;
+    top: 0 !important;
+    padding: 25px 20px !important;
+    background-color: white !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgb(221, 217, 217) !important;
+    border-radius: 0 !important;
+    scroll-snap-align: start !important;
+    transition: transform 0.3s ease !important;
+    word-break: break-word;
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .block6 .bg1::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 0% !important;
+    height: 100% !important;
+    background-color: rgba(5, 98, 160, 0.8) !important;
+    z-index: 0 !important;
+    transition: width 0.6s ease !important; 
+  }
+
+  .block6 .bg1:hover::before,
+  .block6 .bg1:active::before { 
+    width: 100% !important;
+  }
+
+  .block6 .bg1:hover,
+  .block6 .bg1:active { 
+    transform: translateX(-3px) !important; 
+    color: white !important; 
+  }
+
+  .block6 .bg1 * {
+    position: relative !important;
+    z-index: 1 !important; 
+  }
+
+  .block6 .bg1 h2 {
+    font-size: 1.4rem !important; 
+    font-weight: 600 !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 15px 0 !important;
+    text-align: center !important;
+    line-height: 1.3;
+  }
+
+  .block6 .bg1 p {
+    width: 100% !important; 
+    position: relative !important;
+    top: 0 !important; 
+    text-align: justify !important; 
+    line-height: 1.4 !important; 
+    white-space: normal !important;
+    font-size: 16px !important; 
+    margin: 0 0 15px 0 !important;
+  }
+
+  .block6 #name {
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important; 
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 5px 0 !important;
+    text-align: center !important;
+  }
+
+  #founder {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+    color: #666 !important; 
+    margin: 0 !important;
+    text-align: center !important;
+    font-style: italic;
+  }
+
+  #text-btn,
+  #testmonial-btn {
+    display: none !important;
+  }
+
+  .block6 + .cards-arrows {
+    position: absolute !important;
+    top: 50% !important; /* Adjusted to be more centered; you may need to fine-tune based on .block6's new relative position */
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    pointer-events: none !important; 
+    z-index: 10 !important; 
+  }
+
+  .block6 + .cards-arrows button {
+    position: absolute !important; 
+    top: 430% !important; /* Adjusted for better alignment with .block6 */
+    transform: translateY(-50%) !important; 
+    left: 10px !important; 
+    right: auto !important; 
+    width: 45px !important; 
+    height: 45px !important;
+    padding: 0 !important; 
+    border-radius: 50% !important;
+    background-color: rgba(54, 127, 192, 0.9) !important; 
+    color: #ffffff !important;
+    border: none !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px !important; 
+    pointer-events: auto !important;
+    margin: 0 !important; 
+    flex-shrink: 0 !important; 
+    z-index: 11 !important; 
+  }
+
+  .block6 + .cards-arrows button:last-of-type {
+    left: auto !important;
+    right: 10px !important; 
+  }
+
+  .block6 + .cards-arrows button:first-of-type {
+    right: auto !important;
+    left: 10px !important;
+  }
+
+  .block6 + .cards-arrows button:hover,
+  .block6 + .cards-arrows button:active {
+    background-color: rgb(54, 127, 192) !important; 
+    transform: translateY(-50%) scale(1.1) !important; 
+  }
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 910px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .block6 {
+    position: absolute !important; /* Changed to relative for natural flow based on parent */
+    width: 100% !important; 
+    height: auto !important; 
+    top:430% !important;
+    /* Removed top: 400% !important; to allow automatic adjustment */
+    left: 0 !important; 
+    padding: 0px 0 100px 0 !important; 
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: row !important; 
+    gap: 0 !important; 
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important; 
+    scroll-behavior: smooth !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    align-items: flex-start !important;
+    animation: bloc 1s ease-out forwards; 
+    order: 0; /* Optional: Use order to adjust position in a flex parent. Set to -1 if you want it at the top in a row layout */
+  }
+
+  .block6::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  #testinomial {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important; /* Changed to relative for better flow */
+    left: 0 !important;
+    padding: 15px 0 !important;
+    font-size: 1.8rem !important; 
+    text-align: center !important;
+    margin: 0 0 20px 0 !important;
+    width: 100% !important;
+    order: -1 !important; /* Keeps it above cards if the parent is flex */
+  }
+
+  .block6 .bg1 {
+    flex: 0 0 100% !important; 
+    width: 100% !important;
+    height: 250px !important;
+    position: relative !important; 
+    left: 0 !important;
+    top: 0 !important;
+    padding: 25px 20px !important;
+    background-color: white !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgb(221, 217, 217) !important;
+    border-radius: 0 !important;
+    scroll-snap-align: start !important;
+    transition: transform 0.3s ease !important;
+    word-break: break-word;
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .block6 .bg1::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 0% !important;
+    height: 100% !important;
+    background-color: rgba(5, 98, 160, 0.8) !important;
+    z-index: 0 !important;
+    transition: width 0.6s ease !important; 
+  }
+
+  .block6 .bg1:hover::before,
+  .block6 .bg1:active::before { 
+    width: 100% !important;
+  }
+
+  .block6 .bg1:hover,
+  .block6 .bg1:active { 
+    transform: translateX(-3px) !important; 
+    color: white !important; 
+  }
+
+  .block6 .bg1 * {
+    position: relative !important;
+    z-index: 1 !important; 
+  }
+
+  .block6 .bg1 h2 {
+    font-size: 1.4rem !important; 
+    font-weight: 600 !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 15px 0 !important;
+    text-align: center !important;
+    line-height: 1.3;
+  }
+
+  .block6 .bg1 p {
+    width: 100% !important; 
+    position: relative !important;
+    top: 0 !important; 
+    text-align: justify !important; 
+    line-height: 1.4 !important; 
+    white-space: normal !important;
+    font-size: 16px !important; 
+    margin: 0 0 15px 0 !important;
+  }
+
+  .block6 #name {
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important; 
+    font-weight: 500 !important;
+    font-size: 1.1rem !important;
+    color: rgba(5, 98, 160) !important; 
+    margin: 0 0 5px 0 !important;
+    text-align: center !important;
+  }
+
+  #founder {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+    color: #666 !important; 
+    margin: 0 !important;
+    text-align: center !important;
+    font-style: italic;
+  }
+
+  #text-btn,
+  #testmonial-btn {
+    display: none !important;
+  }
+
+  .block6 + .cards-arrows {
+    position: absolute !important;
+    top: 50% !important; /* Adjusted to be more centered; you may need to fine-tune based on .block6's new relative position */
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    pointer-events: none !important; 
+    z-index: 10 !important; 
+  }
+
+  .block6 + .cards-arrows button {
+    position: absolute !important; 
+    top: 380% !important; /* Adjusted for better alignment with .block6 */
+    transform: translateY(-50%) !important; 
+    left: 10px !important; 
+    right: auto !important; 
+    width: 45px !important; 
+    height: 45px !important;
+    padding: 0 !important; 
+    border-radius: 50% !important;
+    background-color: rgba(54, 127, 192, 0.9) !important; 
+    color: #ffffff !important;
+    border: none !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 16px !important; 
+    pointer-events: auto !important;
+    margin: 0 !important; 
+    flex-shrink: 0 !important; 
+    z-index: 11 !important; 
+  }
+
+  .block6 + .cards-arrows button:last-of-type {
+    left: auto !important;
+    right: 10px !important; 
+  }
+
+  .block6 + .cards-arrows button:first-of-type {
+    right: auto !important;
+    left: 10px !important;
+  }
+
+  .block6 + .cards-arrows button:hover,
+  .block6 + .cards-arrows button:active {
+    background-color: rgb(54, 127, 192) !important; 
+    transform: translateY(-50%) scale(1.1) !important; 
+  }
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  /* General: Prevent overflow and ensure consistent sizing (for this section) */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* BLOCK8 (Why Choose Us): Full width, auto height, centered headings */
+  .block8 {
+    position: absolute !important;
+    top: 470% !important; /* No fixed top/negative margins */
+    margin-top: 20px !important; /* Gap from previous section (e.g., block3) */
+    width: 100% !important; /* Full width */
+    height: auto !important; /* Adapt to content */
+    text-align: center !important;
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px; /* Top/bottom/side padding - consider increasing for tablets (e.g., 50px 20px) */
+    animation: bloc 1s ease-out forwards !important; /* Simple fade-in */
+  }
+
+  .block8 h2 {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important;
+    font-size: 1.8rem !important;  /* Suggestion: Increase to 2.2rem for better readability on tablets */
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+  }
+
+  .block8 #block8-h2-p{
+    font-size: 1.1rem !important;
+    padding: 10px 0 !important;
+  }
+
+
+  .cards2 {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important; 
+    justify-content: center;
+    margin-top: 0 !important; 
+    margin-left: 0 !important; 
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 10px !important;
+    column-gap: 0 !important; 
+    row-gap: 20px !important; 
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+    transition: none;
+  }
+
+  .cards2 > div { /* Targets .card1, .card2, etc. */
+    width: 100% !important;
+    max-width: 300px !important; /* Cap for balance - consider increasing to 400px for tablets */
+    height: auto !important; /* Adapt to content */
+    min-height: 280px !important; /* Uniform height for consistency */
+    padding: 20px !important; /* Internal padding - suggestion: increase to 25px for tablets */
+    margin: 0 auto; /* Center horizontally */
+    background-color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+    border-bottom: 7px solid; /* Preserve colored borders */
+    position: relative !important; /* Relative for internal flow */
+    left: 0 !important; /* No fixed left */
+    top: 0 !important; /* No fixed top */
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important; /* Hover effects */
+    display: flex !important;
+    flex-direction: column !important; /* Stack: img > h2 > p */
+    align-items: center !important; /* Center content */
+    text-align: center !important; /* Center text */
+    z-index: 1;
+  }
+
+  .cards2 > div:hover {
+    transform: translateY(-5px) !important; /* Lift on tap/hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important; /* Enhanced shadow */
+  }
+
+  /* Images in Cards: Responsive, centered at top, floating animation */
+  .cards2 img {
+    width: 60px !important; /* Uniform smaller size - suggestion: increase to 70px for tablets */
+    max-width: 80px !important;
+    height: auto !important; /* Maintain aspect ratio */
+    position: relative !important; /* Relative, no absolute */
+    top: 0 !important; /* No negative top */
+    left: 0 !important; /* Centered */
+    margin: 0 auto 15px auto; /* Space below image */
+    object-fit: cover; /* Prevent distortion */
+    animation: float 2s ease-in-out infinite alternate !important; /* Optimized float */
+    z-index: 2; /* Above card */
+  }
+
+  /* Specific image size overrides */
+  #userr, #time { width: 60px !important; max-width: 60px !important; }
+  #bag, #calculator { width: 70px !important; max-width: 70px !important; }
+  #notes { width: 80px !important; max-width: 80px !important; height: auto !important; }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(10px); } /* Shorter distance */
+  }
+
+  /* h2 in Cards: Centered, preserve colors, no fixed positions */
+  .cards2 h2 {
+    width: 100% !important; /* Full width */
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    margin: 0 0 10px 0;
+    font-size: 1.2rem !important; /* Smaller for this range - suggestion: increase to 1.5rem for tablets */
+    white-space: normal !important; /* Allow wrapping */
+    line-height: 1.3;
+    text-align: center !important;
+  }
+
+  .card1 h2 { color: blue !important; }
+  .card2 h2 { color: yellowgreen !important; }
+  .card3 h2 { color: violet !important; }
+  .card4 h2 { color: green !important; }
+  .card5 h2 { color: red !important; }
+
+  /* p in Cards: Full-width, justified, no fixed positions */
+  .cards2 p {
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    width: 100% !important; /* Full width */
+    max-width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+    text-align: justify !important;
+    line-height: 1.5 !important; /* Better readability */
+    font-size: 15px !important; /* Readable body text - suggestion: increase to 16px for tablets */
+    margin: 0; /* No extra margins */
+  }
+
+  .card1 { border-bottom-color: blue !important; }
+  .card2 { border-bottom-color: yellowgreen !important; }
+  .card3 { border-bottom-color: violet !important; }
+  .card4 { border-bottom-color: green !important; }
+  .card5 { border-bottom-color: red !important; }
+
+  .card3 { min-height: 260px !important; } /* Shorter if needed */
+  .card5 { min-height: 290px !important; } /* Taller if needed */
+
+  /* For very small screens (<400px): Further compress - this remains as a nested query */
+  @media (max-width: 399px) {
+    .block8 {
+      padding: 30px 10px !important;
+    }
+
+    .block8 h2 {
+      font-size: 1.5rem !important;
+    }
+
+    #block8-h2-p {
+      font-size: 1.1rem !important;
+    }
+
+    .cards2 {
+      row-gap: 15px !important;
+      padding: 0 5px !important;
+    }
+
+    .cards2 > div {
+      max-width: 280px !important;
+      min-height: 260px !important;
+      padding: 15px !important;
+    }
+
+    .cards2 img {
+      width: 50px !important;
+      max-width: 60px !important;
+      margin-bottom: 10px;
+    }
+
+    #notes {
+      width: 60px !important;
+    }
+
+    .cards2 h2 {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  /* Simple fade-in animation for section */
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Cards: Ensure base structure */
+.block8 .cards2 > div {
+  border-bottom: 7px solid !important;
+}
+
+/* h2 Colors: Higher specificity */
+.block8 .cards2 .card1 h2 { color: blue !important; }
+.block8 .cards2 .card2 h2 { color: yellowgreen !important; }
+.block8 .cards2 .card3 h2 { color: violet !important; }
+.block8 .cards2 .card4 h2 { color: green !important; }
+.block8 .cards2 .card5 h2 { color: red !important; }
+
+/* Border Colors: Higher specificity */
+.block8 .cards2 .card1 { border-bottom: 7px solid blue !important; }
+.block8 .cards2 .card2 { border-bottom: 7px solid yellowgreen !important; }
+.block8 .cards2 .card3 { border-bottom: 7px solid violet !important; }
+.block8 .cards2 .card4 { border-bottom: 7px solid green !important; }
+.block8 .cards2 .card5 { border-bottom: 7px solid red !important; }
+
+/* Height Overrides */
+.block8 .cards2 .card3 { min-height: 260px !important; }
+.block8 .cards2 .card5 { min-height: 290px !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 930px) {
+  /* General: Prevent overflow and ensure consistent sizing (for this section) */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* BLOCK8 (Why Choose Us): Full width, auto height, centered headings */
+  .block8 {
+    position: absolute !important;
+    top: 500% !important; /* No fixed top/negative margins */
+    margin-top: 20px !important; /* Gap from previous section (e.g., block3) */
+    width: 100% !important; /* Full width */
+    height: auto !important; /* Adapt to content */
+    text-align: center !important;
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px; /* Top/bottom/side padding - consider increasing for this range */
+    animation: bloc 1s ease-out forwards !important; /* Simple fade-in */
+  }
+
+  .block8 h2 {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important;
+    font-size: 1.8rem !important;  /* Suggestion: Adjust as needed for 930px screens */
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+  }
+
+  .block8 #block8-h2-p{
+    font-size: 1.1rem !important;
+    padding: 10px 0 !important;
+  }
+
+
+  .cards2 {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important; 
+    justify-content: center;
+    margin-top: 0 !important; 
+    margin-left: 0 !important; 
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 10px !important;
+    column-gap: 0 !important; 
+    row-gap: 20px !important; 
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+    transition: none;
+  }
+
+  .cards2 > div { /* Targets .card1, .card2, etc. */
+    width: 100% !important;
+    max-width: 300px !important; /* Suggestion: Fine-tune for 930px if necessary */
+    height: auto !important; /* Adapt to content */
+    min-height: 280px !important; /* Uniform height for consistency */
+    padding: 20px !important; /* Internal padding */
+    margin: 0 auto; /* Center horizontally */
+    background-color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+    border-bottom: 7px solid; /* Preserve colored borders */
+    position: relative !important; /* Relative for internal flow */
+    left: 0 !important; /* No fixed left */
+    top: 0 !important; /* No fixed top */
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important; /* Hover effects */
+    display: flex !important;
+    flex-direction: column !important; /* Stack: img > h2 > p */
+    align-items: center !important; /* Center content */
+    text-align: center !important; /* Center text */
+    z-index: 1;
+  }
+
+  .cards2 > div:hover {
+    transform: translateY(-5px) !important; /* Lift on tap/hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important; /* Enhanced shadow */
+  }
+
+  /* Images in Cards: Responsive, centered at top, floating animation */
+  .cards2 img {
+    width: 60px !important; /* Uniform smaller size */
+    max-width: 80px !important;
+    height: auto !important; /* Maintain aspect ratio */
+    position: relative !important; /* Relative, no absolute */
+    top: 0 !important; /* No negative top */
+    left: 0 !important; /* Centered */
+    margin: 0 auto 15px auto; /* Space below image */
+    object-fit: cover; /* Prevent distortion */
+    animation: float 2s ease-in-out infinite alternate !important; /* Optimized float */
+    z-index: 2; /* Above card */
+  }
+
+  /* Specific image size overrides */
+  #userr, #time { width: 60px !important; max-width: 60px !important; }
+  #bag, #calculator { width: 70px !important; max-width: 70px !important; }
+  #notes { width: 80px !important; max-width: 80px !important; height: auto !important; }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(10px); } /* Shorter distance */
+  }
+
+  /* h2 in Cards: Centered, preserve colors, no fixed positions */
+  .cards2 h2 {
+    width: 100% !important; /* Full width */
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    margin: 0 0 10px 0;
+    font-size: 1.2rem !important; /* Suggestion: Adjust for 930px if needed */
+    white-space: normal !important; /* Allow wrapping */
+    line-height: 1.3;
+    text-align: center !important;
+  }
+
+  .card1 h2 { color: blue !important; }
+  .card2 h2 { color: yellowgreen !important; }
+  .card3 h2 { color: violet !important; }
+  .card4 h2 { color: green !important; }
+  .card5 h2 { color: red !important; }
+
+  /* p in Cards: Full-width, justified, no fixed positions */
+  .cards2 p {
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    width: 100% !important; /* Full width */
+    max-width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+    text-align: justify !important;
+    line-height: 1.5 !important; /* Better readability */
+    font-size: 15px !important; /* Suggestion: Fine-tune for this breakpoint */
+    margin: 0; /* No extra margins */
+  }
+
+  .card1 { border-bottom-color: blue !important; }
+  .card2 { border-bottom-color: yellowgreen !important; }
+  .card3 { border-bottom-color: violet !important; }
+  .card4 { border-bottom-color: green !important; }
+  .card5 { border-bottom-color: red !important; }
+
+  .card3 { min-height: 260px !important; } /* Shorter if needed */
+  .card5 { min-height: 290px !important; } /* Taller if needed */
+
+  /* For very small screens (<400px): Further compress - this remains as a nested query */
+  @media (max-width: 399px) {
+    .block8 {
+      padding: 30px 10px !important;
+    }
+
+    .block8 h2 {
+      font-size: 1.5rem !important;
+    }
+
+    #block8-h2-p {
+      font-size: 1.1rem !important;
+    }
+
+    .cards2 {
+      row-gap: 15px !important;
+      padding: 0 5px !important;
+    }
+
+    .cards2 > div {
+      max-width: 280px !important;
+      min-height: 260px !important;
+      padding: 15px !important;
+    }
+
+    .cards2 img {
+      width: 50px !important;
+      max-width: 60px !important;
+      margin-bottom: 10px;
+    }
+
+    #notes {
+      width: 60px !important;
+    }
+
+    .cards2 h2 {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  /* Simple fade-in animation for section */
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Cards: Ensure base structure */
+.block8 .cards2 > div {
+  border-bottom: 7px solid !important;
+}
+
+/* h2 Colors: Higher specificity */
+.block8 .cards2 .card1 h2 { color: blue !important; }
+.block8 .cards2 .card2 h2 { color: yellowgreen !important; }
+.block8 .cards2 .card3 h2 { color: violet !important; }
+.block8 .cards2 .card4 h2 { color: green !important; }
+.block8 .cards2 .card5 h2 { color: red !important; }
+
+/* Border Colors: Higher specificity */
+.block8 .cards2 .card1 { border-bottom: 7px solid blue !important; }
+.block8 .cards2 .card2 { border-bottom: 7px solid yellowgreen !important; }
+.block8 .cards2 .card3 { border-bottom: 7px solid violet !important; }
+.block8 .cards2 .card4 { border-bottom: 7px solid green !important; }
+.block8 .cards2 .card5 { border-bottom: 7px solid red !important; }
+
+/* Height Overrides */
+.block8 .cards2 .card3 { min-height: 260px !important; }
+.block8 .cards2 .card5 { min-height: 290px !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 910px) {
+  /* General: Prevent overflow and ensure consistent sizing (for this section) */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* BLOCK8 (Why Choose Us): Full width, auto height, centered headings */
+  .block8 {
+    position: absolute !important;
+    top: 470% !important; /* No fixed top/negative margins */
+    margin-top: 20px !important; /* Gap from previous section (e.g., block3) */
+    width: 100% !important; /* Full width */
+    height: auto !important; /* Adapt to content */
+    text-align: center !important;
+    background-color: rgb(239, 247, 254);
+    padding: 40px 15px; /* Top/bottom/side padding - consider increasing for this range */
+    animation: bloc 1s ease-out forwards !important; /* Simple fade-in */
+  }
+
+  .block8 h2 {
+    color: rgba(5, 98, 160) !important; 
+    position: relative !important;
+    font-size: 1.8rem !important;  /* Suggestion: Adjust as needed for 870px screens */
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+  }
+
+  .block8 #block8-h2-p{
+    font-size: 1.1rem !important;
+    padding: 10px 0 !important;
+  }
+
+
+  .cards2 {
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important; 
+    justify-content: center;
+    margin-top: 0 !important; 
+    margin-left: 0 !important; 
+    width: 100% !important;
+    max-width: 100%;
+    padding: 0 10px !important;
+    column-gap: 0 !important; 
+    row-gap: 20px !important; 
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+    transition: none;
+  }
+
+  .cards2 > div { /* Targets .card1, .card2, etc. */
+    width: 100% !important;
+    max-width: 300px !important; /* Suggestion: Fine-tune for 870px if necessary */
+    height: auto !important; /* Adapt to content */
+    min-height: 280px !important; /* Uniform height for consistency */
+    padding: 20px !important; /* Internal padding */
+    margin: 0 auto; /* Center horizontally */
+    background-color: white !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+    border-bottom: 7px solid; /* Preserve colored borders */
+    position: relative !important; /* Relative for internal flow */
+    left: 0 !important; /* No fixed left */
+    top: 0 !important; /* No fixed top */
+    transition: transform 0.4s ease, box-shadow 0.4s ease !important; /* Hover effects */
+    display: flex !important;
+    flex-direction: column !important; /* Stack: img > h2 > p */
+    align-items: center !important; /* Center content */
+    text-align: center !important; /* Center text */
+    z-index: 1;
+  }
+
+  .cards2 > div:hover {
+    transform: translateY(-5px) !important; /* Lift on tap/hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important; /* Enhanced shadow */
+  }
+
+  /* Images in Cards: Responsive, centered at top, floating animation */
+  .cards2 img {
+    width: 60px !important; /* Uniform smaller size */
+    max-width: 80px !important;
+    height: auto !important; /* Maintain aspect ratio */
+    position: relative !important; /* Relative, no absolute */
+    top: 0 !important; /* No negative top */
+    left: 0 !important; /* Centered */
+    margin: 0 auto 15px auto; /* Space below image */
+    object-fit: cover; /* Prevent distortion */
+    animation: float 2s ease-in-out infinite alternate !important; /* Optimized float */
+    z-index: 2; /* Above card */
+  }
+
+  /* Specific image size overrides */
+  #userr, #time { width: 60px !important; max-width: 60px !important; }
+  #bag, #calculator { width: 70px !important; max-width: 70px !important; }
+  #notes { width: 80px !important; max-width: 80px !important; height: auto !important; }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(10px); } /* Shorter distance */
+  }
+
+  /* h2 in Cards: Centered, preserve colors, no fixed positions */
+  .cards2 h2 {
+    width: 100% !important; /* Full width */
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    margin: 0 0 10px 0;
+    font-size: 1.2rem !important; /* Suggestion: Adjust for 870px if needed */
+    white-space: normal !important; /* Allow wrapping */
+    line-height: 1.3;
+    text-align: center !important;
+  }
+
+  .card1 h2 { color: blue !important; }
+  .card2 h2 { color: yellowgreen !important; }
+  .card3 h2 { color: violet !important; }
+  .card4 h2 { color: green !important; }
+  .card5 h2 { color: red !important; }
+
+  /* p in Cards: Full-width, justified, no fixed positions */
+  .cards2 p {
+    position: relative !important;
+    top: 0 !important; /* No fixed top */
+    left: 0 !important; /* No fixed left */
+    width: 100% !important; /* Full width */
+    max-width: 100%;
+    white-space: normal !important;
+    word-break: break-word;
+    text-align: justify !important;
+    line-height: 1.5 !important; /* Better readability */
+    font-size: 15px !important; /* Suggestion: Fine-tune for this breakpoint */
+    margin: 0; /* No extra margins */
+  }
+
+  .card1 { border-bottom-color: blue !important; }
+  .card2 { border-bottom-color: yellowgreen !important; }
+  .card3 { border-bottom-color: violet !important; }
+  .card4 { border-bottom-color: green !important; }
+  .card5 { border-bottom-color: red !important; }
+
+  .card3 { min-height: 260px !important; } /* Shorter if needed */
+  .card5 { min-height: 290px !important; } /* Taller if needed */
+
+  /* For very small screens (<400px): Further compress - this remains as a nested query */
+  @media (max-width: 399px) {
+    .block8 {
+      padding: 30px 10px !important;
+    }
+
+    .block8 h2 {
+      font-size: 1.5rem !important;
+    }
+
+    #block8-h2-p {
+      font-size: 1.1rem !important;
+    }
+
+    .cards2 {
+      row-gap: 15px !important;
+      padding: 0 5px !important;
+    }
+
+    .cards2 > div {
+      max-width: 280px !important;
+      min-height: 260px !important;
+      padding: 15px !important;
+    }
+
+    .cards2 img {
+      width: 50px !important;
+      max-width: 60px !important;
+      margin-bottom: 10px;
+    }
+
+    #notes {
+      width: 60px !important;
+    }
+
+    .cards2 h2 {
+      font-size: 1.1rem !important;
+    }
+  }
+
+  /* Simple fade-in animation for section */
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Cards: Ensure base structure */
+.block8 .cards2 > div {
+  border-bottom: 7px solid !important;
+}
+
+/* h2 Colors: Higher specificity */
+.block8 .cards2 .card1 h2 { color: blue !important; }
+.block8 .cards2 .card2 h2 { color: yellowgreen !important; }
+.block8 .cards2 .card3 h2 { color: violet !important; }
+.block8 .cards2 .card4 h2 { color: green !important; }
+.block8 .cards2 .card5 h2 { color: red !important; }
+
+/* Border Colors: Higher specificity */
+.block8 .cards2 .card1 { border-bottom: 7px solid blue !important; }
+.block8 .cards2 .card2 { border-bottom: 7px solid yellowgreen !important; }
+.block8 .cards2 .card3 { border-bottom: 7px solid violet !important; }
+.block8 .cards2 .card4 { border-bottom: 7px solid green !important; }
+.block8 .cards2 .card5 { border-bottom: 7px solid red !important; }
+
+/* Height Overrides */
+.block8 .cards2 .card3 { min-height: 260px !important; }
+.block8 .cards2 .card5 { min-height: 290px !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* BLOCK9 (Talk To Our Experts): Full width, auto height, centered content */
+  .block9 {
+    position: absolute !important;
+    top: 710% !important; /* No fixed/negative top */
+    width: 100% !important; /* Full width */
+    height: auto !important; /* Adapt to content */
+    background-color: rgb(54, 127, 192) !important; /* Preserve blue bg */
+    padding: 40px 15px; /* Top/bottom/side padding - suggestion: increase to 50px 20px for tablets */
+    text-align: center !important;
+    margin-top: 20px; /* Gap from previous section */
+    display: flex !important;
+    flex-direction: column !important; /* Vertical stack: h2 > form > img */
+    align-items: center !important;
+    animation: bloc 1s ease-out forwards !important; /* Simple fade-in */
+    margin-top: -40px !important; /* Note: Negative margin might need adjustment for larger screens */
+  }
+
+  .block9 h2 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important; /* No fixed top */
+    width: 100% !important; /* Full width */
+    font-size: 2rem !important; /* Readable size - suggestion: increase to 2.5rem for tablets */
+    margin: 0 0 30px 0; /* Space below */
+    color: white !important;
+    line-height: 1.3;
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+  }
+
+  /* Form: Vertical stack, full-width fields */
+  .block9 form {
+    position: relative !important;
+    left: 0 !important; /* No fixed left */
+    top: 0 !important; /* No fixed top */
+    display: flex !important;
+    flex-direction: column !important; /* Vertical stack */
+    width: 100% !important;
+    max-width: 300px !important; /* Cap for centering - suggestion: increase to 400px for tablets */
+    gap: 20px !important; /* Space between fields */
+    margin: 0 auto 30px auto; /* Center and space from image */
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+  }
+
+  /* Labels in Form: Above inputs, full-width, white */
+  .block9 form label {
+    color: white !important;
+    margin-left: 0 !important;
+    position: relative !important;
+    left: 0 !important; /* Override */
+    top: 0 !important; /* Override */
+    font-size: 14px !important;
+    font-weight: 600;
+    text-align: left !important;
+    margin-bottom: 5px; /* Small space to input */
+    width: 100% !important;
+  }
+
+  /* Inputs in Form: Full-width, touch-friendly */
+  .block9 form input {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    height: 45px !important; /* Touch height - suggestion: keep or adjust slightly for tablets */
+    left: 0 !important; /* No left offset */
+    border-radius: 4px !important;
+    position: relative !important;
+    margin-top: 0 !important; /* No margin-top */
+    font-size: 1rem !important;
+    padding: 0 15px !important; /* Balanced padding */
+    width: 100% !important; /* Full width */
+    color: white !important; /* White text */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .block9 form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important; /* Placeholder visibility */
+  }
+
+  .block9 form input:focus {
+    border-color: rgba(255, 255, 255, 0.8) !important; /* White focus */
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Subtle bg on focus */
+  }
+
+  /* Submit Button: Full-width below inputs */
+  #submitt {
+    position: relative !important;
+    top: 0 !important; /* No top offset */
+    right: 0 !important; /* No right offset */
+    background-color: #ffffff !important;
+    padding: 15px 30px !important; /* Larger touch area - suggestion: adjust padding for tablets if needed */
+    color: rgb(54, 127, 192) !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    cursor: pointer;
+    width: 100% !important; /* Full width */
+    height: 50px !important; /* Touch height */
+    font-size: 16px !important;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  #submitt:hover, #submitt:active {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    transform: translateY(-1px); /* Subtle lift */
+  }
+
+  /* Image: Responsive, centered at bottom */
+  .block9 img {
+    position: relative !important;
+    top: 0 !important; /* No negative top */
+    width: 100% !important; /* Full width */
+    max-width: 300px !important; /* Cap for mobile - suggestion: increase to 400px for tablets */
+    height: auto !important; /* Aspect ratio */
+    object-fit: cover; /* Prevent distortion */
+    border-radius: 8px; /* Soft corners */
+    margin-top: 20px; /* Space from form */
+    animation: bloc 1s ease-out forwards !important; /* Fade-in */
+  }
+
+  /* For very small screens (<400px): Further compress */
+  @media (max-width: 399px) {
+    .block9 {
+      padding: 30px 10px !important;
+    }
+
+    .block9 h2 {
+      font-size: 1.8rem !important;
+      margin-bottom: 25px;
+    }
+
+    .block9 form {
+      max-width: 280px !important;
+      gap: 15px !important;
+    }
+
+    .block9 form label {
+      font-size: 13px !important;
+    }
+
+    .block9 form input {
+      height: 40px !important;
+      padding: 0 12px !important;
+      font-size: 15px !important;
+    }
+
+    #submitt {
+      height: 45px !important;
+      padding: 12px 20px !important;
+      font-size: 15px !important;
+    }
+
+    .block9 img {
+      max-width: 280px !important;
+      margin-top: 15px;
+    }
+  }
+
+  /* Simple fade-in animation for section */
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
 
 
 
@@ -2500,7 +4819,204 @@ width:100%;
 
 
 
+
+
+
+@media (max-width: 1023px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .footer {
+    position: absolute !important;
+    top: 1005% !important; 
+    width: 100% !important;
+    height: auto !important; 
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 40px 20px 20px 20px !important; 
+    margin-bottom: 0 !important;
+    animation: bloc linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+    margin-top: 100px !important; /* Suggestion: Adjust margin-top based on layout needs for larger screens */
+  }
+
+  .footer img {
+    width: 200px !important; 
+    height: 50px !important;
+    margin: 0 auto 20px auto !important; 
+    display: block; 
+  }
+
+  .line1 {
+    margin-left: 0 !important; 
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important; 
+    margin: 0 auto 20px auto !important; 
+    font-size: 14px !important; 
+    padding: 0 10px !important; 
+    /* Suggestion: Increase font-size to 16px for better readability on tablets and small laptops */
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important; 
+    display: flex !important;
+    justify-content: center !important;
+    gap: 15px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .icn svg {
+    font-size: 20px !important; 
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important; 
+    gap: 30px !important; 
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important; 
+    text-align: center !important;
+    animation: bloc linear; 
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+  }
+
+  #contact-address {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important; 
+    max-width: 300px !important; 
+    /* Suggestion: Increase max-width to 400px for more space on larger screens in this range */
+  }
+
+  .links1 h3 {
+    margin-bottom: 15px !important;
+    text-decoration: underline !important;
+    font-size: 16px !important;
+    /* Suggestion: Increase font-size to 18px for better visibility */
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important; 
+    color: white !important;
+    margin-bottom: 10px !important;
+    font-size: 14px !important; 
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    text-align: center !important; 
+    display: block !important;
+    /* Suggestion: Increase font-size to 15px or 16px for improved readability */
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"], 
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important; 
+    left: 0 !important;
+    padding-left: 25px !important;
+  }
+
+  .last-line {
+    width: 100% !important;
+    height: auto !important; 
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    position: absolute !important;
+    top: 1135% !important; 
+    color: white !important;
+    column-gap: 0 !important; 
+    padding: 20px !important;
+    text-align: center !important;
+    align-items: center !important;
+    gap: 10px !important; 
+    /* Suggestion: Increase padding to 25px for more vertical space on tablets */
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important; 
+    top: 0 !important; 
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    text-align: center !important;
+    /* Suggestion: Increase font-size to 14px for better legibility */
+  }
+
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tablet/Mobile View (max-width: 767px) - Using Mobile Code Exactly */
+
+
 @media (max-width: 767px) {
   body {
     overflow-x: hidden !important;
@@ -2573,12 +5089,52 @@ width:100%;
 
   #p1 {
     position: relative !important;
-    left: 0 !important;
+    left: -220px !important;
     top: 0 !important;
     font-size: 14px !important;
     margin-bottom: 10px !important;
     color: rgb(33, 53, 71);
-    text-align: center !important;
+    text-align: left !important;
+    visibility: hidden;
+  }
+  @media(max-width:620px){
+    
+  #p1 {
+    position: relative !important;
+    left: -150px !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    color: rgb(33, 53, 71);
+    text-align: left !important;
+  }
+
+  }
+    @media(max-width:550px){
+    
+  #p1 {
+    position: relative !important;
+    left: -300px !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    color: rgb(33, 53, 71);
+    text-align: left !important;
+  }
+
+  }
+   @media(max-width:720px){
+    
+  #p1 {
+    position: relative !important;
+    left: -150px !important;
+    top: 0 !important;
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+    color: rgb(33, 53, 71);
+    text-align: left !important;
+  }
+
   }
 
   #b1 {
@@ -2706,8 +5262,6 @@ width:100%;
     margin-left:10%!important;
   }
 }
-
-
 
 
 
@@ -6515,11 +9069,6 @@ width:100%;
     box-sizing: border-box !important;
   }
 }
-
-
-
-
-
 
 
 @media (max-width: 575.99px) {
