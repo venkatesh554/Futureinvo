@@ -173,6 +173,448 @@ body{
 
 
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Refined laptop styles with row-wise layout and responsiveness */
+
+  body {
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgb(33, 53, 71);
+    background-color: #f9f9f9;
+    position: relative !important;
+  }
+
+  * {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* <CHANGE> Removed negative margin-top and adjusted positioning for proper layout */
+  .parent {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(235, 222, 248);
+    margin-top: -350px !important;
+    margin-left: 0;
+    position: relative !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  /* <CHANGE> Adjusted child width and removed centering */
+  .child {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 45%;
+    max-width: 500px;
+    height: auto;
+    animation: slideInLeft 1s ease-out forwards;
+    text-align: left;
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .child h1 {
+    font-size: 42px;
+    line-height: 1.5;
+    margin: 20px 0;
+    word-break: break-word;
+    position: relative;
+  }
+
+  .child h1 br {
+    display: none;
+  }
+
+  #p1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 25px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    user-select: none;
+    position: relative;
+    width: 100%;
+    text-align: left;
+  }
+
+  #b1 {
+    width: 20px;
+    height: 10px;
+    border: 1px solid blue;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  #b1.toggle-btn {
+    width: 35px;
+    height: 18px;
+    border: 1px solid rgb(208, 208, 232);
+    position: relative;
+    left: 0;
+    top: 0;
+    background-color: rgb(54, 127, 192);
+    border-radius: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  #b1.toggle-btn::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
+
+  #b1.toggle-btn:hover {
+    background-color: #cce7ff;
+    box-shadow: 0 2px 5px rgba(5, 98, 160, 0.2);
+    border-color: rgba(5, 98, 160, 0.8);
+  }
+
+  #b1.toggle-btn:focus {
+    box-shadow: 0 0 0 3px rgba(5, 98, 160, 0.3);
+  }
+
+  /* <CHANGE> Removed auto margin to keep text left-aligned */
+  .child #p2 {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    line-height: 28px;
+    display: block;
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  /* <CHANGE> Removed auto margin from button */
+  .child button {
+    border-radius: 4px;
+    background-color: rgba(5, 98, 160);
+    color: white;
+    width: 220px;
+    height: 50px;
+    border: 1px solid white;
+    position: relative;
+    top: 0;
+    animation: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    margin: 20px 0;
+    transition: background-color 0.3s ease;
+  }
+
+  .child button:hover {
+    background-color: rgba(5, 98, 160, 0.8);
+  }
+
+  #iicon {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    top: 2px;
+  }
+
+
+  
+.right-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+  max-width: 100%;
+  animation: slideInRight 1s ease-out forwards;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  overflow: visible;
+  min-height: auto;
+}
+
+/* <CHANGE> Adjusted z-index so img2 appears in front */
+#img2 {
+ width: 100%;
+  max-width: 550px;
+  height: auto;
+  min-height: 300px;
+  margin: 0;
+  z-index: 10;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* <CHANGE> Reduced z-index so img2-1 appears behind img2 */
+#img2-1 {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 0;
+  z-index: 5;
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  object-fit: contain;
+}
+
+}
+
+
+
+
+@media (width < 1023px) {
+  .words-slider {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 110%;
+    position: relative;
+    bottom: 0px !important;
+    background: #f9f9f9;
+    position:absolute !important;
+  }
+
+  .slider {
+    display: inline-flex;
+    animation: scroll 15s linear infinite;
+    background-color: rgba(5, 98, 160);
+    height: 50px;
+    color: white;
+  }
+
+  /* <CHANGE> All measurements in consistent pixels */
+  .slider h2 {
+    margin: 8px 32px;
+    font-size: 24px;
+    white-space: nowrap;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1023px) {  /* Corrected the media query syntax for clarity; use max-width instead of width < 1023px */
+  /* <CHANGE> Adjusted block1 for tablet view with responsive sizing */
+  .block1 {
+    width: 100% !important;
+    position: absolute !important;
+    top: 1000px !important;
+    left: 0;
+    height: auto;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;  /* Already row, so no change needed; ensures images left, content right */
+    align-items: left;
+    justify-content: left;  /* Centers items horizontally; adjust if needed for strict left-right */
+    background-color: rgb(239, 247, 254);
+    padding: 40px 20px;
+    gap: 30px;
+    margin-top: 100px;
+  }
+
+  @keyframes bloc {
+    from {
+      opacity: 1;
+      scale: 0.8;
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* <CHANGE> Adjusted content-leftt1 img sizing for tablet */
+  .content-leftt1 img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    animation: bloc linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+
+  /* <CHANGE> Adjusted img4 sizing and positioning for tablet */
+  #img4 {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    margin-top: 20px;
+  }
+
+  /* <CHANGE> Adjusted content-rightt1 positioning for tablet */
+  .content-rightt1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: bloc linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 45%;
+  }
+
+  .content-rightt1 #h21 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .content-rightt1 #h22 {
+    font-size: 1.8rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+  }
+
+  .content-rightt1 p {
+    font-size: 16px;
+    position: relative;
+    top: 0;
+    text-align: justify;
+    margin: 15px 0;
+  }
+
+  span {
+    color: rgba(5, 98, 160);
+  }
+
+  /* <CHANGE> Adjusted ss width and positioning for tablet */
+  #ss {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 15px;
+    margin: 15px 0;
+  }
+
+  /* <CHANGE> Adjusted right-subs for tablet with horizontal layout (changed from column to row) */
+  .right-subs {
+    display: flex;
+    flex-direction: row;  /* Changed from column to row for images on left and matter on right */
+    gap: 30px;
+    margin-left: 0;
+    position: relative;
+    bottom: 0;
+    align-items: flex-start;  /* Aligns items to start; ensures images (left) and text (right) align properly */
+  }
+
+  #heads {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  /* <CHANGE> Adjusted right-sub1 img sizing and positioning for tablet */
+  .right-sub1 img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  /* <CHANGE> Adjusted right-sub2 positioning for tablet */
+  .right-sub2 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  /* <CHANGE> Adjusted right-sub2 img sizing and positioning for tablet */
+  .right-sub2 img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2031,6 +2473,33 @@ width:100%;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
 /* Tablet/Mobile View (max-width: 767px) - Using Mobile Code Exactly */
 @media (max-width: 767px) {
   body {
@@ -2248,7 +2717,6 @@ width:100%;
 
 
 
-/* Tablet View (max-width: 767px) - Based on Provided Mobile Code */
 @media (max-width: 767px) {
   .words-slider {
     position: relative !important;
