@@ -872,7 +872,6 @@ left: 0px !important;
 
 
 @media (max-width: 767px) {
-  /* Tablet styles based on provided mobile code */
 
   body {
     overflow-x: hidden !important;
@@ -1275,3 +1274,12 @@ left: 0px !important;
     line-height: 1.5 !important; /* Increased from mobile's 1.4 */
   }
 }
+
+
+
+
+
+
+
+
+
