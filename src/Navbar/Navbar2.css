@@ -2359,7 +2359,7 @@ margin-bottom:60px!important;
   .futureinvo-contact {
     position: absolute !important; /* Keep absolute for popup layout */
     top: 580px !important; /* Decreased from tablet's 520px (based on mobile's 530px reference, adjusted for smaller screen) */
-    left: 15px !important; /* Decreased from tablet's 25px (from mobile's 20px) */
+    left: 35px !important; /* Decreased from tablet's 25px (from mobile's 20px) */
     width: calc(100% - 30px) !important; /* Decreased from tablet's calc(100% - 50px) (from mobile's calc(100% - 40px)) */
     max-width: 280px !important; /* Decreased from tablet's 350px (from mobile's 320px) */
     height: auto !important;
