@@ -2344,3 +2344,97 @@ margin-bottom:60px!important;
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 399px) {
+  /* .futureinvo-contact: Vertical stack below button on mobile popup (overrides desktop) */
+  .futureinvo-contact {
+    position: absolute !important; /* Keep absolute for popup layout */
+    top: 580px !important; /* Decreased from tablet's 520px (based on mobile's 530px reference, adjusted for smaller screen) */
+    left: 15px !important; /* Decreased from tablet's 25px (from mobile's 20px) */
+    width: calc(100% - 30px) !important; /* Decreased from tablet's calc(100% - 50px) (from mobile's calc(100% - 40px)) */
+    max-width: 280px !important; /* Decreased from tablet's 350px (from mobile's 320px) */
+    height: auto !important;
+    margin: 0 0 25px 0 !important; /* Decreased from tablet's 35px (from mobile's 30px) */
+    padding: 10px !important; /* Decreased from tablet's 15px (from mobile's 12px) */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important; /* Decreased from tablet's 15px (from mobile's 12px) */
+    text-align: center !important;
+    font-size: 14px !important; /* Decreased from tablet's 15px (from mobile's 14px) */
+    line-height: 1.3 !important; /* Decreased from tablet's 1.4 (from mobile's 1.3) */
+    font-weight: 500 !important;
+    z-index: 1 !important;
+    box-sizing: border-box !important;
+  }
+
+  .futureinvo-contact i {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important; /* Decreased from tablet's 8px (from mobile's 6px) */
+    width: 100% !important;
+    color: rgba(5, 98, 160) !important;
+    font-style: normal !important;
+    margin: 0 !important;
+    font-size: 14px !important; /* Decreased from tablet's 15px (from mobile's 14px) */
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer !important;
+    text-decoration: none !important;
+  }
+
+  .futureinvo-contact i:hover {
+    color: rgba(5, 98, 160, 0.8) !important;
+    transform: translateY(-1px) !important; /* Decreased from tablet's -2px (from mobile's -1px) */
+  }
+
+  .futureinvo-contact #icon {
+    font-size: 18px !important; /* Decreased from tablet's 20px (from mobile's 18px) */
+    color: rgba(5, 98, 160) !important;
+    margin-right: 6px !important; /* Decreased from tablet's 8px (from mobile's 6px) */
+    flex-shrink: 0 !important;
+  }
+
+  .futureinvo-contact p {
+    margin: 0 0 12px 0 !important; /* Decreased from tablet's 18px (from mobile's 15px) */
+    padding: 0 !important;
+    font-size: 13px !important; /* Decreased from tablet's 14px (from mobile's 13px) */
+    font-weight: 500 !important;
+    color: #333 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important; /* Decreased from tablet's 12px (from mobile's 10px) */
+    width: 100% !important;
+    flex-wrap: wrap !important;
+  }
+
+  .futureinvo-contact p::before {
+    content: "Follow Us: ";
+    margin-right: 4px !important; /* Decreased from tablet's 6px (from mobile's 5px) */
+    white-space: nowrap !important;
+  }
+
+  .futureinvo-contact #ic-links {
+    font-size: 16px !important; /* Decreased from tablet's 18px (from mobile's 16px) */
+    color: rgba(5, 98, 160) !important;
+    cursor: pointer !important;
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin: 0 1px !important; /* Decreased from tablet's 2px (from mobile's 1px) */
+    flex-shrink: 0 !important;
+  }
+
+  .futureinvo-contact #ic-links:hover {
+    color: #646cff !important;
+    transform: scale(1.1) !important; /* Decreased from tablet's 1.2 (from mobile's 1.1) */
+  }
+}
