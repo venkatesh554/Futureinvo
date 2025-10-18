@@ -712,40 +712,40 @@ export default function Navbar2() {
                 <Link to="/ItConsulting">IT Consulting</Link>
               </li>
               <li>
-                <Link to="/Service2" id="data-hover">Web Development</Link>
+                <Link to="/Contactsimple" id="data-hover">Web Development</Link>
               </li>
               <li>
-                <Link to="/Service3" id="data-hover-2">Web Design</Link>
+                <Link to="/Contactsimple" id="data-hover-2">Web Design</Link>
               </li>
               <li>
-                <Link to="/Service4" id="data-hover-3">Mobile Applications</Link>
+                <Link to="/Contactsimple" id="data-hover-3">Mobile Applications</Link>
               </li>
               <li>
-                <Link to="/Service5" id="data-hover-4">Digital Marketing Services</Link>
+                <Link to="/Contactsimple" id="data-hover-4">Digital Marketing Services</Link>
               </li>
                <li>
-                <Link to="/Service6" id="data-hover-5">Artificial intelligence </Link>
+                <Link to="/Contactsimple" id="data-hover-5">Artificial intelligence </Link>
               </li>
                <li>
-                <Link to="/Service7" id="data-hover-6">Business tools development </Link>
+                <Link to="/Contactsimple" id="data-hover-6">Business tools development </Link>
               </li>
                <li>
-                <Link to="/Service8" id="data-hover-7">Cloud services & devops automation </Link>
+                <Link to="/Contactsimple" id="data-hover-7">Cloud services & devops automation </Link>
               </li>
                <li>
-                <Link to="/Service9" id="data-hover-8">Cybersecurity solutions </Link>
+                <Link to="/Contactsimple" id="data-hover-8">Cybersecurity solutions </Link>
               </li>
                <li>
-                <Link to="/Service10" id="data-hover-9">Data science & big data</Link>
+                <Link to="/Contactsimple" id="data-hover-9">Data science & big data</Link>
               </li>
                <li>
-                <Link to="/Service10" id="data-hover-10">Emerging tech</Link>
+                <Link to="/Contactsimple" id="data-hover-10">Emerging tech</Link>
               </li>
                <li>
-                <Link to="/Service10" id="data-hover-11">Full stack web & saas development </Link>
+                <Link to="/Contactsimple" id="data-hover-11">Full stack web & saas development </Link>
               </li>
                <li>
-                <Link to="/Service10" id="data-hover-12">Machine learning & deep learning</Link>
+                <Link to="/Contactsimple" id="data-hover-12">Machine learning & deep learning</Link>
               </li>
             </ul>
           </li>
@@ -813,39 +813,39 @@ export default function Navbar2() {
                       <Link to="/Service1" onClick={toggleModal}>IT Consulting</Link>
                     </div>
                     <div className="mobile-dropdown-item">
-                      <Link to="/Service2" onClick={toggleModal}>Web Development</Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Web Development</Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service3" onClick={toggleModal}>Web Design</Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Web Design</Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service4" onClick={toggleModal}>Mobile Applications</Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Mobile Applications</Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service5" onClick={toggleModal}>Digital Marketing</Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Digital Marketing</Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service6" onClick={toggleModal}>Artifitial Intelligence</Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Artifitial Intelligence</Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service7" onClick={toggleModal}>Business Tools Development</Link>
-                    </div>
-                    
-                     <div className="mobile-dropdown-item">
-                      <Link to="/Service8" onClick={toggleModal}>Cybersecurity solutions  </Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Business Tools Development</Link>
                     </div>
                     
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service8" onClick={toggleModal}>Data science & big data </Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Cybersecurity solutions  </Link>
+                    </div>
+                    
+                     <div className="mobile-dropdown-item">
+                      <Link to="/Contactsimple" onClick={toggleModal}>Data science & big data </Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service8" onClick={toggleModal}>Emerging tech  </Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Emerging tech  </Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service8" onClick={toggleModal}>Full stack web & saas development   </Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Full stack web & saas development   </Link>
                     </div>
                      <div className="mobile-dropdown-item">
-                      <Link to="/Service8" onClick={toggleModal}>Machine learning & deep learning   </Link>
+                      <Link to="/Contactsimple" onClick={toggleModal}>Machine learning & deep learning   </Link>
                     </div>
                     
                   </div>

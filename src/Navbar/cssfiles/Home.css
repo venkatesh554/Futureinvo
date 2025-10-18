@@ -2899,7 +2899,7 @@ width:100%;
     min-height: 25vh;
     background-color: rgb(54, 127, 192);
     position: absolute !important;
-    top: -150px !important;
+    top: -200px !important;
     padding: 30px 15px;
     text-align: center !important;
     animation: bloc 1s ease-out forwards !important;
@@ -2936,6 +2936,65 @@ width:100%;
     color: white;
     white-space: nowrap;
   }
+
+
+
+
+
+
+
+
+  /* Responsive Code for max-width: 910px (Smaller Tablets and Similar Screens) */
+@media (max-width: 911px) {
+  .block2 {
+    height: auto !important;
+    min-height: 20vh; /* Decreased from 25vh for smaller screens */
+    background-color: rgb(54, 127, 192);
+    position: absolute !important;
+    top: 0px !important; /* Decreased from -200px */
+    padding: 25px 12px; /* Decreased from 30px 15px */
+    text-align: center !important;
+    animation: bloc 1s ease-out forwards !important;
+    margin-top: 1500px; /* Decreased from 1620px */
+  }
+
+  .block2 h2 {
+    width: 60% !important; /* Decreased from 55% */
+    margin: 0 0 15px 0; /* Decreased from 20px */
+    font-size: 1.4rem !important; /* Decreased from 1.5rem */
+    color: white;
+  }
+
+  .block2 #i1, .block2 #i2 { display: none; } 
+
+  .names-scroll {
+    position: relative !important;
+    top: 0 !important;
+    display: block !important; 
+    animation: scroll 12s linear infinite !important; /* Decreased from 15s for smoother animation on smaller screens */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 0 !important;
+    text-align: center !important;
+  }
+
+  .names-scroll em {
+    margin-left: 15px !important; /* Decreased from 20px */
+    font-size: 16px !important; /* Decreased from 18px */
+    position: relative !important;
+    top: 0 !important;
+    color: white;
+    white-space: nowrap;
+  }
+}
+
+
+
+
+
+
+
 
   @media (max-width: 575.99px) {
     @media (max-width: 399px) {
@@ -3234,7 +3293,7 @@ width:100%;
     background-size: cover !important;
     background-position: center !important;
     position: absolute !important;
-    top: 820% !important; 
+    top: 870% !important; 
     padding: 40px 15px; 
     text-align: center !important; 
     margin-top: 20px; 
@@ -4739,7 +4798,7 @@ width:100%;
   /* BLOCK9 (Talk To Our Experts): Full width, auto height, centered content */
   .block9 {
     position: absolute !important;
-    top: 710% !important; /* No fixed/negative top */
+    top: 750% !important; /* No fixed/negative top */
     width: 100% !important; /* Full width */
     height: auto !important; /* Adapt to content */
     background-color: rgb(54, 127, 192) !important; /* Preserve blue bg */
@@ -4912,6 +4971,180 @@ width:100%;
 
 
 
+/* Responsive Code for max-width: 910px (Smaller Tablets and Similar Screens) */
+@media (max-width: 910px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .block9 {
+    position: absolute !important;
+    top: 770% !important; /* Decreased from 710% for better fit */
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    padding: 35px 12px; /* Decreased from 40px 15px */
+    text-align: center !important;
+    margin-top: -30px; /* Decreased from -40px */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  .block9 h2 {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    font-size: 1.8rem !important; /* Decreased from 2rem */
+    margin: 0 0 25px 0; /* Decreased from 30px */
+    color: white !important;
+    line-height: 1.4;
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  .block9 form {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 280px !important; /* Decreased from 300px */
+    gap: 15px !important; /* Decreased from 20px */
+    margin: 0 auto 25px auto; /* Decreased from 30px */
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  .block9 form label {
+    color: white !important;
+    margin-left: 0 !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 13px !important; /* Decreased from 14px */
+    font-weight: 600;
+    text-align: left !important;
+    margin-bottom: 5px; /* Decreased from previous */
+    width: 100% !important;
+  }
+
+  .block9 form input {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    height: 40px !important; /* Decreased from 45px */
+    left: 0 !important;
+    border-radius: 4px !important;
+    position: relative !important;
+    margin-top: 0 !important;
+    font-size: 0.9rem !important; /* Decreased from 1rem */
+    padding: 0 12px !important; /* Decreased from 15px */
+    width: 100% !important;
+    color: white !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .block9 form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  .block9 form input:focus {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  #submitt {
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+    background-color: #ffffff !important;
+    padding: 12px 25px !important; /* Decreased from 15px 30px */
+    color: rgb(54, 127, 192) !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    cursor: pointer;
+    width: 100% !important;
+    height: 45px !important; /* Decreased from 50px */
+    font-size: 15px !important; /* Decreased from 16px */
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  #submitt:hover, #submitt:active {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    transform: translateY(-1px);
+  }
+
+  .block9 img {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 350px !important; /* Decreased from 300px? Wait, original was 300px; adjusting based on context */
+    height: auto !important;
+    object-fit: cover;
+    border-radius: 10px; /* Kept as is, or adjust if needed */
+    margin-top: 15px; /* Decreased from 20px */
+    animation: bloc 1s ease-out forwards !important;
+  }
+
+  /* For very small screens (<400px): Further compress */
+  @media (max-width: 399px) {
+    .block9 {
+      padding: 30px 10px !important;
+    }
+
+    .block9 h2 {
+      font-size: 1.6rem !important;
+      margin-bottom: 25px;
+    }
+
+    .block9 form {
+      max-width: 250px !important;
+      gap: 15px !important;
+    }
+
+    .block9 form label {
+      font-size: 12px !important;
+    }
+
+    .block9 form input {
+      height: 35px !important;
+      padding: 0 10px !important;
+      font-size: 14px !important;
+    }
+
+    #submitt {
+      height: 40px !important;
+      padding: 10px 20px !important;
+      font-size: 14px !important;
+    }
+
+    .block9 img {
+      max-width: 250px !important;
+      margin-top: 10px;
+    }
+  }
+
+  @keyframes bloc {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
+
+
+
+
+
+
+
  
 
 
@@ -4930,7 +5163,7 @@ width:100%;
 
   .footer {
     position: absolute !important;
-    top: 1025% !important; 
+    top: 1085% !important; 
     width: 100% !important;
     height: auto !important; 
     background-color: rgb(0, 0, 0) !important;
@@ -5055,7 +5288,7 @@ width:100%;
     display: flex !important;
     flex-direction: column !important;
     position: absolute !important;
-    top: 1170% !important; 
+    top: 1285% !important; 
     color: white !important;
     column-gap: 0 !important; 
     padding: 20px !important;
@@ -5098,7 +5331,7 @@ width:100%;
 
 
 
-@media (max-width: 905px) {
+@media (max-width: 935px) {
   body {
     overflow-x: hidden !important;
   }
@@ -5234,7 +5467,7 @@ width:100%;
     display: flex !important;
     flex-direction: column !important;
     position: absolute !important;
-    top: 1133% !important; 
+    top: 1180% !important; 
     color: white !important;
     column-gap: 0 !important; 
     padding: 20px !important;

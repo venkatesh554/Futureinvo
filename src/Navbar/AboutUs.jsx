@@ -55,20 +55,7 @@ export default function AboutUs() {
 
 
 
-           {/* <div className="block7" id="sevenn">
-            <h2 id="business"> What's on your mind? Just ask us!</h2><br></br>
-            <div className="paras" id="parass">
-              <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What is Your Approach To Web Design <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>Do You Develop Apps For Both Android And  ios <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Training Programs Does Future Invo Sol Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Digital Marketing Service Do You Provide? <FontAwesomeIcon icon={faAnglesDown}id="ic" /></p>
-            <p>How can i Enroll In A Training Program At Future Invo Solutions? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Technologies Do You Use For Web Development? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p className="eight">How Is Future Invo Solutions Different From Other Coaching Centers? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
-            <p className="eight">Are There Any Internship Opportunities Avaliable During The Digital Marketing Course <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
-            </div>
-          </div> */}
+          
 
 
 <div className="block7" id="sevenn">
@@ -76,7 +63,7 @@ export default function AboutUs() {
             <div className="paras">
 
 
-              {faqData.map((item, index) => (
+            {faqData.map((item, index) => (
         <div key={index} className="faq-line">
           <p onClick={() => toggleFAQ(index)}>
             {item.question} <FontAwesomeIcon icon={faAnglesDown} id="ic" />
@@ -85,14 +72,10 @@ export default function AboutUs() {
             <p className="faq-answer">{item.answer}</p>
           )}
         </div>
-              ))}
-
-              
+              ))}            
               
             </div>
           </div>
-
-
 
           <div className="bgimgcopy">
             <img src={bgimg}/>

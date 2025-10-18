@@ -2253,11 +2253,10 @@ margin-bottom:60px!important;
     z-index: 1 !important;
   }
 
-  /* .futureinvo-contact: Vertical stack below button on mobile popup (overrides desktop) */
   .futureinvo-contact {
-    position: absolute !important; /* Keep absolute for popup layout */
+    position: absolute !important;
     top: 520px !important; /* Adjusted for tablet, increased from mobile's 530px */
-    left: 25px !important; /* Increased from mobile's 20px for better centering */
+    left: 15px !important; /* Increased from mobile's 20px for better centering */
     width: calc(100% - 50px) !important; /* Increased from mobile's calc(100% - 40px) */
     max-width: 350px !important; /* Increased from mobile's 320px */
     height: auto !important;
