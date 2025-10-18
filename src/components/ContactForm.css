@@ -142,6 +142,7 @@
 }
 
 
+
 @media (max-width: 575px) {
   .contact-form-wrapper.contact-grid {
     display: flex; 
@@ -221,5 +222,100 @@ text-align: center;
   .contact-form-services button {
     padding: 10px 16px; /* Smaller button */
     height: 40px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 398px) {
+  .contact-form-wrapper.contact-grid {
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px; /* Slightly smaller gap */
+    padding: 25px 12px; /* Reduced padding */
+    position: absolute;
+    top: 60px; /* Adjusted top */
+    left: auto;
+    width: 100%;
+  }
+
+  .contact-card {
+    order: 1;
+    padding: 28px; /* Reduced padding */
+    height: auto; 
+    width: 100%;
+  }
+
+  .contact-card img {
+    width: 100%; /* Make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 370px; /* Smaller max-width for very small screens */
+    display: block; /* Ensure block display */
+    margin: 0 auto; /* Center horizontally */
+    position: static; /* Remove relative positioning */
+    top: 0; /* Reset top */
+    left: 0 !important; /* Reset left for centering */
+  }
+
+  .contact-card h3 {
+    font-size: 15px; /* Smaller heading */
+    text-align: center;
+    position: relative;
+    top: 0;
+  }
+
+  .contact-card p {
+    font-size: 12px; /* Smaller text */
+    position: relative;
+    text-align: center;
+    top: 8px; /* Adjusted top */
+  }
+
+  .contact-note {
+    font-size: 11px; /* Smaller note */
+  }
+
+  .contact-form-services {
+    order: 2; 
+    width: 100%; 
+    padding: 16px; /* Reduced padding */
+    min-height: auto; 
+    padding-left: 16px !important; /* Adjusted padding-left */
+  }
+
+  .contact-form-services h2 {
+    font-size: 17px; /* Smaller heading */
+  }
+
+  .contact-form-services label span {
+    font-size: 12px; /* Smaller label */
+  }
+
+  .contact-form-services input,
+  .contact-form-services textarea {
+    padding: 8px 10px; /* Reduced padding */
+    font-size: 13px; /* Smaller font */
+  }
+
+  .contact-form-services input {
+    height: 45px !important; /* Slightly smaller height */
+    width: 100% !important;
+    margin-top: 8px; /* Adjusted margin */
+  }
+
+  .contact-form-services button {
+    padding: 8px 14px; /* Smaller button */
+    height: 36px !important; /* Smaller height */
   }
 }
