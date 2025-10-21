@@ -1,0 +1,288 @@
+import React from "react";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import photo1 from "../images/logo.png";
+import photo2 from "../images/aiphoto4-0.png";
+import photo3 from "../images/bottomai.png";
+import photo4 from "../images/networking.png";
+import photo5 from "../images/briefcase.png";
+import photo6 from "../images/clock.png";
+import photo7 from "../images/calculator.png";
+import photo8 from "../images/document.png";
+import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
+import "../Service-Pages/service12.css";
+
+function Cybersecurity() {
+  return (
+    <div className="Appp">
+      {/* Hero Section */}
+      <section className="main-content-999">
+        <div className="header-content-999">
+          <p className="breadcrumbs-999">
+            Home › Cybersecurity Solutions
+          </p>
+          <h1>
+            Cybersecurity Solutions
+          </h1>
+          <p className="tagline-999">
+            Our Cybersecurity Solutions help businesses automate processes, enhance
+            decision-making, and unlock new growth opportunities through
+            intelligent innovation.
+          </p>
+        </div>
+      </section>
+
+      
+      <section className="home-content-999">
+        <img src={photo2} alt="AI Illustration" className="right-image-999" />
+        <h1>Cybersecurity Solutions</h1>
+        <p>
+          At Future Invo Solutions Pvt. Ltd., we enable businesses embrace the
+          true power of Cloud Services & DevOps Automation to stay ahead in today's
+          digital-first world. Our Cloud Services & DevOps Automation are designed not just to
+          automate tasks, but to transform the way organizations operate, make
+          decisions, and deliver value to their customers.
+        </p>
+        <p>
+          cybersecurity leverage advanced tools like SIEM (Security Information and Event Management), SOAR (Security Orchestration, Automation & Response), and threat intelligence tools to detect anomalies, analyze risks, and neutralize attacks in real time.
+        </p>
+        <p>
+          Cybersecurity Solutions offerings stand out is the balance between
+          innovation and practicality. We ensure that every solution we
+          deliver is grounded in real-world usability. From healthcare and
+          finance to retail and logistics, our AI-driven solutions empower
+          organizations to achieve sustainable growth and maintain a competitive
+          edge.
+        </p>
+      </section>
+
+      
+      <section className="container-999">
+        <form className="form-group-999">
+          <h3>Get A Quote For You</h3>
+          <label htmlFor="name"> Name</label>
+          <input type="text" placeholder="Your full name" />
+          <label htmlFor="mobile"> Mobile</label>
+          <input type="text" placeholder="Mobile" />
+          <label htmlFor="email">Email</label>
+          <input type="email" placeholder="Your email" />
+          <label htmlFor="message">Message</label>
+          <textarea placeholder="Message"></textarea>
+          <button className="sbutton-999">Submit</button>
+        </form>
+
+        <div className="benefits-999">
+          <h2>Benefits With Our Cybersecurity Solutions</h2>
+          <ul>
+            <li className="benefit-item orange-999">
+              🔮 Stronger Protection - Safeguard your business against cyber threats .
+              
+            </li>
+            <li className="benefit-item teal-999">
+              ⚙️ Risk Reduction - Identity and fix vulnerabilities.
+            </li>
+            <li className="benefit-item orange-999">
+              📊 Data Privacy  - Stay complaint with GDPR, ISO, SOC2.
+            </li>
+            <li className="benefit-item teal-999">
+               🚀 24/7 Monitoring - Continous security surveillance service.
+            </li>
+            <li className="benefit-item orange-999">
+              🔐 Incident Response - Quick detection and response to security.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+       <div className="chatbots-999">
+        <h1>Our Expertise in Cybersecurity Solutions</h1>
+        <div className="expertise-grid-999">
+          <button className="expertise-item-999">Penetration Testing & Vulnerability Assessment<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">Network & Cloud Security<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">Endpoint & Application Security<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">Data Privacy & Compliance<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">Managed Security Services<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">Zero Trust Security Implementation<FontAwesomeIcon icon={faArrowRight} /></button>
+          <button className="expertise-item-999">SOC as a Service<FontAwesomeIcon icon={faArrowRight} /></button>
+        </div>                                                                                                                                      
+      </div>
+
+      <div className="services-999">
+              <h1>Our Other Services & Solutions</h1>
+              <div className="service-button-999">
+                <button className="service-item-999">
+                  IT Consulting <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Web Development <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Web Design <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} />
+                  
+                </button>
+                <button className="service-item-999">
+                  Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} />
+                  
+                </button>
+                <button className="service-item-999">
+                  Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} />
+                  
+                </button>
+                <button className="service-item-999">
+                  Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
+                  
+                </button>
+                <button className="service-item-999">
+                  Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Business Tools & Development <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                {/* <button className="service-item-999">
+                  Cyber Solutions <FontAwesomeIcon icon={faArrowRight} />
+                </button> */}
+                <button className="service-item-999">
+                  Emerging Tech <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+                <button className="service-item-999">
+                  Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} />
+                </button>
+              </div>
+            </div>
+
+          <div className="why-choose-us-999">
+                  <h2>Why Choose Us?</h2>
+                  <p className="subheading-999">
+                    Your trusted partner for cutting-edge IT solutions and digital
+                    transformation.
+                  </p>
+                  <div className="features-grid-999 ">
+                    <div className="feature-card extensive-999">
+                      <img src={photo4} alt="extensive" className="icon-999" />
+                      <h3>Extensive IT Expertise</h3>
+                      <p>
+                        Access to certified professionals across technologies like React,
+                        Node.js, AWS, Azure, and more.
+                      </p>
+                    </div><div className="feature-card flexible-999">
+                      <img src={photo5} alt="extensive" className="icon-999" />
+                      <h3>Flexible Engagement Models</h3>
+                      <p>
+                        Contract, Hire on contract, contract-to-hire, full-time, or offshore/on-site as per your project needs.
+                      </p>
+                    </div>
+                    <div className="feature-card quick-999">
+                      <img src={photo6} alt="extensive" className="icon-999" />
+                      <h3>Quick Turnaround</h3>
+                      <p>
+                        Fast onboarding and delivery to keep your business ahead of the
+                        curve.
+                      </p>
+                    </div>
+                    <div className="feature-card cross-industry-999">
+                      <img src={photo7} alt="extensive" className="icon-999" />
+                      <h3>Cross Industry Experience</h3>
+                      <p>
+                        Proven success across IT consulting, cloud services, digital marketing, and enterprise solutions.
+                      </p>
+                    </div>
+                    <div className="feature-card sla-driven-999">
+                      <img src={photo8} alt="extensive" className="icon-999" />
+                      <h3>SLA-Driven Delivery</h3>
+                      <p>
+                        Transparent processes and reliable execution for every project.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+      {/* Contact Experts Section */}
+      <section className="background-overlay-999">
+        <div className="ai-image-container-999">
+          <img src={photo3} alt="AI Expert" />
+        </div>
+        <div className="form-container-999">
+          <h2>Talk To Our Experts</h2>
+          <form>
+            <input type="text" placeholder="Name" required />
+            <input type="tel" placeholder="Phone Number" required />
+            <input type="email" placeholder="Email" required />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <div className="faq-container-999">
+        <h2>Frequently Asked Questions</h2>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>
+              How Can My Business need cybersecurity solutions?<FontAwesomeIcon icon={faAnglesRight} />
+            </summary>
+            <div className="faq-answer2-999">
+                   Cyberattacks are increasing across all industries. Our solutions protect your sensitive data, ensure compliance, and keep your systems safe from costly breaches.
+            </div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>
+              What is penetration testing and vulnerability assessment?<FontAwesomeIcon icon={faAnglesRight} />
+            </summary>
+            <div className="faq-answer2-999">
+              Its a security check where we simulate Cyberattacks to find weak spots in your systems, then fix them before real hackers exploit them.
+            </div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>How do you protect cloud and network systems?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+            <div className="faq-answer2-999">
+              We implement firewalls, encryption, identity controls, and continous monitoring to secure both on-premise and cloud infrastructures.
+            </div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>
+              What is zero trust security?<FontAwesomeIcon icon={faAnglesRight} />
+            </summary>
+            <div className="faq-answer2-999">
+              Zero trust means " never trust, always verify." Every user, device, and app must be authentication before accessing your systems, reducing the risk of insider and external attacks.
+            </div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>
+              How do you secure endpoints like laptops and mobiles?<FontAwesomeIcon icon={faAnglesRight} />
+            </summary>
+            <div className="faq-answer2-999">
+              We use advanced endpoints protection, device monitoirng, and security patches to safeguard every connected device in your organization.
+            </div>
+          </details>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8 text-center-999">
+        <p>© 2025 FutureInvo Solutions Pvt Ltd. All Rights Reserved.</p>
+      </footer>
+    </div>
+  );
+}
+
+export default Cybersecurity;

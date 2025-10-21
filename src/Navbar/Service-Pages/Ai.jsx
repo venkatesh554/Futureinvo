@@ -2,7 +2,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import photo2 from "../images/aiimage3.png";
+import photo2 from "../images/aiphoto2.png";
 import photo3 from "../images/bottomai.png";
 import photo4 from "../images/networking.png";
 import photo5 from "../images/briefcase.png";
@@ -15,20 +15,20 @@ import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
 
 import "../Service-Pages/service12.css";
 
-function WebDesign() {
+function Ai() {
   return (
     <div className="Appp">
       {/* Hero Section */}
       <section className="main-content-999">
         <div className="header-content-999">
           <p className="breadcrumbs-999">
-            Home › Web Design
+            {/* Home › AI & Artificial Intelligence Solutions › AI Powered Chatbots(LeadGen, HR,Customer Support) */}
           </p>
           <h1>
-            Web Design
+            AI & Artificial Intelligence Solutions <br/>"AI Powered Chatbots(LeadGen, HR,Customer Support)"
           </h1>
           <p className="tagline-999">
-            Our Web Design help businesses automate processes, enhance
+            Our AI Powered Chatbots(LeadGen, HR,Customer Support) help businesses automate processes, enhance
             decision-making, and unlock new growth opportunities through
             intelligent innovation.
           </p>
@@ -38,16 +38,13 @@ function WebDesign() {
       
       <section className="home-content-999">
         
-        <h1>Web Design</h1>
+        <h1>AI Powered Chatbots(LeadGen, HR,Customer Support)</h1>
         <img src={photo2} alt="AI Illustration" className="right-image-999" />
         <p>
-          At Future Invo Solution Pvt. Ltd., we help businesses harness the full potential of web development to thrive in today's digital-first world. Our web solutions go beyond just building websites—they transform how organizations engage with customers, deliver services, and achieve business growth.
+          At Future Invo Solution Pvt. Ltd., we develop AI-powered Image & Video intelligence solutions that enable businesses to extract actionable insights from visual data. In today’s digital era, images and videos are everywhere — from security footage and social media content to medical scans and manufacturing quality checks. But without AI, this massive pool of visual information often goes underutilized. By harnessing the power of visual, deep learning, and object detection modules, data is analyzed, classified, and interpreted in real time, giving businesses an actionable edge in accuracy and decision-making.
         </p>
         <p>
-          Web design has the potential to reshape industries by turning digital ideas into meaningful business outcomes. With our expertise, businesses can leverage custom websites and applications to optimize processes, enhance user experiences, predict trends, and improve overall efficiency. Whether it's building responsive websites, enabling smarter analytics, or creating industry-specific web solutions, we deliver services that are scalable, reliable, and tailored to each business's unique needs.
-        </p>
-        <p>
-          What makes our web design services stand out is the balance between creativity and practicality. We ensure that every solution we deliver is user-friendly and impactful. From healthcare and finance to retail and logistics, our web solutions empower organizations to achieve sustainable growth and maintain a competitive edge online.
+          Traditional methods of processing visuals are time-consuming, prone to human error, and unable to match the speed and growing volume of data. With our solutions, organizations can automate processes such as facial recognition, visual authentication, product identification, and motion tracking. For example, retailers can detect shoplifting threats through cameras, a hospital can automate diagnostics of medical scans, and a logistics company can monitor asset safety through predictive video analytics. The power of visual intelligence is not just efficiency, but also the ability to predict outcomes and prevent risks before they occur.
         </p>
       </section>
 
@@ -67,22 +64,23 @@ function WebDesign() {
         </form>
 
         <div className="benefits-999">
-          <h2>Benefits With Our Web Design</h2>
+          <h2>Benefits With Our AI Powered Chatbots(LeadGen, HR,Customer Support)</h2>
           <ul>
             <li className="benefit-item orange-999">
-              📊 Web Solutions — Turn complex data to actionable insights across teams.
+              📊 Enable real time — Enable real-time facial recognition and object detection.
             </li>
             <li className="benefit-item teal-999">
-              ⚙️ Digital Workflows — Maximize efficiency with smart web solutions.
+              ⚙️ Quality control — Automate quality control in manufacturing.
             </li>
             <li className="benefit-item orange-999">
-              🔮 Web Sucess — User behaviour to drive smarter digital strategies.
+              🔮 shelf monitoring — Support healthcare diagnostics by analyzing medical data.
+              data.
             </li>
             <li className="benefit-item teal-999">
-              🔐 Web Protection — Ensure secure and reliable web operations.
+              🔐 predictive analytics — Predictive Analytics Forecast trends & behaviors.
             </li>
             <li className="benefit-item orange-999">
-              🚀 Web Performance — Web solutions handle routine tasks white your team.
+              🚀 public safety — Provide video-based predictive analytics.
             </li>
           </ul>
         </div>
@@ -90,13 +88,14 @@ function WebDesign() {
 
      
       <div className="chatbots-999">
-        <h1>Our Expertise in Web Design </h1>
+        <h1>Our Expertise in AI "Artificial Intelligence" Powered Chatbots</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">UI/UX Design  <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Responsive Design <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999"> Landing Page Design  <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Graphic & Branding Design <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Wireframing & prototyping <FontAwesomeIcon icon={faArrowRight} /> </button>
+          {/* <button className="expertise-item-999">AI Powered Chatbots  <FontAwesomeIcon icon={faArrowRight} /></button> */}
+          <button className="expertise-item-999">Image & Video Intelligence <FontAwesomeIcon icon={faArrowRight} /> </button>
+          <button className="expertise-item-999"> AI OCR & Document Intelligence <FontAwesomeIcon icon={faArrowRight} /> </button>
+          <button className="expertise-item-999">Generative AI Solutions <FontAwesomeIcon icon={faArrowRight} /> </button>
+          <button className="expertise-item-999"> AI in Healthcare <FontAwesomeIcon icon={faArrowRight} /> </button>
+          <button className="expertise-item-999">AI in Finance <FontAwesomeIcon icon={faArrowRight} /> </button>
         </div>
       </div>
 
@@ -104,15 +103,15 @@ function WebDesign() {
       <div className="services-999">
         <h1>Our Other Services & Solutions</h1>
         <div className="service-button-999">
-          <button className="service-item-999"  >
+          <button className="service-item-999">
             IT Consulting <FontAwesomeIcon icon={faArrowRight} />
           </button>
           <button className="service-item-999">
             Web Development <FontAwesomeIcon icon={faArrowRight} />
           </button>
-          {/* <button className="service-item-999">
+          <button className="service-item-999">
             Web Design <FontAwesomeIcon icon={faArrowRight} />
-          </button> */}
+          </button>
           <button className="service-item-999">
             Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
           </button>
@@ -132,9 +131,9 @@ function WebDesign() {
             Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
             
           </button>
-          <button className="service-item-999">
+          {/* <button className="service-item-999">
             Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
-          </button>
+          </button> */}
           <button className="service-item-999">
             Business Tools & Development <FontAwesomeIcon icon={faArrowRight} />
           </button>
@@ -153,7 +152,7 @@ function WebDesign() {
             <div className="why-choose-us-999">
         <h2>Why Choose Us?</h2>
         <p className="subheading-999">
-          Your trusted partner for cutting-edge Web Design.
+          Your trusted partner for cutting-edge AI Powered Chatbots(LeadGen, HR,Customer Support).
         </p>
         <div className="features-grid-999 ">
           <div className="feature-card extensive-999">
@@ -217,36 +216,36 @@ function WebDesign() {
 
         <div className="faq-item2-999">
           <details>
-                <summary>How can IT-Driven Chatbot Solutions Benefit My Business?<FontAwesomeIcon icon={faAnglesRight} /> </summary>
-                <div className="faq-answer2-999">IT-driven chatbot solutions streamline operations, enhance customer engagement, and drive business growth. </div>
+                <summary>How can chatbots help my business grow?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Chatbots save time, reduce staffing costs, and provide instant responses, ensuring better customer experiences and more leads.</div>
             </details>
          </div>  
 
           <div className="faq-item2-999">
             <details>
-                <summary>Do You Offer Remote or On-Site Web Development Solutions?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">We offer both remote and on-site Web Development services tailored to your business needs.</div>
+                <summary>Can your chatbots integrate with my existing CRM or HR tools?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Yes. We build chatbots that seamlessly integrate with CRMs, HRMS, and third-party applications..</div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>What Do Web Development Solutions Involve?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Our web development solutions involve designing responsive websites, building custom applications, and providing ongoing support for business growth.</div>
+                <summary>Are these chatbots multilingual?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Absolutely. Our bots can communicate in multiple languages based on your target audience.</div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>Can Future Invo Web Development Services Assist With Website Security?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Yes. Future Invo IT Solutions provides expert website security consulting to protect your business from threats and ensure secure operations.</div>
+                <summary>Do chatbots replace human agents?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Not entirely. They handle repetitive queries so your staff can focus on complex and high-value tasks. </div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>What Industries Does Future Invo Specialize In For Web Development Services?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Future Invo IT Solutions specializes in web development for healthcare, finance, logistics, and other industries seeking digital transformation and optimized technology solutions.</div>
+                <summary>What Industries Does Future Invo IT Solutions Specialize In For AI-Powered Chatbot Solutions?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">We work across various industries, including healthcare, finance, retail, and manufacturing, providing tailored solutions to meet each sector's unique requirements.</div>
             </details>
         </div>
       </div>
@@ -259,4 +258,4 @@ function WebDesign() {
   );
 }
 
-export default WebDesign;
+export default Ai;

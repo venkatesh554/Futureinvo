@@ -309,9 +309,9 @@ text-align: center;
   }
 
   .contact-form-services input {
-    height: 45px !important; /* Slightly smaller height */
+    height: 45px !important; 
     width: 100% !important;
-    margin-top: 8px; /* Adjusted margin */
+    margin-top: 8px; 
   }
 
   .contact-form-services button {

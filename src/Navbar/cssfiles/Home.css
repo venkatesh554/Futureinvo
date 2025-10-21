@@ -1860,14 +1860,15 @@ top:-10px;
 }
 #ii{
   position:relative;
-  left:470px;
+  left:300px;
 }
 
 .last-line i{
   position:relative;
-      left:100px;
+      left:-50px;
       top:25px;
       font-weight: 500;
+      font-size: 20px;;
 
 }
 
@@ -9405,14 +9406,7 @@ width:100%;
   }
 
 
-
-
-
-
-
-
-
-
+  
 @media (max-width: 575.99px) {
   .footer {
     position: relative !important;
