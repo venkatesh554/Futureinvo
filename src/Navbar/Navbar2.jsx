@@ -917,6 +917,8 @@ export default function Navbar2() {
       value={formData.message}
       onChange={handleChange} />
   <button id="nav-form-btn">Submit</button>
+
+  
          <div className="futureinvo-contact">
                      <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</i>
                      <i> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</i>
