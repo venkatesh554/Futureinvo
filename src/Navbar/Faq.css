@@ -1689,14 +1689,14 @@ left: 0px !important;
     margin-top: 50px !important; /* Increased from -50px to positive */
     padding: 25px !important; /* Increased from 20px */
   }
-
+/* 
   .word-slider-about {
     position: relative !important;
     top: 0 !important;
     width: 100% !important;
-    margin-top: -250px !important; /* Adjusted from -300px */
+    margin-top: -250px !important; 
     overflow-x: auto !important;
-    padding: 20px 0 !important; /* Increased from 20px 0 */
+    padding: 20px 0 !important; 
   }
 
   #dup1 {
@@ -1718,12 +1718,12 @@ left: 0px !important;
     flex-shrink: 0 !important;
 
   }
-  
+   */
 
   #offer {
     position: relative !important;
     top: 0px !important;
-    margin-top: 60px !important; 
+    margin-top: 40px !important; 
   }
 
   .our-offering {
@@ -1965,3 +1965,38 @@ left: 0px !important;
 
 
 
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .word-slider-about {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    margin-top: -300px !important; /* Increased from mobile's 40px */
+    overflow-x: auto !important;
+    padding: 27px 0 !important; /* Increased from mobile's 20px 0 */
+  }
+
+  #dup1 {
+    width: 100% !important;
+  }
+
+  .slider {
+    display: flex !important;
+    white-space: nowrap !important;
+    gap: 25px !important; /* Increased from mobile's 20px */
+    padding: 15px 0 !important; /* Increased from mobile's 10px 0 */
+    animation: scroll 25s linear infinite !important; /* Slower than mobile's 20s */
+  }
+
+  .slider h2 {
+    font-size: 1.4rem !important; /* Larger than mobile's 1.2rem */
+    white-space: nowrap !important;
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+  }
+}

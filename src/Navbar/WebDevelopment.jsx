@@ -119,7 +119,7 @@ export default function WebDevelopment() {
         </div>
          <div className="component2">
            <img src={one} id="t-one"/>
-             <img src={two} id="web-1"/>
+             <img src={two} id="t-two"/>
 
        </div>
        </div>
