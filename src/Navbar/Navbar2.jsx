@@ -810,7 +810,7 @@ export default function Navbar2() {
                   </div>
                   <div className={`mobile-dropdown-menu ${mobileDropdown === 'services' ? 'active' : ''}`}>
                     <div className="mobile-dropdown-item">
-                      <Link to="/Service1" onClick={toggleModal}>IT Consulting</Link>
+                      <Link to="/ItConsulting" onClick={toggleModal}>IT Consulting</Link>
                     </div>
                     <div className="mobile-dropdown-item">
                       <Link to="/WebDevelopmentService" onClick={toggleModal}>Web Development</Link>
@@ -918,7 +918,7 @@ export default function Navbar2() {
       onChange={handleChange} />
   <button id="nav-form-btn">Submit</button>
 
-  
+
          <div className="futureinvo-contact">
                      <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</i>
                      <i> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</i>

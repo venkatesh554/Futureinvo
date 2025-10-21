@@ -149,6 +149,8 @@ function MachineLearningService() {
                     </div>
                   </div>
 
+                  
+
           <div className="why-choose-us-999">
                   <h2>Why Choose Us?</h2>
                   <p className="subheading-999">
@@ -156,7 +158,7 @@ function MachineLearningService() {
                     transformation.
                   </p>
                   <div className="features-grid-999 ">
-                    <div className="feature-card-999 extensive-999">
+                    <div className="feature-card extensive-999">
                       <img src={photo4} alt="extensive" className="icon-999" />
                       <h3>Extensive IT Expertise</h3>
                       <p>

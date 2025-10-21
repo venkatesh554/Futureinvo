@@ -142,7 +142,7 @@ function MobileApplications() {
      
       <div className="chatbots-999">
         <h1>Our Expertise in Mobile Applications</h1>
-        <div className="expertise-grid">
+        <div className="expertise-grid-999">
           <button className="expertise-item-999">Android Development   <FontAwesomeIcon icon={faArrowRight} /></button>
           <button className="expertise-item-999">IOS Development <FontAwesomeIcon icon={faArrowRight} /> </button>
           <button className="expertise-item-999"> Cross Platform(Flutter/React Native) <FontAwesomeIcon icon={faArrowRight} /> </button>
