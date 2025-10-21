@@ -804,7 +804,23 @@ border:1px solid white;
 
 
 
-/* Responsive Code for max-width: 1023px (Tablets and Smaller Laptops) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Training*/
 @media (max-width: 1023px) {
   body {
     overflow-x: hidden !important;
@@ -6240,3 +6256,1186 @@ z-index: 5;
 
 
   
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 405px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* TT Container: Reset for natural flow */
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Driving Innovation Parent: Stack text and image vertically, reset positions */
+  .driving-innovation-parent {
+    position: absolute !important;
+    margin-top: 0 !important;
+    background-color: rgba(55, 84, 142) !important; /* Preserve if needed */
+    height: auto !important;
+    width: 100% !important;
+    padding: 30px 10px !important; /* Adjust padding for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack child and bgimg */
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: absolute !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 15px !important; /* Adjust margin for smaller screens */
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.4 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 1.5rem !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjust margin */
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 !important;
+    padding: 0 5px !important; /* Adjust padding */
+  }
+
+  .bgimg {
+    width: 100% !important;
+    max-width: 250px !important; /* Adjust max-width for smaller screens */
+    margin: 0 auto !important;
+   
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  /* Bgcolor1: Auto height, stack digital-change and component2 */
+  .bgcolor1 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 200px !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important; /* Adjust padding for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack sections */
+    align-items: center !important;
+  }
+   .driving-innovation-parent .bgcolor1-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 200px !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important; /* Adjust padding for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack sections */
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top:  20px !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 15px !important; /* Adjust margin */
+  }
+
+  .digital-change h1 {
+    position: relative !important;
+    width: 100% !important; /* Full width */
+    font-size: 1.5rem !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjust margin */
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width */
+    line-height: 1.5 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 0 15px 0 !important; /* Adjust margin */
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 10px 20px !important; /* Smaller padding */
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important; /* Smaller font size */
+    cursor: pointer !important;
+    margin: 0 auto !important; /* Center button */
+    display: block !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack images vertically */
+    align-items: center !important;
+    gap: 10px !important; /* Adjust gap for smaller screens */
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important; 
+    max-width: 250px !important; /* Adjust max-width for smaller screens */
+    height: auto !important; 
+    left: 0 !important; 
+    top: 0 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 405px) {
+  .bgcolor2 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 200px !important; 
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important;
+    text-align: center !important;
+  }
+  .bgcolor2-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 100px !important;
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important; 
+    text-align: center !important;
+  }
+
+  .component3 {
+    position: relative !important;
+    top: 0 !important; 
+    left: 0 !important; 
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important; 
+    align-items: center !important;
+    gap: 10px !important; 
+  }
+
+  .circle {
+    width: 100px !important; /* Smaller circle */
+    height: 100px !important;
+    border: 1px solid !important;
+    border-radius: 50% !important;
+    background-color: red !important;
+    font-size: 12px !important; /* Smaller font size */
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important; /* Reset top */
+    color: white !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 auto !important; /* Center */
+  }
+
+  #circle1 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 14px !important; /* Smaller */
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  #digi,
+  #mark {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 2rem !important; /* Smaller */
+    color: inherit !important; /* Preserve colors */
+    margin: 5px 0 !important; /* Adjusted for smaller screens */
+    text-align: center !important;
+  }
+
+  #mark {
+    color: red !important;
+  }
+
+  .component3 img,
+  #component3-img1 {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 250px !important; /* Cap for smaller screens */
+    height: auto !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    margin: 5px auto !important; /* Center */
+  }
+
+  .bgg {
+    position: relative !important;
+    z-index: -1 !important;
+    top: 0 !important;
+    width: 100% !important; /* Full width */
+    height: 30px !important; /* Shorter */
+    left: 0 !important;
+    background-color: rgba(55, 84, 142) !important;
+    margin: 5px 0 !important; /* Adjusted for smaller screens */
+  }
+
+  #course-high {
+    position: relative !important;
+    background-color: rgba(55, 84, 142) !important;
+    width: 100% !important; /* Full width */
+    padding: 8px !important; /* Adjusted for smaller screens */
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    color: white !important;
+    border-top-left-radius: 8px !important; /* Adjusted for smaller screens */
+    border-top-right-radius: 8px !important; /* Adjusted for smaller screens */
+    text-align: center !important;
+    margin: 0 auto 15px auto !important; /* Center */
+    max-width: 280px !important; /* Adjusted for smaller screens */
+  }
+
+  .right-boxx {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    display: flex !important;
+    flex-direction: column !important; /* Stack squares vertically */
+    width: 100% !important; /* Full width */
+    padding: 8px !important; /* Adjusted for smaller screens */
+    gap: 10px !important; /* Vertical gap */
+    align-items: center !important;
+  }
+
+  .squre1 {
+    width: 100% !important; /* Full width */
+    max-width: 250px !important; /* Cap for smaller screens */
+    height: auto !important; /* Auto height */
+    border: 1px solid grey !important;
+    padding: 10px !important; /* Adjusted for smaller screens */
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    text-align: center !important;
+    border-radius: 6px !important; /* Adjusted for smaller screens */
+  }
+
+  .squre1 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important; /* Center text */
+    margin: 5px 0 !important; /* Adjusted for smaller screens */
+    font-size: 12px !important; /* Smaller font size */
+  }
+
+  .squre1 img {
+    position: relative !important;
+    top: 0 !important; /* Reset absolute */
+    left: 0 !important;
+    width: 50px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 5px auto !important; /* Center above text */
+    display: block !important;
+  }
+
+  /* Specific Image Overrides: Responsive, centered */
+  .squre1 #second,
+  .squre1 #third,
+  .squre1 #fourth,
+  .squre1 #fifth,
+  .squre1 #sixth,
+  .squre1 #seventh,
+  .squre1 #eighth,
+  .squre1 #nineth {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 50px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 5px auto !important; /* Center */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Code for max-width: 390px */
+@media (max-width: 405px) {
+  /* Curriculum: Reset top, full width */
+  .curriculum {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    padding: 15px !important; /* Adjusted for smaller screens */
+    text-align: center !important;
+  }
+
+  .currbg {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .curriculum h2 {
+    font-size: 1.5rem !important; /* Adjusted for smaller screens */
+    position: relative !important;
+    top: 200px !important; /* Reset top */
+    margin: 0 0 8px 0 !important; /* Adjusted for smaller screens */
+            color:black !important;
+
+  }
+
+  .curriculum h3 {
+    font-size: 1.2rem !important; /* Adjusted for smaller screens */
+    position: relative !important;
+    top: 200px !important;
+    margin: 0 !important;        color:black !important;
+
+  }
+
+  .curriculum h2,
+  .curriculum h3 {
+    text-align: center !important;
+  }
+
+  .curriculum-boxes {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width */
+    padding: 15px !important; /* Adjusted for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack div1 vertically */
+    gap: 10px !important; /* Adjusted for smaller screens */
+    background-color: rgb(239, 247, 254) !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1 {
+    border-radius: 7px !important;
+    padding: 10px !important; /* Adjusted for smaller screens */
+    width: 100% !important; /* Full width */
+    max-width: 280px !important; /* Cap for smaller screens */
+    height: auto !important; /* Auto height */
+    background-color: rgb(163, 185, 230) !important;
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    box-shadow: 0 4px 10px rgba(216, 216, 216, 0.5) !important; /* Lighter shadow */
+    transition: all 0.3s ease !important; /* Faster transition */
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .curriculum-boxes .div1:hover {
+    background-color: rgba(5, 98, 160) !important;
+    color: #ffffff !important;
+    transform: translateY(-5px) !important; /* Lift on hover */
+  }
+
+  .curriculum-boxes .div1 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    margin: 8px 0 !important; /* Adjusted for smaller screens */
+    font-size: 12px !important; /* Adjusted for smaller screens */
+    line-height: 1.4 !important;
+    text-align: center !important;
+  }
+
+  .curriculum-boxes .div1 h2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 1rem !important; /* Smaller for smaller screens */
+    font-weight: 700 !important;
+    text-align: center !important;
+    margin: 8px 0 !important; /* Adjusted for smaller screens */
+  }
+
+  #volume {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 16px !important; /* Smaller icon */
+    margin-bottom: 8px !important; /* Space below icon */
+    color: inherit !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 405px) {
+  /* Bgcolor3: Auto height, center component4 */
+  .bgcolor3 {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important; /* Adjusted for smaller screens */
+    text-align: center !important;
+  }
+
+  .component4 {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .component4 h2 {
+    font-size: 1.5rem !important; /* Adjusted for smaller screens */
+    font-weight: 600 !important;
+    margin: 0 0 8px 0 !important; /* Adjusted for smaller screens */
+  }
+
+  .component4 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    font-size: 14px !important; /* Adjusted for smaller screens */
+    width: 100% !important; /* Full width */
+    margin: 0 0 15px 0 !important; /* Adjusted for smaller screens */
+    text-align: center !important;
+  }
+
+  .inside-component {
+    display: flex !important;
+    flex-direction: column !important; /* Stack div2 vertically */
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important; /* Full width */
+    gap: 15px !important; /* Adjusted for smaller screens */
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    row-gap: 15px !important; /* Adjusted for smaller screens */
+  }
+
+  .div2 {
+    width: 100% !important;
+    max-width: 220px !important; /* Cap for smaller screens */
+    text-align: center !important;
+    margin: 0 !important;
+  }
+
+  .div2 img {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 60px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 8px auto !important; /* Center */
+  }
+
+  .div2 p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 12px !important; /* Adjusted for smaller screens */
+    margin: 0 !important;
+  }
+
+  /* Specific Image Overrides: Responsive */
+  #career,
+  #mock,
+  #guest,
+  #resume {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 60px !important; /* Smaller */
+    height: auto !important;
+    margin: 0 auto 8px auto !important; /* Center */
+  }
+
+  #bgg2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    left: 0 !important;
+    z-index: 6 !important;
+    height: 30px !important; /* Adjusted for smaller screens */
+    margin: 15px 0 !important; /* Adjusted for smaller screens */
+  }
+
+  /* Right Side Component: Reset, center image */
+  .right-side-component {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .right-side-component img {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 500px !important; /* Adjusted for smaller screens */
+    height: auto !important; /* Adjusted for smaller screens */
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+  }
+
+  .right-side-component .p {
+    width: 150px !important; /* Adjusted for smaller screens */
+    height: 150px !important; /* Adjusted for smaller screens */
+    background-color: rgb(91, 117, 169) !important;
+    border-radius: 50% !important;
+    position: relative !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Code for max-width: 390px */
+@media (max-width: 405px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* Bgcolor4: Reset positioning, full width, auto height for stacking */
+  .bgcolor4 {
+    width: 100% !important;
+    padding-top: 15px !important; /* Reduced padding */
+    height: auto !important; /* Auto height to fit content */
+    position: relative !important;
+    top: 60px !important; /* Adjusted top */
+    background-color: rgb(239, 247, 254) !important;
+    padding-bottom: 30px !important; /* Bottom padding for footer gap */
+    display: flex !important;
+    flex-direction: column !important; /* Stack get-started > form > footer */
+    align-items: center !important;
+  }
+
+  
+  /* Get Started: Full width, centered text */
+  .get-started {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 10px !important; /* Reduced side padding */
+    margin-bottom: 20px !important; /* Space before form */
+  }
+
+  .get-started h2 {
+    font-size: 1.5rem !important; /* Smaller heading */
+    margin: 0 0 15px 0 !important; /* Adjusted margin */
+    line-height: 1.3 !important;
+  }
+
+  /* Left Side Para: Full width, stack content vertically */
+  .left-side-para {
+    position: relative !important;
+    width: 100% !important; /* Full width */
+    top: 0 !important; /* Reset top */
+    font-size: 14px !important; /* Readable base */
+    text-align: left !important; /* Left-align for readability */
+    margin-bottom: 15px !important; /* Adjusted margin */
+  }
+
+  .left-side-para p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    line-height: 1.5 !important; /* Tighter for mobile */
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjusted margin */
+    padding: 0 5px !important; /* Reduced side padding */
+  }
+
+  .left-side-para ul {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    line-height: 1.5 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjusted margin */
+    padding-left: 15px !important; /* Indent bullets */
+    list-style-type: disc !important; /* Ensure bullets show */
+    text-align: left !important;
+  }
+
+  .left-side-para li {
+    margin-bottom: 5px !important; /* Adjusted margin */
+    padding: 0 5px !important; /* Reduced padding */
+  }
+
+  .down-para {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  .down-para h2 {
+    font-size: 1.3rem !important; /* Smaller subheading */
+    margin: 0 0 10px 0 !important; /* Adjusted margin */
+    text-align: center !important; /* Center for emphasis */
+  }
+
+  .down-para p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    line-height: 1.5 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 !important;
+    padding: 0 5px !important; /* Reduced side padding */
+  }
+
+  /* Rightside Form (Training Form): Full width, stacked below left para, blue bg preserved */
+  .rightside-form,
+  #training-form {
+    position: relative !important;
+    top: 0px !important; /* Reset large negative top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width */
+    max-width: 350px !important; /* Cap for readability */
+    margin: 0 auto 30px auto !important; /* Center with bottom space for footer */
+    background-color: rgba(55, 84, 142) !important; /* Preserve blue */
+    border-radius: none !important; /* Rounded */
+    padding: 20px !important; /* Touch-friendly padding */
+    color: white !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important; /* Subtle shadow */
+  }
+
+  #apply {
+    position: relative !important;
+    left: 0 !important; /* Reset left */
+    font-size: 1.3rem !important; /* Smaller */
+    margin: 0 0 15px 0 !important; /* Adjusted margin */
+    text-align: center !important;
+    color: white !important;
+  }
+
+  #training-form form {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width */
+    padding: 0 !important; /* No extra padding (parent has it) */
+    left: 0 !important; /* Reset left */
+    color: white !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack fields vertically */
+    gap: 10px !important; /* Space between fields */
+  }
+
+  #training-form form label {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    font-size: 12px !important; /* Smaller labels */
+    font-weight: 500 !important;
+    color: white !important;
+    margin-bottom: 5px !important;
+    text-align: left !important;
+  }
+
+  #training-form form input {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width */
+    height: 40px !important; /* Touch-friendly height */
+    margin: 0 !important; /* No margin (use gap) */
+    padding: 10px !important; /* Internal padding */
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white for contrast on blue */
+    border: 1px solid white !important; /* White border */
+    border-radius: 5px !important;
+    font-size: 14px !important; /* Prevent iOS zoom */
+    color: white !important; /* White text */
+  }
+
+  #training-form form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important; /* Light placeholder */
+  }
+
+  #training-form form input:focus {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2) !important; /* Focus glow */
+  }
+
+  #comment-box {
+    height: 80px !important; /* Taller for message */
+    resize: vertical !important; /* Allow resize */
+  }
+
+  #onsubmit {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important; /* Full width */
+    padding: 12px !important; /* Touch-friendly */
+    margin-top: 10px !important;
+    color: white !important;
+    background-color: rgba(5, 99, 160) !important; /* Darker blue */
+    border: 1px solid white !important;
+    border-radius: 5px !important;
+    font-size: 14px !important; /* Smaller font size */
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+  }
+
+  #onsubmit:hover,
+  #onsubmit:active {
+    background-color: rgba(5, 99, 160, 0.9) !important;
+  }
+
+  .submitt {
+    position: relative !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Training Footer: Reset absolute, full width, stacked */
+  .training-footer {
+    position: relative !important;
+    top: 0 !important; /* Reset absolute top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    margin-top: 30px !important; /* Gap from form */
+  }
+
+  .training-footer .footer,
+  .training-footer .lastt {
+    width: 100% !important; /* Full width */
+    left: 0 !important; /* Reset left */
+  }
+
+  /* Reuse Footer Responsive Styles (stacked links, centered) */
+  .footer {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    padding: 30px 10px 10px 10px !important; /* Adjusted padding */
+    margin-bottom: 0 !important;
+  }
+
+  .footer img {
+    width: 150px !important; /* Adjusted for smaller screens */
+    height: auto !important; /* Maintain aspect ratio */
+    margin: 0 auto 15px auto !important; /* Center */
+    display: block !important;
+  }
+
+  .line1 {
+    margin-left: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .line1 p {
+    white-space: normal !important;
+    width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 auto 15px auto !important;
+    font-size: 12px !important; /* Smaller font size */
+    padding: 0 5px !important; /* Reduced padding */
+  }
+
+  .icn {
+    position: relative !important;
+    left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 10px !important; /* Adjusted gap */
+    margin-bottom: 20px !important; /* Adjusted margin */
+  }
+
+  .icn svg {
+    font-size: 18px !important; /* Smaller icon size */
+    color: white !important;
+    cursor: pointer;
+  }
+
+  .icn svg:hover {
+    color: #007BFF !important;
+  }
+
+  .links {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important; /* Adjusted gap */
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .links1 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 280px !important; /* Adjusted for smaller screens */
+  }
+
+  .links1 h3 {
+    margin-bottom: 10px !important; /* Adjusted margin */
+    text-decoration: underline !important;
+    font-size: 14px !important; /* Smaller font size */
+  }
+
+  .links1 a {
+    text-decoration: none !important;
+    position: relative !important;
+    left: 0 !important;
+    color: white !important;
+    margin-bottom: 8px !important; /* Adjusted margin */
+    font-size: 12px !important; /* Smaller font size */
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    display: block !important;
+  }
+
+  .links1 a:hover {
+    color: #007BFF !important;
+  }
+
+  .links1 a[href*="location"],
+  .links1 a[href*="envelope"],
+  .links1 a[href*="phone"] {
+    text-align: left !important;
+    left: 0 !important;
+    padding-left: 15px !important; /* Adjusted padding */
+  }
+
+  /* Last Line: Stacked, full width */
+  .lastt,
+  #last-contact {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+  }
+
+  .last-line {
+    width: 100% !important;
+    height: auto !important;
+    background-color: rgb(54, 127, 192) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 15px !important; /* Adjusted padding */
+    text-align: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+
+  #ii {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  .last-line i {
+    position: relative !important;
+    left: 0 !important;
+    top: 0 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 !important;
+    text-align: center !important;
+  }
+
+  /* Other Unused/DS Classes: Reset if present */
+  .bgcolor4-ds,
+  #right-four,
+  #tt-three,
+  .course-high,
+  #right-side-component-img,
+  #digital-change-btn-2,
+  #digital-change-btn,
+  #component3-img1-ds,
+  #mark-ds,
+  #digi-ds {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Data Science of 390px*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 405px) {
+  /* General: Prevent overflow and ensure consistent sizing */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* TT Container: Reset for natural flow */
+  .tt {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Driving Innovation Parent: Stack text and image vertically, reset positions */
+  .driving-innovation-parent {
+    position: absolute !important;
+    margin-top: 0 !important;
+    background-color: rgba(55, 84, 142) !important; /* Preserve if needed */
+    height: auto !important;
+    width: 100% !important;
+    padding: 30px 10px !important; /* Adjust padding for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack child and bgimg */
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .driving-innovation-child {
+    position: absolute !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 15px !important; /* Adjust margin for smaller screens */
+  }
+
+  .driving-innovation-child h1 {
+    line-height: 1.4 !important;
+    position: relative !important;
+    top: 0 !important;
+    color: white !important;
+    font-size: 1.5rem !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjust margin */
+  }
+
+  .driving-innovation-child p {
+    color: white !important;
+    width: 100% !important;
+    line-height: 1.5 !important;
+    position: relative !important;
+    top: 0 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 !important;
+    padding: 0 5px !important; /* Adjust padding */
+  }
+
+  .bgimg {
+    width: 100% !important;
+    max-width: 250px !important; /* Adjust max-width for smaller screens */
+    margin: 0 auto !important;
+   
+  }
+
+  .bgimg img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    bottom: auto !important;
+    display: block !important;
+  }
+
+  /* Bgcolor1: Auto height, stack digital-change and component2 */
+  .bgcolor1-ds {
+    width: 100% !important;
+    height: auto !important;
+    position: relative !important;
+    top: 150px !important; /* Reset top */
+    background-color: rgb(239, 247, 254) !important;
+    padding: 15px !important; /* Adjust padding for smaller screens */
+    display: flex !important;
+    flex-direction: column !important; /* Stack sections */
+    align-items: center !important;
+  }
+
+  .digital-change {
+    position: relative !important;
+    top:  20px !important; /* Reset top */
+    left: 0 !important; /* Reset left */
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 15px !important; /* Adjust margin */
+  }
+
+  .digital-change h1 {
+    position: relative !important;
+    width: 100% !important; /* Full width */
+    font-size: 1.5rem !important; /* Smaller font size */
+    margin: 0 0 10px 0 !important; /* Adjust margin */
+  }
+
+  .digital-change p {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important; /* Full width */
+    line-height: 1.5 !important;
+    font-size: 12px !important; /* Smaller font size */
+    margin: 0 0 15px 0 !important; /* Adjust margin */
+  }
+
+  .digital-change button {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    background-color: rgba(55, 84, 142) !important;
+    color: white !important;
+    padding: 10px 20px !important; /* Smaller padding */
+    border: none !important;
+    border-radius: 5px !important;
+    font-size: 14px !important; /* Smaller font size */
+    cursor: pointer !important;
+    margin: 0 auto !important; /* Center button */
+    display: block !important;
+  }
+
+  .component2 {
+    position: relative !important;
+    top: 0 !important; /* Reset top */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important; /* Stack images vertically */
+    align-items: center !important;
+    gap: 10px !important; /* Adjust gap for smaller screens */
+  }
+
+  #t-one,
+  #t-two {
+    position: relative !important;
+    width: 100% !important; 
+    max-width: 250px !important; /* Adjust max-width for smaller screens */
+    height: auto !important; 
+    left: 0 !important; 
+    top: 0 !important;
+  }
+}
+
+
+
+
+
+
