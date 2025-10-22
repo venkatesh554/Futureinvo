@@ -89,7 +89,7 @@ function DigitalMarket() {
      
       <div className="chatbots-999">
         <h1>Our Expertise in Digital Marketing</h1>
-        <div className="expertise-grid">
+        <div className="expertise-grid-999">
           <button className="expertise-item-999">Search Engine Optimization(SEO)  <FontAwesomeIcon icon={faArrowRight} /></button>
           <button className="expertise-item-999">Search Engine Marketing(SEM) <FontAwesomeIcon icon={faArrowRight} /> </button>
           <button className="expertise-item-999"> Social Media Optimization(SMO) <FontAwesomeIcon icon={faArrowRight} /> </button>

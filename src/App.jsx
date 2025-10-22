@@ -27,6 +27,16 @@ import Emerging from "./Navbar/Service-Pages/Emerging";
 import FullStackService from "./Navbar/Service-Pages/FullStackService"
 import BusinessToolsService from './Navbar/Service-Pages/BusinessToolsService';
 import MachineLearningService from './Navbar/Service-Pages/MachineLearningService';
+import Machine1 from "./Navbar/Sub-Categories/Machine1"
+import Machine2 from "./Navbar/Sub-Categories/Machine2"
+import Machine3 from "./Navbar/Sub-Categories/Machine3"
+import FullStack1 from "./Navbar/Sub-Categories/FullStack1"
+import FullStack2 from "./Navbar/Sub-Categories/FullStack2"
+import FullStack3 from "./Navbar/Sub-Categories/FullStack3"
+
+
+
+
 function App() { 
   return (
     <>
@@ -58,10 +68,14 @@ function App() {
       <Route path="/DataScienceService" element={<DatascienceService />}/>
       <Route path="/Emerging" element={<Emerging />}/>
       <Route path="/FullStackService" element={<FullStackService />}/>
-     
-
-             <Route path="/BusinessToolsService" element={<BusinessToolsService />}/>
-          <Route path="/MachineLearningService" element={<MachineLearningService />}/>
+      <Route path="/BusinessToolsService" element={<BusinessToolsService />}/>
+      <Route path="/MachineLearningService" element={<MachineLearningService />}/>
+      <Route path="/Machine1" element={<Machine1/>}/>
+      <Route path="/Machine2" element={<Machine2/>}/>
+      <Route path="/Machine3" element={<Machine3/>}/>
+      <Route path="/FullStack1" element={<FullStack1/>}/>
+      <Route path="/FullStack2" element={<FullStack2/>}/>
+      <Route path="/FullStack3" element={<FullStack3/>}/>
 
      </Routes>
    </div>

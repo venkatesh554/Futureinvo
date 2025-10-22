@@ -339,7 +339,9 @@ ul {
     position: relative;
     top:30px;
 }
-
+.services-999 button{
+  padding:10px 100px;
+}
 .service-button-999 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -430,12 +432,18 @@ button:hover {
 .features-grid-999 {
   display: flex;
   justify-content: space-around;
-  gap: 20px;
+  gap: 0px;
   overflow: visible; 
   position: relative;
   top: 0;
 }
 
+.feature-card{
+        box-shadow:10px 20px 20px rgb(223, 220, 220);
+width:300px;
+height:250px;
+border-radius:5px;
+}
 
 .feature-card p {
   font-size: 14px;

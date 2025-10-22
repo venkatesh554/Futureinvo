@@ -1,0 +1,282 @@
+import React from 'react';
+import '../Service-Pages/service12.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faAnglesRight } from '@fortawesome/free-solid-svg-icons';
+
+import aiPhoto8_1 from '../images/aiphoto8-0.png';
+import bottomAI from '../images/bottomai.png';
+import photo4 from '../images/networking.png';
+import photo5 from '../images/briefcase.png';
+import photo6 from '../images/clock.png';
+import photo7 from '../images/calculator.png';
+import photo8 from '../images/document.png';
+import { Link } from "react-router-dom";
+
+
+function Machine1() {
+  return (
+    <div className="Appp">
+        
+      {/* Main Content Header */}
+      <header className="main-content-999">
+        <div className="header-content-999">
+          <p className="breadcrumbs-999">
+                        Home › Machine Learning & Deep Learning › Forecasting & Time Series Analysis </p>
+
+          <h1>“Forecasting & Time Series Analysis”</h1>
+          <p className="tagline-999">Our Forecasting & Time Series Analysis help businesses automate processes, enhance decision-making, and unlock new growth opportunities through intelligent innovation.</p>
+        </div>
+      </header>
+
+      {/* Home Content Section */}
+      <div className="home-content-999">
+        {/* Image Source: Use imported variable, must be self-closing */}
+        <img className="right-image-999" src={aiPhoto8_1} alt="AI Photo" />
+        {/* Inline Style: Converted from CSS string to JS object */}
+        <h1 style={{ fontSize: '45px' }}>
+          Forecasting & Time Series Analysis
+        </h1>
+        <p>At Future Invo Solution Pvt. Ltd., our Forecasting and Time Series Analysis solutions help businesses predict future trends, sales, demand, and market movements with accuracy. Using advanced machine learning algorithms and deep learning models, we analyze historical and real-time data to uncover patterns, seasonality, and trends, enabling organizations to make data-driven decisions.</p>
+        <p>Our models are designed to handle complex, large-scale datasets, including structured and unstructured data, to provide precise forecasts for finance, retail, logistics, and manufacturing. By applying statistical techniques, neural networks, and ensemble models, we generate predictions that minimize errors and enhance operational efficiency.</p>
+      </div>
+
+      
+        <section className="container-999">
+          <form className="form-group-999">
+            <h3>Get A Quote For You</h3>
+          <label htmlFor="name"> Name</label>
+          <input type="text" placeholder="Your full name" />
+          <label htmlFor="mobile"> Mobile</label>
+          <input type="text" placeholder="Mobile" />
+          <label htmlFor="email">Email</label>
+          <input type="email" placeholder="Your email" />
+          <label htmlFor="message">Message</label>
+          <textarea placeholder="Message"></textarea>
+          <button className="sbutton-999">Submit</button>
+        </form>
+            
+          <div className="benefits-999">
+            <h2>Benefits With Our Forecasting & Time Series Analysis</h2>
+            <div className="benefit-item orange-999">
+              <div style={{ textAlign: 'right' }}>
+                <h3>Accurate forecasting</h3>
+                <p>Accurate forecasting for sales, demand, and market trends.</p>
+              </div>
+            </div>
+            <div className="benefit-item teal-999">
+              <div style={{ textAlign: 'right' }}>
+                <h3>Detects patterns</h3>
+                <p>Detects patterns and seasonality in complex datasets.</p>
+              </div>
+            </div>
+            <div className="benefit-item orange-999">
+              <div style={{ textAlign: 'right' }}>
+                <h3>Supports finance</h3>
+                <p>Supports finance, retail, logistics, and manufacturing industries.</p>
+              </div>
+            </div>
+            <div className="benefit-item teal-999">
+              <div style={{ textAlign: 'right' }}>
+                <h3>Integrates with dashboard</h3>
+                <p>Integrates with dashboards and BI tools for real-time insights.</p>
+              </div>
+            </div>
+            <div className="benefit-item orange-999">
+              <div style={{ textAlign: 'right' }}>
+                <h3>Minimizes error</h3>
+                <p>Minimizes errors with advanced ML and deep learning models.</p>
+              </div>
+            </div>
+          </div>
+        
+        </section>
+
+      {/* Expertise Section */}
+      <div className="chatbots-999">
+        <h1>Our Expertise in Machine Learning & Deep Learning</h1>
+        <div className="expertise-grid-999">
+<Link to ="/Machine2">
+          <button className="expertise-item-999">Fraud Detection Systems</button>
+
+</Link>          
+<Link to="/Machine3">
+<button className="expertise-item-999">Recommendation Engines</button></Link>
+        </div>
+      </div>
+
+        <div className="services-999">
+                          <h1>Our Other Services & Solutions</h1>
+                          <div className="service-button-999">
+                           <Link to="/ItConsulting">
+                            <button className="service-item-999">
+                              IT Consulting <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                           </Link>
+                          <Link to="/WebDevelopmentService">
+                            <button className="service-item-999">
+                              Web Development <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                            <Link to="/WebDesign">
+                            <button className="service-item-999">
+                              Web Design <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                           <Link to="/MobileApplications">
+                            <button className="service-item-999">
+                              Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                           <Link to="/DigitalMarket">
+                            <button className="service-item-999">
+                              Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} />
+                              
+                            </button></Link>
+                            <Link to="/DataScienceService">
+                            <button className="service-item-999">
+                              Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} />
+                              
+                            </button></Link>
+                            {/* <button className="service-item-999">
+                              Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} />
+                              
+                            </button> */}
+                           <Link to="/Csda">
+                            <button className="service-item-999">
+                              Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
+                              
+                            </button></Link>
+                           <Link to="/Ai">
+                            <button className="service-item-999">
+                              Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                          
+                           <Link to="/CyberSecurity">
+                            <button className="service-item-999">
+                              Cyber Solutions <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                           <Link to="/Emerging">
+                            <button className="service-item-999">
+                              Emerging Tech <FontAwesomeIcon icon={faArrowRight} />
+                            </button></Link>
+                            <Link to="/FullStackService">
+                            <button className="service-item-999">
+                              Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} />
+                            </button>
+                            </Link>
+                          </div>
+                        </div>
+
+      <div className="why-choose-us-999">
+              <h2>Why Choose Us?</h2>
+              <p className="subheading-999">
+                Your trusted partner for cutting-edge IT solutions and digital
+                transformation.
+              </p>
+              <div className="features-grid-999 ">
+                <div className="feature-card extensive-999">
+                  <img src={photo4} alt="extensive" className="icon-999" />
+                  <h3>Extensive IT Expertise</h3>
+                  <p>
+                    Access to certified professionals across technologies like React,
+                    Node.js, AWS, Azure, and more.
+                  </p>
+                </div><div className="feature-card flexible-999">
+                  <img src={photo5} alt="extensive" className="icon-999" />
+                  <h3>Flexible Engagement Models</h3>
+                  <p>
+                    Contract, Hire on contract, contract-to-hire, full-time, or offshore/on-site as per your project needs.
+                  </p>
+                </div>
+                <div className="feature-card quick-999">
+                  <img src={photo6} alt="extensive" className="icon-999" />
+                  <h3>Quick Turnaround</h3>
+                  <p>
+                    Fast onboarding and delivery to keep your business ahead of the
+                    curve.
+                  </p>
+                </div>
+                <div className="feature-card cross-industry-999">
+                  <img src={photo7} alt="extensive" className="icon-999" />
+                  <h3>Cross Industry Experience</h3>
+                  <p>
+                    Proven success across IT consulting, cloud services, digital marketing, and enterprise solutions.
+                  </p>
+                </div>
+                <div className="feature-card sla-driven-999">
+                  <img src={photo8} alt="extensive" className="icon-999" />
+                  <h3>SLA-Driven Delivery</h3>
+                  <p>
+                    Transparent processes and reliable execution for every project.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+      {/* Talk To Experts Section */}
+      <section className="background-overlay-999">
+        <div className="ai-image-container-999">
+          {/* Image Source: Use imported variable, must be self-closing */}
+          <img src={bottomAI} alt="AI Expert" />
+        </div>
+        <div className="form-container-999">
+          <h2>Talk To Our Experts</h2>
+          <form>
+            <div className="form2-group-999">
+              {/* Input is self-closing */}
+              <input type="text" id="name2" name="name" placeholder="Name" required />
+            </div>
+            <div className="form2-group-999">
+              {/* Input is self-closing */}
+              <input type="tel" id="phone2" name="phone" placeholder="Phone Number" required />
+            </div>
+            <div className="form2-group-999">
+              {/* Input is self-closing. Note: 're' at the end of required was fixed to 'required' */}
+              <input type="email" id="email2" name="email" placeholder="Email" required />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <div className="faq-container-999">
+        <h2>Frequently Asked Questions</h2>
+        <div className="faq-item2-999">
+          <details>
+            <summary>What industries benefit most from time series analysis? <FontAwesomeIcon icon={faAnglesRight}/></summary>
+            <div className="faq-answer2-999">Finance, retail, logistics, manufacturing, and tech.</div>
+          </details>
+        </div>
+
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>Can the model handle large-scale data? <FontAwesomeIcon icon={faAnglesRight}/></summary>
+            <div className="faq-answer2-999">Yes, designed for high-volume, complex datasets.</div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>How long does deployment take? <FontAwesomeIcon icon={faAnglesRight}/></summary>
+            <div className="faq-answer2-999">Typically 4-6 weeks depending on data complexity.</div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>Can forecasts be adjusted dynamically? <FontAwesomeIcon icon={faAnglesRight}/></summary>
+            <div className="faq-answer2-999">Yes, models adapt in real time as new data arrives.</div>
+          </details>
+        </div>
+
+        <div className="faq-item2-999">
+          <details>
+            <summary>Does it support unstructured data? <FontAwesomeIcon icon={faAnglesRight}/></summary>
+            <div className="faq-answer2-999">Yes, models are capable of processing structured and unstructured data.</div>
+          </details>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Machine1;

@@ -9,11 +9,14 @@ import photo5 from "../images/briefcase.png";
 import photo6 from "../images/clock.png";
 import photo7 from "../images/calculator.png";
 import photo8 from "../images/document.png";
+import { Link } from "react-router-dom";
+
 
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
 
 import "../Service-Pages/service12.css";
+import { BrowserRouter } from "react-router-dom";
 
 function MachineLearningService() {
   return (
@@ -93,9 +96,20 @@ function MachineLearningService() {
       <div className="chatbots-999">
         <h1>Our Expertise in Machine Learning & Deep Learning</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">Forecasting & Time Series Analysis<FontAwesomeIcon icon={faArrowRight} /></button>
+          
+<Link to="/Machine1">
+  <button className="expertise-item-999">
+    Forecasting & Time Series Analysis <FontAwesomeIcon icon={faArrowRight} />
+  </button>
+</Link>
+<Link to="/Machine2" >
           <button className="expertise-item-999">Fraud Detection Systems<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Recommendation Engines<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>     
+<Link to="/Machine3" >
+     <button className="expertise-item-999">Recommendation Engines<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link> 
           
         </div>                                                                                                                                      
       </div>
