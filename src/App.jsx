@@ -33,6 +33,20 @@ import Machine3 from "./Navbar/Sub-Categories/Machine3"
 import FullStack1 from "./Navbar/Sub-Categories/FullStack1"
 import FullStack2 from "./Navbar/Sub-Categories/FullStack2"
 import FullStack3 from "./Navbar/Sub-Categories/FullStack3"
+import Emerging1 from "./Navbar/Sub-Categories/Emerging1"
+import Emerging2 from "./Navbar/Sub-Categories/Emerging2"
+import Emerging3 from "./Navbar/Sub-Categories/Emerging3"
+
+
+import Datascience1 from "./Navbar/Sub-Categories/Datascience1"
+import Datascience2 from "./Navbar/Sub-Categories/Datascience2"
+
+import Datascience3 from "./Navbar/Sub-Categories/Datascience3"
+
+import Datascience4 from "./Navbar/Sub-Categories/Datascience4"
+
+import Datascience5 from "./Navbar/Sub-Categories/Datascience5"
+
 
 
 
@@ -76,6 +90,14 @@ function App() {
       <Route path="/FullStack1" element={<FullStack1/>}/>
       <Route path="/FullStack2" element={<FullStack2/>}/>
       <Route path="/FullStack3" element={<FullStack3/>}/>
+      <Route path="/Emerging1" element={<Emerging1/>}/>
+      <Route path="/Emerging2" element={<Emerging2/>}/>
+      <Route path="/Emerging3" element={<Emerging3/>}/>
+      <Route path="/Datascience1" element={<Datascience1/>}/>
+      <Route path="/Datascience2" element={<Datascience2/>}/>
+      <Route path="/Datascience3" element={<Datascience3/>}/>
+      <Route path="/Datascience4" element={<Datascience4/>}/>
+      <Route path="/Datascience5" element={<Datascience5/>}/>
 
      </Routes>
    </div>

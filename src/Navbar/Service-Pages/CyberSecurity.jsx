@@ -12,6 +12,7 @@ import photo8 from "../images/document.png";
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
 import "../Service-Pages/service12.css";
+import { Link } from "react-router-dom";
 
 function Cybersecurity() {
   return (

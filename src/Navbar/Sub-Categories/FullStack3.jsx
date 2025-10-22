@@ -102,10 +102,15 @@ function FullStack3() {
       <div className="chatbots-999">
         <h1>Our Expertise in Full Stack Web & SaaS Development</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">Scalable Saas Platform (ERP, CRM, HRM) <FontAwesomeIcon icon={faArrowRight} /></button>
+            <Link to="/FullStack2">
+                      <button className="expertise-item-999">Scalable Saas Platform (ERP, CRM, HRM) <FontAwesomeIcon icon={faArrowRight} /></button>
+
+            </Link>
           {/* <button className="expertise-item-999">B2B/B2C Portals with Custom Forms <FontAwesomeIcon icon={faArrowRight} /></button> */}
+<Link to="/FullStack1">
           <button className="expertise-item-999">API-First Backend (REST, GraphQL) <FontAwesomeIcon icon={faArrowRight} /></button>
-        </div>
+
+</Link>        </div>
       </div>
 
      
