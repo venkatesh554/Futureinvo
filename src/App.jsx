@@ -47,6 +47,40 @@ import Datascience4 from "./Navbar/Sub-Categories/Datascience4"
 
 import Datascience5 from "./Navbar/Sub-Categories/Datascience5"
 
+import Cyber1 from "./Navbar/Sub-Categories/Cyber1"
+import Cyber2 from "./Navbar/Sub-Categories/Cyber2"
+
+import Cyber3 from "./Navbar/Sub-Categories/Cyber3"
+import Cyber4 from "./Navbar/Sub-Categories/Cyber4"
+import Cyber5 from "./Navbar/Sub-Categories/Cyber5"
+import Cyber6 from "./Navbar/Sub-Categories/Cyber6"
+import Cyber7 from "./Navbar/Sub-Categories/Cyber7"
+
+import Cloud1 from "./Navbar/Sub-Categories/Cloud1"
+import Cloud2 from "./Navbar/Sub-Categories/Cloud2"
+
+import Cloud3 from "./Navbar/Sub-Categories/Cloud3"
+
+import Cloud4 from "./Navbar/Sub-Categories/Cloud4"
+
+import Cloud5 from "./Navbar/Sub-Categories/Cloud5"
+import It1 from "./Navbar/Sub-Categories/It1"
+import It2 from "./Navbar/Sub-Categories/It2"
+import It3 from "./Navbar/Sub-Categories/It3"
+import It4 from "./Navbar/Sub-Categories/It4"
+import It5 from "./Navbar/Sub-Categories/It5"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,6 +132,25 @@ function App() {
       <Route path="/Datascience3" element={<Datascience3/>}/>
       <Route path="/Datascience4" element={<Datascience4/>}/>
       <Route path="/Datascience5" element={<Datascience5/>}/>
+      <Route path="/Cyber1" element={<Cyber1/>}/>
+       <Route path="/Cyber2" element={<Cyber2/>}/>
+        <Route path="/Cyber3" element={<Cyber3/>}/>
+         <Route path="/Cyber4" element={<Cyber4/>}/>
+          <Route path="/Cyber5" element={<Cyber5/>}/>
+           <Route path="/Cyber6" element={<Cyber6/>}/>
+            <Route path="/Cyber7" element={<Cyber7/>}/>
+            <Route path="/Cloud1" element={<Cloud1/>}/>
+             <Route path="/Cloud2" element={<Cloud2/>}/>
+              <Route path="/Cloud3" element={<Cloud3/>}/>
+               <Route path="/Cloud4" element={<Cloud4/>}/>
+                <Route path="/Cloud5" element={<Cloud5/>}/>
+                <Route path="/It1" element={<It1/>}/>
+                <Route path="/It2" element={<It2/>}/>
+                <Route path="/It3" element={<It3/>}/>
+                <Route path="/It4" element={<It4/>}/>
+                <Route path="/It5" element={<It5/>}/>
+            
+      
 
      </Routes>
    </div>

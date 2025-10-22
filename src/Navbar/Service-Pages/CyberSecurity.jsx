@@ -99,13 +99,38 @@ function Cybersecurity() {
        <div className="chatbots-999">
         <h1>Our Expertise in Cybersecurity Solutions</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">Penetration Testing & Vulnerability Assessment<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Network & Cloud Security<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Endpoint & Application Security<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Data Privacy & Compliance<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Managed Security Services<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Zero Trust Security Implementation<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">SOC as a Service<FontAwesomeIcon icon={faArrowRight} /></button>
+          <Link to="/Cyber6">
+                    <button className="expertise-item-999">Penetration Testing & Vulnerability Assessment<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+
+          <Link to="/Cyber5">
+                    <button className="expertise-item-999">Network & Cloud Security<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          
+          </Link>
+          <Link to="/Cyber2">
+                    <button className="expertise-item-999">Endpoint & Application Security<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          
+          </Link>
+          <Link to="/Cyber1">
+                    <button className="expertise-item-999">Data Privacy & Compliance<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/Cyber3">
+                    <button className="expertise-item-999">Managed Security Services<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/Cyber7">
+                    <button className="expertise-item-999">Zero Trust Security Implementation<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          
+          </Link>
+          <Link to="/Cyber4">
+                    <button className="expertise-item-999">SOC as a Service<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
         </div>                                                                                                                                      
       </div>
 

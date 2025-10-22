@@ -256,6 +256,8 @@ import photo6 from "../images/clock.png";
 import photo7 from "../images/calculator.png";
 import photo8 from "../images/document.png";
 import "../Service-Pages/service12.css";
+import { Link } from "react-router-dom";
+
 
 export default function ItConsulting() {
   return (
@@ -318,31 +320,88 @@ export default function ItConsulting() {
       <div className="chatbots-999">
         <h1>Our Expertise in Enterprise Architecture</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">Strategy & Roadmap Consulting <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Enterprise Architecture <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Technology Modernization <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">IT Infrastructure Consult <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Digital Transformation Advisor <FontAwesomeIcon icon={faArrowRight} /></button>
+          <Link to="/It1" >
+                    <button className="expertise-item-999">Strategy & Roadmap Consulting <FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/It2">
+                    <button className="expertise-item-999">Enterprise Architecture <FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/It3">
+                    <button className="expertise-item-999">Technology Modernization <FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/It4">
+                    <button className="expertise-item-999">IT Infrastructure Consult <FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/It5">
+                    <button className="expertise-item-999">Digital Transformation Advisor <FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
         </div>
       </div>
 
       <div className="services-999">
-        <h1>Our other Services & Solutions</h1>
-        <div className="service-button-999">
-          <button className="service-item-999">Web Development <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Web Design <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Mobile Applications <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">AI & Artificial Intelligence Solutions <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Cybersecurity Solutions <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Business Tools Development <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="service-item-999">Emerging Tech <FontAwesomeIcon icon={faArrowRight} /></button>
-        </div>
-      </div>
+                                                <h1>Our Other Services & Solutions</h1>
+                                                <div className="service-button-999">
+                                                 <Link to="/ItConsulting">
+                                                  <button className="service-item-999">
+                                                    IT Consulting <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button>
+                                                 </Link>
+                                                <Link to="/WebDevelopmentService">
+                                                  <button className="service-item-999">
+                                                    Web Development <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                  <Link to="/WebDesign">
+                                                  <button className="service-item-999">
+                                                    Web Design <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                 <Link to="/MobileApplications">
+                                                  <button className="service-item-999">
+                                                    Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                 <Link to="/DigitalMarket">
+                                                  <button className="service-item-999">
+                                                    Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} />
+                                                    
+                                                  </button></Link>
+                                                  <Link to="/DataScienceService">
+                                                  <button className="service-item-999">
+                                                    Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} />
+                                                    
+                                                  </button></Link>
+                                                  {/* <button className="service-item-999">
+                                                    Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} />
+                                                    
+                                                  </button> */}
+                                                 <Link to="/Csda">
+                                                  <button className="service-item-999">
+                                                    Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
+                                                    
+                                                  </button></Link>
+                                                 <Link to="/Ai">
+                                                  <button className="service-item-999">
+                                                    Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                
+                                                 <Link to="/CyberSecurity">
+                                                  <button className="service-item-999">
+                                                    Cyber Solutions <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                 <Link to="/Emerging">
+                                                  <button className="service-item-999">
+                                                    Emerging Tech <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button></Link>
+                                                  <Link to="/FullStackService">
+                                                  <button className="service-item-999">
+                                                    Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} />
+                                                  </button>
+                                                  </Link>
+                                                </div>
+                                              </div>
 
      
       <div className="why-choose-us-999">
