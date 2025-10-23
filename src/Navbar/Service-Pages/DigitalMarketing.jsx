@@ -10,6 +10,7 @@ import photo5 from "../images/briefcase.png";
 import photo6 from "../images/clock.png";
 import photo7 from "../images/calculator.png";
 import photo8 from "../images/document.png";
+import { Link } from "react-router-dom";
 
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
@@ -90,12 +91,30 @@ function DigitalMarket() {
       <div className="chatbots-999">
         <h1>Our Expertise in Digital Marketing</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">Search Engine Optimization(SEO)  <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Search Engine Marketing(SEM) <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999"> Social Media Optimization(SMO) <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Pay-Per-Click(PPC) <FontAwesomeIcon icon={faArrowRight} /> </button> 
-          <button className="expertise-item-999">Email Marketing <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999"> Content Marketing  <FontAwesomeIcon icon={faArrowRight} /> </button>
+            <Link  to="/Digital1">
+                    <button className="expertise-item-999">Search Engine Optimization(SEO) <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+          <Link to="/Digital2">
+                    <button className="expertise-item-999">Search Engine Marketing(SEM) <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+          <Link to="/Digital3">
+                    <button className="expertise-item-999"> Social Media Optimization(SMO) <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+          <Link to="/Digital4">
+                    <button className="expertise-item-999">Pay-Per-Click(PPC) <FontAwesomeIcon icon={faArrowRight} /> </button> 
+
+          </Link>
+          <Link to="/Digital5">
+                    <button className="expertise-item-999">Email Marketing <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+          <Link to="/Digital6">
+                    <button className="expertise-item-999"> Content Marketing  <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
             
         </div>
       </div>

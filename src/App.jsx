@@ -98,6 +98,30 @@ import Ai4 from "./Navbar/Sub-Categories/Ai4"
 import Ai5 from "./Navbar/Sub-Categories/Ai5"
 import Ai6 from "./Navbar/Sub-Categories/Ai6"
 
+import Mobile1 from "./Navbar/Sub-Categories/Mobile1"
+import Mobile2 from "./Navbar/Sub-Categories/Mobile2"
+
+import Mobile3 from "./Navbar/Sub-Categories/Mobile3"
+
+import Mobile4 from "./Navbar/Sub-Categories/Mobile4"
+
+import Mobile5 from "./Navbar/Sub-Categories/Mobile5"
+
+
+import Digital1 from "./Navbar/Sub-Categories/Digital1"
+import Digital2 from "./Navbar/Sub-Categories/Digital2"
+
+import Digital3 from "./Navbar/Sub-Categories/Digital3"
+
+import Digital4 from "./Navbar/Sub-Categories/Digital4"
+
+import Digital5 from "./Navbar/Sub-Categories/Digital5"
+import Digital6 from "./Navbar/Sub-Categories/Digital6"
+
+
+
+
+
 
 
 
@@ -201,6 +225,17 @@ function App() {
      <Route path="/Ai4" element={<Ai4/>}/>
       <Route path="/Ai5" element={<Ai5/>}/>
        <Route path="/Ai6" element={<Ai6/>}/>
+          <Route path="/Mobile1" element={<Mobile1/>}/>
+             <Route path="/Mobile2" element={<Mobile2/>}/>
+                <Route path="/Mobile3" element={<Mobile3/>}/>
+                   <Route path="/Mobile4" element={<Mobile4/>}/>
+                      <Route path="/Mobile5" element={<Mobile5/>}/>
+                      <Route path="/Digital1" element={<Digital1/>}/>
+                      <Route path="/Digital2" element={<Digital2/>}/>
+                      <Route path="/Digital3" element={<Digital3/>}/>
+                      <Route path="/Digital4" element={<Digital4/>}/>
+                      <Route path="/Digital5" element={<Digital5/>}/>
+                       <Route path="/Digital6" element={<Digital6/>}/>
 
       
 

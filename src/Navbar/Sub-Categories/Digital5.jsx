@@ -1,56 +1,48 @@
-import React from "react";
-
+import React from 'react';
+import '../Service-Pages/service12.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faAnglesRight } from '@fortawesome/free-solid-svg-icons';
 
-import photo2 from "../images/aiimage3.png";
-import photo3 from "../images/bottomai.png";
-import photo4 from "../images/networking.png";
-import photo5 from "../images/briefcase.png";
-import photo6 from "../images/clock.png";
-import photo7 from "../images/calculator.png";
-import photo8 from "../images/document.png";
-
-import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
-import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
-
-import "../Service-Pages/service12.css";
+import aiPhoto8_1 from '../images/aiimage5.4.png';
+import bottomAI from '../images/bottomai.png';
+import photo4 from '../images/networking.png';
+import photo5 from '../images/briefcase.png';
+import photo6 from '../images/clock.png';
+import photo7 from '../images/calculator.png';
+import photo8 from '../images/document.png';
 import { Link } from "react-router-dom";
 
-
-function WebDesign() {
+function Machine1() {
   return (
     <div className="Appp">
-      {/* Hero Section */}
+        
+      {/* Main Content Header */}
       <section className="main-content-999">
         <div className="header-content-999">
           <p className="breadcrumbs-999">
-            Home › Web Design
+            Home › Digital Marketing Service › Email Marketing
           </p>
           <h1>
-            Web Design
+            "Email Marketing"
           </h1>
           <p className="tagline-999">
-            Our Web Design help businesses automate processes, enhance
+            Our Email Marketing help businesses automate processes, enhance
             decision-making, and unlock new growth opportunities through
             intelligent innovation.
           </p>
         </div>
       </section>
 
-      
+      {/* Home Content Section */}
       <section className="home-content-999">
         
-        <h1>Web Design</h1>
-        <img src={photo2} alt="AI Illustration" className="right-image-999" />
+        <h1>Pay-Per-Click</h1>
+        <img src={aiPhoto8_1} alt="AI Illustration" className="right-image-999" />
         <p>
-          At Future Invo Solution Pvt. Ltd., we help businesses harness the full potential of web development to thrive in today's digital-first world. Our web solutions go beyond just building websites—they transform how organizations engage with customers, deliver services, and achieve business growth.
+          At Future Invo Solution Pvt. Ltd., we help businesses harness the full potential of Email Marketing to thrive in today's digital-first world. Our apps go beyond functionality—they transform how organizations engage with users, deliver services, and drive business growth.
         </p>
-        <p>
-          Web design has the potential to reshape industries by turning digital ideas into meaningful business outcomes. With our expertise, businesses can leverage custom websites and applications to optimize processes, enhance user experiences, predict trends, and improve overall efficiency. Whether it's building responsive websites, enabling smarter analytics, or creating industry-specific web solutions, we deliver services that are scalable, reliable, and tailored to each business's unique needs.
-        </p>
-        <p>
-          What makes our web design services stand out is the balance between creativity and practicality. We ensure that every solution we deliver is user-friendly and impactful. From healthcare and finance to retail and logistics, our web solutions empower organizations to achieve sustainable growth and maintain a competitive edge online.
-        </p>
+        <p>Email Marketing have the power to reshape industries by turning creative ideas into engaging digital experiences. With our expertise, businesses can leverage intuitive and visually appealing apps to enhance user engagement, streamline interactions, anticipate user needs, and improve overall effectiveness. Whether it's developing responsive app layouts, designing user-friendly interfaces, or creating industry-specific mobile solutions, we deliver applications that are scalable, reliable, and tailored to each business's unique needs.</p>
+         <p>What makes our Email Marketing stand out is the balance between creativity and practicality. We ensure every app we deliver is visually engaging, intuitive, and impactful. From healthcare and finance to retail and logistics, our mobile solutions empower organizations to achieve sustainable growth and maintain a competitive edge in the digital space.</p>
       </section>
 
       
@@ -69,56 +61,70 @@ function WebDesign() {
         </form>
 
         <div className="benefits-999">
-          <h2>Benefits With Our Web Design</h2>
-          <ul>
-            <li className="benefit-item orange-999">
-              📊 Web Solutions — Turn complex data to actionable insights across teams.
-            </li>
-            <li className="benefit-item teal-999">
-              ⚙️ Digital Workflows — Maximize efficiency with smart web solutions.
-            </li>
-            <li className="benefit-item orange-999">
-              🔮 Web Sucess — User behaviour to drive smarter digital strategies.
-            </li>
-            <li className="benefit-item teal-999">
-              🔐 Web Protection — Ensure secure and reliable web operations.
-            </li>
-            <li className="benefit-item orange-999">
-              🚀 Web Performance — Web solutions handle routine tasks white your team.
-            </li>
-          </ul>
+          <h2>Benefits With Our Pay-Per-Click</h2>
+          <div className="benefit-item orange-999">
+            <div style={{ textAlign: 'right' }}>
+              <h3>Targeted Campaigns</h3>
+              <p>Reach specific segments of your audience with content.</p>
+            </div>
+          </div>
+          <div className="benefit-item teal-999">
+            <div style={{ textAlign: 'right' }}>
+              <h3>Improved Engagement</h3>
+              <p>Increase open rates, clicks, and interactions.</p>
+            </div>
+          </div>
+          <div className="benefit-item orange-999">
+            <div style={{ textAlign: 'right' }}>
+              <h3>Lead Nurturing</h3>
+              <p>Build stronger relationships with automated workflows.</p>
+            </div>
+          </div>
+          <div className="benefit-item teal-999">
+            <div style={{ textAlign: 'right' }}>
+              <h3>Measurable Results</h3>
+              <p>Track Performance with analytics to optimise.</p>
+            </div>
+          </div>
+          <div className="benefit-item orange-999">
+            <div style={{ textAlign: 'right' }}>
+              <h3>Cost Effective</h3>
+              <p>Deliver high ROI compared to traditional channels.</p>
+            </div>
+          </div>
         </div>
       </section>
 
      
       <div className="chatbots-999">
-        <h1>Our Expertise in Web Design </h1>
+        <h1>Our Expertise in Digital Marketing Service</h1>
         <div className="expertise-grid-999">
-
-<Link to="/Webdesign1">
-          <button className="expertise-item-999">UI/UX Design  <FontAwesomeIcon icon={faArrowRight} /></button>
-
-</Link>  
-<Link to="/Webdesign2">
-        <button className="expertise-item-999">Responsive Design <FontAwesomeIcon icon={faArrowRight} /> </button>
-
-</Link>
-<Link to="/Webdesign3">
-          <button className="expertise-item-999"> Landing Page Design  <FontAwesomeIcon icon={faArrowRight} /> </button>
-
-</Link>
-<Link to="/Webdesign4">
-          <button className="expertise-item-999">Graphic & Branding Design <FontAwesomeIcon icon={faArrowRight} /> </button>
-
-</Link>
-<Link to="/Webdesign5">
-          <button className="expertise-item-999">Wireframing & prototyping <FontAwesomeIcon icon={faArrowRight} /> </button>
-</Link>
+          <Link  to="/Digital1">
+                             <button className="expertise-item-999">Search Engine Optimization(SEO) <FontAwesomeIcon icon={faArrowRight} /> </button>
+         
+                   </Link>
+                   <Link to="/Digital2">
+                             <button className="expertise-item-999">Search Engine Marketing(SEM) <FontAwesomeIcon icon={faArrowRight} /> </button>
+         
+                   </Link>
+                   <Link to="/Digital3">
+                             <button className="expertise-item-999"> Social Media Optimization(SMO) <FontAwesomeIcon icon={faArrowRight} /> </button>
+         
+                   </Link>
+                   <Link to="/Digital4">
+                             <button className="expertise-item-999">Pay-Per-Click(PPC) <FontAwesomeIcon icon={faArrowRight} /> </button> 
+         
+                   </Link>
+                  
+                   <Link to="/Digital6">
+                             <button className="expertise-item-999"> Content Marketing  <FontAwesomeIcon icon={faArrowRight} /> </button>
+         
+                   </Link>
+            
         </div>
       </div>
 
-      
-      <div className="services-999">
+       <div className="services-999">
                                                      <h1>Our Other Services & Solutions</h1>
                                                      <div className="service-button-999">
                                                       <Link to="/ItConsulting">
@@ -178,10 +184,10 @@ function WebDesign() {
                                                      </div>
                                                    </div>
 
-            <div className="why-choose-us-999">
+      <div className="why-choose-us-999">
         <h2>Why Choose Us?</h2>
         <p className="subheading-999">
-          Your trusted partner for cutting-edge Web Design.
+          Your trusted partner for cutting-edge Email Marketing.
         </p>
         <div className="features-grid-999 ">
           <div className="feature-card extensive-999">
@@ -226,7 +232,7 @@ function WebDesign() {
      
       <section className="background-overlay-999">
         <div className="ai-image-container-999">
-          <img src={photo3} alt="AI Expert" />
+          <img src={bottomAI} alt="AI Expert" />
         </div>
         <div className="form-container-999">
           <h2>Talk To Our Experts</h2>
@@ -245,46 +251,46 @@ function WebDesign() {
 
         <div className="faq-item2-999">
           <details>
-                <summary>How can IT-Driven Chatbot Solutions Benefit My Business?<FontAwesomeIcon icon={faAnglesRight} /> </summary>
-                <div className="faq-answer2-999">IT-driven chatbot solutions streamline operations, enhance customer engagement, and drive business growth. </div>
+                <summary>Do you provide Email Marketing services, om-site, or both?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">We provide Email Marketing services both remotely and on-site, depending on client needs and project requirements. </div>
             </details>
          </div>  
 
           <div className="faq-item2-999">
             <details>
-                <summary>Do You Offer Remote or On-Site Web Development Solutions?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">We offer both remote and on-site Web Development services tailored to your business needs.</div>
+                <summary>What do Email Marketing solutions involve?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Email Marketing solutions involve optimizing website content, structure, and technical aspects to improve search engine ranking, attract organic tarffic, and enhance us.</div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>What Do Web Development Solutions Involve?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Our web development solutions involve designing responsive websites, building custom applications, and providing ongoing support for business growth.</div>
+                <summary>Can future invo assist with Email Automation and personalization?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">yes, we specialize in setting up automated email workflows and personalized campaigns, including on-page optimization, off-page link building, content strategy, and technical SEO audits.</div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>Can Future Invo Web Development Services Assist With Website Security?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Yes. Future Invo IT Solutions provides expert website security consulting to protect your business from threats and ensure secure operations.</div>
+                <summary>Which industries does Futute invo specialize in for Email Marketing?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">We serve e-commrence, finance, healthcare, logisitcs,education, and technology, delivery SEO solutions tailored to each industry's audience and goals.</div>
             </details>
          </div>
 
           <div className="faq-item2-999">
             <details>
-                <summary>What Industries Does Future Invo Specialize In For Web Development Services?<FontAwesomeIcon icon={faAnglesRight} /></summary>
-                <div className="faq-answer2-999">Future Invo IT Solutions specializes in web development for healthcare, finance, logistics, and other industries seeking digital transformation and optimized technology solutions.</div>
+                <summary>How can Email Marketing benefit my business?<FontAwesomeIcon icon={faAnglesRight} /></summary>
+                <div className="faq-answer2-999">Email Marketing benefit your business by : Improving search engine rankings to increase visibility.</div>
             </details>
         </div>
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-8 text-center-999">
+      <footer className="bg-gray-900 text-white py-8 text-center">
         <p>© 2025 FutureInvo Solutions Pvt Ltd. All Rights Reserved.</p>
       </footer>
     </div>
   );
 }
 
-export default WebDesign;
+export default Machine1;
