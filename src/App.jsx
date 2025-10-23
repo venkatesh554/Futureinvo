@@ -71,6 +71,42 @@ import It4 from "./Navbar/Sub-Categories/It4"
 import It5 from "./Navbar/Sub-Categories/It5"
 
 
+import Webdev1 from "./Navbar/Sub-Categories/Webdev1"
+import Webdev2 from "./Navbar/Sub-Categories/Webdev2"
+import Webdev3 from "./Navbar/Sub-Categories/Webdev3"
+
+import Webdev4 from "./Navbar/Sub-Categories/Webdev4"
+
+import Webdev5 from "./Navbar/Sub-Categories/Webdev5"
+
+import Webdesign1 from "./Navbar/Sub-Categories/Webdesign1"
+import Webdesign2 from "./Navbar/Sub-Categories/Webdesign2"
+
+import Webdesign3 from "./Navbar/Sub-Categories/Webdesign3"
+
+import Webdesign4 from "./Navbar/Sub-Categories/Webdesign4"
+
+import Webdesign5 from "./Navbar/Sub-Categories/Webdesign5"
+
+import Ai1 from "./Navbar/Sub-Categories/Ai1"
+import Ai2 from "./Navbar/Sub-Categories/Ai2"
+
+import Ai3 from "./Navbar/Sub-Categories/Ai3"
+
+import Ai4 from "./Navbar/Sub-Categories/Ai4"
+
+import Ai5 from "./Navbar/Sub-Categories/Ai5"
+import Ai6 from "./Navbar/Sub-Categories/Ai6"
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -149,7 +185,23 @@ function App() {
                 <Route path="/It3" element={<It3/>}/>
                 <Route path="/It4" element={<It4/>}/>
                 <Route path="/It5" element={<It5/>}/>
-            
+                <Route path="/Webdev1" element={<Webdev1/>}/>
+                <Route path="/Webdev2" element={<Webdev2/>}/>
+                <Route path="/Webdev3" element={<Webdev3/>}/>
+                <Route path="/Webdev4" element={<Webdev4/>}/>
+                <Route path="/Webdev5" element={<Webdev5/>}/>
+              <Route path="/Webdesign1" element={<Webdesign1/>}/>
+          <Route path="/Webdesign2" element={<Webdesign2/>}/>
+       <Route path="/Webdesign3" element={<Webdesign3/>}/>
+     <Route path="/Webdesign4" element={<Webdesign4/>}/>
+  <Route path="/Webdesign5" element={<Webdesign5/>}/>
+  <Route path="/Ai1" element={<Ai1/>}/>
+   <Route path="/Ai2" element={<Ai2/>}/>
+    <Route path="/Ai3" element={<Ai3/>}/>
+     <Route path="/Ai4" element={<Ai4/>}/>
+      <Route path="/Ai5" element={<Ai5/>}/>
+       <Route path="/Ai6" element={<Ai6/>}/>
+
       
 
      </Routes>
