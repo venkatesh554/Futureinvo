@@ -110,7 +110,7 @@ export default function Datascience() {
           <div className="bgimg">
                   <img src={bgimg} />
                 </div>
-       <div className="bgcolor1-ds">
+       <div className="bgcolor1">
          <div className="digital-change">
           <h1>Be the Data Change Maker@ 6 Months!</h1>
           <p>Ready to conquer the world of Data Science! our best Data Science course in Hyderabad is a comprehensive journey designed to equip you with
@@ -128,7 +128,7 @@ export default function Datascience() {
        </div>
        </div>
 
-    <div className="bgcolor2-ds">
+    <div className="bgcolor2">
        <div className="component3" >
      <div className="circle" >
        <h2 id="circle1">06 Months Course</h2>
@@ -180,7 +180,7 @@ export default function Datascience() {
      </div>
       </div>           
       
-     <div className="currbg">
+     
        <div className="curriculum">
             <h2>What Our Innovative Curriculum Covers?</h2>
             <h3>What You Learn is What You Get!</h3>
@@ -330,7 +330,7 @@ export default function Datascience() {
           </p>
          </div>
         </div>
-     </div>
+     
        
       <div className="bgcolor3-ds"> <div className="component4">
         <h2>Placement Support</h2>
@@ -373,7 +373,7 @@ export default function Datascience() {
        </div>
       
        
-      <div className="bgcolor4-ds">
+      <div className="bgcolor4">
          <div className="get-started">
         <h2>Get Started</h2>
         <div className="left-side-para">

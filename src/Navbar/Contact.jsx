@@ -96,7 +96,7 @@ export default function Contact() {
               </div>
               <div className="thirdline">
                   <FontAwesomeIcon icon={faLocationDot} id="formlocation" /> <p>Location</p><br></br>
-                  <h2>Capital Park, Hitech City,<br></br> Hyderabad</h2>
+                  <h2>13th floor, Manjera Trinity corporate,<br></br> Kphb phase 3, beside lulu mall, Hyderabad</h2>
               </div>
               <div className="underlinee">
                 <p id="lineone">-</p>

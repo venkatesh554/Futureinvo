@@ -93,7 +93,8 @@ export default function Faq() {
        
            </div>
            </div>
-        <div className="our-offering" id="offer">
+       <div className="off">
+         <div className="faq-offering" id="offer">
           <h2 id="h2">Our Offering</h2>
             <h2 id="h22">Pioneering and Advancing Technology Trends</h2>
             
@@ -131,6 +132,7 @@ export default function Faq() {
                     
                 </div>
           </div>
+       </div>
           
 
 
@@ -198,8 +200,9 @@ export default function Faq() {
            </div>
 
 
+               
 
-           <div className="footer" id="footer-dup">
+           <div className="faq-footer" id="faq-footer-dup">
              <div className="line1">
               <img src={footericon}/>
               <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>

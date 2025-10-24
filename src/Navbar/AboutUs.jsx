@@ -4,6 +4,7 @@ import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -49,8 +50,8 @@ export default function AboutUs() {
     <div className="tt">
       <div className="faq">
         <div className="dup-from-faq">
-            <h1>FAQs</h1>
-            
+                        <h1>FAQs</h1>
+
           </div>
 
 
@@ -59,7 +60,10 @@ export default function AboutUs() {
 
 
 <div className="block7" id="sevenn">
+                          <h1>FAQs</h1>
+
             <h2 id="business"> What's on your mind? Just ask us!</h2><br></br>
+
             <div className="paras">
 
 
@@ -133,7 +137,7 @@ export default function AboutUs() {
                         <div className="links">
                           <div className="links1">
                             <h3>Quick Links</h3>
-                          <a href="#"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</a>
+                          <Link> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
                           <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
                           <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
                           <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>

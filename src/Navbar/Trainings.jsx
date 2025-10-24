@@ -127,6 +127,7 @@ export default function Trainings() {
        </div>
        </div>
        
+       
       <div className="bgcolor2">
         
 
