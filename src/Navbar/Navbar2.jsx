@@ -632,10 +632,18 @@ export default function Navbar2() {
 
 
   
+
+
+
+
+
+
+
+  
    const [formData, setFormData] = useState({
       name: "",
       email: "",
-      mobile: "",
+      phone: "",
       city: "",
       message: "",
     });
@@ -656,7 +664,7 @@ export default function Navbar2() {
      if (
   !formData.name ||
   !formData.email ||
-  !formData.mobile ||
+  !formData.phone ||
   !formData.city ||
   !formData.message
 ) {
@@ -671,7 +679,7 @@ export default function Navbar2() {
       setFormData({
         name: "",
         email: "",
-        mobile: "",
+        phone: "",
         city: "",
         message: "",
       });
@@ -883,6 +891,8 @@ export default function Navbar2() {
                 For inquiries and assistance, please fill out the contact form below. Our team
                 is here to help and we look forward to hearing from you
               </p>
+
+              
              <form  onSubmit={handleSubmit}>
   <div>
     <label id="label1">Name <span>*</span>:</label>
@@ -890,14 +900,14 @@ export default function Navbar2() {
          name="name"
           value={formData.name}
           onChange={handleChange} />
-    <label id="label2">E-Mail <span>*</span>:</label>
+    <label id="label2">Mobile No <span>*</span>:</label>
     <input type="email" 
        name="email"
        value={formData.email}
        onChange={handleChange} />
   </div>
   <div>
-    <label id="label3">Mobile No <span>*</span>:</label>
+    <label id="label3">E-Mail <span>*</span>:</label>
     <input type="number" 
        name="phone"
        value={formData.phone}
