@@ -120,28 +120,29 @@ import Digital6 from "./Navbar/Sub-Categories/Digital6"
 
 
 
+import Bdt1 from "./Navbar/Sub-Categories/Bdt1"
+import Bdt2 from "./Navbar/Sub-Categories/Bdt2"
 
+import Bdt3 from "./Navbar/Sub-Categories/Bdt3"
+import Bdt4 from "./Navbar/Sub-Categories/Bdt4"
+import Bdt5 from "./Navbar/Sub-Categories/Bdt5"
+import Bdt6 from "./Navbar/Sub-Categories/Bdt6"
+import Bdt7 from "./Navbar/Sub-Categories/Bdt7"
+import Bdt8 from "./Navbar/Sub-Categories/Bdt8"
+import Bdt9 from "./Navbar/Sub-Categories/Bdt9"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import Bdt10 from "./Navbar/Sub-Categories/Bdt10"
+import Bdt11 from "./Navbar/Sub-Categories/Bdt11"
+import Bdt12 from "./Navbar/Sub-Categories/Bdt12"
+import Bdt13 from "./Navbar/Sub-Categories/Bdt13"
+import Bdt14 from "./Navbar/Sub-Categories/Bdt14"
+import Bdt15 from "./Navbar/Sub-Categories/Bdt15"
+import Bdt16 from "./Navbar/Sub-Categories/Bdt16"
+import Bdt17 from "./Navbar/Sub-Categories/Bdt17"
+import Bdt18 from "./Navbar/Sub-Categories/Bdt18"
+import Bdt19 from "./Navbar/Sub-Categories/Bdt19"
+import Bdt20 from "./Navbar/Sub-Categories/Bdt20"
+import Bdt21 from "./Navbar/Sub-Categories/Bdt21"
 
 
 
@@ -152,7 +153,6 @@ function App() {
    <div className="app">
     {/* <Navbar/> */}
         
-
     <Navbar2/>
     <ScrollTop />
      <Routes>
@@ -230,12 +230,34 @@ function App() {
                 <Route path="/Mobile3" element={<Mobile3/>}/>
                    <Route path="/Mobile4" element={<Mobile4/>}/>
                       <Route path="/Mobile5" element={<Mobile5/>}/>
-                      <Route path="/Digital1" element={<Digital1/>}/>
-                      <Route path="/Digital2" element={<Digital2/>}/>
-                      <Route path="/Digital3" element={<Digital3/>}/>
-                      <Route path="/Digital4" element={<Digital4/>}/>
-                      <Route path="/Digital5" element={<Digital5/>}/>
-                       <Route path="/Digital6" element={<Digital6/>}/>
+                         <Route path="/Digital1" element={<Digital1/>}/>
+                           <Route path="/Digital2" element={<Digital2/>}/>
+                              <Route path="/Digital3" element={<Digital3/>}/>
+                                  <Route path="/Digital4" element={<Digital4/>}/>
+                                        <Route path="/Digital5" element={<Digital5/>}/>
+                                            <Route path="/Digital6" element={<Digital6/>}/>
+                                            <Route path="/Bdt1" element={<Bdt1/>}/>
+                                        <Route path="/Bdt2" element={<Bdt2/>}/>
+                                   <Route path="/Bdt3" element={<Bdt3/>}/>
+                               <Route path="/Bdt4" element={<Bdt4/>}/>
+                           <Route path="/Bdt5" element={<Bdt5/>}/>
+                      <Route path="/Bdt6" element={<Bdt6/>}/>
+                 <Route path="/Bdt7" element={<Bdt7/>}/>
+            <Route path="/Bdt8" element={<Bdt8/>}/>
+       <Route path="/Bdt9" element={<Bdt9/>}/>
+     <Route path="/Bdt10" element={<Bdt10/>}/>
+                <Route path="/Bdt11" element={<Bdt11/>}/>
+                      <Route path="/Bdt12" element={<Bdt12/>}/>
+                            <Route path="/Bdt13" element={<Bdt13/>}/>
+                                  <Route path="/Bdt14" element={<Bdt14/>}/>
+                                         <Route path="/Bdt15" element={<Bdt15/>}/>
+                                              <Route path="/Bdt16" element={<Bdt16/>}/>
+                                                    <Route path="/Bdt17" element={<Bdt17/>}/>
+                                                          <Route path="/Bdt18" element={<Bdt18/>}/>
+                                                                  <Route path="/Bdt19" element={<Bdt19/>}/>
+                                                                         <Route path="/Bdt20" element={<Bdt20/>}/>
+                                                                              <Route path="/Bdt21" element={<Bdt21/>}/>
+
 
       
 

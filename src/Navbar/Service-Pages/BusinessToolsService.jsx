@@ -12,6 +12,7 @@ import photo8 from "../images/document.png";
 
 import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
 import {faAnglesRight} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 import "../Service-Pages/service12.css";
 
@@ -107,80 +108,155 @@ function BusinessToolsService() {
       <div className="chatbots-999">
         <h1>Our Expertise in AI "Artificial Intelligence" Powered Chatbots</h1>
         <div className="expertise-grid-999">
-          <button className="expertise-item-999">CRM Development <FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Sales Automation & Lead Tracking <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Client Support Portals<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Hiring/HRMS Platforms<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Corporate Training Solutions<FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Gamified Learning Modules<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Payroll & Attendance Automation (HRMS)<FontAwesomeIcon icon={faArrowRight} /> </button>
-          <button className="expertise-item-999">Recruitment & Onboarding Tools <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Performance Management Systems<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Property Management Platform<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Broker & Agent CRM <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Rental & Lease Management<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Accounting & Billing Systems <FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">GInvestment & Portfolio Management<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Expense Tracking & Budgeting Tools<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Workflow Automation<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Rental & Lease Management<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Custom ERP Modules<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">Industry-Specific Solutions<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">ChatOps & Collaboration Tools<FontAwesomeIcon icon={faArrowRight} /></button>
-          <button className="expertise-item-999">POS (Point of Sale) Systems<FontAwesomeIcon icon={faArrowRight} /></button>
+          <Link to="/Bdt1">
+                    <button className="expertise-item-999"> Accounting & Billing Systems <FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+          <Link to="/Bdt2">
+                    <button className="expertise-item-999">Broker & Agent CRM<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/Bdt3">
+                    <button className="expertise-item-999">ChatOps & Collaboration Tools<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/Bdt4">
+                    <button className="expertise-item-999"> Client Support Portals<FontAwesomeIcon icon={faArrowRight} /></button>
+
+          </Link>
+          <Link to="/Bdt5">
+                    <button className="expertise-item-999">Custom ERP Modules<FontAwesomeIcon icon={faArrowRight} /> </button>
+
+          </Link>
+<Link to="/Bdt6">
           <button className="expertise-item-999">E-commerce Integrations<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt7">
+          <button className="expertise-item-999">Elearning Platforms (LMS)<FontAwesomeIcon icon={faArrowRight} /> </button>
+
+</Link>
+<Link to="/Bdt8">
+          <button className="expertise-item-999">Expense Tracking & Budgeting Tools <FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt9">
+          <button className="expertise-item-999">Gamified Learning Modules<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt10">
+          <button className="expertise-item-999">Industry-Specific Solutions<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt11">
+          <button className="expertise-item-999"> CRM Development<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt12">
+          <button className="expertise-item-999">Sales Automation & Lead Tracking<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+
+
+
+<Link to="/Bdt13">
+          <button className="expertise-item-999">Corporate Training Solutions <FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt14">
+          <button className="expertise-item-999">Payroll & Attendance Automation (HRMS)<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt15">
+          <button className="expertise-item-999">Performance Management Systems<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt16">
+          <button className="expertise-item-999">Investment & Portfolio Management<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt17">
+          <button className="expertise-item-999">POS (Point of Sale) Systems<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt18">
+          <button className="expertise-item-999">Property Management Platforms<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt19">
+          <button className="expertise-item-999"> Recruitment & Onboarding Tools<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt20">
+          <button className="expertise-item-999">Rental & Lease Management<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
+<Link to="/Bdt21">
+          <button className="expertise-item-999">Workflow Automation (Custom Tools)<FontAwesomeIcon icon={faArrowRight} /></button>
+
+</Link>
         </div>                                                                                                                                      
       </div>
 
       <div className="services-999">
-              <h1>Our Other Services & Solutions</h1>
-              <div className="service-button-999">
-                <button className="service-item-999">
-                  IT Consulting <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Web Development <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Web Design <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} />
-                  
-                </button>
-                <button className="service-item-999">
-                  Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} />
-                  
-                </button>
-                <button className="service-item-999">
-                  Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} />
-                  
-                </button>
-                <button className="service-item-999">
-                  Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
-                  
-                </button>
-                <button className="service-item-999">
-                  Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                {/* <button className="service-item-999">
-                  Business Tools & Development <FontAwesomeIcon icon={faArrowRight} />
-                </button> */}
-                <button className="service-item-999">
-                  Cyber Solutions <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Emerging Tech <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-                <button className="service-item-999">
-                  Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-              </div>
-            </div>
-
+                                                           <h1>Our Other Services & Solutions</h1>
+                                                           <div className="service-button-999">
+                                                            <Link to="/ItConsulting">
+                                                             <button className="service-item-999">
+                                                               IT Consulting <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button>
+                                                            </Link>
+                                                           <Link to="/WebDevelopmentService">
+                                                             <button className="service-item-999">
+                                                               Web Development <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                             <Link to="/WebDesign">
+                                                             <button className="service-item-999">
+                                                               Web Design <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                            <Link to="/MobileApplications">
+                                                             <button className="service-item-999">
+                                                               Mobile Applications <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                            <Link to="/DigitalMarket">
+                                                             <button className="service-item-999">
+                                                               Digital Marketing Services <FontAwesomeIcon icon={faArrowRight} />
+                                                               
+                                                             </button></Link>
+                                                             <Link to="/DataScienceService">
+                                                             <button className="service-item-999">
+                                                               Data Science & Big Data Analytics <FontAwesomeIcon icon={faArrowRight} />
+                                                               
+                                                             </button></Link>
+                                                             {/* <button className="service-item-999">
+                                                               Machine Learning & Deep Learning <FontAwesomeIcon icon={faArrowRight} />
+                                                               
+                                                             </button> */}
+                                                            <Link to="/Csda">
+                                                             <button className="service-item-999">
+                                                               Cloud Services & DevOps Automation <FontAwesomeIcon icon={faArrowRight} />
+                                                               
+                                                             </button></Link>
+                                                            <Link to="/Ai">
+                                                             <button className="service-item-999">
+                                                               Artificial Intelligence <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                           
+                                                            <Link to="/CyberSecurity">
+                                                             <button className="service-item-999">
+                                                               Cyber Solutions <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                            <Link to="/Emerging">
+                                                             <button className="service-item-999">
+                                                               Emerging Tech <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button></Link>
+                                                             <Link to="/FullStackService">
+                                                             <button className="service-item-999">
+                                                               Full Stack Web & SaaS Development <FontAwesomeIcon icon={faArrowRight} />
+                                                             </button>
+                                                             </Link>
+                                                           </div>
+                                                         </div>
            <div className="why-choose-us-999">
                    <h2>Why Choose Us?</h2>
                    <p className="subheading-999">

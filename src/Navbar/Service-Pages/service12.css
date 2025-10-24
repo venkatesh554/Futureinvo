@@ -297,7 +297,125 @@ ul {
 
 
 
+.chatbots-999 {
+  text-align: center;
+}
 
+.expertise-grid-999 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+}
+
+.expertise-item-999 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;              /* ✅ Updated width */
+  height: 60px;              /* Consistent height */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #ddd;
+  border-radius: 10px;
+  color: #333;
+  border: none;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.expertise-item-999:hover {
+  background-color: #ccc;
+  transform: translateY(-2px);
+  background-color: #0056b3;
+}
+
+/* Services section */
+.services-999 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+  margin-top:100px;
+}
+
+.services-999 h1 {
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.service-button-999 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-item-999 {
+  display: flex;
+  justify-content: center;      /* Centers text + icon horizontally */
+  align-items: center;          /* Centers vertically */
+  gap: 10px;                    /* Space between text and icon */
+  width: 300px;                 /* ✅ Updated width */
+  height: 60px;                 /* Same height */
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ddd;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.service-item-999:hover {
+  background-color: #ccc;
+  transform: translateY(-2px);
+  background-color:#0056b3;
+}
+
+
+
+
+
+
+/* 
+.service-button-999 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-item-999 {
+  display: flex;
+  justify-content: center;      
+  align-items: center;          
+  gap: 10px;                   
+  width: 300px;                 
+  height: 60px;                
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ddd;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.service-item-999:hover {
+  background-color: #ccc;
+  transform: translateY(-2px);
+}
 
 
 
@@ -332,10 +450,10 @@ ul {
     background-color: #2A619B;
     color: #ddd;
     overflow: hidden;
-}
+} */
 
+/* 
 .services-999 {
-    /* Assuming this is for the services div */
     position: relative;
     top:30px;
 }
@@ -365,7 +483,56 @@ ul {
     color: #333;
     overflow: hidden;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+} */
+
+
+.services-999 {
+  position: relative;
+  top: 30px;
 }
+
+.services-999 h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  top:0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.service-button-999 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  justify-items: center;
+}
+
+.service-item-999 {
+  display: flex;
+  justify-content: center;     
+  align-items: center;        
+  gap: 10px;                  
+  width: 300px;               
+  height: 60px;                
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ddd;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.service-item-999:hover {
+  background-color: #ccc;
+  transform: translateY(-2px);
+  background-color: #0056b3;
+}
+
 
 button:hover {
     background-color: #2A619B;
@@ -400,12 +567,12 @@ button:hover {
     overflow: hidden;
     font-family: 'poppins', sans-serif;
     position: relative;
-    top:-0px;
+    top:0px;
 }
 
 
 
-
+/* 
 .extensive-999 {
     border-color: #398fe0;
 }
@@ -453,7 +620,73 @@ border-radius:5px;
   position: relative;
   top: 0px;           
   z-index: 2;            
+} */
+
+
+.feature-card {
+  box-shadow: 10px 20px 20px rgb(223, 220, 220);
+  width: 250px;
+  height: 280px;
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
 }
+
+/* Add bottom color border effect */
+.feature-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 6px;   /* Adjust line thickness */
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+.feature-card h3{
+  position: relative;
+  top:10px;
+}
+/* Each card gets its unique color */
+.extensive-999::after {
+  background-color: #398fe0;
+}
+
+.flexible-999::after {
+  background-color: #e5a74e;
+}
+
+.quick-999::after {
+  background-color: #bd7ce9;
+}
+
+.cross-industry-999::after {
+  background-color: #48bb78;
+}
+
+.sla-driven-999::after {
+  background-color: #e53e3e;
+}
+
+.features-grid-999 {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+  overflow: visible; 
+  position: relative;
+  top: 0;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+  text-align: center;
+  position: relative;
+  top: 20px;           
+  z-index: 2;            
+}
+
 
 
 .background-overlay-999 {
