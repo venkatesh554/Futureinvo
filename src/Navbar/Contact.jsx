@@ -80,8 +80,12 @@ export default function Contact() {
           </div>  
            <div className="bgimg">
                     <img src={bgimg} />
+                    
                   </div>
+                              <h2>Contact Us</h2>
+
          <div className="contacting-form">
+          
            <div className="contact-us-form">
             <div className="leftside-form">
              <div className="firsthead">

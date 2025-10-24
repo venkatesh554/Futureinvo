@@ -525,7 +525,7 @@
     flex-direction: column !important; /* Stack title, questions, image */
     align-items: center !important;
     justify-content: flex-start !important;
-    margin-top:270px !important;
+    margin-top:570px !important;
   }
 
   /* FAQ Title Container: Centered, no offset */
@@ -1048,7 +1048,7 @@
   #dup3 {
     position: relative !important;
     top: 0 !important;
-    width: 100% !important;    margin-top:150px !important;
+    width: 100% !important;    margin-top:50px !important;
 
   }
 

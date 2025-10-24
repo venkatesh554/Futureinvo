@@ -448,7 +448,11 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   .tt {
     width: 100% !important;
     height: auto !important;
-  }
+  }.faq h2{
+  opacity:1 !important;
+  font-size:3rem !important;
+  color:white;
+}
 
   /* FAQ/Contact Section: Reset positioning, full width, auto height */
   .faq {
@@ -1065,7 +1069,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     position: relative !important;
     top: 0 !important;
     font-weight: 600 !important;
-    font-size: 1.3rem !important; /* Larger */
+    font-size: 1 rem !important; /* Larger */
     margin: 0 !important;
     color: white !important;
     line-height: 1.3 !important;
@@ -1361,6 +1365,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     text-align: left !important; /* Left align */
     display: block !important;
   }
+  
 
   .links1 a:hover {
     color: #007BFF !important;
@@ -1378,10 +1383,19 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     top:-200px !important;
 
 }
+.faq h2{
+  opacity:1 !important;
+  font-size:3rem !important;
+  color:white;
+}
 
 }
 
 
+
+.faq h2{
+  opacity:0;
+}
 
 
 
@@ -1406,6 +1420,11 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   * {
     box-sizing: border-box !important;
   }
+.faq h2{
+  opacity:1;
+  font-size:3rem !important;
+  color:white;
+}
 
   /* TT Container: Reset for natural flow */
   .tt {
@@ -1416,7 +1435,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   /* FAQ/Contact Section: Reset positioning, full width, auto height */
   .faq {
     position: absolute !important;
-    top: -300px !important;
+    top: -600px !important;
     width: 100% !important;
     height: auto !important;
     background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
@@ -1432,12 +1451,12 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     width: 100% !important;
     text-align: center !important;
     margin-bottom: 20px !important;
-    top: 400px !important;
+    top: 100px !important;
   }
 
   .dup-from-faq h1 {
     position: relative !important;
-    top: 130px !important;
+    top: 730px !important;
     color: white !important;
     font-size: 2.5rem !important; /* Smaller for mobile */
     margin: 0 !important;
@@ -1747,7 +1766,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   /* Footer Contact 2: Reset positioning, stacked */
   .footer-contact-2 {
     position: absolute !important;
-    top: 530px !important; /* Reset negative top */
+    top: 600px !important; /* Reset negative top */
     width: 100% !important;
   }
 
