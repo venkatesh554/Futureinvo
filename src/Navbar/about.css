@@ -1055,7 +1055,7 @@
     color: inherit !important;
   }
  #block8-h2-p {
-    font-size: 1rem !important; /* Smaller headings */
+    font-size: 1rem !important; 
     margin: 0 0 20px 0 !important;
     line-height: 1.3 !important;
     width:70% !important;
@@ -1302,7 +1302,7 @@
 
  .footerr{
   position:relative;
-  top:400px !important;
+  top:430px !important;
  }
  .lastt{
   position:relative;
