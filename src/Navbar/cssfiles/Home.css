@@ -2808,6 +2808,7 @@ width:100%;
     top: 0 !important;
     text-align: justify;
     margin: 20px 0 !important; /* More margin */
+    padding:30px !important;
   }
 
   .right-subs {

@@ -942,6 +942,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     align-items: center !important;
   }
 
+
   /* Title Container: Centered, full width */
   .dup-from-faq {
     position: relative !important;
@@ -1027,7 +1028,6 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     height: auto !important;
   }
 
-  /* Contact Lines (Firstline, Secondline, Thirdline): Reset positions, center */
   .firstline,
   .secondline,
   .thirdline {
@@ -1462,11 +1462,10 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     line-height: 1.3 !important;
   }
 
-  /* Background Image: Responsive, centered above form */
   .bgimg {
     width: 100% !important;
     max-width: 300px !important; /* Cap size */
-    margin: 0 auto 30px auto !important; /* Center with bottom space */
+    margin: 0 auto 30px auto !important; 
   }
 
   .bgimg img {
