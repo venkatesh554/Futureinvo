@@ -1483,7 +1483,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   .contacting-form {
     position: relative !important;
     top: 0 !important; /* Reset large top */
-    width: 100% !important;
+    width: 120% !important;
     height: auto !important;
     margin-top: 0 !important;
     padding: 20px !important; /* Internal padding */

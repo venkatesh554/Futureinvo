@@ -208,8 +208,8 @@
   .faq .chooseus {
     position: relative !important; /* Changed to relative */
     top: 0 !important; /* Reset top */
-    width: 100% !important; /* Full width (override 200%) */
-    margin-top: 30px !important; /* Gap from FAQ */
+    width: 120% !important; /* Full width (override 200%) */
+    margin-top: 20px !important; /* Gap from FAQ */
     padding: 30px !important; /* More padding */
     text-align: center !important;
   }
@@ -632,7 +632,7 @@
 
   .dup3-h2,
   #block8-h2-p {
-    font-size: 1.6rem !important; /* Smaller headings */
+    font-size: 1.5rem !important; /* Smaller headings */
     margin: 0 0 20px 0 !important;
     line-height: 1.3 !important;
     color: inherit !important;
@@ -1034,7 +1034,7 @@
   .faq .chooseus {
     position: absolute !important;
     top: 1400px !important; /* Reset top */
-    width: 100% !important; /* Full width (override 200%) */
+    width: 120% !important; /* Full width (override 200%) */
     margin-top: 20px !important; /* Gap from FAQ */
     padding: 20px !important; /* Internal padding */
     text-align: center !important;
@@ -1048,14 +1048,20 @@
 
   }
 
-  .dup3-h2,
-  #block8-h2-p {
+  .dup3-h2 {
     font-size: 1.6rem !important; /* Smaller headings */
     margin: 0 0 20px 0 !important;
     line-height: 1.3 !important;
     color: inherit !important;
   }
-
+ #block8-h2-p {
+    font-size: 1rem !important; /* Smaller headings */
+    margin: 0 0 20px 0 !important;
+    line-height: 1.3 !important;
+    width:70% !important;
+    left:15%;
+    color: inherit !important;
+  }
   /* Cards2 / FAQ Cards: Stack vertically, full width */
   .cards2,
   #faq-cards {
@@ -1133,9 +1139,9 @@
 
   .faq .footerr {
     position: relative !important;
-    top: 1750px !important; 
-    width: 100% !important;
-    margin-top: 40px !important;
+    top: 1700px !important; 
+    width: 120% !important;
+    margin-top: 0px !important;
   }
 
   #footer-dup {
@@ -1252,12 +1258,13 @@
     top: 0 !important;
     width: 100% !important;
     margin-top: 0 !important;
+    left:-20px !important;
   }
 
   .faq #dup-last {
     position: absolute !important;
-    top: 2050px !important;
-    width: 100% !important;
+    top: 2000px !important;
+    width: 120% !important;
     height: auto !important;
     background-color: rgb(54, 127, 192) !important;
     display: flex !important;
