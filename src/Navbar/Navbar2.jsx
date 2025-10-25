@@ -933,7 +933,9 @@ export default function Navbar2() {
                      <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com_</i>
                      <i> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</i>
 
-             <p> <FontAwesomeIcon icon={faFacebookF} id="ic-links"/> <FontAwesomeIcon icon={faLinkedin} id="ic-links"/> <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p>
+             <p> <FontAwesomeIcon icon={faFacebookF} id="ic-links"/>
+              <FontAwesomeIcon icon={faLinkedin} id="ic-links"/>
+             <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p>
                      
          
          </div>

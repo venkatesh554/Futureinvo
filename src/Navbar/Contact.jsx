@@ -82,7 +82,7 @@ export default function Contact() {
                     <img src={bgimg} />
                     
                   </div>
-                              <h2>Contact Us</h2>
+                              <h2 id="con-h2">Contact Us</h2>
 
          <div className="contacting-form">
           
@@ -209,10 +209,10 @@ export default function Contact() {
                         <img src={footericon}/>
                         <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
                         <div className="icn">
-                           <FontAwesomeIcon icon={faFacebookF}/>
-                           <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
-                           <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
-                        </div>
+                                        <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F#" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                                       <a href="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in#"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                                       <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+                                      </div>
                         <div className="links">
                           <div className="links1">
                             <h3>Quick Links</h3>

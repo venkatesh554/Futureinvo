@@ -60,7 +60,7 @@ export default function AboutUs() {
 
 
 <div className="block7" id="sevenn">
-                          <h1>FAQs</h1>
+                          <h1 id="con-h2">FAQs</h1>
 
             <h2 id="business"> What's on your mind? Just ask us!</h2><br></br>
 
@@ -123,6 +123,9 @@ export default function AboutUs() {
             </div>
           </div>
           </div>
+
+
+          
            <div className="footerr">
 
             <div className="footer" id="footer-dup">
@@ -130,26 +133,35 @@ export default function AboutUs() {
                         <img src={footericon}/>
                         <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
                         <div className="icn">
-                           <FontAwesomeIcon icon={faFacebookF}/>
-                           <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
-                           <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
-                        </div>
+                                        <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                                       <a href="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                                       <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+                                      </div>
                         <div className="links">
                           <div className="links1">
                             <h3>Quick Links</h3>
-                          <Link> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Careers</a>
+                          <Link to="/"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
+<Link to="/ItConsulting">                          <FontAwesomeIcon icon={faAngleRight} />Our Services
+
+</Link>           
+<Link to="/About">             <FontAwesomeIcon icon={faAngleRight} />FAQ'S
+
+</Link>
+<Link to="/Contact">
+                          <FontAwesomeIcon icon={faAngleRight} />Contact Us
+
+</Link>                        
+<Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Careers
+</Link>
                         </div>
                          <div className="links1">
                             <h3>IT Services</h3>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Web Development</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />App Development</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
+                          <Link><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+                        <Link>  <FontAwesomeIcon icon={faAngleRight} />IT Consulting</Link>
+                        <Link to="/WebDevelopmentService">  <FontAwesomeIcon icon={faAngleRight} />Web Development
+</Link>
+                        <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
+                        <Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Trainings</Link>
                         </div>
                          <div className="links1">
                             <h3>Contact Us</h3>

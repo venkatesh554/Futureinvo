@@ -45,7 +45,7 @@
     width:200%;
   
 }
-
+/* 
 .footerr{
     position:relative;
     top:400px;
@@ -64,7 +64,7 @@
 #sevenn h2{
   opacity:0;
 }
-
+ */
 
 
 
@@ -486,10 +486,6 @@
 
 
 
-
-
-
-
 @media (max-width: 576px) {
   /* General: Prevent overflow and ensure consistent sizing */
   body {
@@ -505,13 +501,13 @@
     width: 100% !important;
     height: auto !important;
   }
-  #sevenn h1{
+  /* #sevenn h1{
     opacity:1;
     color:white;
     font-size:4rem !important;
     position: relative !important;
     left:100px !important;
-  }
+  } */
 
   /* FAQ Section: Reset positioning, full width, auto height with padding */
   .faq {
@@ -1297,5 +1293,15 @@
 
 
 
-
-
+ .footerr{
+  position:relative;
+  top:400px !important;
+ }
+ .lastt{
+  position:relative;
+  top:400px !important;
+ }
+  .footerr img{
+    position:relative;
+    left:0px !important;
+  }

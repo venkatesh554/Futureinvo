@@ -284,8 +284,6 @@
 
 
 
-
-
 @media (max-width: 400px) {
   /* General: Prevent overflow and ensure consistent sizing */
   body {
@@ -977,7 +975,7 @@
   }
 
   #h22 {
-    font-size: 1.8rem !important;
+    font-size: 1.2rem !important;
     line-height: 1.3 !important;
     margin: 0 0 15px 0 !important;
   }
@@ -1941,6 +1939,186 @@ left: 0px !important;
 
 
 
+
+
+
+
+.faq-footer {
+  position: relative;
+  top: 650px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-bottom: 0;
+  padding-top:50px;
+}
+
+.faq-footer img {
+  width: 150px;
+  height: 120px;
+  margin: 0 auto 25px auto;
+  left:-200px !important;
+}
+
+
+.icn svg:hover {
+  color: #007BFF;
+}
+ #footer-dup .line1 img{
+  width:150px;
+  height:100px;
+  margin-top:0px;
+  opacity: 2;
+  position:relative;
+  left:-100px;
+} 
+
+
+
+
+
+
+
+/* 
+
+.faq-footer {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 60px 30px 30px 30px;
+  margin-bottom: 0;
+}
+
+.faq-footer img {
+  width: 250px;
+  height: 60px;
+  margin: 0 auto 25px auto;
+  display: block;
+}
+
+.line1 {
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.line1 p {
+  white-space: normal;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0 auto 25px auto;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+.icn {
+  position: relative;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.icn svg {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.icn svg:hover {
+  color: #007BFF;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  position: relative;
+  top: 0;
+  left: 100px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.links1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+.links1 h3 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.links1 a {
+  text-decoration: none;
+  position: relative;
+  left: 0;
+  color: white;
+  margin-bottom: 12px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+}
+
+.links1 a:hover {
+  color: #007BFF;
+}
+
+.links1 a[href*="location"],
+.links1 a[href*="envelope"],
+.links1 a[href*="phone"] {
+  text-align: left;
+  left: 0;
+  padding-left: 30px;
+}
+
+.last-line {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(54, 127, 192);
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#ii {
+  position: relative;
+  left: 0;
+}
+
+.last-line i {
+  position: relative;
+  left: 0;
+  top: 0;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+
+@keyframes float {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-10px); }
+} */ 
 
 
 

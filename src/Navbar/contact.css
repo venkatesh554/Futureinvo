@@ -356,11 +356,11 @@ padding-top:40px;
 
 .footer-contact-2{
     position:relative;
-    top:-450px;
+    top:-400px;
 }
 .footer-line-contact{
     position:relative;
-    top:-450px;
+    top:-50px;
 }
 
 
@@ -1393,10 +1393,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
 
 
 
-.faq h2{
+#con-h2{
   opacity:0;
 }
-
 
 
 
@@ -1763,7 +1762,6 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     max-width: 100% !important; /* No 1500px overflow */
   }
 
-  /* Footer Contact 2: Reset positioning, stacked */
   .footer-contact-2 {
     position: absolute !important;
     top: 600px !important; /* Reset negative top */

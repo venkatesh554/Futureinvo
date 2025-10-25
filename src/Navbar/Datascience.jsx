@@ -4,6 +4,7 @@ import one from "./trainingImages/Training-one.png"
 import two from "./trainingImages/datascienceone.png"
 import three from "./trainingImages/datasciencetwo.png"
 import four from "./trainingImages/datasciencethree.png"
+import { Link } from "react-router-dom";
 
 
 import first from "./Training-box-images/firstt.png";
@@ -119,7 +120,6 @@ export default function Datascience() {
             settings, ensuring you are job-ready. Whether you are a student or a working professional, this program provides the ultimate blend of theoretical mastery and 
             practical experience for a successful career 
           </p>
-          <button>Know More</button>
         </div>
        
        <div className="component2">
@@ -498,28 +498,34 @@ export default function Datascience() {
                                           <div className="line1">
                                            <img src={footericon}/>
                                            <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
-                                           <div className="icn">
-                                              <FontAwesomeIcon icon={faFacebookF}/>
-                                              <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
-                                              <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
-                                           </div>
-                                           <div className="links">
-                                             <div className="links1">
-                                               <h3>Quick Links</h3>
-                                             <a href="#"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Careers</a>
-                                           </div>
-                                            <div className="links1">
-                                               <h3>IT Services</h3>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Web Development</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />App Development</a>
-                                             <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
-                                           </div>
+                                            <div className="icn">
+                                                                                  <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F#" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                                                                                 <a href="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in#"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                                                                                 <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+                                                                                </div>
+                                            <div className="links">
+                <div className="links1">
+                  <h3>Quick Links</h3>
+<Link to="/">                <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions
+
+</Link>    
+         <Link to="/ItConsulting">  <FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
+               <Link to="/About"> <FontAwesomeIcon icon={faAngleRight} />FAQ'S
+               </Link>
+               <Link to="/Contact"> <FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
+               <Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Careers</Link>
+              </div>
+               <div className="links1">
+                  <h3>IT Services</h3>
+                                  <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+
+                <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+              <Link to="/WebDevelopmentService"> <FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
+                <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
+               <Link to="/Trainings">
+                <FontAwesomeIcon icon={faAngleRight} />Trainings
+               </Link>
+              </div>
                                             <div className="links1">
                                                <h3>Contact Us</h3>
 <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>

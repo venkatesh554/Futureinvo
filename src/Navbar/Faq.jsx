@@ -10,6 +10,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import img3 from "../block1-images/imgg33.jpg"
 import img4 from "../block1-images/imgg44.jpg"
+import { Link } from "react-router-dom";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -94,7 +95,7 @@ export default function Faq() {
            </div>
            </div>
        <div className="off">
-         <div className="faq-offering" id="offer">
+         <div className="our-offering" id="offer">
           <h2 id="h2">Our Offering</h2>
             <h2 id="h22">Pioneering and Advancing Technology Trends</h2>
             
@@ -207,31 +208,37 @@ export default function Faq() {
               <img src={footericon}/>
               <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
               <div className="icn">
-                 <FontAwesomeIcon icon={faFacebookF}/>
-                 <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
-                 <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
-              </div>
+                              <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                             <a href="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                             <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+                            </div>
               <div className="links">
                 <div className="links1">
                   <h3>Quick Links</h3>
-                <a href="#"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />Careers</a>
+<Link to="/">                <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions
+
+</Link>    
+         <Link to="/ItConsulting">  <FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
+               <Link to="/Faq"> <FontAwesomeIcon icon={faAngleRight} />FAQ'S
+               </Link>
+               <Link to="/Contact"> <FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
+               <Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Careers</Link>
               </div>
                <div className="links1">
                   <h3>IT Services</h3>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />Web Development</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />App Development</a>
-                <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
+                                  <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+
+                <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+              <Link to="/WebDevelopmentService"> <FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
+                <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
+               <Link to="/Trainings">
+                <FontAwesomeIcon icon={faAngleRight} />Trainings
+               </Link>
               </div>
                <div className="links1">
                   <h3>Contact Us</h3>
 <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>cd si                <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>               <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                 <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
               
               </div>

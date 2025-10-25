@@ -256,31 +256,36 @@ export default function Home() {
                       <p className="p00">We build robust, scalable websites to your business needs ensuring a seamless and engaging user experience</p>
 
 
-                     <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
-                  </div>
+                 <Link to="/WebDevelopmentService">     <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
+</Link>     
+             </div>
                   <div className="box-20">
                     <img src={web}/>
                     <h3>Web Design</h3>
                           <p className="p00">Our Visually appeaing and user friendly designs capitative your audience enhancing overall engagement and satisfaction</p>
 
-                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
-                  </div>
+<Link to="/WebDesign">                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
+</Link>                  </div>
                   <div className="box-21">
                     <img src={app}/>
                      <h3>App Development</h3>
                        <p className="p00">We develop Innovative mobile apps focused on delivering exceptional user experiences aligned with your business goals</p>
-                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
+                       <Link to="/MobileApplications">                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
+</Link>
                   </div> 
                    <div className="box-22">
                     <img src={digital}/>
                      <h3>Digital Marketing Service</h3>
                       <p className="p00">Our Digital Marketing Stratagies boost your online presence and connect you with your target audience effectively</p>
+                      <Link to="/DigitalMarket">                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
 
-                      <button>View More <FontAwesomeIcon icon={faArrowRight} /></button>
-                  </div> 
+                      </Link>
+
+                               </div> 
                    <div className="box-23">
                      <h3>For More <br></br>Services</h3>
-                      <button>Click Here <FontAwesomeIcon icon={faArrowRight} /></button>
+                     <Link to="/ItConsulting">                      <button>Click Here <FontAwesomeIcon icon={faArrowRight} /></button>
+</Link>
                   </div> 
                     
                 </div>
@@ -493,10 +498,10 @@ export default function Home() {
               <img src={footericon} />
               <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
               <div className="icn">
-                 <FontAwesomeIcon icon={faFacebookF}/>
-                 <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/>
-                 <FontAwesomeIcon icon={faInstagram} id="ic-links"/>
-              </div>
+                 <a to="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                <a to="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+               </div>
               <div className="links">
                 <div className="links1">
                   <h3>Quick Links</h3>
