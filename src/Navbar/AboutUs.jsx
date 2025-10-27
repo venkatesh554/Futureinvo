@@ -141,7 +141,7 @@ export default function AboutUs() {
                           <div className="links1">
                             <h3>Quick Links</h3>
                           <Link to="/"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
-<Link to="/ItConsulting">                          <FontAwesomeIcon icon={faAngleRight} />Our Services
+<Link to="/OurServicesPage">                          <FontAwesomeIcon icon={faAngleRight} />Our Services
 
 </Link>           
 <Link to="/About">             <FontAwesomeIcon icon={faAngleRight} />FAQ'S

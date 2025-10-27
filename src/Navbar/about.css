@@ -722,12 +722,12 @@
     position: absolute !important;
     top: 1650px !important;  /* Increased from 1700px to move footer down a bit */
     width: 100% !important;
-    margin-top: -0px !important;
+    margin-top: 0px !important;
   }
 
   .faq #footer-dup {
     position: relative !important;
-    top: 450px !important;
+    top: 350px !important;
     
   }
 

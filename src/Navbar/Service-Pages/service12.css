@@ -1151,6 +1151,7 @@ top:-20px;
   max-width: 1200px; /* Limit container width */
   width: 100%;
   margin: 0px auto; /* Center the grid */
+
   
 }
 
@@ -1229,6 +1230,7 @@ top:-20px;
   max-width: 1600px; /* Limit container width */
   width: 100%;
   margin: 0 auto; /* Center the grid */
+  background-color: #ecf3fd;
 }
 
 /* Service Item Button */
