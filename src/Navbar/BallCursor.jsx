@@ -1,68 +1,50 @@
-// import React, { useEffect, useState } from "react";
-// import { motion } from "framer-motion";
-// import "./BallCursor.css";
-
-// const BallCursor = () => {
-//   const [cursor, setCursor] = useState({ x: 0, y: 0 });
-
-//   useEffect(() => {
-//     const move = (e) => setCursor({ x: e.clientX, y: e.clientY });
-//     window.addEventListener("mousemove", move);
-//     return () => window.removeEventListener("mousemove", move);
-//   }, []);
-
-//   return (
-//     <motion.div
-//       className="ball-cursor-3d"
-//       animate={{ x: cursor.x - 25, y: cursor.y - 25 }}
-//       transition={{
-//         type: "spring",
-//         stiffness: 300,
-//         damping: 20,
-//         mass: 0.5,
-//       }}
-//     >
-//       <div className="inner-light"></div>
-//     </motion.div>
-//   );
-// };
-
-// export default BallCursor;
-
-
-
-import React, { useEffect, useState } from "react";
-import { motion, useMotionValue, useSpring } from "framer-motion";
-import "./BallCursor.css";
+import React, { useState, useEffect } from 'react';
+import './BallCursor.css'; // Import the CSS file
 
 const BallCursor = () => {
-    
-  const mouseX = useMotionValue(0);
-  const mouseY = useMotionValue(0);
-
-  const springX = useSpring(mouseX, { stiffness: 300, damping: 25 });
-  const springY = useSpring(mouseY, { stiffness: 300, damping: 25 });
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [trail, setTrail] = useState([]);
 
   useEffect(() => {
-    const move = (e) => {
-      mouseX.set(e.clientX - 25);
-      mouseY.set(e.clientY - 25);
+    const handleMouseMove = (e) => {
+      const newPosition = { x: e.clientX, y: e.clientY };
+      setMousePosition(newPosition);
+
+      setTrail((prevTrail) => {
+        const newTrail = [...prevTrail, newPosition];
+        return newTrail.slice(-10);
+      });
     };
-    window.addEventListener("mousemove", move);
-    return () => window.removeEventListener("mousemove", move);
-  }, [mouseX, mouseY]);
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
 
   return (
-   <motion.div
-  className="ball-cursor-3d"
-  style={{ x: springX, y: springY }}
->
-  <div className="inner-light"></div>
-</motion.div>
-
+    <>
+      {/* Main cursor */}
+      <div
+        className="cursor"
+        style={{
+          left: mousePosition.x,
+          top: mousePosition.y,
+        }}
+      />
+      {/* Trail dots */}
+      {trail.map((point, index) => (
+        <div
+          key={index}
+          className="trail-dot"
+          style={{
+            left: point.x,
+            top: point.y,
+            animationDelay: `${index * 0.1}s`, // Stagger the animation
+            opacity: 1 - (index / trail.length), // Fade out older dots
+          }}
+        />
+      ))}
+    </>
   );
 };
 
 export default BallCursor;
-
-

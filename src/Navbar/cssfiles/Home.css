@@ -2808,7 +2808,7 @@ width:100%;
     top: 0 !important;
     text-align: justify;
     margin: 20px 0 !important; /* More margin */
-    padding:30px !important;
+    padding:30px !important
   }
 
   .right-subs {
@@ -6043,6 +6043,8 @@ width:100%;
     top: 0 !important;
     text-align: justify;
     margin: 15px 0;
+        padding:30px !important;
+
   }
 
   .right-subs {
@@ -6081,7 +6083,7 @@ width:100%;
   .right-sub1 p, .right-sub2 p {
     font-size: 14px;
     line-height: 1.4;
-    margin: 0;
+    margin: -20px !important;
     text-align: center;
   }
 
@@ -7378,7 +7380,7 @@ width:100%;
 
   .block6 + .cards-arrows button {
     position: absolute !important; 
-    top: 68.5% !important; 
+    top: 68.8% !important; 
     transform: translateY(-50%) !important; 
     left: 10px !important; 
     right: auto !important; 

@@ -835,6 +835,8 @@ border:1px solid white;
 
     .driving-innovation-child {
         /* Center the text and adjust widths */
+        position:relative;
+        top:0px !important;
         text-align: center !important;
         width: 100% !important;
         padding: 0 15px !important; /* Reduced padding for tighter fit on smaller screen */
@@ -860,7 +862,8 @@ border:1px solid white;
         /* Adjust height and position for mobile */
         height: auto !important; /* Let it adjust based on content */
         top: 280px !important; /* Reduced top margin for smaller screen */
-        padding: 15px !important; /* Reduced padding */
+        padding: 10px !important; /* Reduced padding */
+        width:120% !important;
     }
 
     .digital-change {
@@ -1588,14 +1591,14 @@ border:1px solid white;
     .left-side-para p {
         /* Adjust paragraph positioning and line height for tablet */
         position: relative !important;
-        top: 10px !important; /* Adjusted top */
+        top: 0px !important; /* Adjusted top */
         line-height: 30px !important; /* Slightly larger line height */
     }
 
     .left-side-para ul {
         /* Adjust the list for tablet, centering and adjusting spacing */
         position: relative !important;
-        top: 20px !important; /* Adjusted top */
+        top: 0px !important; /* Adjusted top */
         left: 0 !important; /* Reset left */
         line-height: 27px !important; /* Slightly larger line height */
         text-align: center !important; /* Center list */
@@ -1617,7 +1620,7 @@ border:1px solid white;
         position: relative !important;
         top: 10px !important; /* Reset top */
         line-height: 27px !important; /* Slightly larger line height */
-        padding: 0 20px !important; /* Add padding */
+        padding: 10 20px !important; /* Add padding */
     }
 
     #training-form {
@@ -1692,7 +1695,7 @@ border:1px solid white;
     .training-footer {
         /* Adjust the main footer container for tablet, making it full width and auto height */
         position: relative !important; /* Changed from absolute to relative for better tablet flow */
-        top: 0 !important; /* Reset top */
+        top: -300px !important; /* Reset top */
         left: 0 !important; /* Reset left */
         width: 100% !important; /* Full width */
         height: auto !important; /* Auto height to fit content */
@@ -1701,15 +1704,21 @@ border:1px solid white;
 
     .training-footer .footer {
         /* Adjust the footer div for tablet, full width and center */
-        width: 100% !important; /* Full width */
-        left: 0 !important; /* Reset left */
+        width: 120% !important; /* Full width */
+        left: -50px !important; /* Reset left */
         text-align: center !important; /* Center content */
     }
-
+.line1 img{
+  position:relative !important;
+  width:100% !important;
+  left:-0px !important;
+}
     .training-footer .lastt {
         /* Adjust the lastt div for tablet, full width and center */
-        width: 100% !important; /* Full width */
-        left: 0 !important; /* Reset left */
+        position: relative !important;
+        top:300px !important;
+        width: 115% !important; /* Full width */
+        left: -100px !important; /* Reset left */
         text-align: center !important; /* Center content */
     }
 
@@ -2633,9 +2642,9 @@ border:1px solid white;
     .training-footer {
         /* Adjust the main footer container for mobile, making it full width and auto height, positioning relatively */
         position: relative !important; /* Changed from absolute to relative for better mobile flow */
-        top: -50px !important; /* Reset top for mobile */
+        top: -300px !important; /* Reset top for mobile */
         left: 0 !important; /* Reset left */
-        width: 100% !important; /* Full width */
+        width:115% !important; /* Full width */
         height: auto !important; /* Auto height to fit content */
         padding: 0px !important; /* Add padding for spacing */
     }
@@ -2649,8 +2658,8 @@ border:1px solid white;
 
     .training-footer .lastt {
         /* Adjust the lastt div for mobile, full width and center */
-        width: 100% !important; /* Full width */
-        left: 0 !important; /* Reset left */
+        width: 115% !important; /* Full width */
+        left: -140px !important; /* Reset left */
         text-align: center !important; /* Center content */
     }
 
@@ -2751,7 +2760,224 @@ border:1px solid white;
 
 
 
+@media (max-width: 425px) {
+    .training-footer {
+        position: relative !important;
+        top: -300px !important; 
+        left: 0 !important; /* Reset left */
+        width: 115% !important; /* Adjusted to 100% for 425px to prevent overflow */
+        height: auto !important; /* Auto height to fit content */
+        padding: 0px !important; /* Add padding for spacing */
+    }
 
+    .training-footer .footer {
+        /* Adjust the footer div for mobile, full width and center */
+        width: 100% !important; /* Full width */
+        left: 0 !important; /* Reset left */
+        text-align: center !important; /* Center content */
+    }
+
+    .lastt .last-line {
+        /* Adjust the lastt div for mobile, full width and center */
+        position:relative !important;
+        width: 115% !important; /* Adjusted to 100% for 425px */
+        left: 60px !important; /* Reset left for smaller screen */
+        text-align: center !important; /* Center content */
+        margin-top:500px !important;
+        margin-bottom:-350px !important;
+    }
+
+    .line1 {
+        /* Adjust the line1 container for mobile, stacking vertically */
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 12px !important; /* Reduced gap for smaller screen */
+    }
+
+    .line1 img {
+        /* Adjust the footer icon image for mobile, making it larger */
+        width: 80px !important; /* Smaller width for 425px */
+        height: auto !important; /* Auto height, added !important */
+    }
+
+    .line1 p {
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+        font-size: 12px !important; /* Smaller font for 425px */
+        padding: 0 8px !important; /* Reduced padding */
+    }
+
+    .icn {
+        /* Adjust the icons container for mobile, center and add gap */
+        display: flex !important;
+        justify-content: center !important;
+        gap: 12px !important; /* Reduced gap for smaller screen */
+    }
+
+    .icn .fa-facebook-f,
+    .icn .fa-linkedin,
+    .icn .fa-instagram {
+        /* Adjust individual icons for mobile, larger size */
+        font-size: 20px !important; /* Smaller icon size for 425px */
+    }
+
+    .links {
+        /* Adjust the links container for mobile, stack vertically */
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important; /* Reduced gap for smaller screen */
+        width: 100% !important; /* Full width */
+    }
+
+    .links1 {
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+    }
+
+    .links1 h3 {
+        /* Adjust headings in links1 for mobile */
+        font-size: 16px !important; /* Smaller font for 425px */
+        margin-bottom: 8px !important; /* Reduced margin */
+    }
+
+    .links1 a {
+        /* Adjust links in links1 for mobile, full width and center */
+        display: block !important; /* Block for full width */
+        text-align: center !important; /* Center text */
+        font-size: 12px !important; /* Smaller font for 425px */
+        margin: 4px 0 !important; /* Reduced vertical margin */
+        text-decoration: none !important; /* Remove underline if needed */
+    }
+
+    .last-line {
+        /* Adjust the last-line container for mobile, full width and center */
+        position:relative !important;
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+        padding: 8px 0 !important; /* Reduced padding */
+    }
+
+    .last-line i {
+        /* Adjust italic text in last-line for mobile */
+        display: block !important; /* Stack vertically */
+        font-size: 10px !important; /* Smaller font for 425px */
+        margin: 4px 0 !important; /* Reduced vertical margin */
+    }
+
+    /* Note: Other styles like #tt-three, .course-high, #apply, .rightside-form, etc., are not included as they are not part of the footer JSX provided. If they are related and need responsiveness, provide their JSX/CSS for inclusion. */
+}
+
+
+@media (max-width: 576px) {
+    .training-footer {
+        position: relative !important;
+        top: -300px !important; 
+        left: -30px !important; /* Reset left */
+        width: 115% !important; /* Adjusted to 100% for 576px to prevent overflow */
+        height: auto !important; /* Auto height to fit content */
+        padding: 0px !important; /* Add padding for spacing */
+    }
+
+    .training-footer .footer {
+        /* Adjust the footer div for mobile, full width and center */
+        width: 115% !important; /* Full width */
+        left: 0 !important; /* Reset left */
+        text-align: center !important; /* Center content */
+    }
+
+    .lastt .last-line {
+        /* Adjust the lastt div for mobile, full width and center */
+        position:relative !important;
+        width: 99% !important; /* Adjusted to 100% for 576px */
+        left: 100px !important; /* Reset left for larger screen */
+        text-align: center !important; /* Center content */
+        margin-top: 400px !important; /* Reduced for 576px */
+        margin-bottom: -300px !important; /* Adjusted for 576px */
+    }
+
+    .line1 {
+        /* Adjust the line1 container for mobile, stacking vertically */
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important; /* Slightly increased gap for 576px */
+    }
+
+    .line1 img {
+        /* Adjust the footer icon image for mobile, making it larger */
+        width: 100px !important; /* Larger for 576px */
+        height: auto !important; /* Auto height, added !important */
+    }
+
+    .line1 p {
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+        font-size: 14px !important; /* Larger font for 576px */
+        padding: 0 10px !important; /* Increased padding */
+    }
+
+    .icn {
+        /* Adjust the icons container for mobile, center and add gap */
+        display: flex !important;
+        justify-content: center !important;
+        gap: 15px !important; /* Increased gap for 576px */
+    }
+
+    .icn .fa-facebook-f,
+    .icn .fa-linkedin,
+    .icn .fa-instagram {
+        /* Adjust individual icons for mobile, larger size */
+        font-size: 24px !important; /* Larger for 576px */
+    }
+
+    .links {
+        /* Adjust the links container for mobile, stack vertically */
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 18px !important; /* Increased gap for 576px */
+        width: 100% !important; /* Full width */
+    }
+
+    .links1 {
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+    }
+
+    .links1 h3 {
+        /* Adjust headings in links1 for mobile */
+        font-size: 18px !important; /* Larger for 576px */
+        margin-bottom: 10px !important; /* Increased margin */
+    }
+
+    .links1 a {
+        /* Adjust links in links1 for mobile, full width and center */
+        display: block !important; /* Block for full width */
+        text-align: center !important; /* Center text */
+        font-size: 14px !important; /* Larger for 576px */
+        margin: 5px 0 !important; /* Increased margin */
+        text-decoration: none !important; /* Remove underline if needed */
+    }
+
+    .last-line {
+        /* Adjust the last-line container for mobile, full width and center */
+        position:relative !important;
+        width: 100% !important; /* Full width */
+        text-align: center !important; /* Center text */
+        padding: 10px 0 !important; /* Increased padding */
+    }
+
+    .last-line i {
+        /* Adjust italic text in last-line for mobile */
+        display: block !important; /* Stack vertically */
+        font-size: 12px !important; /* Larger for 576px */
+        margin: 5px 0 !important; /* Increased margin */
+    }
+
+    /* Note: Other styles like #tt-three, .course-high, #apply, .rightside-form, etc., are not included as they are not part of the footer JSX provided. If they are related and need responsiveness, provide their JSX/CSS for inclusion. */
+}
 
 
 
@@ -3459,177 +3685,6 @@ border:1px solid white;
 
 
 
-@media (max-width: 425px) {
-    #training-form {
-        /* Reposition the form for mobile, making it full width and relative positioning */
-        position: relative; /* Changed from absolute to relative for better mobile flow */
-        top: 130px; /* Reset top */
-        left: 0; /* Reset left */
-        width: 100%; /* Full width */
-        text-align: center; /* Center content */
-    }
-
-    #training-form form {
-        /* Adjust the form styling for mobile, full width and center */
-        position: relative;
-        top: 30px; /* Reset top */
-        background-color: rgba(55, 84, 142);
-        width: 106%; /* Full width */
-        padding: 20px; /* Increased padding for mobile */
-        left: -10px; /* Reset left */
-        color: white;
-        box-sizing: border-box; /* Include padding in width */
-    }
-     #training-form form label{
-      position:relative !important;
-      top:20px !important;
-      left:10px !important;
-     }
-
-    #training-form form input {
-        /* Adjust form inputs for mobile, full width and larger for touch */
-        margin-top: 15px; /* Reduced margin */
-        position: relative;
-        
-        left: 0; /* Reset left */
-        padding: 10px; /* Larger padding for touch */
-        background-color: rgba(55, 84, 142);
-        border: 1px solid white;
-        width: 90%; /* Full width */
-        box-sizing: border-box; /* Include padding in width */
-        z-index: 99;
-        /* Animation removed as requested */
-    }
-
-    #training-form form #onsubmit {
-        /* Adjust the submit button for mobile, full width */
-        margin-left: 0; /* Reset margin */
-        padding: 15px !important; /* Larger padding */
-        background-color: rgba(55, 84, 142);
-        position: relative;
-        top: 20px; /* Adjusted top */
-        border: 1px solid white;
-        width: 100%; /* Full width */
-        box-sizing: border-box; /* Include padding in width */
-    }
-
-    .submitt {
-        /* Adjust the submitt class for mobile, full width */
-        position: relative;
-        left: 0; /* Reset left */
-        width: 100%; /* Full width */
-        height: 40px;
-    }
-
-    #training-form #apply {
-        /* Adjust the apply heading for mobile */
-        position: relative;
-        left: 0; /* Reset left */
-        text-align: center; /* Center */
-        font-size: 20px !important; /* Smaller font for mobile */
-    }
-
-    .training-footer {
-        /* Adjust the main footer container for mobile, making it full width and auto height */
-        position: relative; /* Changed from absolute to relative for better mobile flow */
-        top: 0; /* Reset top */
-        left: 0; /* Reset left */
-        width: 100%; /* Full width */
-        height: auto; /* Auto height to fit content */
-        padding: 20px; /* Add padding for spacing */
-    }
-
-    .training-footer .footer {
-        /* Adjust the footer div for mobile, full width and center */
-        width: 100%; /* Full width */
-        left: 0; /* Reset left */
-        text-align: center; /* Center content */
-    }
-
-    .training-footer .lastt {
-        /* Adjust the lastt div for mobile, full width and center */
-        width: 100%; /* Full width */
-        left: 0; /* Reset left */
-        text-align: center; /* Center content */
-    }
-
-    #tt-three {
-        /* Adjust #tt-three for mobile, full width and center */
-        position: relative;
-        width: 100%; /* Full width */
-        height: auto; /* Auto height */
-        left: 0; /* Reset left */
-        top: 0; /* Reset top */
-        max-width: 400px; /* Cap to fit screen */
-    }
-
-    .course-high {
-        /* Adjust .course-high for mobile */
-        margin-top: 0; /* Reset margin */
-    }
-
-    #apply {
-        /* Adjust #apply for mobile */
-        font-size: 20px !important; /* Smaller font */
-        position: relative;
-        top: 0; /* Reset top */
-    }
-
-    .rightside-form {
-        /* Adjust .rightside-form for mobile, full width and relative */
-        position: relative; /* Changed from absolute to relative */
-        left: 0; /* Reset left */
-        top: 0; /* Reset top */
-        width: 100%; /* Full width */
-        text-align: center; /* Center content */
-    }
-
-    .rightside-form p {
-        /* Adjust paragraph in .rightside-form for mobile */
-        width: 100%; /* Full width */
-        position: relative;
-        top: 0; /* Reset top */
-        padding: 0 20px; /* Add padding */
-    }
-
-    .rightside-form form input {
-        /* Adjust inputs in .rightside-form for mobile, full width */
-        width: 100%; /* Full width */
-        height: 40px; /* Larger height for touch */
-        margin-top: 15px; /* Reduced margin */
-        border-radius: 5px;
-        border: 1px solid rgb(207, 205, 205);
-        box-sizing: border-box; /* Include padding in width */
-    }
-
-    .rightside-form form label {
-        /* Adjust labels in .rightside-form for mobile */
-        position: relative;
-        top: 0; /* Reset top */
-        left: 0; /* Reset left */
-        text-align: left; /* Align left */
-        display: block; /* Block for full width */
-        margin-bottom: 5px; /* Add margin */
-    }
-
-    #comment-box {
-        /* Adjust #comment-box for mobile, full width */
-        width: 100%; /* Full width */
-        height: 80px; /* Adjusted height */
-        box-sizing: border-box; /* Include padding in width */
-    }
-
-    #onsubmit {
-        /* Adjust #onsubmit button for mobile, full width */
-        position: relative;
-        top: 0; /* Reset top */
-        padding: 15px; /* Larger padding */
-        color: white;
-        background-color: rgba(5, 99, 160);
-        width: 100%; /* Full width */
-        box-sizing: border-box; /* Include padding in width */
-    }
-}
 
 
 
@@ -3637,119 +3692,6 @@ border:1px solid white;
 
 
 
-
-
-
-
-
-
-@media (max-width: 425px) {
-    .training-footer {
-        /* Adjust the main footer container for mobile, making it full width and auto height, positioning relatively */
-        position: relative; /* Changed from absolute to relative for better mobile flow */
-        top: 0px; /* Reset top for mobile */
-        left: 0; /* Reset left */
-        width: 100%; /* Full width */
-        height: auto; /* Auto height to fit content */
-        padding: 20px; /* Add padding for spacing */
-    }
-
-    .training-footer .footer {
-        /* Adjust the footer div for mobile, full width and center */
-        width: 100%; /* Full width */
-        left: 0; /* Reset left */
-        text-align: center; /* Center content */
-    }
-
-    .training-footer .lastt {
-        /* Adjust the lastt div for mobile, full width and center */
-        width: 100%; /* Full width */
-        left: 0; /* Reset left */
-        text-align: center; /* Center content */
-    }
-
-    .line1 {
-        /* Adjust the line1 container for mobile, stacking vertically */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px; /* Gap between elements */
-    }
-
-    .line1 img {
-        /* Adjust the footer icon image for mobile, making it larger */
-        width: 100px !important; /* Larger width, added !important */
-        height: auto !important; /* Auto height, added !important */
-    }
-
-    .line1 p {
-        /* Adjust the paragraph in line1 for mobile, full width and center */
-        width: 100%; /* Full width */
-        text-align: center; /* Center text */
-        font-size: 14px; /* Smaller font for mobile */
-        padding: 0 10px; /* Add padding */
-    }
-
-    .icn {
-        /* Adjust the icons container for mobile, center and add gap */
-        display: flex;
-        justify-content: center;
-        gap: 15px; /* Gap between icons */
-    }
-
-    .icn .fa-facebook-f,
-    .icn .fa-linkedin,
-    .icn .fa-instagram {
-        /* Adjust individual icons for mobile, larger size */
-        font-size: 24px; /* Larger icon size */
-    }
-
-    .links {
-        /* Adjust the links container for mobile, stack vertically */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px; /* Gap between link groups */
-        width: 100%; /* Full width */
-    }
-
-    .links1 {
-        /* Adjust each links1 group for mobile, full width and center */
-        width: 100%; /* Full width */
-        text-align: center; /* Center text */
-    }
-
-    .links1 h3 {
-        /* Adjust headings in links1 for mobile */
-        font-size: 18px; /* Smaller font */
-        margin-bottom: 10px; /* Add margin */
-    }
-
-    .links1 a {
-        /* Adjust links in links1 for mobile, full width and center */
-        display: block; /* Block for full width */
-        text-align: center; /* Center text */
-        font-size: 14px; /* Smaller font */
-        margin: 5px 0; /* Vertical margin */
-        text-decoration: none; /* Remove underline if needed */
-    }
-
-    .last-line {
-        /* Adjust the last-line container for mobile, full width and center */
-        width: 100%; /* Full width */
-        text-align: center; /* Center text */
-        padding: 10px 0; /* Add padding */
-    }
-
-    .last-line i {
-        /* Adjust italic text in last-line for mobile */
-        display: block; /* Stack vertically */
-        font-size: 12px; /* Smaller font */
-        margin: 5px 0; /* Vertical margin */
-    }
-
-    /* Note: Other styles like #tt-three, .course-high, #apply, .rightside-form, etc., are not included as they are not part of the footer JSX provided. If they are related and need responsiveness, provide their JSX/CSS for inclusion. */
-}
 
 
 

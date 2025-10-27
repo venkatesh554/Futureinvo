@@ -38,7 +38,6 @@ height:110vh;
 
 
 
-
 @media(max-width: 575.99px) {
   /* General: Prevent overflow and ensure consistent sizing */
   body {
@@ -57,7 +56,7 @@ height:110vh;
     top: 0 !important; /* Reset top */
     height: auto !important; /* Auto height to fit content */
     padding: 20px !important; /* Reduce padding for mobile */
-    margin-top: 0 !important; /* No extra top margin */
+    margin-top: 0px !important; /* No extra top margin */
   }
 
   /* Left Side Form: Full width, auto height, blue bg preserved, centered content */
@@ -363,7 +362,9 @@ padding-top:40px;
     top:-50px;
 }
 
-
+#con-h2{
+  opacity:0;
+}
 
 
 
@@ -790,7 +791,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   .footer-contact-2 {
     position: absolute !important; /* Changed to relative */
     top: 1350px !important; /* Reset top */
-    width: 100% !important;
+    width: 100% !important;   
+    left:-50px !important;
+
   }
 
   #footer-contact {
@@ -799,15 +802,15 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   }
 
   /* Reuse Footer Responsive Styles (stacked, centered) */
-  .footer {
+ .footer-contact-2 #footer-dup {
     position: relative !important;
-    top: 0 !important;
+    top: 300px !important;
     width: 100% !important;
     height: auto !important;
     background-color: rgb(0, 0, 0) !important;
     color: white !important;
     padding: 70px 40px 40px 40px !important; /* Increased padding */
-    margin-bottom: 0 !important;
+    margin-bottom: 0px !important;
   }
 
   .footer img {
@@ -816,7 +819,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     margin: 0 auto 40px auto !important; /* More margin */
     display: block !important;
   }
-
+ .footer-line-contact .lastt{
+margin-bottom:-450px !important;
+ }
   .line1 {
     margin-left: 0 !important;
     text-align: center !important;
@@ -906,496 +911,11 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
 
   .footer-line-contact {
     position:relative !important;
-    top:-200px !important;
+    top:400px !important;
+    left:40px !important;
   }}
 
 
-
-
-
-@media (max-width: 768px) {
-  /* General: Prevent overflow and ensure consistent sizing */
-  body {
-    overflow-x: hidden !important;
-  }
-
-  * {
-    box-sizing: border-box !important;
-  }
-
-  /* TT Container: Reset for natural flow */
-  .tt {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  /* FAQ/Contact Section: Reset positioning, full width, auto height */
-  .faq {
-    position: relative !important; /* Changed to relative for better flow */
-    top: 550px !important; /* Reset top */
-    width: 100% !important;
-    height: auto !important;
-    background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
-    padding: 60px 30px !important; /* Increased padding */
-    display: flex !important;
-    flex-direction: column !important; /* Stack title, image, form */
-    align-items: center !important;
-  }
-
-
-  /* Title Container: Centered, full width */
-  .dup-from-faq {
-    position: relative !important;
-    width: 100% !important;
-    text-align: center !important;
-    margin-bottom: 30px !important; /* More margin */
-    top: 300px !important; /* Reset top */
-  }
-
-  .dup-from-faq h1 {
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    color: white !important;
-    font-size: 2.8rem !important; /* Larger for tablet */
-    margin: 0 !important;
-    line-height: 1.3 !important;
-  }
-
-  /* Background Image: Responsive, centered above form */
-  .bgimg {
-    width: 100% !important;
-    max-width: 400px !important; /* Larger cap */
-    margin: 0 auto 40px auto !important; /* More margin */
-  }
-
-  .bgimg img {
-    position: relative !important; /* Reset absolute */
-    width: 100% !important;
-    height: auto !important; /* Aspect ratio */
-    left: 0 !important;
-    bottom: auto !important;
-    display: block !important;
-    border-radius: 10px !important; /* Larger radius */
-  }
-
-  /* Contacting Form: Reset positioning, full width, auto height */
-  .contacting-form {
-    position: relative !important;
-    top: 0 !important; /* Reset large top */
-    width: 100% !important;
-    height: auto !important;
-    margin-top: 0 !important;
-    padding: 30px !important; /* More padding */
-  }
-
-  /* Contact Us Form Wrapper: Full width, no fixed height */
-  .contact-us-form {
-    width: 100% !important;
-    background-color: rgb(239, 247, 254) !important;
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    height: auto !important; /* Auto height */
-    padding: 30px !important; /* More padding */
-    display: flex !important;
-    flex-direction: column !important; /* Stack left/right vertically */
-    align-items: center !important;
-    gap: 40px !important; /* More gap */
-  }
-
-  /* Left Side Form: Full width, stacked info, blue bg preserved */
-  .leftside-form {
-    width: 100% !important; /* Full width (override 430px) */
-    max-width: 400px !important; /* Larger cap */
-    height: auto !important; /* Auto height */
-    background-color: rgba(5, 99, 160) !important;
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important; /* Reset left */
-    padding: 25px !important; /* More padding */
-    border-radius: 10px !important; /* Larger radius */
-    text-align: center !important; /* Center content */
-    display: flex !important;
-    flex-direction: column !important; /* Stack lines vertically */
-    align-items: center !important;
-    gap: 25px !important; /* More gap */
-    overflow: visible !important; /* Allow absolute icons */
-    z-index: 0 !important;
-  }
-
-  /* Firsthead: Full width, no fixed height */
-  .firsthead {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  .firstline,
-  .secondline,
-  .thirdline {
-    position: relative !important; /* Relative container for absolute icons */
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
-    color: rgb(251, 249, 249) !important;
-    text-align: center !important;
-    margin: 0 !important;
-    display: flex !important;
-    flex-direction: column !important; /* Stack p > h2 (icon absolute above) */
-    align-items: center !important;
-    justify-content: flex-start !important;
-    gap: 0 !important; /* No gap—icon absolute */
-    min-height: 120px !important; /* More space */
-    overflow: visible !important; /* Critical: Allow icons to show outside bounds */
-    padding: 25px 0 !important; /* More padding */
-    z-index: 1 !important; /* Base layer */
-  }
-
-  .firstline p,
-  .secondline p,
-  .thirdline p {
-    position: relative !important;
-    top: 0 !important;
-    margin: 8px 0 0 0 !important; /* More margin */
-    font-size: 16px !important; /* Larger */
-    animation: none !important;
-    font-weight: 500 !important;
-    width: 100% !important;
-    z-index: 2 !important; /* Text above if overlapping */
-    text-align: center !important;
-  }
-
-  .firstline h2,
-  .secondline h2,
-  .thirdline h2 {
-    position: relative !important;
-    top: 0 !important;
-    font-weight: 600 !important;
-    font-size: 1 rem !important; /* Larger */
-    margin: 0 !important;
-    color: white !important;
-    line-height: 1.3 !important;
-    width: 100% !important;
-    text-align: center !important;
-    z-index: 2 !important;
-  }
-
-  /* Form Icons: Absolute "float" above text, larger size, full visibility */
-  #formcall,
-  #formmail,
-  #formlocation {
-    position: absolute !important; /* Absolute to "float" like desktop */
-    left: 50% !important; /* Center horizontally */
-    top: -30px !important; /* Float above the line container */
-    transform: translateX(-50%) !important; /* Perfect center */
-    font-size: 36px !important; /* Larger for tablet */
-    margin: 0 !important;
-    padding: 0 !important; /* No padding—let SVG size naturally */
-    border: none !important; /* Remove border to test SVG (re-add below if icons show) */
-    border-radius: 0 !important; /* No radius for testing */
-    color: white !important; /* Explicit color */
-    background-color: transparent !important; /* No bg */
-    display: inline-block !important; /* Inline for SVG */
-    visibility: visible !important;
-    opacity: 1 !important;
-    z-index: 10 !important; /* High z-index to layer above everything */
-    width: 1.7em !important; /* Extra space for SVG */
-    height: 1.7em !important;
-    line-height: normal !important; /* Remove line-height restriction for SVG */
-    /* Force SVG render */
-    -webkit-font-smoothing: antialiased !important; /* Smooth on iOS */
-    -moz-osx-font-smoothing: grayscale !important; /* Smooth on Firefox */
-    text-rendering: optimizeLegibility !important;
-    transition: transform 0.3s ease !important;
-  }
-
-  /* Test Hover to Confirm Icons Are There */
-  #formcall:hover,
-  #formcall:active,
-  #formmail:hover,
-  #formmail:active,
-  #formlocation:hover,
-  #formlocation:active {
-    transform: translateX(-50%) scale(1.3) !important; /* Scale to see if SVG responds */
-    color: #ffd700 !important; /* Change color on hover to confirm */
-  }
-
-  /* Underline Elements: Stack or hide if decorative */
-  .underlinee {
-    display: flex !important;
-    justify-content: center !important;
-    gap: 15px !important; /* More gap */
-    margin-top: 15px !important; /* More margin */
-  }
-
-  #lineone,
-  #linetwo,
-  #linethree {
-    width: 25px !important; /* Slightly wider */
-    height: 1px !important;
-    background-color: white !important;
-    margin: 0 !important;
-  }
-
-  /* Calling Image: Responsive, centered below info */
-  #calling {
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    width: 100% !important; /* Full width */
-    max-width: 300px !important; /* Larger cap */
-    height: auto !important; /* Aspect ratio */
-    margin-top: 40px !important; /* More space */
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    z-index: 1 !important;
-  }
-
-  /* Right Side Form Contact: Full width, stacked below left */
-  .rightside-form-contact {
-    position: relative !important; /* Reset absolute */
-    left: 0 !important; /* Reset left */
-    top: 0 !important;
-    width: 100% !important; /* Full width (override implied 400px) */
-    box-shadow: 0 6px 20px rgba(172, 170, 170, 0.3) !important; /* Stronger shadow */
-    padding: 30px !important; /* More padding */
-    border-radius: 10px !important; /* Larger radius */
-    background-color: white !important; /* White bg for form */
-    text-align: center !important; /* Center heading/paragraph */
-    margin-top: 0 !important; /* No top margin since stacked */
-  }
-
-  .rightside-form-contact h2 {
-    font-size: 2rem !important; /* Larger heading */
-    margin: 0 0 15px 0 !important; /* More margin */
-    color: #333 !important;
-  }
-
-  .rightside-form-contact p {
-    width: 100% !important; /* Full width */
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    font-size: 16px !important; /* Larger */
-    margin: 0 0 25px 0 !important; /* More margin */
-    line-height: 1.5 !important; /* Better line height */
-    color: #666 !important;
-    animation: none !important;
-  }
-
-  /* Form: Full width, stacked labels/inputs */
-  .rightside-form-contact form {
-    width: 100% !important;
-    display: flex !important;
-    flex-direction: column !important; /* Stack fields vertically */
-    gap: 15px !important; /* Slightly reduced gap */
-  }
-
-  .rightside-form-contact form label {
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    left: 0 !important; /* Reset left */
-    font-size: 16px !important; /* Larger labels */
-    font-weight: 500 !important;
-    color: #333 !important;
-    margin-bottom: 0px !important;
-    text-align: left !important; /* Left-align labels */
-  }
-
-  #star {
-    color: red !important;
-  }
-
-  .rightside-form-contact form input {
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    left: 0 !important; /* Reset left */
-    width: 100% !important; /* Full width (override 350px) */
-    height: 50px !important; /* Taller */
-    margin: 0 !important; /* No extra margin */
-    padding: 12px !important; /* More padding */
-    border-radius: 6px !important; /* Larger radius */
-    border: 1px solid rgb(207, 205, 205) !important;
-    font-size: 16px !important; /* Readable input text */
-    box-sizing: border-box !important; /* Include padding in width */
-    z-index: 20px !important;
-  }
-
-  /* Comments Box: Taller textarea-like */
-  #comments-box {
-    width: 100% !important;
-    height: 140px !important; /* Taller */
-    resize: vertical !important; /* Allow vertical resize */
-  }
-
-  /* Submit Button: Full width, centered */
-  .subb {
-    position: relative !important;
-    top: 0 !important; /* Reset top */
-    left: 0 !important; /* Reset left */
-    width: 100% !important; /* Full width */
-    padding: 18px !important; /* More padding */
-    color: white !important;
-    background-color: rgba(5, 99, 160) !important;
-    border: none !important;
-    border-radius: 6px !important; /* Larger radius */
-    font-size: 18px !important; /* Larger */
-    font-weight: 600 !important;
-    cursor: pointer !important;
-    transition: background-color 0.3s ease !important;
-    margin-top: 15px !important; /* More margin */
-    animation: none !important;
-  }
-
-  .subb:hover,
-  .subb:active {
-    background-color: rgba(5, 99, 160, 0.9) !important; /* Subtle hover */
-  }
-
-  /* Location Image: If present, responsive and centered (from CSS comment) */
-  .location img {
-    width: 100% !important; /* Full width */
-    height: auto !important;
-    position: relative !important; /* Reset absolute */
-    top: 0 !important;
-    left: 0 !important;
-    margin: 30px auto !important; /* More margin */
-    max-width: 100% !important; /* No 1500px overflow */
-  }
-
-  /* Footer Contact 2: Reset positioning, stacked */
-  .footer-contact-2 {
-    position: absolute !important; /* Changed to relative */
-    top: 1050px !important; /* Reset top */
-    width: 100% !important;
-  }
-
-  #footer-contact {
-    position: relative !important;
-    top: 0 !important; /* Reset large top */
-  }
-
-  /* Reuse Footer Responsive Styles (stacked, centered) */
-  .footer {
-    position: relative !important;
-    top: 0 !important;
-    width: 100% !important;
-    height: auto !important;
-    background-color: rgb(0, 0, 0) !important;
-    color: white !important;
-    padding: 60px 30px 30px 30px !important; /* Increased padding */
-    margin-bottom: 0 !important;
-  }
-
-  .footer img {
-    width: 250px !important; /* Larger */
-    height: 60px !important; /* Larger */
-    margin: 0 auto 30px auto !important; /* More margin */
-    display: block !important;
-  }
-
-  .line1 {
-    margin-left: 0 !important;
-    text-align: center !important;
-    width: 100% !important;
-  }
-
-  .line1 p {
-    white-space: normal !important;
-    width: 100% !important;
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    margin: 0 auto 30px auto !important; /* More margin */
-    font-size: 16px !important; /* Larger */
-    padding: 0 20px !important; /* More padding */
-  }
-
-  .icn {
-    position: relative !important;
-    left: 0 !important;
-    display: flex !important;
-    justify-content: center !important;
-    gap: 20px !important; /* More gap */
-    margin-bottom: 40px !important; /* More margin */
-  }
-
-  .icn svg {
-    font-size: 24px !important; /* Larger */
-    color: white !important;
-    cursor: pointer;
-  }
-
-  .icn svg:hover {
-    color: #007BFF !important;
-  }
-
-  .links {
-    display: grid !important; /* Grid for multiple columns */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important; /* Responsive columns */
-    gap: 40px !important; /* More gap */
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    align-items: start !important;
-    text-align: left !important; /* Left align for readability */
-    justify-items: center !important;
-  }
-
-  .links1 {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    max-width: 350px !important; /* Larger max-width */
-  }
-
-  .links1 h3 {
-    margin-bottom: 20px !important; /* More margin */
-    text-decoration: underline !important;
-    font-size: 18px !important; /* Larger */
-  }
-
-  .links1 a {
-    text-decoration: none !important;
-    position: relative !important;
-    left: 0 !important;
-    color: white !important;
-    margin-bottom: 15px !important; /* More margin */
-    font-size: 16px !important; /* Larger */
-    line-height: 1.5 !important; /* Better line height */
-    font-weight: 500 !important;
-    text-align: left !important; /* Left align */
-    display: block !important;
-  }
-  
-
-  .links1 a:hover {
-    color: #007BFF !important;
-  }
-
-  .links1 a[href*="location"],
-  .links1 a[href*="envelope"],
-  .links1 a[href*="phone"] {
-    text-align: left !important;
-    left: 0 !important;
-    padding-left: 30px !important; /* More padding */
-  }
-  .footer-line-contact {
-    position:relative !important;
-    top:-200px !important;
-
-}
-.faq h2{
-  opacity:1 !important;
-  font-size:3rem !important;
-  color:white;
-}
-
-}
-
-
-
-#con-h2{
-  opacity:0;
-}
 
 
 
@@ -1459,7 +979,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     color: white !important;
     font-size: 2.5rem !important; /* Smaller for mobile */
     margin: 0 !important;
-    line-height: 1.3 !important;
+    line-height: 1.3 !important; 
   }
 
   .bgimg {
@@ -1764,7 +1284,8 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   .footer-contact-2 {
     position: absolute !important;
     top: 600px !important; /* Reset negative top */
-    width: 100% !important;
+    width: 100% !important;    left:-20px !important;
+
   }
 
   #footer-contact {
@@ -1880,9 +1401,9 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   /* Footer Line Contact: Reset positioning */
   .footer-line-contact {
     position: relative !important;
-    top: 0 !important; /* Reset negative top */
+    top: -10px !important; /* Reset negative top */
     width: 100% !important;
-    margin-top: 0 !important;
+    left:30px !important;
   }
 
   #last-contact {

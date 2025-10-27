@@ -241,12 +241,12 @@
   position: relative;
   top: 30px;
   display: inline-block;
-  white-space: nowrap;   /* keep names in one line */
+  white-space: nowrap;   
   animation: scroll 15s linear infinite;
 }
 
 #dup2-class2 em {
-  margin: 0 30px;       /* spacing between names */
+  margin: 0 30px;       
   font-size: 18px;
 }
 
@@ -285,7 +285,6 @@
 
 
 @media (max-width: 400px) {
-  /* General: Prevent overflow and ensure consistent sizing */
   body {
     overflow-x: hidden !important;
   }
@@ -294,14 +293,12 @@
     box-sizing: border-box !important;
   }
 
-  /* TT Container: Reset fixed height and overflow for natural scrolling */
   .tt {
-    height: auto !important; /* Allow full content height */
-    overflow: visible !important; /* No hidden overflow */
+    height: auto !important; 
+    overflow: visible !important;
     width: 100% !important;
   }
 
-  /* Driving Innovation Parent: Reset positioning, stack vertically */
   .driving-innovation-parent {
     position: absolute !important;
     margin-top: 0 !important; /* Reset large margin */
@@ -325,7 +322,7 @@
   }
 
   .driving-innovation-child h1 {
-    line-height: 1.4 !important; /* Tighter for mobile */
+    line-height: 1.4 !important; 
     position: relative !important;
     top: 0 !important; /* Reset top */
     color: white !important;
@@ -2243,6 +2240,16 @@ margin-left: 50% !important;      /* move starting point to center */
     margin-top: -0px !important; /* Adjusted from tablet's -50px */
     padding: 30px !important; /* Increased from tablet's 25px */
   }
+   .child22 p {
+    position: relative !important;
+    left: 0 !important;
+    top: 50px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: -0px !important; /* Adjusted from tablet's -50px */
+    padding: 0px !important; /* Increased from tablet's 25px */
+  }
+
 
   .word-slider-about {
     position: relative !important;
@@ -2521,6 +2528,8 @@ margin-left: 50% !important;      /* move starting point to center */
     height: 60px !important;
     margin: 0 auto 25px auto !important;
     display: block !important;
+    position:relative !important;
+    left:0px !important;
   }
 
   .line1 {
