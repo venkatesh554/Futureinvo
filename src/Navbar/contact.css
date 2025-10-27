@@ -811,6 +811,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     color: white !important;
     padding: 70px 40px 40px 40px !important; /* Increased padding */
     margin-bottom: 0px !important;
+    left:-20px !important;
   }
 
   .footer img {
