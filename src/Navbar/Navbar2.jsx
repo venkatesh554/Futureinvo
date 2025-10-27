@@ -842,6 +842,7 @@ export default function Navbar2() {
                       <Link to="/Csda" onClick={toggleModal}>Cloud Services</Link>
                     </div>
                     
+                    
                      <div className="mobile-dropdown-item">
                       <Link to="/CyberSecurity" onClick={toggleModal}>Cybersecurity solutions  </Link>
                     </div>
@@ -858,6 +859,7 @@ export default function Navbar2() {
                      <div className="mobile-dropdown-item">
                       <Link to="/MachineLearningService" onClick={toggleModal}>Machine learning & deep learning   </Link>
                     </div>
+                    
                     
                   </div>
                 </div>

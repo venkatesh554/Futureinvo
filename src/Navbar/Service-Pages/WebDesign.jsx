@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -18,6 +18,37 @@ import { Link } from "react-router-dom";
 
 
 function WebDesign() {
+
+
+
+    const [formData, setFormData] = useState({
+    name: '',
+    mobile: '',
+    email: '',
+    message: ''
+  });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form Data:', formData);
+    alert('Form submitted!');
+    // Reset form
+    setFormData({
+      name: '',
+      mobile: '',
+      email: '',
+      message: ''
+    });
+  };
+
+
+
   return (
     <div className="Appp">
       {/* Hero Section */}
@@ -55,7 +86,7 @@ function WebDesign() {
 
       
       <section className="container-999">
-        <form className="form-group-999">
+        {/* <form className="form-group-999">
           <h3>Get A Quote For You</h3>
           <label htmlFor="name"> Name</label>
           <input type="text" placeholder="Your full name" />
@@ -66,7 +97,46 @@ function WebDesign() {
           <label htmlFor="message">Message</label>
           <textarea placeholder="Message"></textarea>
           <button className="sbutton-999">Submit</button>
-        </form>
+        </form> */}
+        <form className="form-group-999" onSubmit={handleSubmit}>
+        <h3>Get A Quote For You</h3>
+        <label htmlFor="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your full name"
+          value={formData.name}
+          onChange={handleChange}
+        />
+        <label htmlFor="mobile">Mobile</label>
+        <input
+          type="text"
+          id="mobile"
+          name="mobile"
+          placeholder="Mobile"
+          value={formData.mobile}
+          onChange={handleChange}
+        />
+        <label htmlFor="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          value={formData.email}
+          onChange={handleChange}
+        />
+        <label htmlFor="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          value={formData.message}
+          onChange={handleChange}
+        ></textarea>
+        <button type="submit" className="sbutton-999">Submit</button>
+      </form>
 
         <div className="benefits-999">
           <h2>Benefits With Our Web Design</h2>

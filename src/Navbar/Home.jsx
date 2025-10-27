@@ -284,7 +284,7 @@ export default function Home() {
                                </div> 
                    <div className="box-23">
                      <h3>For More <br></br>Services</h3>
-                     <Link to="/ItConsulting">                      <button>Click Here <FontAwesomeIcon icon={faArrowRight} /></button>
+                     <Link to="/OurServicesPage">                      <button>Click Here <FontAwesomeIcon icon={faArrowRight} /></button>
 </Link>
                   </div> 
                     

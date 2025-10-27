@@ -1,0 +1,67 @@
+.button-page {
+  background-color: white; /* White page background */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position:absolute;
+  top:0px;
+  align-items: center;
+  justify-content: center;
+  left:150px;
+}
+
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap buttons to next line if needed */
+  gap: 20px; /* Space between buttons */
+  max-width: 1200px; /* Limit container width */
+  width: 100%;
+  justify-content: center; /* Center buttons horizontally */
+}
+
+.long-button {
+  display: flex; /* Flex for centering text */
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Long buttons, full width of container */
+  max-width: 400px; /* Cap width for readability */
+  height: 60px; /* Tall for touch-friendliness */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Attractive gradient */
+  color: white;
+  text-decoration: none; /* Remove underline */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth hover */
+  position: relative;
+  overflow: hidden; /* For pseudo-element effect */
+}
+
+.long-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.long-button:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+}
+
+.long-button:hover::before {
+  left: 100%; /* Shine effect */
+}
+
+.long-button:active {
+  transform: translateY(-2px); /* Pressed effect */
+}

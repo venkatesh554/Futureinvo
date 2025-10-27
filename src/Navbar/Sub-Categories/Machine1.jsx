@@ -42,8 +42,10 @@ function Machine1() {
 
       
         <section className="container-999">
+                      <h3>Get A Quote For You</h3>
+
           <form className="form-group-999">
-            <h3>Get A Quote For You</h3>
+            
           <label htmlFor="name"> Name</label>
           <input type="text" placeholder="Your full name" />
           <label htmlFor="mobile"> Mobile</label>

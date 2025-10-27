@@ -144,7 +144,7 @@ import Bdt19 from "./Navbar/Sub-Categories/Bdt19"
 import Bdt20 from "./Navbar/Sub-Categories/Bdt20"
 import Bdt21 from "./Navbar/Sub-Categories/Bdt21"
 
-
+import OurServicesPage from "./Navbar/why-choose/OurServicesPage"
 
 function App() { 
   return (
@@ -257,6 +257,7 @@ function App() {
                                                                   <Route path="/Bdt19" element={<Bdt19/>}/>
                                                                          <Route path="/Bdt20" element={<Bdt20/>}/>
                                                                               <Route path="/Bdt21" element={<Bdt21/>}/>
+                                                                              <Route path="/OurServicesPage" element={<OurServicesPage/>}/>
 
 
       
