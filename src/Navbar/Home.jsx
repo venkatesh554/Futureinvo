@@ -507,9 +507,9 @@ export default function Home() {
                 <div className="links1">
                   <h3>Quick Links</h3>
                 <Link to="/"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
-                <Link to="OurServicesPage"><FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
+                <Link to="/OurServicesPage"><FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
                 <Link to="/About"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</Link>
-                <Link to="Contact"><FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
+                <Link to="/Contact"><FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
                 <Link><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
               </div>
                <div className="links1">
@@ -517,8 +517,8 @@ export default function Home() {
                 <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
                 <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</Link>
                 <Link to="/WebDevelopment"><FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
-                <Link to="MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
-                <Link to="Trainings"><FontAwesomeIcon icon={faAngleRight} />Trainings</Link>
+                <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
+                <Link to="/Trainings"><FontAwesomeIcon icon={faAngleRight} />Trainings</Link>
               </div>
                <div className="links1">
                   <h3 id="contact-address">Contact Us</h3>

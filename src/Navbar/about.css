@@ -125,7 +125,7 @@
     flex-direction: column !important; /* Stack title, questions, image */
     align-items: center !important;
     justify-content: flex-start !important;
-    margin-top: 300px !important; /* Adjusted margin */
+    margin-top: 0px !important; /* Adjusted margin */
   }
 
   /* FAQ Title Container: Centered, no offset */
@@ -308,7 +308,7 @@
     position: relative !important; /* Changed to relative */
     top: 0 !important; /* Reset top */
     width: 100% !important;
-    margin-top: 50px !important; /* More margin */
+    margin-top: 0px !important; /* More margin */
   }
 
   .faq #footer-dup {
@@ -424,7 +424,8 @@
   .faq .lastt {
     position: relative !important;
     top: -220px !important;
-    width: 100% !important;
+    left:-10px !important;
+    width: 120% !important;
     margin-top: 200px !important; /* More margin */
   }
 
@@ -515,19 +516,18 @@
   } */
 
   /* FAQ Section: Reset positioning, full width, auto height with padding */
-  .faq {
-    position: absolute !important; /* Change to relative for flow */
-    top: 0 !important; /* Reset top */
+    .faq {
+    position: absolute !important;
+    top: -600px !important;
     width: 100% !important;
-    height: auto !important; /* Auto height to fit content */
-    background-color: rgba(62, 83, 138) !important;
-    padding: 40px 20px !important; /* Mobile padding for spacing */
+    height: auto !important;
+    background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
+    padding: 40px 20px !important; /* Mobile padding */
     display: flex !important;
-    flex-direction: column !important; /* Stack title, questions, image */
+    flex-direction: column !important; /* Stack title, image, form */
     align-items: center !important;
-    justify-content: flex-start !important;
-    margin-top:570px !important;
   }
+
 
   /* FAQ Title Container: Centered, no offset */
   .dup-from-faq {

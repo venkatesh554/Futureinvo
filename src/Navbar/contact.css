@@ -811,7 +811,6 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     color: white !important;
     padding: 70px 40px 40px 40px !important; /* Increased padding */
     margin-bottom: 0px !important;
-    left:-20px !important;
   }
 
   .footer img {
@@ -912,7 +911,7 @@ margin-bottom:-450px !important;
 
   .footer-line-contact {
     position:relative !important;
-    top:400px !important;
+    top:200px !important;
     left:40px !important;
   }}
 
@@ -955,7 +954,7 @@ margin-bottom:-450px !important;
   /* FAQ/Contact Section: Reset positioning, full width, auto height */
   .faq {
     position: absolute !important;
-    top: -600px !important;
+    top: 0px !important;
     width: 100% !important;
     height: auto !important;
     background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
@@ -1402,9 +1401,10 @@ margin-bottom:-450px !important;
   /* Footer Line Contact: Reset positioning */
   .footer-line-contact {
     position: relative !important;
-    top: -10px !important; /* Reset negative top */
-    width: 100% !important;
+    top: 200px !important; /* Reset negative top */
+    width: 120% !important;
     left:30px !important;
+    left:-100px !important;
   }
 
   #last-contact {
@@ -1420,3 +1420,19 @@ margin-bottom:-450px !important;
     flex-direction: column !important;
     padding: 20px !important;
     text-align: center;}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

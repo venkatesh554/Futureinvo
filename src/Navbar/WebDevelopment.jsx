@@ -4,7 +4,6 @@ import one from "./trainingImages/Training-one.png"
 import two from "./trainingImages/webdevone.png"
 import three from "./trainingImages/webdev2.png"
 import four from "./trainingImages/webdev3.png"
-import { Link } from "react-router-dom";
 
 import first from "./Training-box-images/firstt.png";
 import second from "./Training-box-images/secondd.png"
@@ -29,6 +28,7 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 
 import placementone from "./placement-support-images/placement-one.png";
@@ -42,7 +42,56 @@ import bgimg from "./navbar-images/bgimg.png"
 export default function WebDevelopment() {
 
   
-   
+   const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      mobile: "",
+      city: "",
+      occupation: "",
+      message: "",
+    });
+    
+  
+    // 2️⃣ Handle input changes
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData((prev) => ({
+        ...prev,
+        [name]: value,
+      }));
+    };
+  
+    // 3️⃣ Handle form submission
+    const handleSubmit = (e) => {
+      e.preventDefault();
+  
+      // Check for empty fields
+      if (
+        !formData.name ||
+        !formData.email ||
+        !formData.mobile ||
+        !formData.city ||
+        !formData.occupation ||
+        !formData.message
+      ) {
+        alert("⚠️ Please fill in all fields before submitting!");
+        return;
+      }
+  
+      // Store in localStorage
+      localStorage.setItem("contactFormData", JSON.stringify(formData));
+      alert("✅ Your data has been saved successfully!");
+  
+      // Reset the form
+      setFormData({
+        name: "",
+        email: "",
+        mobile: "",
+        city: "",
+        occupation: "",
+        message: "",
+      });
+    };
   return (
     <div className="tt">
 
@@ -444,42 +493,38 @@ experience.
                      <div className="footerr" id="footer-contact">
                                <div className="footer" id="footer-dup">
                                           <div className="line1">
-                                           <img src={footericon}/>
-                                           <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
-                                            <div className="icn">
-                                                                                  <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F#" ><FontAwesomeIcon icon={faFacebookF}/></a>
-                                                                                 <a href="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in#"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
-                                                                                 <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
-                                                                                </div>
-                                            <div className="links">
+<img src={footericon} />
+              <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
+              <div className="icn">
+                 <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                <a href="https://www.linkedin.com/company/future-invo-solutions/posts/?feedView=all
+                "> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
+               </div>
+              <div className="links">
                 <div className="links1">
                   <h3>Quick Links</h3>
-<Link to="/">                <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions
-
-</Link>    
-         <Link to="/ItConsulting">  <FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
-               <Link to="/About"> <FontAwesomeIcon icon={faAngleRight} />FAQ'S
-               </Link>
-               <Link to="/Contact"> <FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
-               <Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Careers</Link>
+                <Link to="/"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</Link>
+                <Link to="/OurServicesPage"><FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
+                <Link to="/About"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</Link>
+                <Link to="/Contact"><FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
+                <Link><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
               </div>
                <div className="links1">
                   <h3>IT Services</h3>
-                                  <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
-
                 <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
-              <Link to="/WebDevelopmentService"> <FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
+                <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</Link>
+                <Link to="/WebDevelopment"><FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
                 <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
-               <Link to="/Trainings">
-                <FontAwesomeIcon icon={faAngleRight} />Trainings
-               </Link>
+                <Link to="/Trainings"><FontAwesomeIcon icon={faAngleRight} />Trainings</Link>
               </div>
-                                            <div className="links1">
-                                               <h3>Contact Us</h3>
-<a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>                                             <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
-                                             <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
-                                           
+               <div className="links1">
+                  <h3 id="contact-address">Contact Us</h3>
+                <Link><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</Link>
+                <Link><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</Link>
+                < Link><FontAwesomeIcon icon={faPhone} />91+ 7981107131</Link>
+              
                                            </div>
                                            </div>
                              

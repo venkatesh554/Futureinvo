@@ -992,6 +992,7 @@ margin-left: 50% !important;      /* move starting point to center */
     margin: 0 !important;
     width: 100% !important;
     text-align: justify !important;
+    padding:0px !important;
   }
 
   .right-subs {
@@ -1073,7 +1074,7 @@ margin-left: 50% !important;      /* move starting point to center */
   }
 
   .block55 > div {
-    flex: none !important; /* No flex grow/shrink */
+    flex: none !important; 
     max-width: 100% !important; /* Full width per box */
     width: 100% !important;
     color: white !important;
@@ -2238,7 +2239,7 @@ margin-left: 50% !important;      /* move starting point to center */
     width: 100% !important;
     height: auto !important;
     margin-top: -0px !important; /* Adjusted from tablet's -50px */
-    padding: 30px !important; /* Increased from tablet's 25px */
+    padding: 25px !important; /* Increased from tablet's 25px */
   }
 
   .word-slider-about {
@@ -2420,7 +2421,7 @@ margin-left: 50% !important;      /* move starting point to center */
     top: 0 !important;
     width: 100% !important;
     margin-top: 0px !important; /* Increased from tablet's 30px */
-    padding: 30px !important; /* Increased from tablet's 25px */
+    padding: 30px !important; 
   }
 
   #dup3 {
@@ -2431,8 +2432,8 @@ margin-left: 50% !important;      /* move starting point to center */
 
   .dup3-h2,
   #block8-h2-p {
-    font-size: 2rem !important; /* Larger than tablet's 1.8rem */
-    margin: 0 0 30px 0 !important; /* Increased from tablet's 25px */
+    font-size: 2rem !important; 
+    margin: 0 0 30px 0 !important; 
     line-height: 1.5 !important;
   }
 

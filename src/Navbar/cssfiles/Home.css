@@ -6018,7 +6018,7 @@ width:100%;
   }
 
   .content-rightt1 #h22 {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
     position: relative !important;
     top: 0 !important;
     margin: 10px 0;
@@ -6035,6 +6035,7 @@ width:100%;
     line-height: 1.6 !important;
     text-align: justify;
     margin: 20px 0;
+    padding:40px !important;
   }
 
   .content-rightt1 p {
@@ -6043,7 +6044,6 @@ width:100%;
     top: 0 !important;
     text-align: justify;
     margin: 15px 0;
-        padding:30px !important;
 
   }
 
@@ -6083,7 +6083,7 @@ width:100%;
   .right-sub1 p, .right-sub2 p {
     font-size: 14px;
     line-height: 1.4;
-    margin: -20px !important;
+    margin: -40px !important;
     text-align: center;
   }
 
@@ -6102,10 +6102,10 @@ width:100%;
 
   .block2 {
     height: auto !important;
-    min-height: 25vh;
+    min-height: 15vh;
     background-color: rgb(54, 127, 192);
     position: relative !important;
-    top: 0 !important;
+    top: -10px !important;
     padding: 30px 15px;
     text-align: center !important;
     animation: bloc 1s ease-out forwards !important;
@@ -6135,7 +6135,7 @@ width:100%;
 
   .names-scroll em {
     margin-left: 20px !important;
-    font-size: 18px !important;
+    font-size: 20px !important;
     position: relative !important;
     top: 0 !important;
     color: white;
@@ -6202,7 +6202,7 @@ width:100%;
     position: relative !important;
     width: 100% !important; 
     height: auto !important;
-    top: 0 !important; 
+    top: -40px !important; 
     background-color: rgb(239, 247, 254);
     padding: 40px 15px;
     text-align: center !important;
@@ -6547,7 +6547,7 @@ width:100%;
   .block8 {
     position: relative !important;
     top: 0 !important; /* No fixed top/negative margins */
-    margin-top: 20px !important; /* Gap from previous section (e.g., block3) */
+    margin-top: 0px !important; /* Gap from previous section (e.g., block3) */
     width: 100% !important; /* Full width */
     height: auto !important; /* Adapt to content */
     text-align: center !important;
@@ -7558,6 +7558,7 @@ width:100%;
     text-align: center !important;
     align-items: center !important;
     gap: 10px !important; 
+    margin-bottom:-20px !important;
   }
 
   #ii {
