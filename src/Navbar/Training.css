@@ -2642,9 +2642,9 @@ border:1px solid white;
     .training-footer {
         /* Adjust the main footer container for mobile, making it full width and auto height, positioning relatively */
         position: relative !important; /* Changed from absolute to relative for better mobile flow */
-        top: -300px !important; /* Reset top for mobile */
-        left: 0 !important; /* Reset left */
-        width:115% !important; /* Full width */
+        top: -350px !important; /* Reset top for mobile */
+        left: 15px !important; /* Reset left */
+        width:120% !important; /* Full width */
         height: auto !important; /* Auto height to fit content */
         padding: 0px !important; /* Add padding for spacing */
     }
@@ -2758,14 +2758,13 @@ border:1px solid white;
 
 
 
-
-
-@media (max-width: 425px) {
+@media (max-width: 576px) {
     .training-footer {
-        position: relative !important;
-        top: -300px !important; 
-        left: 0 !important; /* Reset left */
-        width: 115% !important; /* Adjusted to 100% for 425px to prevent overflow */
+        /* Adjust the main footer container for mobile, making it full width and auto height, positioning relatively */
+        position: relative !important; /* Changed from absolute to relative for better mobile flow */
+        top: -1450px !important; /* Reset top for mobile */
+        left: 10px !important; /* Reset left, slightly adjusted for narrower screen */
+        width: 120% !important; /* Full width, adjusted from 120% for 576px */
         height: auto !important; /* Auto height to fit content */
         padding: 0px !important; /* Add padding for spacing */
     }
@@ -2777,14 +2776,14 @@ border:1px solid white;
         text-align: center !important; /* Center content */
     }
 
-    .lastt .last-line {
+    .training-footer .lastt {
         /* Adjust the lastt div for mobile, full width and center */
-        position:relative !important;
-        width: 115% !important; /* Adjusted to 100% for 425px */
-        left: 60px !important; /* Reset left for smaller screen */
+        width: 120% !important; /* Full width, adjusted from 115% for 576px */
+        left: -100px !important; /* Reset left */
         text-align: center !important; /* Center content */
-        margin-top:500px !important;
-        margin-bottom:-350px !important;
+        margin-top:2700px !important;
+        margin-bottom:-1500px !important;
+        
     }
 
     .line1 {
@@ -2792,34 +2791,35 @@ border:1px solid white;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        gap: 12px !important; /* Reduced gap for smaller screen */
+        gap: 10px !important; /* Reduced gap for narrower screen */
     }
 
     .line1 img {
-        /* Adjust the footer icon image for mobile, making it larger */
-        width: 80px !important; /* Smaller width for 425px */
-        height: auto !important; /* Auto height, added !important */
+        /* Adjust the footer icon image for mobile, making it smaller for 576px */
+        width: 80px !important; /* Smaller width for 576px */
+        height: auto !important; /* Auto height */
     }
 
     .line1 p {
+        /* Adjust the paragraph in line1 for mobile, full width and center */
         width: 100% !important; /* Full width */
         text-align: center !important; /* Center text */
-        font-size: 12px !important; /* Smaller font for 425px */
-        padding: 0 8px !important; /* Reduced padding */
+        font-size: 12px !important; /* Smaller font for 576px */
+        padding: 0 10px !important; /* Add padding */
     }
 
     .icn {
         /* Adjust the icons container for mobile, center and add gap */
         display: flex !important;
         justify-content: center !important;
-        gap: 12px !important; /* Reduced gap for smaller screen */
+        gap: 10px !important; /* Reduced gap for narrower screen */
     }
 
     .icn .fa-facebook-f,
     .icn .fa-linkedin,
     .icn .fa-instagram {
-        /* Adjust individual icons for mobile, larger size */
-        font-size: 20px !important; /* Smaller icon size for 425px */
+        /* Adjust individual icons for mobile, smaller size for 576px */
+        font-size: 20px !important; /* Smaller icon size for 576px */
     }
 
     .links {
@@ -2827,18 +2827,19 @@ border:1px solid white;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-        gap: 15px !important; /* Reduced gap for smaller screen */
+        gap: 15px !important; /* Reduced gap for narrower screen */
         width: 100% !important; /* Full width */
     }
 
     .links1 {
+        /* Adjust each links1 group for mobile, full width and center */
         width: 100% !important; /* Full width */
         text-align: center !important; /* Center text */
     }
 
     .links1 h3 {
         /* Adjust headings in links1 for mobile */
-        font-size: 16px !important; /* Smaller font for 425px */
+        font-size: 16px !important; /* Smaller font for 576px */
         margin-bottom: 8px !important; /* Reduced margin */
     }
 
@@ -2846,14 +2847,13 @@ border:1px solid white;
         /* Adjust links in links1 for mobile, full width and center */
         display: block !important; /* Block for full width */
         text-align: center !important; /* Center text */
-        font-size: 12px !important; /* Smaller font for 425px */
+        font-size: 12px !important; /* Smaller font for 576px */
         margin: 4px 0 !important; /* Reduced vertical margin */
         text-decoration: none !important; /* Remove underline if needed */
     }
 
     .last-line {
         /* Adjust the last-line container for mobile, full width and center */
-        position:relative !important;
         width: 100% !important; /* Full width */
         text-align: center !important; /* Center text */
         padding: 8px 0 !important; /* Reduced padding */
@@ -2862,118 +2862,8 @@ border:1px solid white;
     .last-line i {
         /* Adjust italic text in last-line for mobile */
         display: block !important; /* Stack vertically */
-        font-size: 10px !important; /* Smaller font for 425px */
+        font-size: 10px !important; /* Smaller font for 576px */
         margin: 4px 0 !important; /* Reduced vertical margin */
-    }
-
-    /* Note: Other styles like #tt-three, .course-high, #apply, .rightside-form, etc., are not included as they are not part of the footer JSX provided. If they are related and need responsiveness, provide their JSX/CSS for inclusion. */
-}
-
-
-@media (max-width: 576px) {
-    .training-footer {
-        position: relative !important;
-        top: -300px !important; 
-        left: -30px !important; /* Reset left */
-        width: 115% !important; /* Adjusted to 100% for 576px to prevent overflow */
-        height: auto !important; /* Auto height to fit content */
-        padding: 0px !important; /* Add padding for spacing */
-    }
-
-    .training-footer .footer {
-        /* Adjust the footer div for mobile, full width and center */
-        width: 115% !important; /* Full width */
-        left: 0 !important; /* Reset left */
-        text-align: center !important; /* Center content */
-    }
-
-    .lastt .last-line {
-        /* Adjust the lastt div for mobile, full width and center */
-        position:relative !important;
-        width: 99% !important; /* Adjusted to 100% for 576px */
-        left: 100px !important; /* Reset left for larger screen */
-        text-align: center !important; /* Center content */
-        margin-top: 400px !important; /* Reduced for 576px */
-        margin-bottom: -300px !important; /* Adjusted for 576px */
-    }
-
-    .line1 {
-        /* Adjust the line1 container for mobile, stacking vertically */
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 15px !important; /* Slightly increased gap for 576px */
-    }
-
-    .line1 img {
-        /* Adjust the footer icon image for mobile, making it larger */
-        width: 100px !important; /* Larger for 576px */
-        height: auto !important; /* Auto height, added !important */
-    }
-
-    .line1 p {
-        width: 100% !important; /* Full width */
-        text-align: center !important; /* Center text */
-        font-size: 14px !important; /* Larger font for 576px */
-        padding: 0 10px !important; /* Increased padding */
-    }
-
-    .icn {
-        /* Adjust the icons container for mobile, center and add gap */
-        display: flex !important;
-        justify-content: center !important;
-        gap: 15px !important; /* Increased gap for 576px */
-    }
-
-    .icn .fa-facebook-f,
-    .icn .fa-linkedin,
-    .icn .fa-instagram {
-        /* Adjust individual icons for mobile, larger size */
-        font-size: 24px !important; /* Larger for 576px */
-    }
-
-    .links {
-        /* Adjust the links container for mobile, stack vertically */
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 18px !important; /* Increased gap for 576px */
-        width: 100% !important; /* Full width */
-    }
-
-    .links1 {
-        width: 100% !important; /* Full width */
-        text-align: center !important; /* Center text */
-    }
-
-    .links1 h3 {
-        /* Adjust headings in links1 for mobile */
-        font-size: 18px !important; /* Larger for 576px */
-        margin-bottom: 10px !important; /* Increased margin */
-    }
-
-    .links1 a {
-        /* Adjust links in links1 for mobile, full width and center */
-        display: block !important; /* Block for full width */
-        text-align: center !important; /* Center text */
-        font-size: 14px !important; /* Larger for 576px */
-        margin: 5px 0 !important; /* Increased margin */
-        text-decoration: none !important; /* Remove underline if needed */
-    }
-
-    .last-line {
-        /* Adjust the last-line container for mobile, full width and center */
-        position:relative !important;
-        width: 100% !important; /* Full width */
-        text-align: center !important; /* Center text */
-        padding: 10px 0 !important; /* Increased padding */
-    }
-
-    .last-line i {
-        /* Adjust italic text in last-line for mobile */
-        display: block !important; /* Stack vertically */
-        font-size: 12px !important; /* Larger for 576px */
-        margin: 5px 0 !important; /* Increased margin */
     }
 
     /* Note: Other styles like #tt-three, .course-high, #apply, .rightside-form, etc., are not included as they are not part of the footer JSX provided. If they are related and need responsiveness, provide their JSX/CSS for inclusion. */

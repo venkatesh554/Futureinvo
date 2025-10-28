@@ -2240,16 +2240,6 @@ margin-left: 50% !important;      /* move starting point to center */
     margin-top: -0px !important; /* Adjusted from tablet's -50px */
     padding: 30px !important; /* Increased from tablet's 25px */
   }
-   .child22 p {
-    position: relative !important;
-    left: 0 !important;
-    top: 50px !important;
-    width: 100% !important;
-    height: auto !important;
-    margin-top: -0px !important; /* Adjusted from tablet's -50px */
-    padding: 0px !important; /* Increased from tablet's 25px */
-  }
-
 
   .word-slider-about {
     position: relative !important;
@@ -2529,7 +2519,7 @@ margin-left: 50% !important;      /* move starting point to center */
     margin: 0 auto 25px auto !important;
     display: block !important;
     position:relative !important;
-    left:0px !important;
+    left:0px !important
   }
 
   .line1 {

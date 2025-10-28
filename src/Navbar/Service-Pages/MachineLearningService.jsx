@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import photo1 from "../images/logo.png";
 import photo2 from "../images/aiphoto8-0.png";
 import photo3 from "../images/bottomai.png";
+
 import photo4 from "../images/networking.png";
 import photo5 from "../images/briefcase.png";
 import photo6 from "../images/clock.png";
