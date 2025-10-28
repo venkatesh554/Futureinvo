@@ -1,4 +1,7 @@
+
+
 import React,{useState} from "react";
+import { ToastContainer, toast } from "react-toastify";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -99,44 +102,50 @@ function WebDesign() {
           <button className="sbutton-999">Submit</button>
         </form> */}
         <form className="form-group-999" onSubmit={handleSubmit}>
-        <h3>Get A Quote For You</h3>
-        <label htmlFor="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Your full name"
-          value={formData.name}
-          onChange={handleChange}
-        />
-        <label htmlFor="mobile">Mobile</label>
-        <input
-          type="text"
-          id="mobile"
-          name="mobile"
-          placeholder="Mobile"
-          value={formData.mobile}
-          onChange={handleChange}
-        />
-        <label htmlFor="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Your email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        <label htmlFor="message">Message</label>
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Message"
-          value={formData.message}
-          onChange={handleChange}
-        ></textarea>
-        <button type="submit" className="sbutton-999">Submit</button>
-      </form>
+                                                                          <h3>Get A Quote For You</h3>
+                                                                
+                                                                          <label htmlFor="name">Name</label>
+                                                                          <input
+                                                                            type="text"
+                                                                            name="name"
+                                                                            placeholder="Your full name"
+                                                                            value={formData.name}
+                                                                            onChange={handleChange}
+                                                                          />
+                                                                
+                                                                          <label htmlFor="mobile">Mobile</label>
+                                                                          <input
+                                                                            type="text"
+                                                                            name="mobile"
+                                                                            placeholder="Mobile"
+                                                                            value={formData.mobile}
+                                                                            onChange={handleChange}
+                                                                          />
+                                                                
+                                                                          <label htmlFor="email">Email</label>
+                                                                          <input
+                                                                            type="email"
+                                                                            name="email"
+                                                                            placeholder="Your email"
+                                                                            value={formData.email}
+                                                                            onChange={handleChange}
+                                                                          />
+                                                                
+                                                                          <label htmlFor="message">Message</label>
+                                                                          <textarea
+                                                                            name="message"
+                                                                            placeholder="Message"
+                                                                            value={formData.message}
+                                                                            onChange={handleChange}
+                                                                          ></textarea>
+                                                                
+                                                                          <button className="sbutton-999" type="submit">
+                                                                            Submit
+                                                                          </button>
+                                                                        </form>
+                                                                
+                                                                        {/* Toastify container */}
+                                                                        <ToastContainer position="top-center" autoClose={2000} />
 
         <div className="benefits-999">
           <h2>Benefits With Our Web Design</h2>

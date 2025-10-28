@@ -256,7 +256,6 @@ ul {
 
 
 
-
 .container-999 {
   background-color: #f8f9fa; /* Light gray background for contrast */
   display: flex;
@@ -265,7 +264,7 @@ ul {
   min-height: 100vh; /* Full viewport height */
   font-family: 'Poppins', sans-serif;
   padding: 20px;
-  overflow: hidden;
+  /* Removed overflow: hidden to allow scrolling and interaction if content overflows */
 }
 
 .form-group-999 {
@@ -277,9 +276,9 @@ ul {
   border-radius: 20px; /* More rounded corners */
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Soft shadow */
   position: relative;
-  overflow: hidden;
-  animation: fadeInUp 0.8s ease-out; /* Entrance animation */  z-index:9999;
-
+  /* Removed overflow: hidden to prevent clipping of inputs or interactions */
+  animation: fadeInUp 0.8s ease-out; /* Entrance animation */
+  z-index: 9999;
 }
 
 .form-group-999::before {
@@ -292,6 +291,7 @@ ul {
   background: rgba(255, 255, 255, 0.1);
   opacity: 0;
   transition: opacity 0.3s ease;
+  pointer-events: none; /* Added to ensure it doesn't block interactions */
 }
 
 .form-group-999:hover::before {
@@ -305,6 +305,8 @@ ul {
   text-align: center;
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative; /* Ensure it's above the pseudo-element */
+  z-index: 1;
 }
 
 .form-group-999 label {
@@ -315,6 +317,8 @@ ul {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  position: relative; /* Ensure it's above the pseudo-element */
+  z-index: 1;
 }
 
 .form-group-999 input,
@@ -330,8 +334,8 @@ ul {
   transition: all 0.3s ease;
   margin-bottom: 20px;
   outline: none;
-  z-index:999;
-  
+  position: relative; /* Ensure proper stacking */
+  z-index: 1; /* Lower than container but above pseudo-element */
 }
 
 .form-group-999 input:focus,
@@ -364,10 +368,11 @@ ul {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  overflow: hidden;
-  top:0;
+  overflow: hidden; /* Kept for button effect */
+  top: 0;
   text-transform: uppercase;
   letter-spacing: 1px;
+  z-index: 1; /* Ensure it's above pseudo-element */
 }
 
 .sbutton-999::before {
@@ -393,7 +398,6 @@ ul {
 .sbutton-999:active {
   transform: translateY(-1px);
 }
-
 
 
 

@@ -1,5 +1,5 @@
-import React from "react";
-
+import React,{useState} from "react";
+import { ToastContainer, toast } from "react-toastify";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import photo1 from "../images/logo.png";
 import photo2 from "../images/aiphoto8-0.png";
@@ -19,6 +19,45 @@ import "../Service-Pages/service12.css";
 import { BrowserRouter } from "react-router-dom";
 
 function MachineLearningService() {
+
+  
+       const [formData, setFormData] = useState({
+              name: "",
+              mobile: "",
+              email: "",
+              message: "",
+            });
+          
+            const handleChange = (e) => {
+              setFormData({ ...formData, [e.target.name]: e.target.value });
+            };
+          
+            const handleSubmit = (e) => {
+              e.preventDefault();
+          
+              const { name, mobile, email, message } = formData;
+          
+              if (!name || !mobile || !email || !message) {
+                toast.warn("Please fill out all fields before submitting!");
+                return;
+              }
+          
+              // Save to localStorage
+              localStorage.setItem("quoteData", JSON.stringify(formData));
+          
+              toast.success("Form submitted successfully!");
+          
+              // Reset form
+              setFormData({
+                name: "",
+                mobile: "",
+                email: "",
+                message: "",
+              });
+            };
+        
+  
+
   return (
     <div className="Appp">
       {/* Hero Section */}
@@ -56,18 +95,51 @@ function MachineLearningService() {
 
       
       <section className="container-999">
-        <form className="form-group-999">
-          <h3>Get A Quote For You</h3>
-          <label htmlFor="name"> Name</label>
-          <input id="name" type="text" placeholder="Your full name" />
-          <label htmlFor="mobile"> Mobile</label>
-          <input id="mobile" type="text" placeholder="Mobile" />
-          <label htmlFor="email">Email</label>
-          <input id="email" type="email" placeholder="Your email" />
-          <label htmlFor="message">Message</label>
-          <textarea id="message" placeholder="Message"></textarea>
-          <button className="sbutton-999">Submit</button>
-        </form>
+        <form className="form-group-999" onSubmit={handleSubmit}>
+                                                            <h3>Get A Quote For You</h3>
+                                                  
+                                                            <label htmlFor="name">Name</label>
+                                                            <input
+                                                              type="text"
+                                                              name="name"
+                                                              placeholder="Your full name"
+                                                              value={formData.name}
+                                                              onChange={handleChange}
+                                                            />
+                                                  
+                                                            <label htmlFor="mobile">Mobile</label>
+                                                            <input
+                                                              type="text"
+                                                              name="mobile"
+                                                              placeholder="Mobile"
+                                                              value={formData.mobile}
+                                                              onChange={handleChange}
+                                                            />
+                                                  
+                                                            <label htmlFor="email">Email</label>
+                                                            <input
+                                                              type="email"
+                                                              name="email"
+                                                              placeholder="Your email"
+                                                              value={formData.email}
+                                                              onChange={handleChange}
+                                                            />
+                                                  
+                                                            <label htmlFor="message">Message</label>
+                                                            <textarea
+                                                              name="message"
+                                                              placeholder="Message"
+                                                              value={formData.message}
+                                                              onChange={handleChange}
+                                                            ></textarea>
+                                                  
+                                                            <button className="sbutton-999" type="submit">
+                                                              Submit
+                                                            </button>
+                                                          </form>
+                                                  
+                                                          {/* Toastify container */}
+                                                          <ToastContainer position="top-center" autoClose={2000} />
 
         <div className="benefits-999">
           <h2>Benefits With Our Machine Learning & Deep Learning</h2>

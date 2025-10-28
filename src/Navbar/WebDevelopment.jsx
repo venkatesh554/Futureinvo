@@ -42,56 +42,7 @@ import bgimg from "./navbar-images/bgimg.png"
 export default function WebDevelopment() {
 
   
-   const [formData, setFormData] = useState({
-      name: "",
-      email: "",
-      mobile: "",
-      city: "",
-      occupation: "",
-      message: "",
-    });
-    
-  
-    // 2️⃣ Handle input changes
-    const handleChange = (e) => {
-      const { name, value } = e.target;
-      setFormData((prev) => ({
-        ...prev,
-        [name]: value,
-      }));
-    };
-  
-    // 3️⃣ Handle form submission
-    const handleSubmit = (e) => {
-      e.preventDefault();
-  
-      // Check for empty fields
-      if (
-        !formData.name ||
-        !formData.email ||
-        !formData.mobile ||
-        !formData.city ||
-        !formData.occupation ||
-        !formData.message
-      ) {
-        alert("⚠️ Please fill in all fields before submitting!");
-        return;
-      }
-  
-      // Store in localStorage
-      localStorage.setItem("contactFormData", JSON.stringify(formData));
-      alert("✅ Your data has been saved successfully!");
-  
-      // Reset the form
-      setFormData({
-        name: "",
-        email: "",
-        mobile: "",
-        city: "",
-        occupation: "",
-        message: "",
-      });
-    };
+   
   return (
     <div className="tt">
 

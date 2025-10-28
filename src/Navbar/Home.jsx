@@ -498,8 +498,9 @@ export default function Home() {
               <img src={footericon} />
               <p>Join us to gain industry insights and hands-on experience for success in the digital world</p>
               <div className="icn">
-                 <a to="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
-                <a to="https://www.linkedin.com/in/futureinvosolutions/?originalSubdomain=in"> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
+                 <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" ><FontAwesomeIcon icon={faFacebookF}/></a>
+                <a href="https://www.linkedin.com/company/future-invo-solutions/posts/?feedView=all
+                "> <FontAwesomeIcon icon={faLinkedin}  id="ic-links"/></a>
                 <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
                </div>
               <div className="links">
