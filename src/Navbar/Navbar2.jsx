@@ -702,11 +702,12 @@ export default function Navbar2() {
               About <FontAwesomeIcon icon={faAngleDown} />
             </span>
             <ul className="dropdown-menu">
+             
               <li>
-                <Link to="/About">FAQ's</Link>
+                <Link to="/Faq" >About</Link>
               </li>
-              <li>
-                <Link to="/Faq" id="data-hover-about">About</Link>
+               <li>
+                <Link to="/About" id="data-hover-about">FAQ's</Link>
               </li>
             </ul>
           </li>
