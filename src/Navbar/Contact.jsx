@@ -73,7 +73,7 @@ export default function Contact() {
   return (
     <div>
        <div className="tt">
-        <div className="faq">
+        <div className="faq-con">
         <div className="dup-from-faq">
             <h1>Contact Us</h1>
             
@@ -202,7 +202,7 @@ export default function Contact() {
 </div>
 </div>
 </div>
-          <div className="footer-contact-2">
+          <div className="footer-contact-2-con">
              <div className="footerr" id="footer-contact-2">
             <div className="footer" id="footer-dup">
                        <div className="line1">

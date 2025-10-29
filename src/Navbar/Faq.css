@@ -943,7 +943,6 @@
     top:20px !important;
     width: 130% !important;
 justify-content: center;
-
 margin-left: 50% !important;      /* move starting point to center */
   transform: translateX(-50%) !important; /* pull it back by half its width */  }
 

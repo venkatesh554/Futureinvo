@@ -8,6 +8,18 @@
    
 
 }
+.faq-con{
+    position:absolute;
+    top:60px;
+    width:100%;
+    height:480px;
+    background-color:rgba(62, 83, 138)
+    
+   
+
+}
+
+
 #dup-from-faq{
     position:relative;
     
@@ -1313,6 +1325,21 @@
   top:400px !important;
  }
   .footerr img{
+    position:relative;
+    left:0px !important;
+  }
+
+
+  
+ .footer-contact-2-con .footerr{
+  position:relative;
+  top:30px !important;
+ }
+ .footer-contact-2-con .lastt{
+  position:relative;
+  top:40px !important;
+ }
+ .footer-contact-2-con  .footerr img{
     position:relative;
     left:0px !important;
   }
