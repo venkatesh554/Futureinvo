@@ -2,11 +2,12 @@
     height: 250px
 }
 
+
 .pop-up {
   position: fixed;       
-  top: 52px;             /* distance from top */
-  right: 20px;           /* or left: 50% for center */
-  transform: translateX(0); /* adjust if needed */
+  top: 52px;             
+  right: 20px;          
+  transform: translateX(0); 
   width: 400px;
   height: 620px;
   background-color: #ffffff;
@@ -18,6 +19,7 @@
   border-radius: 5px;
   box-shadow:10px 10px 20px rgb(187, 186, 186);
 }
+
 
 .pop-up p{
   position:absolute;
@@ -146,6 +148,7 @@ body.active-modal{
     margin-left:50px;
     
 }
+
 .Top-3 ul{
     display:flex;
     list-style-type: none;
@@ -161,9 +164,6 @@ body.active-modal{
     margin-left:20px;
     margin-top:15px;
 }
-
-
-
 
 
 
@@ -205,7 +205,6 @@ body.active-modal{
   pointer-events: none;          
   transition: opacity 0.35s ease, transform 0.35s ease, visibility 0.35s;
 }
-
 
 
 
@@ -294,12 +293,10 @@ i{
 
 
 
-
 #data-hover-9{
   position: relative;
   top:-455px;
 }
-
 
 #data-hover-10{
   position: relative;
@@ -318,22 +315,11 @@ i{
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* Normal/Desktop CSS for .futureinvo-contact: Adjusted for popup layout with social icons (absolute, horizontal) */
 .futureinvo-contact {
-  position: absolute !important; /* Absolute to match popup form's layout */
-  top: 530px !important; /* Below form/button (adjust based on #nav-form-btn position; e.g., after 400px form) */
-  left: 20px !important; /* Centered in 400px popup: (400 - 320)/2 = 40px from left */
-  width: 370px !important; /* Fixed width to fit popup without overflow */
+  position: absolute !important; 
+  top: 530px !important;
+  left: 20px !important; 
+  width: 350px !important;
   height: auto !important; /* Auto height for content (email, phone, social) */
   margin: 0 !important; /* No margins - absolute positioning */
   padding: 15px !important; /* Inner padding for spacing */
@@ -361,13 +347,13 @@ i{
   margin: 0 !important; /* No margins */
   font-size: 15px !important; /* Match parent */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover */
-  cursor: pointer !important; /* Make clickable (e.g., mailto/tel) */
-  text-decoration: none !important; /* No underline */
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
 
 .futureinvo-contact i:hover {
-  color: rgba(5, 98, 160, 0.8) !important; /* Lighter blue on hover */
-  transform: translateY(-1px) !important; /* Slight lift */
+  color: rgba(5, 98, 160, 0.8) !important; 
+  transform: translateY(-1px) !important; 
 }
 
 /* Icons in Contact (#icon): Sized and colored */

@@ -1716,7 +1716,7 @@ border:1px solid white;
     .training-footer .lastt {
         /* Adjust the lastt div for tablet, full width and center */
         position: relative !important;
-        top:300px !important;
+        top:750px !important;
         width: 115% !important; /* Full width */
         left: -100px !important; /* Reset left */
         text-align: center !important; /* Center content */
@@ -2642,7 +2642,7 @@ border:1px solid white;
     .training-footer {
         /* Adjust the main footer container for mobile, making it full width and auto height, positioning relatively */
         position: relative !important; /* Changed from absolute to relative for better mobile flow */
-        top: -350px !important; /* Reset top for mobile */
+        top: -750px !important; /* Reset top for mobile */
         left: 15px !important; /* Reset left */
         width:120% !important; /* Full width */
         height: auto !important; /* Auto height to fit content */
@@ -2661,6 +2661,7 @@ border:1px solid white;
         width: 115% !important; /* Full width */
         left: -140px !important; /* Reset left */
         text-align: center !important; /* Center content */
+       margin-top:-250px !important;
     }
 
     .line1 {

@@ -18,7 +18,6 @@ import "../Service-Pages/service12.css";
 
 function Ai() {
 
-
 const [formData, setFormData] = useState({
     name: "",
     mobile: "",
@@ -40,12 +39,10 @@ const [formData, setFormData] = useState({
       return;
     }
 
-    // Save to localStorage
     localStorage.setItem("quoteData", JSON.stringify(formData));
 
     toast.success("Form submitted successfully!");
 
-    // Reset form
     setFormData({
       name: "",
       mobile: "",
@@ -53,6 +50,62 @@ const [formData, setFormData] = useState({
       message: "",
     });
   };
+
+
+
+
+
+ const [formData1, setFormData1] = useState({
+    name: "",
+    phone: "",
+    email: "",
+  });
+
+
+
+   const handleChange1 = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit1 = (e) => {
+    e.preventDefault();
+
+    if (!formData1.name || !formData1.phone || !formData1.email) {
+      alert("Please fill in all fields!");
+      return;
+    }
+
+    let storedData1 = JSON.parse(localStorage.getItem("expertForm")) || [];
+
+    if (!Array.isArray(storedData1)) {
+      storedData1 = [];
+    }
+
+    storedData1.push(formData);
+
+    localStorage.setItem("expertForm", JSON.stringify(storedData1));
+
+    setFormData1({
+      name: "",
+      phone: "",
+      email: "",
+    });
+
+    alert("Data saved successfully!");
+  };
+
+
+
+
+
+
+
+
+
 
 
 
@@ -295,20 +348,41 @@ const [formData, setFormData] = useState({
       </div>
 
      
-      <section className="background-overlay-999">
-        <div className="ai-image-container-999">
-          <img src={photo3} alt="AI Expert" />
-        </div>
-        <div className="form-container-999">
-          <h2>Talk To Our Experts</h2>
-          <form>
-            <input type="text" placeholder="Name" required />
-            <input type="tel" placeholder="Phone Number" required />
-            <input type="email" placeholder="Email" required />
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-      </section>
+       <section className="background-overlay-999">
+      <div className="ai-image-container-999">
+        <img src={photo3} alt="AI Expert" />
+      </div>
+      <div className="form-container-999">
+        <h2>Talk To Our Experts</h2>
+        <form onSubmit={handleSubmit1}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={formData.name}
+            onChange={handleChange1}
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            value={formData.phone}
+            onChange={handleChange1}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleChange1}
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
 
       
       <div className="faq-container-999">
