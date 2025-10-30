@@ -119,7 +119,6 @@ function WebDevelopmentService() {
         </p>
       </section>
 
-      {/* Quote Form & Benefits */}
       <section className="container-999">
         <form className="form-group-999" onSubmit={handleSubmit}>
                                                                           <h3>Get A Quote For You</h3>
