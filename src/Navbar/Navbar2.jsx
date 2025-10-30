@@ -587,6 +587,8 @@ import { faBars, faXmark, faAngleDown, faAngleUp } from "@fortawesome/free-solid
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import logo from "./navbar-images/icon.png";
+import logo2 from "./navbar-images/logo2.png";
+
 import formlogo from "./navbar-images/icon.png";
 import { faEnvelope, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -691,7 +693,7 @@ export default function Navbar2() {
     <>
       <div className="sticker"></div>
       <div className={fix ? "navbarFixed" : "Top-3"}>
-        <img src={logo} alt="Logo"  id="logo-dup"/>
+        <img src={logo2} alt="Logo"  id="logo-dup"/>
         <ul>
           <li>
             <Link to="/">Home</Link>

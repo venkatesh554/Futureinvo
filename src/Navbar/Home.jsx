@@ -22,7 +22,7 @@ import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-sv
 import { faAngleRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
@@ -131,12 +131,16 @@ export default function Home() {
   };
 
 
+ const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
+  const handleExplore = () => {
+    setLoading(true);
+    setTimeout(() => {
+      navigate("/Faq");
+    }, 1500); // Simulated delay
+  };
 
-
-
-
-  
   return (
     <div className="parent">
       <div className="child">
@@ -150,15 +154,15 @@ export default function Home() {
             <p id="p2" >We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
-          <Link
-  to="/"
-  onClick={() => window.location.reload()}
->
-  <button>
-    Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon" />
-  </button>
-</Link>
+          {loading && (
+        <div className="top-loader-container">
+          <div className="top-circle-loader"></div>
+        </div>
+      )}
 
+      <button onClick={handleExplore} className="explore-btn-999" disabled={loading}>
+        Explore More <FontAwesomeIcon icon={faArrowRight} id="iicon" />
+      </button>
       </div>
 
 

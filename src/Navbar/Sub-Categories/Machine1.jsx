@@ -99,7 +99,6 @@ function Machine1() {
 
       
         <section className="container-999">
-                      <h3>Get A Quote For You</h3>
 
          <form className="form-group-999" onSubmit={handleSubmit}>
                                                                                                   <h3>Get A Quote For You</h3>
@@ -180,6 +179,7 @@ function Machine1() {
               </div>
             </div>
           </div>
+          
         
         </section>
 
