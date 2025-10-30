@@ -176,7 +176,7 @@ ul {
     top:50px;
     padding:10px ;
     padding-left:25px;
-    font-size:16px;
+    font-size:17px;
 }
 .home-content-999 h1{
   position:relative;
@@ -261,33 +261,29 @@ ul {
     top:20px;
 } */
 
-
-
 .container-999 {
-  /* background-color: #f8f9fa; */
   display: flex;
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  min-height: 100vh; /* Full viewport height */
+  align-items: center; 
+  justify-content: center;
+  min-height: 100vh; 
   font-family: 'Poppins', sans-serif;
   padding: 20px;
   position:relative;
+  top:-50px ;
   left:0px;
   padding-left:40px;
-  /* Removed overflow: hidden to allow scrolling and interaction if content overflows */
 }
 
 .form-group-999 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Unique gradient background */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
   padding: 40px;
   width: 100%;
   max-width: 400px; 
   color: white;
   border-radius: 20px; 
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   position: relative;
-  /* Removed overflow: hidden to prevent clipping of inputs or interactions */
-  animation: fadeInUp 0.8s ease-out; /* Entrance animation */
+  animation: fadeInUp 0.8s ease-out;
   z-index: 9999;
 }
 
@@ -301,11 +297,11 @@ ul {
   background: rgba(255, 255, 255, 0.1);
   opacity: 0;
   transition: opacity 0.3s ease;
-  pointer-events: none; /* Added to ensure it doesn't block interactions */
+  pointer-events: none;
 }
 
 .form-group-999:hover::before {
-  opacity: 1; /* Subtle hover overlay */
+  opacity: 1; 
 }
 
 .form-group-999 h3 {
@@ -315,7 +311,7 @@ ul {
   text-align: center;
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  position: relative; /* Ensure it's above the pseudo-element */
+  position: relative;
   z-index: 1;
 }
 
@@ -327,7 +323,7 @@ ul {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  position: relative; /* Ensure it's above the pseudo-element */
+  position: relative; 
   z-index: 1;
 }
 
@@ -402,25 +398,12 @@ ul {
 }
 
 .sbutton-999:hover::before {
-  left: 100%; /* Shine effect */
+  left: 100%; 
 }
 
 .sbutton-999:active {
   transform: translateY(-1px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -474,9 +457,10 @@ ul {
 
 
 .benefits-999 {
-  padding: 50px 20px; /* Adjusted padding for responsiveness */
+  padding: 50px 20px; 
   max-width: 1200px;
   margin: 0 auto;
+  position:relative;
 }
 
 .benefits-999 h2 {
@@ -492,7 +476,7 @@ ul {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -503,22 +487,22 @@ ul {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   border-radius: 15px;
-  color: white; /* White text for contrast on dark backgrounds */
-  height: 120px; /* Increased height for better content fit */
+  color: white; 
+  height: 120px; 
   padding: 20px;
-  margin-bottom: 0; /* Removed margin-bottom since grid handles spacing */
+  margin-bottom: 0;
   position: relative;
   overflow: hidden;
   font-size: 1rem;
   font-weight: 500;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for dark theme */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
 .benefit-item:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); /* Even deeper shadow on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4); 
 }
 
 .benefit-item::before {
@@ -526,12 +510,12 @@ ul {
   position: absolute;
   top: 15px;
   left: 15px;
-  width: 40px; /* Small image size */
+  width: 40px; 
   height: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 5px; /* Optional: slight rounding for images */
+  border-radius: 5px; 
 }
 
 .benefit-item::after {
@@ -3012,7 +2996,7 @@ top:-20px;
         position: relative !important;
         top: 0 !important;
         font-family: 'Poppins', sans-serif !important;
-        font-size: 24px !important; /* Slightly smaller font for mobile */
+        font-size: 24px !important; 
     }
 
     .service-button-999 {
@@ -3136,9 +3120,9 @@ top:-20px;
         margin-bottom: 15px !important;
         width: 100% !important;
         max-width: 100% !important;
-        word-wrap: break-word !important; /* Added to make text adjust automatically */
-        overflow-wrap: break-word !important; /* Additional support for text wrapping */
-        font-size: 14px !important; /* Kept smaller font for mobile */
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important; 
+        font-size: 14px !important; 
     }
 
     .header-content-999 h1 {
