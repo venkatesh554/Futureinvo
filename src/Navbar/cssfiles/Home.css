@@ -13,156 +13,6 @@
 
 
 
-@media (max-width: 576px) {
-  .explore-btn-999 {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 18px; /* Reduced padding for smaller screens */
-    border-radius: 6px; /* Slightly smaller radius */
-    cursor: pointer;
-    font-size: 14px; /* Smaller font size for mobile */
-    transition: all 0.3s ease;
-    width: 100%; /* Full width on mobile for better touch interaction */
-    max-width: 200px; /* Optional cap to prevent overly wide buttons */
-    margin: 0 auto; /* Center the button */
-    display: block; /* Ensure it's block-level for centering */
-  }
-
-  .explore-btn-999:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
-
-  /* Circular loader at the top */
-  .top-loader-container {
-    position: fixed;
-    top: 10px;
-    left: 50% !important; /* Center horizontally on smaller screens */
-    transform: translateX(-50%);
-    z-index: 9999;
-  }
-
-  .top-circle-loader {
-    width: 24px; /* Slightly smaller size for mobile */
-    height: 24px;
-    border: 2px solid rgba(0, 123, 255, 0.3); /* Thinner border */
-    border-top-color: #007bff;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-}
-
-
-
-
-
-@media (max-width: 768px) {
-  .explore-btn-999 {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 12px 20px; /* Slightly larger padding than mobile */
-    border-radius: 8px; /* Back to original radius */
-    cursor: pointer;
-    font-size: 16px; /* Larger font size for tablet */
-    transition: all 0.3s ease;
-    width: auto; /* Not full width, let it size naturally */
-    max-width: 250px; /* Larger cap for tablet */
-    margin: 0 auto; /* Center the button */
-    display: block; /* Ensure it's block-level for centering */
-  }
-
-  .explore-btn-999:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
-
-  /* Circular loader at the top */
-  .top-loader-container {
-    position: fixed;
-    top: 10px;
-    left: 50% !important; /* Center horizontally */
-    transform: translateX(-50%);
-    z-index: 9999;
-  }
-
-  .top-circle-loader {
-    width: 28px; /* Back to original size */
-    height: 28px;
-    border: 3px solid rgba(0, 123, 255, 0.3); /* Thicker border */
-    border-top-color: #007bff;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1024px) {
-  .explore-btn-999 {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 14px 24px; /* Larger padding for more screen space */
-    border-radius: 8px; /* Keep or slightly adjust */
-    cursor: pointer;
-    font-size: 18px; /* Larger font for better readability on larger screens */
-    transition: all 0.3s ease;
-    width: auto; /* Natural width */
-    max-width: 300px; /* Larger cap for 1024px */
-    margin: 0 auto; /* Center the button */
-    display: block; /* Ensure it's block-level for centering */
-  }
-
-  .explore-btn-999:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
-
-  /* Circular loader at the top */
-  .top-loader-container {
-    position: fixed;
-    top: 10px;
-    left: 50% !important; /* Center horizontally */
-    transform: translateX(-50%);
-    z-index: 9999;
-  }
-
-  .top-circle-loader {
-    width: 32px; /* Slightly larger for 1024px */
-    height: 32px;
-    border: 3px solid rgba(0, 123, 255, 0.3); /* Keep border thickness */
-    border-top-color: #007bff;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-  }
-
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-}
 
 
 
@@ -175,29 +25,7 @@
 
 
 
-
-
-
-
-
-/* Button */
-.explore-btn-999 {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 12px 22px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: all 0.3s ease;
-}
-
-.explore-btn-999:disabled {
-  opacity: 0.7;
-  cursor: not-allowed;
-}
-
-/* Circular loader at the top */
+/* Loader container */
 .top-loader-container {
   position: fixed;
   top: 10px;
@@ -206,20 +34,517 @@
   z-index: 9999;
 }
 
+/* Circle wrapper */
 .top-circle-loader {
-  width: 28px;
-  height: 28px;
-  border: 3px solid rgba(0, 123, 255, 0.3);
-  border-top-color: #007bff;
+  position: relative;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
+/* Create 6 moving dots using shadows */
+.top-circle-loader::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  background: gray;
+  border-radius: 50%;
+  transform-origin: -12px center;
+  animation: moveDots 1.8s linear infinite;
+  box-shadow:
+    12px 0 0 rgba(128, 128, 128, 0.2),
+    6px 10px 0 rgba(128, 128, 128, 0.2),
+    -6px 10px 0 rgba(128, 128, 128, 0.2),
+    -12px 0 0 rgba(128, 128, 128, 0.2),
+    -6px -10px 0 rgba(128, 128, 128, 0.2),
+    6px -10px 0 rgba(128, 128, 128, 0.2);
+}
+
+/* Animate one dot at a time (chasing effect) */
+@keyframes moveDots {
+  0% {
+    box-shadow:
+      12px 0 0 gray,
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  16% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 gray,
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  33% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 gray,
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  50% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 gray,
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  66% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 gray,
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  83% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 gray;
+  }
+  100% {
+    box-shadow:
+      12px 0 0 gray,
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
   }
 }
+
+/* Responsive adjustments for screens 576px and below */
+@media (max-width: 576px) {
+  .top-loader-container {
+    left: 50%; /* Center the loader horizontally on small screens */
+    top: 5px; /* Slightly adjust top position for better fit */
+  }
+  .top-circle-loader {
+    width: 30px; /* Reduce size for smaller screens */
+    height: 30px;
+  }
+  .top-circle-loader::before {
+    width: 4px; /* Adjust dot size proportionally */
+    height: 4px;
+    transform-origin: -9px center; /* Adjust origin for smaller circle */
+    box-shadow:
+      9px 0 0 rgba(128, 128, 128, 0.2),
+      4.5px 7.5px 0 rgba(128, 128, 128, 0.2),
+      -4.5px 7.5px 0 rgba(128, 128, 128, 0.2),
+      -9px 0 0 rgba(128, 128, 128, 0.2),
+      -4.5px -7.5px 0 rgba(128, 128, 128, 0.2),
+      4.5px -7.5px 0 rgba(128, 128, 128, 0.2);
+  }
+  @keyframes moveDots {
+    0% {
+      box-shadow:
+        9px 0 0 gray,
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+    16% {
+      box-shadow:
+        9px 0 0 rgba(128,128,128,0.2),
+        4.5px 7.5px 0 gray,
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+    33% {
+      box-shadow:
+        9px 0 0 rgba(128,128,128,0.2),
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 gray,
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+    50% {
+      box-shadow:
+        9px 0 0 rgba(128,128,128,0.2),
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 gray,
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+    66% {
+      box-shadow:
+        9px 0 0 rgba(128,128,128,0.2),
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 gray,
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+    83% {
+      box-shadow:
+        9px 0 0 rgba(128,128,128,0.2),
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 gray;
+    }
+    100% {
+      box-shadow:
+        9px 0 0 gray,
+        4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -4.5px 7.5px 0 rgba(128,128,128,0.2),
+        -9px 0 0 rgba(128,128,128,0.2),
+        -4.5px -7.5px 0 rgba(128,128,128,0.2),
+        4.5px -7.5px 0 rgba(128,128,128,0.2);
+    }
+  }
+}
+
+
+
+/* Loader container */
+.top-loader-container {
+  position: fixed;
+  top: 10px;
+  left: 25%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+/* Circle wrapper */
+.top-circle-loader {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Create 6 moving dots using shadows */
+.top-circle-loader::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  background: gray;
+  border-radius: 50%;
+  transform-origin: -12px center;
+  animation: moveDots 1.8s linear infinite;
+  box-shadow:
+    12px 0 0 rgba(128, 128, 128, 0.2),
+    6px 10px 0 rgba(128, 128, 128, 0.2),
+    -6px 10px 0 rgba(128, 128, 128, 0.2),
+    -12px 0 0 rgba(128, 128, 128, 0.2),
+    -6px -10px 0 rgba(128, 128, 128, 0.2),
+    6px -10px 0 rgba(128, 128, 128, 0.2);
+}
+
+/* Animate one dot at a time (chasing effect) */
+@keyframes moveDots {
+  0% {
+    box-shadow:
+      12px 0 0 gray,
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  16% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 gray,
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  33% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 gray,
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  50% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 gray,
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  66% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 gray,
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+  83% {
+    box-shadow:
+      12px 0 0 rgba(128,128,128,0.2),
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 gray;
+  }
+  100% {
+    box-shadow:
+      12px 0 0 gray,
+      6px 10px 0 rgba(128,128,128,0.2),
+      -6px 10px 0 rgba(128,128,128,0.2),
+      -12px 0 0 rgba(128,128,128,0.2),
+      -6px -10px 0 rgba(128,128,128,0.2),
+      6px -10px 0 rgba(128,128,128,0.2);
+  }
+}
+
+/* Responsive adjustments for screens 768px and below */
+@media (max-width: 768px) {
+  .top-loader-container {
+    left: 50%; /* Center the loader horizontally on medium screens */
+    top: 8px; /* Slightly adjust top position */
+  }
+  .top-circle-loader {
+    width: 35px; /* Reduce size for medium screens */
+    height: 35px;
+  }
+  .top-circle-loader::before {
+    width: 5px; /* Adjust dot size proportionally */
+    height: 5px;
+    transform-origin: -10px center; /* Adjust origin for smaller circle */
+    box-shadow:
+      10px 0 0 rgba(128, 128, 128, 0.2),
+      5px 8px 0 rgba(128, 128, 128, 0.2),
+      -5px 8px 0 rgba(128, 128, 128, 0.2),
+      -10px 0 0 rgba(128, 128, 128, 0.2),
+      -5px -8px 0 rgba(128, 128, 128, 0.2),
+      5px -8px 0 rgba(128, 128, 128, 0.2);
+  }
+  @keyframes moveDots {
+    0% {
+      box-shadow:
+        10px 0 0 gray,
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+    16% {
+      box-shadow:
+        10px 0 0 rgba(128,128,128,0.2),
+        5px 8px 0 gray,
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+    33% {
+      box-shadow:
+        10px 0 0 rgba(128,128,128,0.2),
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 gray,
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+    50% {
+      box-shadow:
+        10px 0 0 rgba(128,128,128,0.2),
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 gray,
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+    66% {
+      box-shadow:
+        10px 0 0 rgba(128,128,128,0.2),
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 gray,
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+    83% {
+      box-shadow:
+        10px 0 0 rgba(128,128,128,0.2),
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 gray;
+    }
+    100% {
+      box-shadow:
+        10px 0 0 gray,
+        5px 8px 0 rgba(128,128,128,0.2),
+        -5px 8px 0 rgba(128,128,128,0.2),
+        -10px 0 0 rgba(128,128,128,0.2),
+        -5px -8px 0 rgba(128,128,128,0.2),
+        5px -8px 0 rgba(128,128,128,0.2);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/* Loader container */
+.top-loader-container {
+  position: fixed;
+  top: 10px;
+  left: 25%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+
+
+
+/* Responsive adjustments for screens 1024px and below */
+@media (max-width: 1024px) {
+  .top-loader-container {
+    left: 50%; /* Slightly adjust left position for better centering on larger screens */
+    top: 10px; /* Keep top position */
+  }
+  .top-circle-loader {
+    width: 38px; /* Slightly reduce size for 1024px screens */
+    height: 38px;
+  }
+  .top-circle-loader::before {
+    width: 5.5px; /* Adjust dot size proportionally */
+    height: 5.5px;
+    transform-origin: -11px center; /* Adjust origin for smaller circle */
+    box-shadow:
+      11px 0 0 rgba(128, 128, 128, 0.2),
+      5.5px 9px 0 rgba(128, 128, 128, 0.2),
+      -5.5px 9px 0 rgba(128, 128, 128, 0.2),
+      -11px 0 0 rgba(128, 128, 128, 0.2),
+      -5.5px -9px 0 rgba(128, 128, 128, 0.2),
+      5.5px -9px 0 rgba(128, 128, 128, 0.2);
+  }
+  @keyframes moveDots {
+    0% {
+      box-shadow:
+        11px 0 0 gray,
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+    16% {
+      box-shadow:
+        11px 0 0 rgba(128,128,128,0.2),
+        5.5px 9px 0 gray,
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+    33% {
+      box-shadow:
+        11px 0 0 rgba(128,128,128,0.2),
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 gray,
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+    50% {
+      box-shadow:
+        11px 0 0 rgba(128,128,128,0.2),
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 gray,
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+    66% {
+      box-shadow:
+        11px 0 0 rgba(128,128,128,0.2),
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 gray,
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+    83% {
+      box-shadow:
+        11px 0 0 rgba(128,128,128,0.2),
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 gray;
+    }
+    100% {
+      box-shadow:
+        11px 0 0 gray,
+        5.5px 9px 0 rgba(128,128,128,0.2),
+        -5.5px 9px 0 rgba(128,128,128,0.2),
+        -11px 0 0 rgba(128,128,128,0.2),
+        -5.5px -9px 0 rgba(128,128,128,0.2),
+        5.5px -9px 0 rgba(128,128,128,0.2);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .parent{

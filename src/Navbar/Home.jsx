@@ -154,6 +154,7 @@ export default function Home() {
             <p id="p2" >We help future-proof your business and drive meaningful transformation. With a team of experienced professionals, 
                 we're here to guide your journey every step of the way-making your digital goals not just possible, but unstoppable
           </p>
+          
           {loading && (
         <div className="top-loader-container">
           <div className="top-circle-loader"></div>
