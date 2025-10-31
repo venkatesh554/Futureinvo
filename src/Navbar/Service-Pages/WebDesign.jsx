@@ -86,6 +86,21 @@ function WebDesign() {
           What makes our web design services stand out is the balance between creativity and practicality. We ensure that every solution we deliver is user-friendly and impactful. From healthcare and finance to retail and logistics, our web solutions empower organizations to achieve sustainable growth and maintain a competitive edge online.
         </p>
       </section>
+       <div className="wo">
+           <div className="slide">
+             <h2>Digital Marketing *</h2>
+             <h2>Web Development *</h2>
+             <h2>App Development *</h2>
+             <h2>Trainings *</h2>
+             <h2>Application Development *</h2>
+   
+              <h2>Digital Marketing *</h2>
+              <h2>Web Development *</h2>
+              <h2>App Development *</h2>
+              <h2>Trainings *</h2>
+              <h2>Application Development *</h2>
+           </div>
+      </div>     
 
       
       <section className="container-999">

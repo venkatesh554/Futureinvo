@@ -135,7 +135,7 @@ export default function Datascience() {
      </div>
         <h2 id="digi">Data</h2>    
         <img src={three} id="img-ds" />
-       <h2 id="mark">Analyst</h2> 
+       <h2 id="marker">Analyst</h2> 
        <div className="bgg"></div>
            <h2 id="course-high" >Course Highlights</h2>
        <div className="right-boxx" id="c-3" >

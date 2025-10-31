@@ -139,6 +139,7 @@ const [formData, setFormData] = useState({
           Traditional methods of processing visuals are time-consuming, prone to human error, and unable to match the speed and growing volume of data. With our solutions, organizations can automate processes such as facial recognition, visual authentication, product identification, and motion tracking. For example, retailers can detect shoplifting threats through cameras, a hospital can automate diagnostics of medical scans, and a logistics company can monitor asset safety through predictive video analytics. The power of visual intelligence is not just efficiency, but also the ability to predict outcomes and prevent risks before they occur.
         </p>
       </section>
+      
 
       
       <section className="container-999">

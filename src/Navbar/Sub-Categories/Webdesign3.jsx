@@ -78,7 +78,7 @@ function Machine1() {
       <header className="main-content-999">
         <div className="header-content-999">
           <p className="breadcrumbs-999">Home › Web Design › Landing Page Design</p>
-          <h1>Web Design<br/>"Landing Page Design"</h1>
+          <h1>Web Design "Landing Page Design"</h1>
           <p className="tagline-999">Our Landing Page Design help businesses automate processes, enhance decision-making, and unlock new growth opportunities through intelligent innovation.</p>
         </div>
       </header>

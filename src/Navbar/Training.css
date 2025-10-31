@@ -158,6 +158,17 @@ top:-120px;
     animation-range: entry 0% cover 45%;
 
 }
+#marker{
+    position:relative;
+    top:-675px;
+    left:480px;
+    color:red;
+        font-size:45px;
+        animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 45%;
+
+}
 #img-ds{
     width:700px;
     height:580px;
@@ -1150,6 +1161,15 @@ border:1px solid white;
         text-align: center !important; /* Center text */
         animation: none !important;
     }
+    
+    #marker {
+        position: static !important;
+        color: red !important;
+        font-size: 55px !important; /* Adjusted for 1024px */
+        margin: 0 auto !important; /* Center horizontally */
+        text-align: center !important; /* Center text */
+        animation: none !important;
+    }
 
     .bgg {
         position: static !important;
@@ -1984,6 +2004,13 @@ border:1px solid white;
     
 
     #mark {
+        position: static !important;
+        color: red !important;
+        font-size: 50px !important; /* Larger font */
+        margin: 0 !important; /* No margin */
+        animation: none !important;
+    }
+     #marker {
         position: static !important;
         color: red !important;
         font-size: 50px !important; /* Larger font */
@@ -3088,7 +3115,13 @@ border:1px solid white;
         margin: 0; /* No margin */
         animation: none;
     }
-
+ #marker {
+        position: static;
+        color: red;
+        font-size: 50px; /* Larger font */
+        margin: 0; /* No margin */
+        animation: none;
+    }
     .bgg {
         position: static;
         width: 100vw; /* Full width */

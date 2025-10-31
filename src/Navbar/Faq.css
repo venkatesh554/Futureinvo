@@ -886,11 +886,11 @@
   }
 
   .driving-innovation-child h1 {
-    line-height: 1.4 !important; /* Tighter for mobile */
+    line-height: 1.4 !important; 
     position: relative !important;
     top: 0 !important; /* Reset top */
     color: white !important;
-    font-size: 2rem !important; /* Smaller heading */
+    font-size: 2rem !important; 
     margin: 0 0 15px 0 !important;
   }
 

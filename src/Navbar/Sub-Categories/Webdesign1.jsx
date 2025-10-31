@@ -79,7 +79,7 @@ function Machine1() {
       <header className="main-content-999">
         <div className="header-content-999">
           <p className="breadcrumbs-999">Home › Web Design › UI/UX Design</p>
-          <h1>Web Design<br/>"UI/UX Design"</h1>
+          <h1>Web Design "UI/UX Design"</h1>
           <p className="tagline-999">Our UI/UX Design help businesses automate processes, enhance decision-making, and unlock new growth opportunities through intelligent innovation.</p>
         </div>
       </header>

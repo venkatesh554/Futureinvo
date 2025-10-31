@@ -310,6 +310,7 @@ export default function ItConsulting() {
           <p className="tagline-999">Our Enterprise Architecture help businesses automate processes, enhance decision-making, and unlock new growth opportunities through intelligent innovation.</p>
         </div>
       </section>
+      
 
       <section className="home-content-999">
         <img src={aiImage1} alt="AI Illustration" className="right-image-999" />
@@ -318,6 +319,22 @@ export default function ItConsulting() {
         <p>Enterprising architecture has the power to transform businesses by turning insights into scalable system designs. With our expertise, organizations can build architectures that optimize operations, anticipate market trends, and support sustainable growth. From aligning technology initiatives with long-term objectives to implementing robust, adaptable solutions, we provide guidance that is precise, reliable, and tailored to each business's unique needs.</p>
         <p>What sets our enterprise architecture services apart is the perfect blend of vision and practicality. We ensure every system design and framework we create is actionable, scalable, and aligned with real-world business needs. Across industries—from healthcare and finance to retail and logistics—our guidance empowers organizations to achieve sustainable growth and maintain a competitive edge.</p>
       </section>
+      <div className="wo">
+           <div className="slide">
+             <h2>Digital Marketing *</h2>
+             <h2>Web Development *</h2>
+             <h2>App Development *</h2>
+             <h2>Trainings *</h2>
+             <h2>Application Development *</h2>
+   
+              <h2>Digital Marketing *</h2>
+              <h2>Web Development *</h2>
+              <h2>App Development *</h2>
+              <h2>Trainings *</h2>
+              <h2>Application Development *</h2>
+           </div>
+      </div>   
+      
 
       <section className="container-999">
          <form className="form-group-999" onSubmit={handleSubmit}>

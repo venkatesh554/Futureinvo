@@ -514,7 +514,7 @@ export default function Home() {
                 <Link to="/OurServicesPage"><FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
                 <Link to="/About"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</Link>
                 <Link to="/Contact"><FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
-                <Link><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
+                <Link to="/Trainings"><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
               </div>
                <div className="links1">
                   <h3>IT Services</h3>

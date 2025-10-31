@@ -37,7 +37,6 @@ height:110vh;
 
 
 
-
 @media(max-width: 575.99px) {
   /* General: Prevent overflow and ensure consistent sizing */
   body {
@@ -323,7 +322,7 @@ padding-top:40px;
 
 .firsthead #calling{
     position:relative;
-    top:-30px;
+    top:-100px;
     width:430px;
     height:300px;
     animation:bloc linear;
@@ -342,7 +341,10 @@ padding-top:40px;
     top:850px;
     left:-890px;
 }
-
+.footer-contact-2-con{
+  position:relative;
+  top:-90px 
+}
 .footer-contact-2-con #footer-contact{
     position:relative;
     top:850px;
@@ -449,16 +451,22 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
   .tt {
     width: 100% !important;
     height: auto !important;
-  }.faq h2{
-  opacity:1 !important;
+  }
+  .faq-con h1{
+  opacity:0 !important;
   font-size:3rem !important;
   color:white;
 }
+ .faq-con h2 {
+    opacity: 1 !important;
+    font-size: 2.8rem !important; /* Slightly larger than mobile */
+    color: white;
+  }
 
   /* FAQ/Contact Section: Reset positioning, full width, auto height */
   .faq-con {
     position: relative !important; /* Changed to relative for better flow */
-    top: 1150px !important; /* Reset top */
+    top: 1250px !important; /* Reset top */
     width: 100% !important;
     height: auto !important;
     background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
@@ -821,7 +829,7 @@ box-shadow:10px 10px 20px rgb(172, 170, 170);
     display: block !important;
   }
  .footer-line-contact .lastt{
-margin-bottom:-450px !important;
+margin-bottom:-400px !important;
  }
   .line1 {
     margin-left: 0 !important;
@@ -913,7 +921,7 @@ margin-bottom:-450px !important;
   .footer-contact-2-con .footer-line-contact {
     width:110% !important;
     position:relative !important;
-    top:310px !important;
+    top:210px !important;
     left:-100px !important;
   }}
 

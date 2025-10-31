@@ -131,9 +131,9 @@ export default function WebDevelopment() {
      <div className="circle">
        <h2 id="circle1">06 Months Course</h2>
      </div>
-        <h2 id="digi">Data</h2>    
+        <h2 id="digi">Web</h2>    
         <img src={three} id="web-2" />
-       <h2 id="mark">Analyst</h2> 
+       <h2 id="mark">Development</h2> 
        <div className="bgg"></div>
            <h2 id="course-high">Course Highlights</h2>
        <div className="right-boxx">
@@ -508,7 +508,7 @@ experience.
                 <Link to="/OurServicesPage"><FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
                 <Link to="/About"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</Link>
                 <Link to="/Contact"><FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
-                <Link><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
+                <Link to="/Trainings"><FontAwesomeIcon icon={faAngleRight} />Careers</Link>
               </div>
                <div className="links1">
                   <h3>IT Services</h3>

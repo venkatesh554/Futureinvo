@@ -143,6 +143,23 @@ function MobileApplications() {
          <p>What makes our mobile app development services stand out is the balance between creativity and practicality. We ensure every app we deliver is visually engaging, intuitive, and impactful. From healthcare and finance to retail and logistics, our mobile solutions empower organizations to achieve sustainable growth and maintain a competitive edge in the digital space.</p>
       </section>
 
+      <div className="wo">
+           <div className="slide">
+             <h2>Digital Marketing *</h2>
+             <h2>Web Development *</h2>
+             <h2>App Development *</h2>
+             <h2>Trainings *</h2>
+             <h2>Application Development *</h2>
+   
+              <h2>Digital Marketing *</h2>
+              <h2>Web Development *</h2>
+              <h2>App Development *</h2>
+              <h2>Trainings *</h2>
+              <h2>Application Development *</h2>
+           </div>
+      </div>   
+      
+
       
       <section className="container-999">
          <form className="form-group-999" onSubmit={handleSubmit}>
