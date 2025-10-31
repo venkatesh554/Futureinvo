@@ -1696,7 +1696,7 @@ border:1px solid white;
     .training-footer {
         /* Adjust the main footer container for tablet, making it full width and auto height */
         position: relative !important; /* Changed from absolute to relative for better tablet flow */
-        top: -300px !important; /* Reset top */
+        top: -500px !important; /* Reset top */
         left: 0 !important; /* Reset left */
         width: 100% !important; /* Full width */
         height: auto !important; /* Auto height to fit content */
@@ -1717,7 +1717,7 @@ border:1px solid white;
     .training-footer .lastt {
         /* Adjust the lastt div for tablet, full width and center */
         position: relative !important;
-        top:750px !important;
+        top:550px !important;
         width: 115% !important; /* Full width */
         left: -100px !important; /* Reset left */
         text-align: center !important; /* Center content */
@@ -2549,14 +2549,14 @@ border:1px solid white;
     }
 
     .training-footer .lastt {
-        /* Adjust the lastt div for mobile, full width and center */
+
         width: 100% !important; /* Full width */
         left: 0 !important; /* Reset left */
         text-align: center !important; /* Center content */
+     
     }
 
     #tt-three {
-        /* Adjust #tt-three for mobile, full width and center */
         position: relative !important;
         width: 100% !important; /* Full width */
         height: auto !important; /* Auto height */
@@ -2566,7 +2566,6 @@ border:1px solid white;
     }
 
     .course-high {
-        /* Adjust .course-high for mobile */
         margin-top: 0 !important; /* Reset margin */
     }
 
@@ -2662,7 +2661,7 @@ border:1px solid white;
         width: 115% !important; /* Full width */
         left: -140px !important; /* Reset left */
         text-align: center !important; /* Center content */
-       margin-top:-250px !important;
+       margin-top:-450px !important;
     }
 
     .line1 {

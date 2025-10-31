@@ -519,7 +519,7 @@ export default function Datascience() {
                   <h3>IT Services</h3>
                                   <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
 
-                <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+                <Link to="/OurServicesPage"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
               <Link to="/WebDevelopmentService"> <FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
                 <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
                <Link to="/Trainings">

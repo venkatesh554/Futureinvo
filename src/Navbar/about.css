@@ -1164,7 +1164,7 @@
 
   #footer-dup {
     position: relative !important;
-    top: 500px !important;
+    top: 300px !important;
   }
 
   /* .footer {
@@ -1281,7 +1281,7 @@
 
   .faq #dup-last {
     position: absolute !important;
-    top: 2250px !important;
+    top: 2000px !important;
     left:-10px !important;
     width: 115% !important;
     height: auto !important;

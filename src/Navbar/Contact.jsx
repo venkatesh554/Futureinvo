@@ -4,6 +4,7 @@ import footericon from "../Navbar/navbar-images/icon.png"
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom'; 
 
 
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -214,30 +215,37 @@ export default function Contact() {
                                        <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#"><FontAwesomeIcon icon={faInstagram} id="ic-links"/></a>
                                       </div>
                         <div className="links">
-                          <div className="links1">
-                            <h3>Quick Links</h3>
-                          <a href="#"> <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Our Services</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />FAQ'S</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Contact Us</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Careers</a>
-                        </div>
-                         <div className="links1">
-                            <h3>IT Services</h3>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />IT Consulting</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Web Development</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />App Development</a>
-                          <a href="#"><FontAwesomeIcon icon={faAngleRight} />Trainings</a>
-                        </div>
-                         <div className="links1">
-                            <h3>Contact Us</h3>
+                <div className="links1">
+                  <h3>Quick Links</h3>
+<Link to="/">                <FontAwesomeIcon icon={faAngleRight} />Future Invo IT Solutions
+
+</Link>    
+         <Link to="/OurServicesPage">  <FontAwesomeIcon icon={faAngleRight} />Our Services</Link>
+               <Link to="/Faq"> <FontAwesomeIcon icon={faAngleRight} />FAQ'S
+               </Link>
+               <Link to="/Contact"> <FontAwesomeIcon icon={faAngleRight} />Contact Us</Link>
+               <Link to="/Trainings"> <FontAwesomeIcon icon={faAngleRight} />Careers</Link>
+              </div>
+               <div className="links1">
+                  <h3>IT Services</h3>
+                                  <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+
+                <Link to="/ItConsulting"><FontAwesomeIcon icon={faAngleRight} /> IT Solutions</Link>
+              <Link to="/WebDevelopmentService"> <FontAwesomeIcon icon={faAngleRight} />Web Development</Link>
+                <Link to="/MobileApplications"><FontAwesomeIcon icon={faAngleRight} />App Development</Link>
+               <Link to="/Trainings">
+                <FontAwesomeIcon icon={faAngleRight} />Trainings
+               </Link>
+              </div>
+               <div className="links1">
+                  <h3>Contact Us</h3>
 <a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>                          <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
-                          <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
-                        
-                        </div>
-                        </div>
+Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>               <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
+                <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
+              
+              </div>
+              </div>
+
           
                         
                        </div>
