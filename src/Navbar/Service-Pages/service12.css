@@ -3201,10 +3201,11 @@ top:-20px;
     }
 
     .tagline-999 {
-         text-align: left !important;
+         text-align: justify !important;
         position: static !important;
-        padding-left: 0 !important;
-        margin-bottom: 15px !important;
+        padding: 5px !important;
+      
+        margin-bottom: 25px !important;
         width: 100% !important;
         max-width: 100% !important;
         word-wrap: break-word !important;
@@ -3461,7 +3462,7 @@ top:-20px;
 
 
 
-
+/* 
 
 @media (max-width: 430.99px) {
   .benefits-999 h2 {
@@ -3496,14 +3497,85 @@ top:-20px;
   }
 
   
+} */
+
+
+
+@media (max-width: 430.99px) {
+  .benefits-999 h2 {
+    font-size: 12px !important;
+    text-align: center !important;
+    margin-bottom: 15px !important;
+    word-break: break-word !important;
+  }
+
+  .benefit-item {
+    display: flex !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    font-family: 'poppins', sans-serif !important;
+    border-radius: 10px !important;
+    color: rgb(241, 245, 242) !important;
+    height: auto !important;
+    padding-top: 28px !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 0px !important; /* Align items to the left by removing right margin auto and setting left to 0 */
+    margin-right: 0 !important; /* Ensure no right margin for left alignment */
+    position: relative !important;
+    left:0 !important;
+    overflow: hidden !important;
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 
 
+@media (max-width: 370px) {
+  .benefits-999 h2 {
+    font-size: 12px !important;
+    text-align: center !important;
+    margin-bottom: 15px !important;
+    word-break: break-word !important;
+  }
 
+  .benefits-999 ul {
+    padding-left: 0 !important; /* Remove default left padding from ul */
+    margin-left: 0 !important; /* Ensure ul is left-aligned */
+    margin-right: 0 !important; /* Remove any right margin */
+    list-style: none !important; /* Remove bullet points */
+    width: 100% !important; /* Make ul full width */
+  }
 
-
-
+  .benefit-item {
+    display: block !important; /* Change to block for proper stacking and alignment */
+    text-align: left !important;
+    font-family: 'poppins', sans-serif !important;
+    border-radius: 10px !important;
+    color: rgb(241, 245, 242) !important;
+    height: auto !important;
+    padding-top: 28px !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+    margin-left: 0 !important; /* Left-align each item */
+    margin-right: 0 !important; /* No right margin */
+    position: relative !important;
+    left: 0 !important;
+    overflow: hidden !important;
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+    width: 80% !important; /* Full width for each item */
+    max-width: 100% !important;
+    word-wrap: break-word !important; /* Ensure text wraps properly on small screens */
+  }
+}
 
 
 
