@@ -699,7 +699,7 @@ export default function Navbar2() {
             <Link to="/">Home</Link>
           </li>
 
-          <li className="dropdown">
+          <li className="dropdown" id="drop1">
             <span className="drop-text">
               About <FontAwesomeIcon icon={faAngleDown} />
             </span>
