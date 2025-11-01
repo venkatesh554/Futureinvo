@@ -703,7 +703,7 @@ export default function Navbar2() {
             <span className="drop-text">
               About <FontAwesomeIcon icon={faAngleDown} />
             </span>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu" id="drpdwn">
              
               <li>
                 <Link to="/Faq" >About</Link>
@@ -766,7 +766,7 @@ export default function Navbar2() {
             <span className="drop-text">
               Trainings <FontAwesomeIcon icon={faAngleDown} />
             </span>
-            <ul className="dropdown-menu">
+            <ul className="dropdown-menu" id="drpdwn2">
               <li>
                 <Link to="/Trainings">AI Training</Link>
               </li>
