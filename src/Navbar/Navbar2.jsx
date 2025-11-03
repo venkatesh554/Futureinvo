@@ -935,12 +935,28 @@ export default function Navbar2() {
 
 
          <div className="futureinvo-contact">
-                     <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com_</i>
+                     <i><FontAwesomeIcon icon={faEnvelope} id="icon"/>info@futureinvo.com</i>
                      <i> <FontAwesomeIcon icon={faPhoneVolume} id="icon" />+91 7981107131</i>
 
-             <p> <FontAwesomeIcon icon={faFacebookF} id="ic-links"/>
+             {/* <p> <FontAwesomeIcon icon={faFacebookF} id="ic-links"/>
               <FontAwesomeIcon icon={faLinkedin} id="ic-links"/>
-             <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p>
+             <FontAwesomeIcon icon={faInstagram} id="ic-links"/></p> */}
+
+             <p>
+  <a href="https://www.facebook.com/people/Future-Invo-Solutions/61580202340169/?rdid=LstbBpV1YxqmLsX3&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19agqq2zMh%2F" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <FontAwesomeIcon icon={faFacebookF} id="ic-links" />
+  </a>
+  
+  <a href="https://www.linkedin.com/company/future-invo-solutions/posts/?feedView=all
+                " target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <FontAwesomeIcon icon={faLinkedin} id="ic-links" />
+  </a>
+  
+  <a href="https://www.instagram.com/futureinvosolutions/?igsh=YmZ6anF1dmQ3aDhr#" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+    <FontAwesomeIcon icon={faInstagram} id="ic-links" />
+  </a>
+</p>
+
                      
          
          </div>
