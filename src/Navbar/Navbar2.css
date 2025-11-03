@@ -355,24 +355,23 @@ i{
   top: 530px !important;
   left: 20px !important; 
   width: 350px !important;
-  height: auto !important; /* Auto height for content (email, phone, social) */
-  margin: 0 !important; /* No margins - absolute positioning */
-  padding: 15px !important; /* Inner padding for spacing */
-  display: flex !important; /* Flex for layout */
-  align-items: center !important; /* Center all content */
-  gap: 15px !important; /* Space between sections (contact i's and social p) */
-  text-align: left !important; /* Center text/icons */
-  font-size: 11px !important; /* Readable desktop size */
-  line-height: 1.4 !important; /* Natural spacing */
-  border-radius: 8px !important; /* Soft corners to match popup */
-  font-weight: 500 !important; /* Semi-bold for emphasis */
-  z-index: 1 !important; /* Below #xmark but above form */
-  box-sizing: border-box !important; /* Include padding in width/height */
+  height: auto !important; 
+  margin: 0 !important; 
+  padding: 15px !important; 
+  display: flex !important; 
+  align-items: center !important; 
+  gap: 15px !important; 
+  text-align: left !important; 
+  font-size: 11px !important; 
+  line-height: 1.4 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  z-index: 1 !important; 
+  box-sizing: border-box !important; 
 }
 
-/* Contact Items (<i>): Horizontal flex for icon + text */
 .futureinvo-contact i {
-  display: flex !important; /* Flex row: icon left of text */
+  display: flex !important;
   align-items: left !important; /* Vertical center */
   justify-content: center !important; /* Horizontal center */
   gap: 1px !important; /* Space between icon and text */
@@ -2954,6 +2953,6 @@ margin-bottom:60px!important;
   min-height: 95px;
 }
 #drpdwn2{
-  height:110px;
+  height:155px;
   min-height: 130px;
 }

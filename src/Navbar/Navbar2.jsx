@@ -768,13 +768,13 @@ export default function Navbar2() {
             </span>
             <ul className="dropdown-menu" id="drpdwn2">
               <li>
-                <Link to="/Trainings">AI Training</Link>
+                <Link to="/Trainings">AI Training With Digital Marketing</Link>
               </li>
               <li>
                 <Link to="/Datascience" id="data-hover">Data Science</Link>
               </li>
                <li>
-                <Link to="/WebDevelopment" id="data-hover-2">WebDevelopment</Link>
+                <Link to="/WebDevelopment" id="data-hover-2">Web Development</Link>
               </li>
             </ul>
           </li>
@@ -876,7 +876,7 @@ export default function Navbar2() {
                   </div>
                   <div className={`mobile-dropdown-menu ${mobileDropdown === 'trainings' ? 'active' : ''}`}>
                     <div className="mobile-dropdown-item">
-                      <Link to="/Trainings" onClick={toggleModal}>AI Training</Link>
+                      <Link to="/Trainings" onClick={toggleModal}>AI Training </Link>
                     </div>
                     <div className="mobile-dropdown-item">
                       <Link to="/Datascience" onClick={toggleModal}>Data Science</Link>
