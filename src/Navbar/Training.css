@@ -979,18 +979,18 @@ border:1px solid white;
         text-align: center !important;
         width: 100% !important;
         padding: 0 20px !important;
-        margin: 0 !important; /* Remove margin to avoid space */
+        margin: 0 !important;
     }
 
     .driving-innovation-child h1 {
-        font-size: 2rem !important; /* Adjusted for 1024px */
-        margin: 0 !important; /* Remove margin to avoid space */
+        font-size: 2rem !important;
+        margin: 0 !important; 
     }
 
     .driving-innovation-child p {
-        font-size: 1rem !important; /* Adjusted for 1024px */
+        font-size: 1rem !important;
         line-height: 1.4 !important;
-        margin: 0 !important; /* Remove margin to avoid space */
+        margin: 0 !important;
     }
 
     .bgimg img {
@@ -2923,6 +2923,7 @@ border:1px solid white;
         text-align: center;
         width: 100%;
         padding: 0 20px;
+        
     }
 
     .driving-innovation-child h1 {
@@ -2939,6 +2940,7 @@ border:1px solid white;
         width: 100%;
         height: auto;
         max-width: 400px; /* Fit within screen */
+        
     }
 
     .bgcolor1 {
