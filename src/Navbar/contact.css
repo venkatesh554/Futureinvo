@@ -1461,7 +1461,7 @@ margin-bottom:-400px !important;
 
   .faq-con {
     position: absolute !important;
-    top: -400px !important;
+    top: -200px !important;
     width: 100% !important;
     height: auto !important;
     background-color: rgba(62, 83, 138) !important; /* Preserve if blue bg */
