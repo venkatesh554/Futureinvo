@@ -5,7 +5,7 @@
 
 .pop-up {
   position: fixed;       
-  top: 52px;             
+  top: 42px;             
   right: 20px;          
   transform: translateX(0); 
   width: 400px;
@@ -22,6 +22,7 @@
 #logo-dup{
 width:150px ;
 height:50px ;
+
 }
 
 .pop-up p{
@@ -29,7 +30,9 @@ height:50px ;
   top:80px;
   width:350px;
   height:40px;
+margin:10px ;
   line-height: normal;
+  font-size:13px;
 }
 .pop-up form label{
   position:absolute;
@@ -117,27 +120,27 @@ height:50px ;
 
 .pop-up img{
   position:absolute;;
-  top:10px;
+  top:0px;
   left:-40px;
 }
 #label1{
   position:absolute;
-  top:130px;
+  top:140px;
 }
 #label2{
   position:absolute;
   left:180px;
-  top:130px;
+  top:140px;
 }
 #label3{
   position:absolute;
   left:30px;
-  top:230px;
+  top:240px;
 }
 #label4{
   position:absolute;
   left:180px;
-  top:230px;
+  top:240px;
 }
 #label5{
   position:absolute;
@@ -171,7 +174,7 @@ height:50px ;
   margin-top:45px;
     position:relative;
     margin-left:1px;
-  top:-76px;
+  top:-66px;
   left:-95px !important;
   padding:10px 20px;
 }
@@ -179,8 +182,8 @@ height:50px ;
 #nav-form-btn{
  padding:10px 120px;
  position:relative;
- left:-75px;
- top:-60px;color:white;
+ left:-90px;
+ top:-50px;color:white;
  background-color:rgba(5, 98, 160);
  border-radius:5px;
 }

@@ -541,7 +541,7 @@ export default function Home() {
           <div className="last-line">
             <i>All Copyright 2025 by Futureinvo IT Solutions</i>
             <i id="ii">Terms & Conditions</i>
-            <i>Privacy Policy</i>
+            <i id="iii">Privacy Policy</i>
           </div>
       
           

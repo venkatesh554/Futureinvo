@@ -633,7 +633,7 @@ border:1px solid white;
    width:150px;
    height:100px;
    position:relative;
-   left: 100px !important;;
+   left: 0px !important;;
     
 }
 .training-footer{
@@ -644,7 +644,7 @@ border:1px solid white;
 }
 .training-footer .footer{
     width:120%;
-    left:-100px;
+    left:-50px;
 }
 .training-footer .lastt{
     width:120%;
@@ -1737,10 +1737,14 @@ border:1px solid white;
     .training-footer .lastt {
         /* Adjust the lastt div for tablet, full width and center */
         position: relative !important;
-        top:550px !important;
+        top:650px !important;
         width: 115% !important; /* Full width */
         left: -100px !important; /* Reset left */
         text-align: center !important; /* Center content */
+    }
+    .training-footer .icn{
+        position:relative !important;
+        top:0 !important;
     }
 
     #tt-three {
@@ -1861,7 +1865,6 @@ border:1px solid white;
     }
 
     .bgimg img {
-        /* Scale the background image */
         width: 100% !important;
         height: auto !important;
         max-width: 400px !important; /* Fit within screen */
@@ -2691,12 +2694,13 @@ border:1px solid white;
        margin-top:-450px !important;
     }
 
-    .line1 {
+    .training-footer .footer .line1 p {
         /* Adjust the line1 container for mobile, stacking vertically */
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         gap: 15px !important; /* Gap between elements */
+       margin-top:40px !important;
     }
 
     .line1 img {
@@ -2718,6 +2722,8 @@ border:1px solid white;
         display: flex !important;
         justify-content: center !important;
         gap: 15px !important; /* Gap between icons */
+        position:relative !important;
+        top:0px !important;
     }
 
     .icn .fa-facebook-f,
@@ -2734,6 +2740,7 @@ border:1px solid white;
         align-items: center !important;
         gap: 20px !important; /* Gap between link groups */
         width: 100% !important; /* Full width */
+        margin-top:0px !important;
     }
 
     .links1 {
@@ -2814,14 +2821,17 @@ border:1px solid white;
         
     }
 
-    .line1 {
+    .training-footer .footer .line1 p {
         /* Adjust the line1 container for mobile, stacking vertically */
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         gap: 10px !important; /* Reduced gap for narrower screen */
+        position:relative !important;
+        top:0px !important;
     }
 
+    
     .line1 img {
         /* Adjust the footer icon image for mobile, making it smaller for 576px */
         width: 80px !important; /* Smaller width for 576px */
@@ -2857,6 +2867,7 @@ border:1px solid white;
         align-items: center !important;
         gap: 15px !important; /* Reduced gap for narrower screen */
         width: 100% !important; /* Full width */
+        margin-top:20px !important;
     }
 
     .links1 {
@@ -3016,7 +3027,7 @@ border:1px solid white;
 
     /* If there are bgcolor2 or other elements, adjust similarly */
     .bgcolor2 {
-        top: 200px; /* Adjust if present */
+        top: 400px !important; /* Adjust if present */
         height: auto;
         padding: 20px;
     }

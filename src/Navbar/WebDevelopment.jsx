@@ -538,7 +538,7 @@ experience.
                                 <div className="last-line" id="dup-last">
                                <i>All Copyright 2025 by Futureinvo IT Solutions</i>
                                <i id="ii">Terms & Conditions</i>
-                               <i>Privacy Policy</i>
+                               <i id="iii">Privacy Policy</i>
                              </div>
                            
                               </div>  
