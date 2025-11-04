@@ -594,7 +594,7 @@ import { faEnvelope, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import excellence from "./navbar-images/excellence.png";
+import excellence from "./navbar-images/excellence.jpeg";
 
 
 

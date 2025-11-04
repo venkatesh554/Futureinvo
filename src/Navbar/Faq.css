@@ -7,13 +7,17 @@
 
     
 }
+.driving-innovation-parent .child22 .block1{
+  background-color: rgb(239, 247, 254);
+  height:650px;
+}
 
 .child22{
     position:relative;
     left:-50px;
     top:900px;
     width:100%;
-    height:450px;
+    height:600px;
 }
  .bgimg img{
     position:absolute;
@@ -27,7 +31,14 @@
   overflow: hidden; 
 }
 .child22 .block1 .content-rightt1 #ss{
-  font-size:0.9rem;
+  font-size:1rem;
+}
+.child22 .block1 .content-rightt1 #sss{
+  font-size:1rem;
+  width:200%;
+  position:absolute;
+  left:-700px ;
+  top:330px;
 }
 
 .driving-innovation-child h1{
@@ -430,6 +441,7 @@
     width: 100% !important;
     text-align: justify !important;
   }
+  
 
   .right-subs {
     width: 100% !important;
@@ -456,17 +468,16 @@
   }
 
   .slider h2 {
-    font-size: 1rem !important; /* Smaller text */
+    font-size: 1rem !important; 
     white-space: nowrap !important;
     margin: 0 !important;
-    flex-shrink: 0 !important; /* Prevent shrinking */
+    flex-shrink: 0 !important; 
   }
 
-  /* Our Offering / Block55: Stack boxes vertically, reset positions */
   #offer {
     position: relative !important;
-    top: 0 !important; /* Reset top */
-    margin-top: 30px !important; /* Reduced margin */
+    top: 0 !important; 
+    margin-top: 30px !important; 
   }
 
   .faq-offering {
@@ -935,7 +946,7 @@
     width: 100% !important;
     height: auto !important;
     margin-top: 40px !important; /* Gap from previous */
-    padding: 20px !important;
+    padding: 0px !important;
   }
 
   .block1 {
@@ -990,12 +1001,24 @@ margin-left: 50% !important;      /* move starting point to center */
 
   #ss {
     font-size: 14px !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
     margin: 0 !important;
     width: 100% !important;
     text-align: justify !important;
     padding:0px !important;
   }
+  
+  #sss {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: justify !important;
+    padding:0px !important;
+    position:relative !important;
+    left:0 !important;
+  }
+  
 
   .right-subs {
     width: 100% !important;
@@ -1541,6 +1564,22 @@ margin-left: 50% !important;      /* move starting point to center */
     height: auto !important;
     margin-top: -50px !important; /* Increased from mobile's 40px */
     padding: 25px !important; /* Increased from mobile's 20px */
+  }
+
+   .child22 #ss{
+        line-height: 2 !important;
+
+  }
+    
+  .child22 #sss {
+    font-size: 16px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: justify !important;
+    padding:0px !important;
+    position:relative !important;
+    left:0 !important;
   }
 
   .word-slider-about {
@@ -2243,7 +2282,24 @@ margin-left: 50% !important;      /* move starting point to center */
     margin-top: -0px !important; /* Adjusted from tablet's -50px */
     padding: 25px !important; /* Increased from tablet's 25px */
   }
+  
+  .child22 #ss{
+        line-height: 2 !important;
+        font-size:16.5px !important;
 
+  }
+  
+  .child22 #sss {
+    font-size: 16px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: justify !important;
+    padding:0px !important;
+    position:relative !important;
+    left:0 !important;
+    padding-bottom: 100px !important;
+  }
   .word-slider-about {
     position: relative !important;
     top: 0 !important;
