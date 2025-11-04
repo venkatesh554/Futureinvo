@@ -441,8 +441,8 @@
     top: 0 !important; 
     width: 100% !important;
     margin-top: 30px !important; 
-    overflow-x: auto !important; /* Horizontal scroll for words */
-    padding: 15px 0 !important; /* Reduced padding */
+    overflow-x: auto !important; 
+    padding: 15px 0 !important; 
   }
 
   #dup1 {
@@ -451,8 +451,8 @@
 
   .slider {
     display: flex !important;
-    white-space: nowrap !important; /* Keep words in line */
-    gap: 15px !important; /* Smaller gap */
+    white-space: nowrap !important;
+    gap: 15px !important;
   }
 
   .slider h2 {
