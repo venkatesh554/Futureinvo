@@ -11,7 +11,7 @@
 .child22{
     position:relative;
     left:-50px;
-    top:930px;
+    top:900px;
     width:100%;
     height:450px;
 }
@@ -25,6 +25,9 @@
 .tt {
   height: 300vh;
   overflow: hidden; 
+}
+.child22 .block1 .content-rightt1 #ss{
+  font-size:0.9rem;
 }
 
 .driving-innovation-child h1{
@@ -251,6 +254,7 @@
 }
 
 
+
 .chooseus-about{
     position:relative;
     top:250px;
@@ -429,15 +433,14 @@
 
   .right-subs {
     width: 100% !important;
-    margin-top: 10px !important; /* Reduced margin */
+    margin-top: 10px !important; 
   }
 
-  /* Word Slider About: Reset positioning, make horizontal scrollable or stack */
   .word-slider-about {
     position: relative !important;
-    top: 0 !important; /* Reset large top */
+    top: 0 !important; 
     width: 100% !important;
-    margin-top: 30px !important; /* Reduced margin */
+    margin-top: 30px !important; 
     overflow-x: auto !important; /* Horizontal scroll for words */
     padding: 15px 0 !important; /* Reduced padding */
   }

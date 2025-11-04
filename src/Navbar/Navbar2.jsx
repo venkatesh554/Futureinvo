@@ -594,6 +594,8 @@ import { faEnvelope, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import excellence from "./navbar-images/excellence.png";
+
 
 
 
@@ -694,6 +696,8 @@ export default function Navbar2() {
       <div className="sticker"></div>
       <div className={fix ? "navbarFixed" : "Top-3"}>
         <img src={logo2} alt="Logo"  id="logo-dup"/>
+        <img src={excellence} id="exce"/>
+        <h3 id="exce-h3">Years<br></br>Excellence</h3>
         <ul>
           <li>
             <Link to="/">Home</Link>

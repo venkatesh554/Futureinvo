@@ -43,7 +43,7 @@ export default function Faq() {
             <h1>Driving Innovation Through<br></br>Tailored IT Solutions</h1>
             <p>AT Futureinvo IT Solutions, we specialize in delivering cutting-edge IT service designed to meet the unique needs of business across
                 industries. From web development and digital marketing to ERP ,IT product development and consultancy, our expert team is commited 
-                to helping you achieve success in the digital world
+                to helping you achieve success in the digital world.
             </p>
         </div>
         <div className="bgimg">
@@ -63,7 +63,18 @@ export default function Faq() {
                           technological solutions. Our team of experts combines industry knowledge with
                         advanced technology to help business navigate the complexities of the digital
                         landscape. We focus on understanding our client's unique challenges and delivering 
-                        customized stratagies that drive measurable success
+                        customized stratagies that drive measurable success.<br></br>
+                        Founded in 2021, FutureInvo Solutions began its journey as a partnership
+                         firm with a bold vision to redefine digital transformation through innovation,
+                          intelligence, and integrity. In our continuous pursuit of excellence, we have 
+                          now evolved into FutureInvo Solutions Pvt. Ltd., officially registered under 
+                          the Ministry of Corporate Affairs (MCA), Government of India.
+                          <br></br>
+                          What started as a small tech venture has grown into a dynamic IT 
+                          organization powered by a talented team of 98 professionals and a
+                           strong record of delivering excellence across 32+ successful client projects in multiple domains.
+                          
+
                         </p>
                         <div className="right-subs">
                                   

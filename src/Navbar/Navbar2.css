@@ -39,6 +39,80 @@ height:50px ;
    display:flex;
 
 }
+#exce{
+  position:relative;
+  width:40px ;
+  height:40px;
+  left:-80px;
+}
+#exce-h3{
+  position:relative;
+    color:#20428A;
+  left:-150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+@media (max-width: 576px) {
+  #exce {
+    width: 30px;  /* Reduced width for smaller screens */
+    height: 30px; /* Reduced height for smaller screens */
+    left: 0px !important;  /* Reduced negative left offset to prevent overflow */
+  }
+  #exce-h3 {
+    left: -30px !important;  /* Reduced negative left offset for better fit on small screens */
+    font-size: 14px;  /* Optional: Reduced font size for better readability on mobile */
+  }
+}
+
+
+
+@media (max-width: 350px) {
+  #exce {
+    width: 25px;  /* Further reduced width for very small screens */
+    height: 25px; /* Further reduced height for very small screens */
+    left: -20px;  /* Further reduced negative left offset to prevent overflow */
+  }
+  #exce-h3 {
+    left: -40px ;  /* Further reduced negative left offset for better fit on very small screens */
+    font-size: 12px;  /* Further reduced font size for better readability on very small screens */
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  #exce {
+    width: 35px;  /* Slightly reduced width for tablet-sized screens */
+    height: 35px; /* Slightly reduced height for tablet-sized screens */
+    left: -60px;  /* Moderately reduced negative left offset to prevent overflow */
+  }
+  #exce-h3 {
+    position:relative !important;
+    left: 0px !important ;  /* Moderately reduced negative left offset for better fit on tablet screens */
+    font-size: 16px;  /* Slightly reduced font size for better readability on tablets */
+  }
+}
+
+@media (max-width: 1024px) {
+  #exce {
+    width: 38px;  /* Moderately reduced width for larger tablet/small desktop screens */
+    height: 38px; /* Moderately reduced height for larger tablet/small desktop screens */
+    left: -70px;  /* Moderately reduced negative left offset to prevent overflow */
+  }
+  #exce-h3 {
+    position:relative !important;
+    left: -240px;  /* Moderately reduced negative left offset for better fit on larger screens */
+    font-size: 18px;  /* Slightly reduced font size for better readability on larger screens */
+  }
+}
+
+
+
+
 .pop-up img{
   position:absolute;;
   top:10px;
