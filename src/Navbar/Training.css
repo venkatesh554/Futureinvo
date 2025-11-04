@@ -1867,10 +1867,10 @@ border:1px solid white;
         max-width: 400px !important; /* Fit within screen */
     }
 
-    .bgcolor1 {
+    .driving-innovation-parent .bgcolor1 {
         /* Adjust height and position for mobile */
         height: auto !important; /* Let it adjust based on content */
-        top: 180px !important; /* Reduce top margin */
+        top: 280px !important; /* Reduce top margin */
         padding: 20px !important;
     }
 
@@ -2943,10 +2943,10 @@ border:1px solid white;
         
     }
 
-    .bgcolor1 {
+    .driving-innovation-parent .bgcolor1 {
         /* Adjust height and position for mobile */
         height: auto; /* Let it adjust based on content */
-        top: 280px !important; /* Reduce top margin */
+        top: 400px !important; /* Reduce top margin */
         padding: 20px;
     }
 

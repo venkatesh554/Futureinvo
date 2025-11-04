@@ -68,7 +68,7 @@ export default function Faq() {
                          In our continuous pursuit of excellence, we have now evolved into FutureInvo Solutions Pvt. Ltd.,
                           officially registered under the Ministry of Corporate Affairs (MCA), Government of India.
                           <p id="sss">What started as a small tech venture has grown into a dynamic IT organization powered by a talented team of 98
-                             professionals and a strong record of delivering excellence across 32+ successful client projects in multiple domains.<br></br>
+                             professionals and a strong record of delivering excellence across 32+ successful client projects in multiple domains.
 
                              Over the past four years, FutureInvo Solutions has built a reputation as a trusted technology partner for startups, enterprises, and educational 
                              institutions — delivering impactful, end-to-end digital solutions that merge creativity with advanced technology. Our portfolio spans custom web applications, AI-driven platforms, cloud-based systems, digital marketing ecosystems, and enterprise automation tools, all crafted to help businesses accelerate growth and stay ahead in the digital era.</p>
