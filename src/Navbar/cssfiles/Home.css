@@ -134,22 +134,21 @@
 
 
 
-/* Responsive adjustments for screens 576px and below */
 @media (max-width: 576px) {
   .top-loader-container {
-    left: 50%; /* Center the loader horizontally on small screens */
-    top: 5px; /* Slightly adjust top position for better fit */
+    left: 50%;
+    top: 5px; 
   }
   .top-circle-loader {
-    width: 30px; /* Reduce size for smaller screens */
+    width: 30px; 
     height: 30px;
   }
   .top-circle-loader::before {
-    width: 4px; /* Adjust dot size proportionally */
+    width: 4px; 
     height: 4px;
-    transform-origin: -9px center; /* Adjust origin for smaller circle */
+    transform-origin: -9px center; 
     box-shadow:
-      9px 0 0 rgba(0, 123, 255, 0.2), /* Blue with opacity */
+      9px 0 0 rgba(0, 123, 255, 0.2), 
       4.5px 7.5px 0 rgba(0, 123, 255, 0.2),
       -4.5px 7.5px 0 rgba(0, 123, 255, 0.2),
       -9px 0 0 rgba(0, 123, 255, 0.2),
@@ -226,7 +225,6 @@
 
 
 
-/* Loader container */
 .top-loader-container {
   position: fixed;
   top: 10px;
@@ -235,7 +233,6 @@
   z-index: 9999;
 }
 
-/* Circle wrapper */
 .top-circle-loader {
   position: relative;
   width: 40px;
@@ -243,7 +240,6 @@
   border-radius: 50%;
 }
 
-/* Create 6 moving dots using shadows */
 .top-circle-loader::before {
   content: "";
   position: absolute;
@@ -251,12 +247,12 @@
   left: 50%;
   width: 6px;
   height: 6px;
-  background: #007bff; /* Changed to blue */
+  background: #007bff;
   border-radius: 50%;
   transform-origin: -12px center;
   animation: moveDots 1.8s linear infinite;
   box-shadow:
-    12px 0 0 rgba(0, 123, 255, 0.2), /* Blue with opacity */
+    12px 0 0 rgba(0, 123, 255, 0.2), 
     6px 10px 0 rgba(0, 123, 255, 0.2),
     -6px 10px 0 rgba(0, 123, 255, 0.2),
     -12px 0 0 rgba(0, 123, 255, 0.2),
@@ -264,7 +260,6 @@
     6px -10px 0 rgba(0, 123, 255, 0.2);
 }
 
-/* Animate one dot at a time (chasing effect) */
 @keyframes moveDots {
   0% {
     box-shadow:
@@ -330,14 +325,13 @@
       6px -10px 0 rgba(0,123,255,0.2);
   }
 }
-/* Responsive adjustments for screens 768px and below */
 @media (max-width: 768px) {
   .top-loader-container {
-    left: 50%; /* Center the loader horizontally on medium screens */
-    top: 8px; /* Slightly adjust top position */
+    left: 50%; 
+    top: 8px; 
   }
   .top-circle-loader {
-    width: 35px; /* Reduce size for medium screens */
+    width: 35px; 
     height: 35px;
   }
   .top-circle-loader::before {
@@ -426,7 +420,6 @@
 
 
 
-/* Loader container */
 .top-loader-container {
   position: fixed;
   top: 10px;
@@ -436,22 +429,21 @@
 }
 
 
-/* Responsive adjustments for screens 1024px and below */
 @media (max-width: 1024px) {
   .top-loader-container {
-    left: 50%; /* Slightly adjust left position for better centering on larger screens */
-    top: 10px; /* Keep top position */
+    left: 50%; 
+    top: 10px; 
   }
   .top-circle-loader {
-    width: 38px; /* Slightly reduce size for 1024px screens */
+    width: 38px; 
     height: 38px;
   }
   .top-circle-loader::before {
-    width: 5.5px; /* Adjust dot size proportionally */
+    width: 5.5px;
     height: 5.5px;
-    transform-origin: -11px center; /* Adjust origin for smaller circle */
+    transform-origin: -11px center; 
     box-shadow:
-      11px 0 0 rgba(0, 123, 255, 0.2), /* Blue with opacity */
+      11px 0 0 rgba(0, 123, 255, 0.2),
       5.5px 9px 0 rgba(0, 123, 255, 0.2),
       -5.5px 9px 0 rgba(0, 123, 255, 0.2),
       -11px 0 0 rgba(0, 123, 255, 0.2),
@@ -554,7 +546,8 @@
     width:100%;
     height:79vh;
     background-color: rgba(235, 222, 248);
-    margin-top:-670px;
+    /* margin-top:-670px; */
+    margin-top:-24%;
     margin-left: 0%;
 }
 
@@ -567,8 +560,10 @@ body{
 
 .child{
     position:relative;
-    left:70px;
-    top:30px;height:90vh;
+    /* left:70px; */
+    left:2%;
+    top:5%;
+    height:90vh;
   animation: slideInLeft 1s ease-out forwards;}
   
 
@@ -584,7 +579,7 @@ body{
   }
 }
 .child h1{
-    font-size:50px;
+    font-size:3rem;
 }
 #b1{
     width:20px;
@@ -595,7 +590,7 @@ body{
 }
 #p1{
     position:relative;
-    left:25px;    top:3px;
+    left:1%;    top:3px;
     color:rgb(33, 53, 71);
 
 }
@@ -606,18 +601,17 @@ body{
 
 
 #p1 {
-  display: flex !important; /* Flex row: button left, text right */
-  align-items: center !important; /* Vertical center */
-  gap: 8px !important; /* Small space between button and text */
-  margin: 20px 0 !important; /* Vertical spacing */
-  font-size: 18px !important; /* Label text size */
-  font-weight: 600 !important; /* Bold label */
-  color: #333 !important; /* Dark label text */
-  user-select: none !important; /* Prevent text selection */
-  position: relative !important; /* Relative for button positioning */
+  display: flex !important; 
+  align-items: center !important; 
+  gap: 8px !important; 
+  margin: 20px 0 !important; 
+  font-size: 18px !important;
+  font-weight: 600 !important; 
+  color: #333 !important; 
+  user-select: none !important; 
+  position: relative !important; 
 }
 
-/* Small Toggle Button: Static visual toggle switch (your styles + toggle appearance) */
 #b1.toggle-btn {
   width: 30px !important; /* Small width for toggle (adjusted from 20px) */
   height: 16px !important; /* Small height (adjusted from 10px) */
@@ -716,427 +710,6 @@ body{
 
 
 
-/* 
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
-  body {
-    overflow-x: hidden !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgb(33, 53, 71);
-    background-color: #f9f9f9;
-    position: relative !important;
-  }
-
-  * {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
-  }
-
-  .parent {
-    width: 100%;
-    height: auto;
-    min-height: 100vh;
-    background-color: rgba(235, 222, 248);
-    margin-top: -350px !important;
-    margin-left: 0;
-    position: relative !important;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 40px 20px;
-  }
-
-  .child {
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 45%;
-    max-width: 500px;
-    height: auto;
-    animation: slideInLeft 1s ease-out forwards;
-    text-align: left;
-  }
-
-  @keyframes slideInLeft {
-    from {
-      opacity: 0;
-      transform: translateX(-200px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  .child h1 {
-    font-size: 42px;
-    line-height: 1.5;
-    margin: 20px 0;
-    word-break: break-word;
-    position: relative;
-  }
-
-  .child h1 br {
-    display: none;
-  }
-
-  #p1 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 25px 0;
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    user-select: none;
-    position: relative;
-    width: 100%;
-    text-align: left;
-  }
-
-  #b1 {
-    width: 20px;
-    height: 10px;
-    border: 1px solid blue;
-    position: relative;
-    left: 0;
-    top: 0;
-  }
-
-  #b1.toggle-btn {
-    width: 35px;
-    height: 18px;
-    border: 1px solid rgb(208, 208, 232);
-    position: relative;
-    left: 0;
-    top: 0;
-    background-color: rgb(54, 127, 192);
-    border-radius: 18px;
-    cursor: pointer;
-    outline: none;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
-
-  #b1.toggle-btn::before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 22px;
-    height: 14px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-  }
-
-  #b1.toggle-btn:hover {
-    background-color: #cce7ff;
-    box-shadow: 0 2px 5px rgba(5, 98, 160, 0.2);
-    border-color: rgba(5, 98, 160, 0.8);
-  }
-
-  #b1.toggle-btn:focus {
-    box-shadow: 0 0 0 3px rgba(5, 98, 160, 0.3);
-  }
-
-  .child #p2 {
-    position: relative;
-    top: 0;
-    width: 100%;
-    max-width: 100%;
-    margin: 20px 0;
-    line-height: 28px;
-    display: block;
-    text-align: justify;
-    font-size: 16px;
-  }
-
-  .child button {
-    border-radius: 4px;
-    background-color: rgba(5, 98, 160);
-    color: white;
-    width: 220px;
-    height: 50px;
-    border: 1px solid white;
-    position: relative;
-    top: 0;
-    animation: none;
-    cursor: pointer;
-    font-size: 16px;
-    display: inline-block;
-    margin: 20px 0;
-    transition: background-color 0.3s ease;
-  }
-
-  .child button:hover {
-    background-color: rgba(5, 98, 160, 0.8);
-  }
-
-  #iicon {
-    position: relative;
-    left: 15px;
-    font-size: 20px;
-    top: 2px;
-  }
-
-
-  
-.right-content {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 50%;
-  max-width: 100%;
-  animation: slideInRight 1s ease-out forwards;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 50px;
-  overflow: visible;
-  min-height: auto;
-}
-
-#img2 {
- width: 100%;
-  max-width: 550px;
-  height: auto;
-  min-height: 300px;
-  margin: 0;
-  z-index: 10;
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-#img2-1 {
-  width: 100%;
-  max-width: 480px;
-  height: auto;
-  position: relative;
-  left: 0;
-  top: 0;
-  margin: 0;
-  z-index: 5;
-  display: block;
-  visibility: visible;
-  opacity: 1;
-  object-fit: contain;
-}
-
-}
-
-
-
-
-@media (width < 1023px) {
-  .words-slider {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 110%;
-    position: relative;
-    bottom: 0px !important;
-    background: #f9f9f9;
-    position:absolute !important;
-  }
-
-  .slider {
-    display: inline-flex;
-    animation: scroll 15s linear infinite;
-    background-color: rgba(5, 98, 160);
-    height: 50px;
-    color: white;
-  }
-
-  .slider h2 {
-    margin: 8px 32px;
-    font-size: 24px;
-    white-space: nowrap;
-  }
-
-  @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
-}
-
- */
-
-
-
-
-
-/* 
-
-@media (max-width: 1023px) {  
-  .block1 {
-    width: 100% !important;
-    position: absolute !important;
-    top: 1000px !important;
-    left: 0;
-    height: auto;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: row;  
-    align-items: left;
-    justify-content: left; 
-    background-color: rgb(239, 247, 254);
-    padding: 40px 20px;
-    gap: 30px;
-    margin-top: 100px;
-  }
-
-  @keyframes bloc {
-    from {
-      opacity: 1;
-      scale: 0.8;
-    }
-    to {
-      opacity: 1;
-      scale: 1;
-    }
-  }
-
-  @keyframes appear {
-    from {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .content-leftt1 img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-    animation: bloc linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-  }
-
-  #img4 {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-    position: relative;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    margin-top: 20px;
-  }
-
-  .content-rightt1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    animation: bloc linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 45%;
-  }
-
-  .content-rightt1 #h21 {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
-  }
-
-  .content-rightt1 #h22 {
-    font-size: 1.8rem;
-    position: relative;
-    top: 0;
-    margin: 10px 0;
-  }
-
-  .content-rightt1 p {
-    font-size: 16px;
-    position: relative;
-    top: 0;
-    text-align: justify;
-    margin: 15px 0;
-  }
-
-  span {
-    color: rgba(5, 98, 160);
-  }
-
-  #ss {
-    position: relative;
-    top: 0;
-    width: 100%;
-    max-width: 100%;
-    line-height: 28px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 15px;
-    margin: 15px 0;
-  }
-
-  .right-subs {
-    display: flex;
-    flex-direction: row; 
-    gap: 30px;
-    margin-left: 0;
-    position: relative;
-    bottom: 0;
-    align-items: flex-start;  
-  }
-
-  #heads {
-    font-weight: 600;
-    font-size: 16px;
-  }
-
-  .right-sub1 img {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    right: 0;
-    left: 0;
-    top: 0;
-  }
-
-  .right-sub2 {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-
-  .right-sub2 img {
-    width: 80px;
-    height: 80px;
-    position: relative;
-    right: 0;
-    left: 0;
-    top: 0;
-  }
-}
-
-
-
-
-
- */
-
-
-
 
 
 
@@ -1157,17 +730,17 @@ body{
 
 .child #p2{
    position:relative;
-   top:40px;
-    width:800px;
-    margin-top:0px;
-    line-height: 27px;display:flex;
+   top:5%;
+    width:30%;
+    margin-top:0%;
+    line-height: 30px;display:flex;
     text-align: justify;
 }
 .child button{
     border-radius:none;
     background-color: rgba(5, 98, 160);
     color:white;
-    width:200px;
+    width:6%;
     height:50px;
     border:1px solid white;
     position:relative;
@@ -1198,7 +771,7 @@ body{
 
 .right-content{
   position:relative;
-  top:-150px;
+  top:-28%;
   animation: slideInRight 1s ease-out forwards;
   cursor:pointer
 }
@@ -1237,10 +810,7 @@ body{
   width: 110%;
   position:relative;
 bottom:649px;
-  background: #f9f9f9; /* optional */
-   /* animation:bloc linear;
-    animation-timeline:view();
-    animation-range: entry 0% cover 15%; */
+  background: #f9f9f9; 
   
   
 }
@@ -1758,12 +1328,10 @@ font-size:30px;
   animation-timeline: view();
   animation-range: entry 0% cover 45%;
   margin-bottom: 0;
-  /* Subtle background for the container */
   background: linear-gradient(135deg, rgba(255, 250, 250, 0.9), rgba(234, 245, 251, 0.9));
   border-radius: 10px;
 }
 
-/* Base styles for all divs (cards) - toned down */
 .block6 > div {
   width: 500px;
   height: 250px;
@@ -1777,30 +1345,25 @@ font-size:30px;
   /* opacity: 0; */
 }
 
-/* Keyframes for slow infinite left movement from current position */
 @keyframes slowLeftMove {
   0% {
-    transform: translateX(0); /* Start from current position */
   }
   100% {
-    transform: translateX(-100vw); /* Move far left off-screen */
+    transform: translateX(-100vw); 
   }
 }
 
-/* Simple entrance animation */
 @keyframes fadeIn {
   to {
     opacity: 1;
   }
 }
 
-/* Hover base for all divs - subtle lift (text color will be overridden per div) */
 .block6 > div:hover {
-  transform: translateX(-5px) scale(1.02); /* Slight scale */
+  transform: translateX(-5px) scale(1.02); 
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* ::before pseudo-element - your existing hover slide, kept simple */
 .block6 > div::before {
   content: "";
   position: absolute;
@@ -1809,18 +1372,15 @@ font-size:30px;
   width: 0%;
   height: 100%;
   z-index: 0;
-  transition: width 0.4s ease; /* Slightly faster */
+  transition: width 0.4s ease;
 }
 
-/* Ensure content stays above ::before */
 .block6 > div * {
   position: relative;
   z-index: 1;
 }
 
-/* Unique, subtle styles for each of the 9 divs (nth-child targeting) - softer colors and minimal effects */
 
-/* 1st div: Soft ocean - Light blues */
 .block6 > div:nth-child(1) {
   background: linear-gradient(135deg, #f0f8ff, #e0f2f1);
   box-shadow: 0 5px 10px rgba(0, 150, 200, 0.2);
@@ -1830,12 +1390,11 @@ font-size:30px;
   background: rgba(0, 188, 212, 0.6);
 }
 .block6 > div:nth-child(1):hover {
-  color: #004d40; /* Dark teal for contrast with blue overlay */
+  color: #004d40; 
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(0, 150, 200, 0.3);
 }
 
-/* 2nd div: Gentle sunset - Muted oranges */
 .block6 > div:nth-child(2) {
   background: linear-gradient(135deg, #fff3e0, #ffe0b2);
   box-shadow: 0 5px 10px rgba(255, 152, 0, 0.2);
@@ -1845,12 +1404,11 @@ font-size:30px;
   background: rgba(255, 152, 0, 0.6);
 }
 .block6 > div:nth-child(2):hover {
-  color: #bf360c; /* Dark orange for contrast with orange overlay */
+  color: #bf360c;
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(255, 152, 0, 0.3);
 }
 
-/* 3rd div: Calm forest - Soft greens */
 .block6 > div:nth-child(3) {
   background: linear-gradient(135deg, #f1f8e9, #e8f5e8);
   box-shadow: 0 5px 10px rgba(76, 175, 80, 0.2);
@@ -1860,12 +1418,11 @@ font-size:30px;
   background: rgba(76, 175, 80, 0.6);
 }
 .block6 > div:nth-child(3):hover {
-  color: #1b5e20; /* Dark green for contrast with green overlay */
+  color: #1b5e20;
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(76, 175, 80, 0.3);
 }
 
-/* 4th div: Subtle galaxy - Light purples */
 .block6 > div:nth-child(4) {
   background: linear-gradient(135deg, #f3e5f5, #f8f8f8);
   box-shadow: 0 5px 10px rgba(156, 39, 176, 0.2);
@@ -1875,12 +1432,11 @@ font-size:30px;
   background: rgba(156, 39, 176, 0.6);
 }
 .block6 > div:nth-child(4):hover {
-  color: #4a148c; /* Dark purple for contrast with purple overlay */
+  color: #4a148c; 
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(156, 39, 176, 0.3);
 }
 
-/* 5th div: Soft neon - Gentle pinks */
 .block6 > div:nth-child(5) {
   background: linear-gradient(135deg, #fce4ec, #f8f8f8);
   box-shadow: 0 5px 10px rgba(233, 30, 99, 0.2);
@@ -1890,12 +1446,11 @@ font-size:30px;
   background: rgba(233, 30, 99, 0.6);
 }
 .block6 > div:nth-child(5):hover {
-  color: #880e4f; /* Dark pink for contrast with pink overlay */
+  color: #880e4f;
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(233, 30, 99, 0.3);
 }
 
-/* 6th div: Desert sands - Soft yellows */
 .block6 > div:nth-child(6) {
   background: linear-gradient(135deg, #fffde7, #fff9c4);
   box-shadow: 0 5px 10px rgba(255, 193, 7, 0.2);
@@ -1905,12 +1460,11 @@ font-size:30px;
   background: rgba(255, 193, 7, 0.6);
 }
 .block6 > div:nth-child(6):hover {
-  color: #f57f17; /* Dark amber for contrast with yellow overlay */
+  color: #f57f17;
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(255, 193, 7, 0.3);
 }
 
-/* 7th div: Mountain peaks - Muted grays */
 .block6 > div:nth-child(7) {
   background: linear-gradient(135deg, #f5f5f5, #e0e0e0);
   box-shadow: 0 5px 10px rgba(96, 96, 96, 0.2);
@@ -1920,7 +1474,7 @@ font-size:30px;
   background: rgba(96, 96, 96, 0.6);
 }
 .block6 > div:nth-child(7):hover {
-  color: #212121; /* Dark gray for contrast with gray overlay */
+  color: #212121; 
   transform: translateX(-5px) scale(1.02);
   box-shadow: 0 10px 15px rgba(96, 96, 96, 0.3);
 }
