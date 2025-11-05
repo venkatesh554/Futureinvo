@@ -1911,6 +1911,8 @@ display:flex;
    animation:bloc linear;
     animation-timeline:view();
     animation-range: entry 0% cover 45%;
+    position: relative;
+    top:3%;
 }
 #block8-h2-p{
    color: black;
