@@ -520,8 +520,8 @@ experience.
               </div>
                <div className="links1">
                   <h3 id="contact-address">Contact Us</h3>
-                <Link><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</Link>
+                <a href="https://www.google.com/maps?q=Manjeera+Trinity+Corporate,+Hyderabad"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</a>
                 <Link><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</Link>
                 < Link><FontAwesomeIcon icon={faPhone} />91+ 7981107131</Link>
               

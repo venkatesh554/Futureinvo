@@ -15,10 +15,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import bgimg from "./navbar-images/bgimg.png"
 
-import calling from "./contact-images/calling.jpg"
+import calling from "./contact-images/map-location.png"
 import locationn from "./contact-images/locationn.jpg"
 
 export default function Contact() {
+
+// const mapLink = "https://www.google.com/maps?q=Manjeera+Trinity+Corporate,+Hyderabad";
+
+//  const handleMapOpen = () => {
+//   console.log("Opening map...");
+//   window.open(mapLink, "_blank");
+// };
+
+
+
+
 
  const [formData, setFormData] = useState({
     name: "",
@@ -110,8 +121,14 @@ export default function Contact() {
 
 
               </div>
-              <img src={calling} id="calling" />
-             </div>
+<a
+  href="https://www.google.com/maps?q=Manjeera+Trinity+Corporate,+Hyderabad"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src={calling} id="calling" alt="Map Location" style={{ cursor: "pointer" }} />
+</a>
+            </div>
             </div>
 
             
@@ -239,7 +256,7 @@ export default function Contact() {
               </div>
                <div className="links1">
                   <h3>Contact Us</h3>
-<a href="#"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+<a href="https://www.google.com/maps?q=Manjeera+Trinity+Corporate,+Hyderabad"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
 Kphb phase 3, beside lulu mall,<br></br>Hyderabad</a>               <a href="#"><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</a>
                 <a href="#"><FontAwesomeIcon icon={faPhone} />91+ 7981107131</a>
               

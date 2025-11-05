@@ -423,6 +423,9 @@ export default function Home() {
     <h3 id="name">Shreya Nair</h3>
     <p id="founder">Founder , EduSmart Academy</p>
   </div>
+
+
+  
  
 
 
@@ -431,8 +434,8 @@ export default function Home() {
 
 </div>
       <div className="cards-arrows">
-         <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "80%", top: '403%' ,padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff",textAlign:"center"}}><FontAwesomeIcon icon={faArrowLeft} /></button>
-       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "10%", top: '403%',padding:"15px 20px",borderRadius:"50%",backgroundColor:"rgb(54, 127, 192)",color:"#ffffff",textAlign:"center",textAlign:"center" }}><FontAwesomeIcon icon={faArrowRight} /></button>
+         <button onClick={handleScrollLeft}  style={{ position: 'absolute', left: "0.3%", top: '383%' ,width:"50px",height:"50px",borderRadius:"50%",backgroundColor:"rgba(218, 231, 242, 1)",color:"#ffffff",textAlign:"center"}}><FontAwesomeIcon icon={faArrowLeft} id="arr" /></button>
+       <button onClick={handleScrollRight}    style={{ position: 'absolute', right: "0.3%", top: '383%',width:"50px",height:"50px",borderRadius:"50%",backgroundColor:"rgba(218, 231, 242, 1)",color:"#ffffff",textAlign:"center",textAlign:"center" }}><FontAwesomeIcon icon={faArrowRight} id="arr" /></button>
       </div>
        
 
@@ -472,17 +475,7 @@ export default function Home() {
             <div className="paras">
 
 
-{/* 
-             <p>What type of IT consulting services Do You Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>              
-            <p>What is Your Approach To Web Design <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>Do You Develop Apps For Both Android And  ios <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Training Programs Does Future Invo Sol Offer? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Digital Marketing Service Do You Provide? <FontAwesomeIcon icon={faAnglesDown}id="ic" /></p>
-            <p>How can i Enroll In A Training Program At Future Invo Solutions? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p>What Technologies Do You Use For Web Development? <FontAwesomeIcon icon={faAnglesDown} id="ic" /></p>
-            <p className="eight">How Is Future Invo Solutions Different From Other Coaching Centers? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
-            <p className="eight">Are There Any Internship Opportunities Avaliable During The Digital Marketing Course <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p>
-             <p className="eight">Does Future Invo Provides services remotely, on-site,or both? <FontAwesomeIcon icon={faAnglesDown} id="ic"  /></p> */}
+
 
               {faqData.map((item, index) => (
         <div key={index} className="faq-line">
@@ -527,8 +520,8 @@ export default function Home() {
               </div>
                <div className="links1">
                   <h3 id="contact-address">Contact Us</h3>
-                <Link><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
-                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</Link>
+                <a href="https://www.google.com/maps?q=Manjeera+Trinity+Corporate,+Hyderabad"><FontAwesomeIcon icon={faLocationDot} />13th floor, Manjera Trinity corporate,<br></br>
+                         Kphb phase 3, beside LULU mall,<br></br>Hyderabad</a>
                 <Link><FontAwesomeIcon icon={faEnvelope} />info@futureinvo.com</Link>
                 < Link><FontAwesomeIcon icon={faPhone} />91+ 7981107131</Link>
               
