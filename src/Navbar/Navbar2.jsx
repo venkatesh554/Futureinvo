@@ -698,7 +698,7 @@ export default function Navbar2() {
         <img src={logo2} alt="Logo"  id="logo-dup"/>
         <img src={excellence} id="exce"/>
         <h3 id="exce-h3">Years<br></br>Excellence</h3>
-        <ul>
+        <ul className="nav-ul">
           <li>
             <Link to="/">Home</Link>
           </li>
