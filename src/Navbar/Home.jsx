@@ -191,7 +191,7 @@ export default function Home() {
            <div className="block1">
                 <div className="content-leftt1">
                     <img src={img3}/>
-                    <img src={img4} id="img4"/>
+                    {/* <img src={img4} id="img4"/> */}
                  </div>
 
                 <div className="content-rightt1">
